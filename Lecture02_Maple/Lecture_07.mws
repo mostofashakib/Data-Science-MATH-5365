@@ -1,0 +1,1169 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "commands" -1 273 "Tim
+es" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+278 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "command" -1 280 "" 0 0 0 128 0 1 0 
+1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 283 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "Head
+ing 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 
+0 0 -1 8 2 0 0 0 0 0 0 -1 0 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 3 "" 0 "Odes (chapter top)" {TEXT -1 42 "Chapter \+
+7: Ordinary differential equations" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "Chapter 7" {TEXT -1 232 "Differential equations are the \+
+language of physics and Maple can help you solve them.  It is a good i
+dea before starting a problem with a differential equation in it to lo
+ad Maple's full set of differential equation tools, like this" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "restart:with(DEtools):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "First \+
+order differential equations (top)" {TEXT -1 34 "First order different
+ial equations" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www
+.mapleapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "restart;with(DEtools):" }}}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "First order ode" {TEXT -1 175 "Let's begin by ask
+ing Maple to solve the first differential equation you probably ever s
+aw, the equation for radioactive decay.  If the decay rate of the atom
+s in a sample is " }{XPPEDIT 18 0 "g;" "6#%\"gG" }{TEXT -1 106 "  (g h
+as units of 1/second), then the equation determining the number of ato
+ms still left in the sample is" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 82 "(Differential equations are built \+
+like ordinary equations in Maple, but using the " }{TEXT 273 4 "diff" 
+}{TEXT -1 10 " command:)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "E1:=dif
+f(N(t),t)=-g*N(t);" }}}{PARA 0 "" 0 "" {TEXT -1 46 "along with the ini
+tial condition that at time " }{XPPEDIT 18 0 "t = 0;" "6#/%\"tG\"\"!" 
+}{TEXT -1 13 "  there were " }{XPPEDIT 18 0 "N[0];" "6#&%\"NG6#\"\"!" 
+}{TEXT -1 60 " atoms in the sample.   The problem is to find the funct
+ion " }{XPPEDIT 18 0 "N(t);" "6#-%\"NG6#%\"tG" }{TEXT -1 47 " .  Maple
+ solves it this way using the command " }{TEXT 273 6 "dsolve" }{TEXT 
+-1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "dsolve(E1,N(t));" }}}{PARA 0 "" 0 "" {TEXT -1 209 "As
+ expected, the solution is a dying exponential.  Maple gives you an un
+known constant out front because we didn't tell it what the initial co
+nditions are yet.  The constant is not too hard to find because at " }
+{XPPEDIT 18 0 "t = 0;" "6#/%\"tG\"\"!" }{TEXT -1 48 " the exponential \+
+function is 1, so the constant " }{XPPEDIT 18 0 "_C1;" "6#%$_C1G" }
+{TEXT -1 9 " must be " }{XPPEDIT 18 0 "N[0];" "6#&%\"NG6#\"\"!" }
+{TEXT -1 7 " .  But" }{TEXT 273 7 " dsolve" }{TEXT -1 127 " will accep
+t initial conditions as well and do even this little bit of work for y
+ou.  You simply replace the first argument of " }{TEXT 273 6 "dsolve" 
+}{TEXT -1 70 " with a set containing E1 and the initial condition, lik
+e this.  (See " }{TEXT 273 26 "?dsolve,initial_conditions" }{TEXT -1 
+18 " for more details)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "ds
+olve(\{E1,N(0)=No\},N(t));" }}}{PARA 0 "" 0 "" {TEXT -1 109 " Ok, now \+
+suppose you wanted to get a plot of this solution.  First you need to \+
+tell Maple what the values of " }{XPPEDIT 18 0 "N[0];" "6#&%\"NG6#\"\"
+!" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "g;" "6#%\"gG" }{TEXT -1 14 " ar
+e like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "No := 5;g:=3;
+" }}}{PARA 0 "" 0 "" {TEXT -1 136 "and then you do something that seem
+s a little odd.  You have to somehow grab the expression on the right-
+hand side of the solution from " }{TEXT 273 6 "dsolve" }{TEXT -1 96 " \+
+so you can pass it into plot.  One way to do this would be to start th
+e plot command like this," }}{PARA 0 "" 0 "" {TEXT -1 1 " " }{TEXT 
+273 12 "plot(       " }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 353 
+"then stop, use the mouse to highlight the expression on the right-han
+d side of N(t)=... above and paste it in.  But this seems awkward; sur
+ely Maple will give you access to the solution it just found?  It will
+, and here is one way that works.  Instead of just solving the differe
+ntial equation to the screen, assign the solution to a variable, like \+
+this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "S1:=dsolve(\{E1,N(0)
+=No\},N(t));" }}}{PARA 0 "" 0 "" {TEXT -1 110 "You can now refer to th
+is solution by its name, S1, and in particular you can refer to the so
+lution itself by " }{TEXT 273 7 "rhs(S1)" }{TEXT -1 11 ", like this" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "plot(rhs(S1),t=0..3);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 22 "Note that
+ the command " }{TEXT 273 3 "rhs" }{TEXT -1 76 " picks off the right-h
+and side of an equation.  You can probably guess what " }{TEXT 280 3 "
+lhs" }{TEXT -1 8 " does.  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 176 "An
+other way to plot this result is to tell Maple to invent a variable wi
+th the name N(t) which can be used as an expression in the plot comman
+d.  The syntax for this is simply " }{TEXT 273 11 "assign(S1);" }
+{TEXT -1 2 " ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "assign(S1)
+;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 19 "and then we can use" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "plot(N(t),t=0..3);" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "The question natural
+ly arises, \"What exactly has become of N?\"  If you try to look at it
+ this way" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "N;" }}}{PARA 0 "
+" 0 "" {TEXT -1 155 "there isn't anything there.  The problem is that \+
+Maple did something perfectly natural for it, but rather odd for us.  \+
+It took the result for S1, which is " }{XPPEDIT 18 0 "N(t) = 5*exp(-3*
+t);" "6#/-%\"NG6#%\"tG*&\"\"&\"\"\"-%$expG6#,$*&\"\"$F*F'F*!\"\"F*" }
+{TEXT -1 72 " quite literally and \"sort of \" made an expression call
+ed N(t).  Look at" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "N(t);" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 42 "It makes sense to differentiate \+
+this thing" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "diff(N(t),t);
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 40 "It makes sense to solve for w
+hen it is 1" }{MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "s
+olve(N(t)=1,t);" }}}{PARA 0 "" 0 "" {TEXT -1 93 "But you can easily se
+e that it isn't a function that you can plug numbers into by doing thi
+s:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "N(5);" }}}{PARA 0 "" 0 
+"" {TEXT -1 125 "And if you try to give t a value and then evaluate th
+e expression N(t), not only does it not work, but it ruins N(t) as wel
+l:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "t:=3;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "evalf(N(t));" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 16 "solve(N(t)=1,t);" }}}{PARA 0 "" 0 "" {TEXT -1 144 "
+The problem seems to be that the symbol N(t) that comes out of the ass
+ign is a funny mix of expression and function, so if you want to use t
+his " }{TEXT 280 6 "assign" }{TEXT -1 19 " syntax instead of " }{TEXT 
+280 3 "rhs" }{TEXT -1 181 ", and it often does seem to be more natural
+ to do so, be very careful about assigning values to the things that a
+ppear in the expression.  And also notice that you can't go back to " 
+}{TEXT 280 6 "dsolve" }{TEXT -1 92 " again with different initial cond
+itions either, because N(t) has been ruined--it's time to " }{TEXT 
+280 7 "restart" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 29 "S1:=dsolve(\{E1,N(0)=3\},N(t));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 61 "This may seem so tro
+ublesome that you might never want to us " }{TEXT 273 6 "assign" }
+{TEXT -1 6 ", but " }{TEXT 280 6 "assign" }{TEXT -1 74 " makes the plo
+t and other commands look so much cleaner than they do with " }{TEXT 
+273 3 "rhs" }{TEXT -1 87 " that I think it is still worth it sometimes
+.  But don't plan on using it exclusively; " }{TEXT 280 3 "rhs" }
+{TEXT -1 33 " is often the safer thing to use." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 142 "One final note about thi
+s: in the plot syntax, in the solve syntax, and in the differentiation
+ syntax when it looks like we are using a Maple " }{TEXT 281 8 "functi
+on" }{TEXT -1 59 " N and invoking it with N(t) we are actually using a
+ Maple " }{TEXT 282 10 "expression" }{TEXT -1 173 " (sort of) called N
+(t).  If this is confusing (and it certainly confuses me) it might hel
+p to review the difference between expressions and functions way back \+
+in Chapter 1. " }{HYPERLNK 17 "Expressions and functions" 1 "" "Expres
+sions and functions" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 256 11 "Problem 7.1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 48 "The differential equation governing the current " 
+}{XPPEDIT 18 0 "I(t);" "6#-%\"IG6#%\"tG" }{TEXT -1 42 " in a circuit c
+ontaining a battery of emf " }{XPPEDIT 18 0 "epsilon;" "6#%(epsilonG" 
+}{TEXT -1 13 ", resistance " }{XPPEDIT 18 0 "R;" "6#%\"RG" }{TEXT -1 
+17 ", and inductance " }{XPPEDIT 18 0 "L;" "6#%\"LG" }{TEXT -1 3 " is
+" }}{PARA 0 "" 0 "" {TEXT -1 66 "                                     \+
+                             " }{XPPEDIT 18 0 "L*diff(I,t)+R*I = epsil
+on;" "6#/,&*&%\"LG\"\"\"-%%diffG6$%\"IG%\"tGF'F'*&%\"RGF'F+F'F'%(epsil
+onG" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 101 "Solve this diff
+erential equation for the current and plot the result if the initial c
+urrent is zero, " }{XPPEDIT 18 0 "L = .1e-2;" "6#/%\"LG$\"\"\"!\"$" }
+{TEXT -1 4 " H, " }{XPPEDIT 18 0 "R = 100*Omega;" "6#/%\"RG*&\"$+\"\"
+\"\"%&OmegaGF'" }{TEXT -1 7 " , and " }{XPPEDIT 18 0 "epsilon = 6;" "6
+#/%(epsilonG\"\"'" }{TEXT -1 3 " V." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 76 "----------------------------------------
+------------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}{TEXT 257 11 "Problem 7.2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 151 "Here is a problem involving the idea of \"explos
+ive growth\".  Suppose that you have discovered some process in which \+
+the rate of growth of the quantity " }{XPPEDIT 18 0 "y;" "6#%\"yG" }
+{TEXT -1 24 " is not proportional to " }{XPPEDIT 18 0 "y;" "6#%\"yG" }
+{TEXT -1 80 " itself, as in exponential growth, but is instead proport
+ional to some power of " }{XPPEDIT 18 0 "y;" "6#%\"yG" }{TEXT -1 6 ", \+
+say " }{XPPEDIT 18 0 "y^2;" "6#*$%\"yG\"\"#" }{TEXT -1 4 " or " }
+{XPPEDIT 18 0 "y^3;" "6#*$%\"yG\"\"$" }{TEXT -1 86 " .  Use Maple to e
+xplore these two cases  by having it solve the differential equation" 
+}}{PARA 0 "" 0 "" {TEXT -1 65 "                                       \+
+                          " }{XPPEDIT 18 0 "diff(y,t) = y^p;" "6#/-%%d
+iffG6$%\"yG%\"tG)F'%\"pG" }{TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT 
+-1 4 "for " }{XPPEDIT 18 0 "p = 2;" "6#/%\"pG\"\"#" }{TEXT -1 6 "  and
+ " }{XPPEDIT 18 0 "p = 3;" "6#/%\"pG\"\"$" }{TEXT -1 32 " and with the
+ initial condition " }{XPPEDIT 18 0 "y(0) = 1;" "6#/-%\"yG6#\"\"!\"\"
+\"" }{TEXT -1 89 " . Then plot the solution over a big enough time int
+erval that you can see the explosion." }}{PARA 0 "" 0 "" {TEXT -1 76 "
+----------------------------------------------------------------------
+------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 258 11 "Problem 7.3" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "Consider \+
+the relatively innocuous first-order differential equation" }}{PARA 0 
+"" 0 "" {TEXT -1 23 "                       " }{XPPEDIT 18 0 "diff(y,x
+) = sin(x*y);" "6#/-%%diffG6$%\"yG%\"xG-%$sinG6#*&F(\"\"\"F'F-" }
+{TEXT -1 8 "   with " }{XPPEDIT 18 0 "y(0) = 1;" "6#/-%\"yG6#\"\"!\"\"
+\"" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 151 "Ask Maple to sol
+ve it and see what happens.  In a later section on solving differentia
+l equations numerically we will try to solve this equation again." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to to
+p of section" 1 "" "First order differential equations (top)" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Secon
+d order differential equation (top)" {TEXT -1 35 "Second order differe
+ntial equations" }{HYPERLNK 17 "" 1 "" "" }}{PARA 0 "" 0 "" {URLLINK 
+17 "Debugging" 4 "http://www.mapleapps.com/powertools/physics/html/Deb
+ugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "Second order ode" {TEXT -1 332 "Second order equations a
+re very common in physics because Newton's second law is second order \+
+and because diffusion, waves, and quantum mechanics all have governing
+ equations containing second derivatives.  Let's start with Newton's l
+aw of motion, and just as a warm up, let's do a falling object.  The d
+ifferential equation is just" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+22 "restart:with(DEtools):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+24 "E2:=diff(y(t),t$2) = -g;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 45 "S2:=dsolve(\{E2,y(0)=y[0],D(y)(0)=v[0]\},y(t));" }}}{PARA 0 "" 
+0 "" {TEXT -1 148 "Well, that should be a familiar result.  Notice a f
+ew things about the way this was done.  To enter an initial condition \+
+on the derivative of y use " }{TEXT 273 4 "D(y)" }{TEXT -1 21 ", which
+ means dy/dt (" }{TEXT 273 1 "D" }{TEXT -1 52 " is Maple's generic der
+ivative symbol) then tack on " }{TEXT 280 3 "(0)" }{TEXT -1 75 " to te
+ll it that the derivative is evaluated at t=0.  Yes, this means that \+
+" }{TEXT 273 4 "diff" }{TEXT -1 5 " and " }{TEXT 273 1 "D" }{TEXT -1 
+169 " both mean derivative, and there is an important and subtle diffe
+rence between them that is hard to remember; it is discussed in the se
+ction on derivatives in Chapter 3(" }{HYPERLNK 17 "diff" 1 "" "diff co
+mmand" }{TEXT -1 5 " and " }{HYPERLNK 17 "D" 1 "" "D command" }{TEXT 
+-1 41 ").  So either memorize the syntax of the " }{TEXT 273 6 "dsolve
+" }{TEXT -1 125 " command above, or remember where it is in this docum
+ent so you can easily find it when you need to solve problems like thi
+s." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Plotting results f
+rom dsolve" {TEXT -1 82 "Here's another famous second order differenti
+al equation, the harmonic oscillator." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "E3:=diff(y(t),t$2)=-omega^2*y(t);" }}}{PARA 0 "" 0 "
+" {TEXT -1 91 "Maple solves it in its generic form with arbitrary cons
+tants this way                      " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "dsolve(E3,y(t));" }}}{PARA 256 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 256 "" 0 "" {TEXT -1 124 "Warning: this form of the solution i
+s dangerous because there is no guarantee that every time you run a wo
+rksheet with this " }{TEXT 280 7 "dsolve " }{TEXT -1 500 "command in i
+t that _C1 will go with sine and _C2 will go with cosine.  Maple has i
+ts own internal logic about how to make this choice, but it can turn o
+ut to look pretty random in more complicated differential equations th
+an this one.  So don't let Maple make the choice.  Once you get this f
+orm of the solution, use the mouse to copy the solution onto a new lin
+e and choose your own unknown coefficients like this (and get rid of t
+he awkward y(t) = and replace it with a genuine assignment as well:)" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 37 "ysol:= A*sin(omega*t)+B*cos(omega*t);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 169 "Any calculations you do to det
+ermine A and B will now work the same way every time because you have \+
+determined for all time that A goes with sine and B goes with cosine.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "If th
+e constants are to be determined by initial conditions there is a form
+ of the " }{TEXT 280 6 "dsolve" }{TEXT -1 188 " command that will dete
+rmine them automatically.  For instance, suppose that you want to solv
+e the differential equation E3 with initial conditions y(0)=1 and dy/d
+t(0)=2.  Then you can use" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "s:=dsolve(\{E3,y(0)=1,D(y)(0)=2\},y
+(t));" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 55 "Now we have Maple give u
+s the expression y(t) by using " }{TEXT 280 6 "assign" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 10 "assign(s);" }}}{PARA 0 "" 0 "Rhs command with ds
+olve" {TEXT -1 33 "And then we can plot the solution" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 19 "plot(y(t),t=0..20);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 384 "Hmmm; that didn't work too well.  The plot frame is ther
+e, but no function.  And, unfortunately, no hint about what went wrong
+.  To debug this problem it would be nice to put some values for t int
+o y(t), but remember that y(t) looks like an expression, but isn't qui
+te, and that assigning t a value will ruin it.  So let's just look at \+
+y(t) this way and see if we can see what's wrong" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 5 "y(t);" }}}{PARA 0 "" 0 "" {TEXT -1 71 "The plot
+ command will supply numerical values for t, but the fact that " }
+{XPPEDIT 18 0 "omega;" "6#%&omegaG" }{TEXT -1 110 " is just sitting in
+ this expression without having a numerical value tells us what is wro
+ng; we haven't given " }{XPPEDIT 18 0 "omega;" "6#%&omegaG" }{TEXT -1 
+39 " a numerical value!  Ok, so now do this" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 28 "omega:=1;plot(y(t),t=0..20);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Damped h
+armonic oscillator" {TEXT -1 282 "Now this problem was simple enough t
+hat you could have easily done it yourself once you had taken a class \+
+about differential equations.  But Maple can do harder problems with e
+ase as well.  Let's add some damping to the harmonic oscillator by put
+ting in a damping force of the form " }{XPPEDIT 18 0 "F = -m*v/tau;" "
+6#/%\"FG,$*(%\"mG\"\"\"%\"vGF(%$tauG!\"\"F+" }{TEXT -1 10 "  , where \+
+" }{XPPEDIT 18 0 "tau;" "6#%$tauG" }{TEXT -1 85 "  is the characterist
+ic time for damping to occur.  The new equation of motion is now" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "restart:with(DEtools):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "Eq:=diff(y(t),t$2) + diff(y(
+t),t)/tau + omega^2*y(t)=0;" }}}{PARA 0 "" 0 "" {TEXT -1 40 "and we ge
+t the general solution this way" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 16 "dsolve(Eq,y(t));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 168 "Well, that looks impressive.  But i
+f it's supposed to be an oscillator that damps, where are the sines an
+d cosines?  The problem is that Maple doesn't yet know how big " }
+{XPPEDIT 18 0 "omega;" "6#%&omegaG" }{TEXT -1 5 " and " }{XPPEDIT 18 
+0 "tau;" "6#%$tauG" }{TEXT -1 81 " are.  Let's think physically for a \+
+minute.  Suppose we have a natural frequency " }{XPPEDIT 18 0 "omega;
+" "6#%&omegaG" }{TEXT -1 10 " of about " }{XPPEDIT 18 0 "2*Pi;" "6#*&
+\"\"#\"\"\"%#PiGF%" }{TEXT -1 16 ", so the period " }{XPPEDIT 18 0 "T \+
+= 2*Pi/omega;" "6#/%\"TG*(\"\"#\"\"\"%#PiGF'%&omegaG!\"\"" }{TEXT -1 
+497 " is 1 second.  Now let's suppose that we have this oscillator (th
+ink of a pendulum) in motor oil at 50 degrees below zero so that the c
+haracteristic damping time is 0.05 seconds (so much friction that moti
+on stops in 0.05 seconds).  Your intuition should tell you that if you
+ pull the pendulum back and release it, you are not going to see any s
+winging; all that is going to happen is that the pendulum will slowly \+
+ooze its way into the vertical position and stay there.  Let's see wha
+t Maple says" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "omega:=2*Pi;
+tau:=.05;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "Y:=dsolve(\{Eq
+,y(0)=1,D(y)(0)=0\},y(t));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+21 "plot(rhs(Y),t=0..20);" }}}{PARA 0 "" 0 "" {TEXT -1 39 "Ok, Maple a
+grees with your intuition.  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 238 "
+Now let's change the damping and imagine what will happen.  Your intui
+tion should tell you that if you warm the oil up, or use WD-40 instead
+, or maybe even just air, the pendulum will start to swing and only da
+mp slowly.  For example, if " }{XPPEDIT 18 0 "tau = 20;" "6#/%$tauG\"#
+?" }{TEXT -1 20 " then Maple gives us" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "omega:=2*Pi;tau:=20;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 38 "Y:=dsolve(\{Eq,y(0)=1,D(y)(0)=0\},y(t));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "plot(rhs(Y),t=0..20);" }}}{PARA 0 "
+" 0 "" {TEXT -1 174 "Well, now it swings and only slowly damps.  By wh
+at miracle did the exponential functions in the original solution abov
+e become sines and cosines?  Remember Euler's formula: " }{XPPEDIT 18 
+0 "exp(i*theta) = cos(theta)+i*sin(theta);" "6#/-%$expG6#*&%\"iG\"\"\"
+%&thetaGF),&-%$cosG6#F*F)*&F(F)-%$sinG6#F*F)F)" }{TEXT -1 136 " ; in t
+his oscillating case the constants in the exponential become imaginary
+, and that's how the formula changes from decay to wiggles." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 45 "This brings up the question of what valu
+e of " }{XPPEDIT 18 0 "tau;" "6#%$tauG" }{TEXT -1 138 " makes the tran
+sition from pure damping to damped oscillation.  Look back at the gene
+ral form and you will see that there is a square root" }}{PARA 0 "" 0 
+"" {TEXT -1 4 "    " }{XPPEDIT 18 0 "sqrt(-(2*tau*omega-1)*(2*tau*omeg
+a+1)) = sqrt(1-4*tau^2*omega^2);" "6#/-%%sqrtG6#,$*&,&*(\"\"#\"\"\"%$t
+auGF,%&omegaGF,F,F,!\"\"F,,&*(F+F,F-F,F.F,F,F,F,F,F/-F%6#,&F,F,*(\"\"%
+F,*$F-F+F,F.F+F/" }{TEXT -1 442 "  in the exponentials.  If the argume
+nt of this square root is positive, then both of the fundamental solut
+ions in the sum are decaying exponentials and we have damping.  If the
+ argument of the square root is negative, then the square root is imag
+inary, the exponentials are imaginary exponentials, i.e., sines and co
+sines, and we have oscillation.  The transition between the two is whe
+n the argument of the square roots is zero, i.e., when " }{XPPEDIT 18 
+0 "tau = 1/(2*omega);" "6#/%$tauG*&\"\"\"F&*&\"\"#F&%&omegaGF&!\"\"" }
+{TEXT -1 50 "  .  This special case is called critical damping." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+259 11 "Problem 7.4" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 108 "Have Maple solve the damped harmonic oscillator differ
+ential equation for the case of critical damping with " }{XPPEDIT 18 
+0 "omega = 1;" "6#/%&omegaG\"\"\"" }{TEXT -1 261 " and plot the functi
+on y(t) from t=0 to t=2 with initial conditions y(0)=1 and dy/dt(0)=0.
+  The plot will look just like damping with no hint that you are right
+ on the border between damping and oscillation.  To verify that you ar
+e right on the border increase " }{XPPEDIT 18 0 "tau;" "6#%$tauG" }
+{TEXT -1 219 " by 2% and make the plot again.  Window the graph down e
+nough that you can see that y(t) goes a little bit negative, indicatin
+g that oscillation has begun.  You will have to do some serious window
+ing to see this effect." }}{PARA 0 "" 0 "" {TEXT -1 76 "--------------
+--------------------------------------------------------------" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+260 10 "Problem 7." }{TEXT -1 0 "" }{TEXT 261 1 "5" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "One last harmonic oscilla
+tor problem: " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 106 "(a) Let's add a sinusoidal driving force at a frequency \+
+a little bit different from the natural frequency " }{XPPEDIT 18 0 "om
+ega;" "6#%&omegaG" }{TEXT -1 7 " , say " }{XPPEDIT 18 0 "omega[d] = 1.
+1*omega;" "6#/&%&omegaG6#%\"dG*&$\"#6!\"\"\"\"\"F%F," }{TEXT -1 83 " .
+  Have Maple solve this differential equation and plot it from t=0 to \+
+t=200 with " }{XPPEDIT 18 0 "omega = 1;" "6#/%&omegaG\"\"\"" }{TEXT 
+-1 5 " and " }{XPPEDIT 18 0 "tau = 30;" "6#/%$tauG\"#I" }{TEXT -1 69 "
+ .  Use completely-at-rest initial conditions, y(0)=0 and dy/dt(0)=0.
+" }}{PARA 0 "" 0 "" {TEXT -1 31 "                               " }
+{XPPEDIT 18 0 "diff(y(t),`$`(t,2))+diff(y(t),t)/tau+omega^2*y(t) = sin
+(omega[d]*t);" "6#/,(-%%diffG6$-%\"yG6#%\"tG-%\"$G6$F+\"\"#\"\"\"*&-F&
+6$-F)6#F+F+F0%$tauG!\"\"F0*&%&omegaGF/-F)6#F+F0F0-%$sinG6#*&&F96#%\"dG
+F0F+F0" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 332 "The plot shou
+ld show the classic pattern of the driven-damped harmonic oscillator: \+
+an initial period of start-up with some beating between the natural an
+d driving frequencies, then a transition to a state of oscillation wit
+h y(t) matched to the driving frequency.  Verify graphically that the \+
+final oscillation frequency of y(t) is " }{XPPEDIT 18 0 "omega[d];" "6
+#&%&omegaG6#%\"dG" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 54 "(b) Study resonance in this system by mak
+ing plots of " }{XPPEDIT 18 0 "x(t);" "6#-%\"xG6#%\"tG" }{TEXT -1 5 " \+
+vs. " }{XPPEDIT 18 0 "t;" "6#%\"tG" }{TEXT -1 24 " in the following ca
+ses:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 " \+
+    (i)  " }{XPPEDIT 18 0 "tau = 30;" "6#/%$tauG\"#I" }{TEXT -1 4 " : \+
+ " }{XPPEDIT 18 0 "omega[d] = .8*omega;" "6#/&%&omegaG6#%\"dG*&$\"\")!
+\"\"\"\"\"F%F," }{TEXT -1 4 ",   " }{XPPEDIT 18 0 "omega[d] = omega;" 
+"6#/&%&omegaG6#%\"dGF%" }{TEXT -1 7 ", and  " }{XPPEDIT 18 0 "omega[d]
+ = 1.2*omega;" "6#/&%&omegaG6#%\"dG*&$\"#7!\"\"\"\"\"F%F," }{TEXT -1 
+2 " ." }}{PARA 0 "" 0 "" {TEXT -1 11 "     (ii)  " }{XPPEDIT 18 0 "tau
+ = 5;" "6#/%$tauG\"\"&" }{TEXT -1 4 " :  " }{XPPEDIT 18 0 "omega[d] = \+
+.8*omega;" "6#/&%&omegaG6#%\"dG*&$\"\")!\"\"\"\"\"F%F," }{TEXT -1 4 ",
+   " }{XPPEDIT 18 0 "omega[d] = omega;" "6#/&%&omegaG6#%\"dGF%" }
+{TEXT -1 7 ", and  " }{XPPEDIT 18 0 "omega[d] = 1.2*omega;" "6#/&%&ome
+gaG6#%\"dG*&$\"#7!\"\"\"\"\"F%F," }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" 
+{TEXT -1 12 "     (iii)  " }{XPPEDIT 18 0 "tau = .8;" "6#/%$tauG$\"\")
+!\"\"" }{TEXT -1 4 " :  " }{XPPEDIT 18 0 "omega[d] = .8*omega;" "6#/&%
+&omegaG6#%\"dG*&$\"\")!\"\"\"\"\"F%F," }{TEXT -1 4 ",   " }{XPPEDIT 
+18 0 "omega[d] = omega;" "6#/&%&omegaG6#%\"dGF%" }{TEXT -1 7 ", and  \+
+" }{XPPEDIT 18 0 "omega[d] = 1.2*omega;" "6#/&%&omegaG6#%\"dG*&$\"#7!
+\"\"\"\"\"F%F," }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 112 "Verif
+y that as the damping time gets longer, the resonant amplitude gets la
+rger and the resonance gets narrower." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 104 "(c) Find formulas for the steady sta
+te motion of this driven-damped oscillator by substituting the guess" 
+}}{PARA 0 "" 0 "" {TEXT -1 12 "            " }{XPPEDIT 18 0 "x(t) = A*
+sin(omega[d]*t-phi);" "6#/-%\"xG6#%\"tG*&%\"AG\"\"\"-%$sinG6#,&*&&%&om
+egaG6#%\"dGF*F'F*F*%$phiG!\"\"F*" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 62 "into the differential equation in part (a).  Then require
+ the " }{XPPEDIT 18 0 "cos(omega[d]*t);" "6#-%$cosG6#*&&%&omegaG6#%\"d
+G\"\"\"%\"tGF+" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "sin(omega[d]*t);" 
+"6#-%$sinG6#*&&%&omegaG6#%\"dG\"\"\"%\"tGF+" }{TEXT -1 125 " in the re
+sulting equation to be separately equal (they are independent function
+s) to get two equations for the two unknowns " }{XPPEDIT 18 0 "A;" "6#
+%\"AG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "phi;" "6#%$phiG" }{TEXT -1 
+62 " .  Solve these two equations and verify that the formula for " }
+{XPPEDIT 18 0 "A(omega[d]);" "6#-%\"AG6#&%&omegaG6#%\"dG" }{TEXT -1 
+88 " agrees with the steady state amplitudes you found in part (b).  F
+inally, make plots of " }{XPPEDIT 18 0 "A(omega[d]);" "6#-%\"AG6#&%&om
+egaG6#%\"dG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "phi(omega[d]);" "6#-%
+$phiG6#&%&omegaG6#%\"dG" }{TEXT -1 26 " for the three choices of " }
+{XPPEDIT 18 0 "tau;" "6#%$tauG" }{TEXT -1 60 " used in part (b) and ve
+rify again that a long damping time " }{XPPEDIT 18 0 "tau;" "6#%$tauG
+" }{TEXT -1 39 " leads to larger and sharper resonance." }}{PARA 0 "" 
+0 "" {TEXT -1 76 "----------------------------------------------------
+------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 262 
+11 "Problem 7.6" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 85 "Use Maple to solve the following second-order differentia
+l equations in general form." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 7 "(a)    " }{XPPEDIT 18 0 "x^2*diff(f(x),`$`(x,2))
++x*diff(f(x),x)+(x^2-n^2)*f(x) = 0;" "6#/,(*&%\"xG\"\"#-%%diffG6$-%\"f
+G6#F&-%\"$G6$F&F'\"\"\"F1*&F&F1-F)6$-F,6#F&F&F1F1*&,&*$F&F'F1*$%\"nGF'
+!\"\"F1-F,6#F&F1F1\"\"!" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "(b)   " }{XPPEDIT 18 0 "x^2*diff(f(
+x),`$`(x,2))+x*diff(f(x),x)-(x^2+n^2)*f(x) = 0;" "6#/,(*&%\"xG\"\"#-%%
+diffG6$-%\"fG6#F&-%\"$G6$F&F'\"\"\"F1*&F&F1-F)6$-F,6#F&F&F1F1*&,&*$F&F
+'F1*$%\"nGF'F1F1-F,6#F&F1!\"\"\"\"!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 6 "(c)   " }{XPPEDIT 18 0 "(1-x^2)*diff(f(x)
+,`$`(x,2))-2*x*diff(f(x),x)+n*(n+1)*f(x) = 0;" "6#/,(*&,&\"\"\"F'*$%\"
+xG\"\"#!\"\"F'-%%diffG6$-%\"fG6#F)-%\"$G6$F)F*F'F'*(F*F'F)F'-F-6$-F06#
+F)F)F'F+*(%\"nGF',&F;F'F'F'F'-F06#F)F'F'\"\"!" }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }{HYPERLNK 
+17 "Go to top of section" 1 "" "Second order differential equation (to
+p)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Systems o
+f differential equations (top)" {TEXT -1 33 "Systems of differential e
+quations" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapl
+eapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Systems of odes" {TEXT 
+-1 443 "It is often more convenient to deal with systems of differenti
+al equations than with second, third, or higher order differential equ
+ations.  Indeed, many numerical methods require that you write your di
+fferential equation as a system of first order differential equations.
+  Here's a simple example.  If we call the acceleration dv/dt and the \+
+velocity dx/dt, then the harmonic oscillator equation can be written a
+s the following first order set" }}{PARA 0 "" 0 "" {TEXT -1 23 "      \+
+                 " }{XPPEDIT 18 0 "diff(v(t),t) = -omega^2*x(t);" "6#/
+-%%diffG6$-%\"vG6#%\"tGF*,$*&%&omegaG\"\"#-%\"xG6#F*\"\"\"!\"\"" }
+{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 23 "                       " }{XPPEDIT 18 0 "diff(x(t),t) = v
+(t);" "6#/-%%diffG6$-%\"xG6#%\"tGF*-%\"vG6#F*" }{TEXT -1 2 "  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "The Maple
+ command " }{TEXT 273 6 "dsolve" }{TEXT -1 186 " handles systems like \+
+this by asking for a set \{sets have curly brackets\} of equations and
+ initial conditions, a set of functions to be solved for, and perhaps \+
+extra arguments, like this" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "restart:with(DEtools):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "Eq1:=diff(v(t),t)=-omega^2*x(t);Eq2
+:=diff(x(t),t)=v(t);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "dso
+lve(\{Eq1,Eq2,x(0)=1,v(0)=0\},\{x(t),v(t)\});" }}}{PARA 0 "" 0 "" 
+{TEXT -1 192 "Notice that this is actually a nice form to have the ans
+wer in because we get both the position and the velocity simultaneousl
+y.  And another good thing is that you don't have to remember the " }
+{TEXT 273 2 "D " }{TEXT -1 89 "notation for derivative initial conditi
+ons.  To plot x(t) and v(t) we first need to give " }{XPPEDIT 18 0 "om
+ega;" "6#%&omegaG" }{TEXT -1 26 " a value, then solve again" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "omega:=1;XV:=dsolve(\{Eq1,Eq2,x(0)=
+1,v(0)=0\},\{x(t),v(t)\});" }}}{PARA 0 "" 0 "" {TEXT -1 60 "then make \+
+the plots like this using the assign command again" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 11 "assign(XV);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "plot([x(t),v(t)],t=0..20);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 263 11 "Problem 7.7" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 265 "Here are the equations of moti
+on for a charged particle of mass m and charge q moving in the field o
+f a constant magnetic field B in the z-direction and a constant electr
+ic field E in the y-direction which come from Newton's second law usin
+g the Lorentz force law: " }{XPPEDIT 18 0 "F = q*E+q*cross(v,B);" "6#/
+%\"FG,&*&%\"qG\"\"\"%\"EGF(F(*&F'F(-%&crossG6$%\"vG%\"BGF(F(" }{TEXT 
+-1 22 " .  (Note: the phrase " }{TEXT 264 18 "equation of motion" }
+{TEXT -1 251 " has special meaning for physicists and it takes a while
+ for beginning physicists to figure out what we are talking about.  It
+ seems natural at first to think that the phrase \"equation of motion
+\" must mean the equations that describe the motion, like " }{XPPEDIT 
+18 0 "y = y[0]+v[0]*t-g*t^2/2;" "6#/%\"yG,(&F$6#\"\"!\"\"\"*&&%\"vG6#F
+(F)%\"tGF)F)*(%\"gGF)*$F.\"\"#F)F2!\"\"F3" }{TEXT -1 7 "  , or " }
+{XPPEDIT 18 0 "x(t) = A*cos(omega*t);" "6#/-%\"xG6#%\"tG*&%\"AG\"\"\"-
+%$cosG6#*&%&omegaGF*F'F*F*" }{TEXT -1 4 " .  " }{TEXT 265 70 "This is \+
+not what physicists mean when they say \"equation of motion\".  " }
+{TEXT -1 204 "By equation of motion we mean the differential equation \+
+which, when solved, gives the formulas that describe the particle moti
+on.  If you can get this straight early on it will save you a lot of t
+rouble.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+21 "                     " }{XPPEDIT 18 0 "diff(x,t) = v[x];" "6#/-%%d
+iffG6$%\"xG%\"tG&%\"vG6#F'" }{TEXT -1 21 "                     " }
+{XPPEDIT 18 0 "diff(y,t) = v[y];" "6#/-%%diffG6$%\"yG%\"tG&%\"vG6#F'" 
+}{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 20 "                    " }{XPPEDIT 18 0 "diff(v[x],t) = q*B*
+v[y]/m;" "6#/-%%diffG6$&%\"vG6#%\"xG%\"tG**%\"qG\"\"\"%\"BGF.&F(6#%\"y
+GF.%\"mG!\"\"" }{TEXT -1 14 "              " }{XPPEDIT 18 0 "diff(v[y]
+,t) = q*E/m-q*B*v[x]/m;" "6#/-%%diffG6$&%\"vG6#%\"yG%\"tG,&*(%\"qG\"\"
+\"%\"EGF/%\"mG!\"\"F/**F.F/%\"BGF/&F(6#%\"xGF/F1F2F2" }{TEXT -1 2 "  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 125 "Defi
+ne these equations in Maple and have Maple solve them with q=-1.6e-19,
+ m=9.11e-31, B=0.2, E=3000 with initial conditions " }}{PARA 0 "" 0 "
+" {XPPEDIT 18 0 "x(0) = 0;" "6#/-%\"xG6#\"\"!F'" }{TEXT -1 3 " , " }
+{XPPEDIT 18 0 "y(0) = 0;" "6#/-%\"yG6#\"\"!F'" }{TEXT -1 3 " , " }
+{XPPEDIT 18 0 "v[x](0) = 20000;" "6#/-&%\"vG6#%\"xG6#\"\"!\"&++#" }
+{TEXT -1 3 " , " }{XPPEDIT 18 0 "v[y](0) = 0;" "6#/-&%\"vG6#%\"yG6#\"
+\"!F*" }{TEXT -1 56 "  .  Make plots in the x-y plane of the particle \+
+orbits " }{XPPEDIT 18 0 "x(t);" "6#-%\"xG6#%\"tG" }{TEXT -1 5 " and " 
+}{XPPEDIT 18 0 "y(t);" "6#-%\"yG6#%\"tG" }{TEXT -1 281 " (they must be
+ parametric plots with t as the parameter).  You will need to choose a
+ time interval for plotting and if you just choose something simple li
+ke 1 or 2, you will get garbage.  Think about the physics of the probl
+em; in particular, think about the cyclotron frequency:  " }{XPPEDIT 
+18 0 "omega[c] = q*B/m;" "6#/&%&omegaG6#%\"cG*(%\"qG\"\"\"%\"BGF*%\"mG
+!\"\"" }{TEXT -1 34 "  .  Also make x-y plane plots of " }{XPPEDIT 18 
+0 "v[x](t);" "6#-&%\"vG6#%\"xG6#%\"tG" }{TEXT -1 6 "  and " }{XPPEDIT 
+18 0 "v[y](t);" "6#-&%\"vG6#%\"yG6#%\"tG" }{TEXT -1 10 " with the " }
+{TEXT 273 19 "scaling=constrained" }{TEXT -1 202 " option.  In this wa
+y you will be able to see that the velocity goes around in a circle (c
+yclotron motion) but with an offset.  Verify that the velocity offset \+
+(called the \"drift velocity\") is given by " }{XPPEDIT 18 0 "cross(E,
+B)/(B^2);" "6#*&-%&crossG6$%\"EG%\"BG\"\"\"*$F(\"\"#!\"\"" }{TEXT -1 
+3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 19 "                   " }}{PARA 0 
+"" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Systems of different
+ial equations (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+}{SECT 0 {PARA 4 "" 0 "Numerically solving differential equations (top
+)" {TEXT -1 42 "Numerically solving differential equations" }}{PARA 0 
+"" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/powertools
+/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "Numerical solution of odes " {TEXT -1 
+349 "Most of the time Maple will not be able to solve your differentia
+l equation for you in terms of functions that it knows.  When this hap
+pens you will want to solve the equation numerically, i.e., perhaps ma
+ke a plot of the solution,  find out what the solution is at x=2, etc.
+.  You tell Maple to solve the differential equation numerically by us
+ing " }{TEXT 273 6 "dsolve" }{TEXT -1 17 " with the option " }{TEXT 
+273 12 "type=numeric" }{TEXT -1 262 ", as shown in the example below. \+
+ But before we start doing this let me warn you.  (1)  \"Numerical\" i
+mplies that floating point numbers (numbers with decimal points) are u
+sed.  If you give Maple integers for values in initial conditions or c
+onstant definitions, " }{TEXT 273 25 "dsolve(....type=numeric) " }
+{TEXT -1 571 "may fail.  (2)  Since the whole point of doing a numeric
+al calculation is to get a number and since Maple is loath to ever giv
+e you numbers, doing useful things with what Maple returns as the nume
+rical solution of a differential equation is a bit awkward.  You are l
+ikely to become more frustrated in this section of the text than any o
+ther so far.  (3)  You will have much better luck at getting Maple to \+
+give you what you want if you define your differential equations as fi
+rst order sets than if you use 2nd, and higher, order derivatives.   (
+4)  Assign the result of " }{TEXT 273 6 "dsolve" }{TEXT -1 60 " to a v
+ariable name so you can refer to it later, i.e., use " }{TEXT 273 27 "
+F:=dsolve(...type=numeric)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 108 "OK, let's start by doing the harmonic oscillat
+or numerically.  First define the equations for x(t) and v(t)." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "restart:omega:=1.;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "Eqx:=diff(x(t),t)=v(t);Eqv:=
+diff(v(t),t)=-omega^2*x(t);" }}}{PARA 0 "" 0 "" {TEXT -1 34 "then defi
+ne the initial conditions" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 
+"IC:=x(0)=1.,v(0)=0.;" }}}{PARA 0 "" 0 "" {TEXT -1 19 "and finally inv
+oke " }{TEXT 280 6 "dsolve" }{TEXT -1 60 " with the numerical option s
+et to get the numerical solution" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 50 "XV:=dsolve(\{Eqx,Eqv,IC\},\{x(t),v(t)\},type=numeric);" }}}
+{PARA 0 "" 0 "" {TEXT -1 133 "XV is now a procedure that expects to be
+ given a value of t so that it can return an approximate solution to x
+(t) and v(t), like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "XV
+(2.);" }}}{PARA 0 "" 0 "" {TEXT -1 115 "Notice that the answer came ou
+t apparently accurate to 18 decimal places.  In this case we know the \+
+answer is just " }{XPPEDIT 18 0 "x(t) = cos(t);" "6#/-%\"xG6#%\"tG-%$c
+osG6#F'" }{TEXT -1 105 " , so we can check it (after increasing the nu
+mber of digits Maple keeps in floating point calculations)." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "Digits:=18:cos(2.);" }}}{PARA 0 "" 
+0 "" {TEXT -1 37 "Apparently Maple lied--the result of " }{TEXT 273 6 
+"dsolve" }{TEXT -1 103 " is pretty accurate (7 decimal places) but not
+ as accurate as the numbers it returned would indicate.  " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 126 "W
+e can make it more accurate at the expense of having the solution take
+ longer by specifying the numerical method to use (use " }{TEXT 273 
+15 "?dsolve,numeric" }{TEXT -1 30 " to see what the choices are; " }
+{TEXT 273 5 "rkf45" }{TEXT -1 108 " is a pretty good choice; if you ha
+ve trouble, try another method) and setting the allowable error like t
+his" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 76 "XV:=dsolve(\{Eqx,Eqv,
+IC\},\{x(t),v(t)\},type=numeric,method=rkf45,abserr=1e-10);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "XV(2);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 225 "So this is b
+etter, but Maple won't let you improve it forever.  Try changing the e
+rror to 1e-15 in the command above and see what happens.   (Don't leav
+e it this small in what follows or you will work your computer to deat
+h.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 321 "A
+nd now a word of advice: don't try to compute to an accuracy of 1 part
+ in 1000000000000.  Five or six significant figures is usually fine, a
+lthough it is a good idea to do a numerical calculation twice with dif
+ferent error tolerances to make sure the setting you are using most of
+ the time is OK for the problem at hand." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "odeplot and dsolve,numeric" {TEXT -1 294 "All rig
+ht, Maple has given us a procedure called XV that solves this differen
+tial equation numerically.  Now suppose we want to plot it.  Here's on
+e thing that won't work: you can't use assign(XV) like we did with sym
+bolic solutions.  The easiest way that does work is to use the Maple c
+ommand " }{TEXT 273 9 "odeplots " }{TEXT -1 38 "which expects to be gi
+ven output from " }{TEXT 273 24 "dsolve(....type=numeric)" }{TEXT -1 
+41 ".  Note that you have to use the command " }{TEXT 273 11 "with(plo
+ts)" }{TEXT -1 34 " to make this command available.  " }}{PARA 0 "" 0 
+"" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 70 "Here's another proble
+m before we proceed.  The error tolerance in the " }{TEXT 280 6 "dsolv
+e" }{TEXT -1 62 " command above is set to 1e-10, which is so small tha
+t asking " }{TEXT 280 7 "odeplot" }{TEXT -1 186 " to find lots of poin
+ts at this level is asking to be bored in front of a busy screen for a
+ long time.  So before we proceed, let's set the error to a more reaso
+nable value for plotting." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 75 
+"XV:=dsolve(\{Eqx,Eqv,IC\},\{x(t),v(t)\},type=numeric,method=rkf45,abs
+err=1e-6);" }}}{PARA 0 "" 0 "" {TEXT -1 52 "In this case it would be u
+sed like this to plot x(t)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+64 "with(plots):odeplot(XV,[t,x(t)],0..20,numpoints=500,color=navy);" 
+}}}{PARA 0 "" 0 "" {TEXT -1 38 "or this way to plot both x(t) and v(t)
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "odeplot(XV,[[t,x(t)],[t,
+v(t)]],0..20,numpoints=200);" }}}{PARA 0 "" 0 "" {TEXT -1 235 "Note tw
+o things.  (1) odeplot takes all the usual plot options so you can mak
+e it look good and (2) if you have your error set really low and numpo
+ints set really high, you are going to be waiting a long time for your
+ plot to come out." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+274 11 "Problem 7.8" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 115 "Here is problem 7.3 again, which Maple couldn't do sym
+bolically.  Do it numerically and plot y(x) from x=0 to x=20." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 20 "         \+
+           " }{XPPEDIT 18 0 "diff(y,x) = sin(x*y);" "6#/-%%diffG6$%\"y
+G%\"xG-%$sinG6#*&F(\"\"\"F'F-" }{TEXT -1 7 "  with " }{XPPEDIT 18 0 "y
+(0) = 1;" "6#/-%\"yG6#\"\"!\"\"\"" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "-----------------------
+-----------------------------------------------------" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 275 11 "Proble
+m 7.9" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Baseball with a
+ir friction" {TEXT -1 302 "Here is a real physics problem.  In Physics
+ 121 you did the problem of a hard-hit baseball, but because you did i
+t without air friction you were playing baseball on the moon.  Let's p
+lay ball in a real atmosphere now.  The air-friction drag on a basebal
+l is approximately given by the following formula" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "                         \+
+          " }{XPPEDIT 18 0 "F = -C[d]*rho[air]*Pi*r^2*abs(v)*v*F/2;" "
+6#/%\"FG,$*2&%\"CG6#%\"dG\"\"\"&%$rhoG6#%$airGF+%#PiGF+%\"rG\"\"#-%$ab
+sG6#%\"vGF+F6F+F$F+F2!\"\"F7" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "where " }{XPPEDIT 18 0 "C[
+d];" "6#&%\"CG6#%\"dG" }{TEXT -1 60 " is the drag coefficient (about 0
+.35 for a baseball), where " }{XPPEDIT 18 0 "rho[air];" "6#&%$rhoG6#%$
+airG" }{TEXT -1 37 " is the density of air (about 1.2 kg/" }{XPPEDIT 
+18 0 "m^3;" "6#*$%\"mG\"\"$" }{TEXT -1 10 " ), where " }{XPPEDIT 18 0 
+"r;" "6#%\"rG" }{TEXT -1 53 " is the radius of the ball (about 0.037 m
+) and where " }{XPPEDIT 18 0 "v;" "6#%\"vG" }{TEXT -1 353 "  is the ve
+ctor velocity of the ball.  The absolute value in this formula pretty \+
+much guarantees that Maple won't be giving you a formula for the solut
+ion of this problem.  If we take the vertical direction to be y and th
+e horizontal direction to be x then Newton's second law in vector-comp
+onent form gives us the following first-order set of equations" }
+{TEXT 276 0 "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 6 "      " }{XPPEDIT 18 0 "diff(x,t) = v[x];" "6#/-
+%%diffG6$%\"xG%\"tG&%\"vG6#F'" }{TEXT -1 7 "       " }{XPPEDIT 18 0 "d
+iff(y,t) = v[y];" "6#/-%%diffG6$%\"yG%\"tG&%\"vG6#F'" }{TEXT -1 7 "   \+
+    " }{XPPEDIT 18 0 "diff(v[x],t) = -C[d]*rho[air]*Pi*r^2*v[x]*sqrt(v
+[x]^2+v[y]^2)/(2*m);" "6#/-%%diffG6$&%\"vG6#%\"xG%\"tG,$*0&%\"CG6#%\"d
+G\"\"\"&%$rhoG6#%$airGF2%#PiGF2%\"rG\"\"#&F(6#F*F2-%%sqrtG6#,&*$&F(6#F
+*F9F2*$&F(6#%\"yGF9F2F2*&F9F2%\"mGF2!\"\"FI" }{TEXT -1 7 "       " }
+{XPPEDIT 18 0 "diff(v[y],t) = -C[d]*rho[air]*Pi*r^2*v[y]*sqrt(v[x]^2+v
+[y]^2)/(2*m)-g;" "6#/-%%diffG6$&%\"vG6#%\"yG%\"tG,&*0&%\"CG6#%\"dG\"\"
+\"&%$rhoG6#%$airGF2%#PiGF2%\"rG\"\"#&F(6#F*F2-%%sqrtG6#,&*$&F(6#%\"xGF
+9F2*$&F(6#F*F9F2F2*&F9F2%\"mGF2!\"\"FI%\"gGFI" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "where " }{XPPEDIT 18 0 "m;
+" "6#%\"mG" }{TEXT -1 50 " is the mass of the baseball (0.145 kg) and \+
+where " }{XPPEDIT 18 0 "g;" "6#%\"gG" }{TEXT -1 39 " is the accelerati
+on of gravity (9.8 m/" }{XPPEDIT 18 0 "s^2;" "6#*$%\"sG\"\"#" }{TEXT 
+-1 125 " ).  Give this problem to Maple by coding the four differentia
+l equations and hit a home run with it using initial conditions" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "    " }{XPPEDIT 18 0 "x(0) = 0;" "6#/-%\"x
+G6#\"\"!F'" }{TEXT -1 4 "    " }{XPPEDIT 18 0 "y(0) = 0;" "6#/-%\"yG6#
+\"\"!F'" }{TEXT -1 4 "    " }{XPPEDIT 18 0 "v[x](0) = v[0]/sqrt(2);" "
+6#/-&%\"vG6#%\"xG6#\"\"!*&&F&6#F*\"\"\"-%%sqrtG6#\"\"#!\"\"" }{TEXT 
+-1 4 "    " }{XPPEDIT 18 0 "v[y](0) = v[0]/sqrt(2);" "6#/-&%\"vG6#%\"y
+G6#\"\"!*&&F&6#F*\"\"\"-%%sqrtG6#\"\"#!\"\"" }{TEXT -1 8 "  where " }
+{XPPEDIT 18 0 "v[0] = 60;" "6#/&%\"vG6#\"\"!\"#g" }{TEXT -1 15 " m/s. \+
+Then use " }{TEXT 273 23 "dsolve(...type=numeric)" }{TEXT -1 65 " to s
+olve it and make overlaid plots: (i) without air drag (set  " }
+{XPPEDIT 18 0 "C[d] = 0;" "6#/&%\"CG6#%\"dG\"\"!" }{TEXT -1 128 " )  a
+nd (ii) with air drag, as discussed above.  Plot y(t) vs. x(t) so you \+
+can see the path of the ball by using [x(t),y(t)] in " }{TEXT 273 8 "o
+deplot " }{TEXT -1 366 "instead of [t,y(t)].  Can you see that the tra
+jectory with air friction is not a parabola?   Power hitters in baseba
+ll say they would much rather play in Coors Field in Denver than in se
+a-level stadiums because it is so much easier to hit home runs.  Do th
+ey know what they are talking about?  The air pressure in Denver is ab
+out 10% lower than it is at sea level.  " }}{PARA 0 "" 0 "" {TEXT -1 
+76 "------------------------------------------------------------------
+----------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 279 24 "Advanced topic: shooting" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 277 13 "Problem 7.10 " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Shooting" {TEXT -1 646 "Someti
+mes we don't want to just solve a differential equation with known ini
+tial values.  Perhaps there is a parameter in the differential equatio
+n that is unknown and we need to determine its value based on the solu
+tion of the differential equation at some other point.  Or perhaps we \+
+want to start out with part of the initial conditions given and then a
+djust the undetermined initial conditions until that the solution sati
+sfies some other conditions at the far end.  Adusting things so that y
+ou start at point a and then hit a target at point b sounds so much li
+ke artillery that techniques that solve this kind of problem are usual
+ly called " }{TEXT 278 18 "shooting methods. " }{TEXT -1 388 " When a \+
+symbolic solution can be found this is not so hard, but when the diffe
+rential equation must be solved numerically it can be quite difficult.
+  In fact, I can't make Maple do it with its built-in commands, so I w
+ill have to give you a procedure based on one written by Dr. Robert Is
+rael to show you how such problems are solved.  But first, let's choos
+e a specific problem to solve." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "Schrodingers equation, harmonic oscillator" {TEXT -1 
+106 "Schrodinger's equation for the bound states of a particle in a ha
+rmonic oscillator potential well is this:" }}{PARA 0 "" 0 "" {TEXT -1 
+54 "                                                      " }{XPPEDIT 
+18 0 "-hbar^2*diff(psi,`$`(x,2))/(2*m)+k*x^2*psi/2 = E*psi;" "6#/,&*(%
+%hbarG\"\"#-%%diffG6$%$psiG-%\"$G6$%\"xGF'\"\"\"*&F'F0%\"mGF0!\"\"F3**
+%\"kGF0*$F/F'F0F+F0F'F3F0*&%\"EGF0F+F0" }{TEXT -1 2 "  " }}{PARA 0 "" 
+0 "" {TEXT -1 75 "To make it a nice dimensionless problem we change th
+e length variable from " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 4 " t
+o " }{XPPEDIT 18 0 "xi;" "6#%#xiG" }{TEXT -1 16 "  by doing this:" }}
+{PARA 0 "" 0 "" {TEXT -1 60 "                                         \+
+                   " }{XPPEDIT 18 0 "x = a*xi;" "6#/%\"xG*&%\"aG\"\"\"
+%#xiGF'" }{TEXT -1 12 "    where   " }{XPPEDIT 18 0 "a = (hbar^2/(2*m)
+)^(1/4);" "6#/%\"aG)*&%%hbarG\"\"#*&F(\"\"\"%\"mGF*!\"\"*&F*F*\"\"%F,
+" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 16 "and by changing " }
+{XPPEDIT 18 0 "E;" "6#%\"EG" }{TEXT -1 21 " into the eigenvalue " }
+{XPPEDIT 18 0 "lambda;" "6#%'lambdaG" }{TEXT -1 15 " by doing this:" }
+}{PARA 0 "" 0 "" {TEXT -1 60 "                                        \+
+                    " }{XPPEDIT 18 0 "lambda = 2*m*a^2*E/(hbar^2);" "6
+#/%'lambdaG*,\"\"#\"\"\"%\"mGF'%\"aGF&%\"EGF'*$%%hbarGF&!\"\"" }{TEXT 
+-1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 61 "With these changes of variab
+le Schrodinger's equation becomes" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 53 "                                         \+
+            " }{XPPEDIT 18 0 "diff(psi,`$`(xi,2))+(lambda-xi^2)*psi = \+
+0;" "6#/,&-%%diffG6$%$psiG-%\"$G6$%#xiG\"\"#\"\"\"*&,&%'lambdaGF.*$F,F
+-!\"\"F.F(F.F.\"\"!" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 68 "
+The solutions of this equation come in two types: even functions in " 
+}{XPPEDIT 18 0 "xi;" "6#%#xiG" }{TEXT -1 22 " and odd functions in " }
+{XPPEDIT 18 0 "xi;" "6#%#xiG" }{TEXT -1 68 " .  Hence we will have two
+ different kinds of initial conditions at " }{XPPEDIT 18 0 "xi = 0;" "
+6#/%#xiG\"\"!" }{TEXT -1 2 " :" }}{PARA 0 "" 0 "" {TEXT -1 14 "       \+
+even:  " }{XPPEDIT 18 0 "psi(0) = 1;" "6#/-%$psiG6#\"\"!\"\"\"" }
+{TEXT -1 7 "  and  " }{XPPEDIT 18 0 "diff(psi,xi)(0) = 0;" "6#/--%%dif
+fG6$%$psiG%#xiG6#\"\"!F+" }{TEXT -1 15 "        odd:   " }{XPPEDIT 18 
+0 "psi(0) = 0;" "6#/-%$psiG6#\"\"!F'" }{TEXT -1 7 "  and  " }{XPPEDIT 
+18 0 "diff(psi,xi)(0) = 1;" "6#/--%%diffG6$%$psiG%#xiG6#\"\"!\"\"\"" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 191 "(You may be wondering why we use 1 for the initial value or sl
+ope; why not .7, 1e-16, or something else?  What we use doesn't matter
+.  If you look at the differential equation every term has " }
+{XPPEDIT 18 0 "psi;" "6#%$psiG" }{TEXT -1 72 " in it, so if you double
+ some solution that you have found, the doubled " }{XPPEDIT 18 0 "psi;
+" "6#%$psiG" }{TEXT -1 209 " will also be a solution, just twice as bi
+g.  So since the size doesn't matter we just use 1.  If you were going
+ to do real physics, however, then at the end you would have to choose
+ an overall multiplier for " }{XPPEDIT 18 0 "psi;" "6#%$psiG" }{TEXT 
+-1 90 " so that the total probability is 1.  You will learn all about \+
+this in quantum mechanics.)" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 
+0 "" 0 "" {TEXT -1 41 "The only solutions for the wave function " }
+{XPPEDIT 18 0 "psi;" "6#%$psiG" }{TEXT -1 58 " that make physical sens
+e are the ones that go to zero as " }{XPPEDIT 18 0 "xi;" "6#%#xiG" }
+{TEXT -1 13 "  approaches " }{XPPEDIT 18 0 "infinity;" "6#%)infinityG
+" }{TEXT -1 89 " .  You will shortly see that this is only true for ve
+ry special values of the parameter " }{XPPEDIT 18 0 "lambda;" "6#%'lam
+bdaG" }{TEXT -1 167 ", so we need a procedure that does the following:
+  (i) It must be able to solve the differential equation numerically a
+nd (ii) it must be able to adjust the parameter " }{XPPEDIT 18 0 "lamb
+da;" "6#%'lambdaG" }{TEXT -1 26 " to make the wavefunction " }
+{XPPEDIT 18 0 "psi;" "6#%$psiG" }{TEXT -1 19 " be small at large " }
+{XPPEDIT 18 0 "xi;" "6#%#xiG" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 205 "Well, here is the Maple \+
+code containing the shooting procedure, all set up to solve a simpler \+
+problem, which is similar to our quantum problem.  The practice differ
+ential equation is (harmonic oscillator) " }}{PARA 0 "" 0 "" {TEXT -1 
+43 "                                           " }{XPPEDIT 18 0 "diff(
+y,`$`(x,2))+lambda^2*y = 0;" "6#/,&-%%diffG6$%\"yG-%\"$G6$%\"xG\"\"#\"
+\"\"*&%'lambdaGF-F(F.F.\"\"!" }{TEXT -1 9 "   with  " }{XPPEDIT 18 0 "
+y(0) = 0;" "6#/-%\"yG6#\"\"!F'" }{TEXT -1 7 "  and  " }{XPPEDIT 18 0 "
+diff(y,x)(0) = 1;" "6#/--%%diffG6$%\"yG%\"xG6#\"\"!\"\"\"" }{TEXT -1 
+4 "   ." }}{PARA 0 "" 0 "" {TEXT -1 18 "We want to adjust " }{XPPEDIT 
+18 0 "lambda;" "6#%'lambdaG" }{TEXT -1 31 " so that we meet the condit
+ion " }{XPPEDIT 18 0 "y(1) = 0;" "6#/-%\"yG6#\"\"\"\"\"!" }{TEXT -1 
+83 " .  Follow along and run the procedure below, then modify it to fi
+nd the values of " }{XPPEDIT 18 0 "lambda;" "6#%'lambdaG" }{TEXT -1 
+123 "  in Schrodinger's equation for the first 6 bound states (3 even \+
+and 3 odd).  You will need to decide how far out to go in " }{XPPEDIT 
+18 0 "xi;" "6#%#xiG" }{TEXT -1 27 " to approximate infinity.  " }
+{TEXT 270 16 "Don't overdo it!" }{TEXT -1 49 "  Somewhere in the 5-10 \+
+range is probably enough." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 24 "Start fresh and pull in " }{TEXT 273 7 "odeplot" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "r
+estart:with(plots):  " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 207 "Define \+
+the differential equation and assign it to deqn.  NOTE: the parameter \+
+you are going to vary to satisfy the shooting condition on the right e
+nd must be called lambda for this section of code to work.  " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "deqn:=dif
+f(y(x),x$2)+lambda^2*y(x)=0; " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 51 "Define the left and right endpoints o
+f the interval" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "a:=0;b:=1;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 64 " D
+efine the initial conditions at the beginning of the interval." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "bc:
+=y(a)=0,D(y)(a)=1;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 160 "Set the value that you are shooting for, i.e, se
+t the variable yright to the value that y(b) is supposed to be when yo
+u have the correct value of the parameter " }{XPPEDIT 18 0 "lambda;" "
+6#%'lambdaG" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "yright:=0;" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 120 "Make a guess at the para
+meter to be varied and plot the numerical solution of the ode from a t
+o b;  Adjust the value of " }{XPPEDIT 18 0 "lambda;" "6#%'lambdaG" }
+{TEXT -1 106 " until you are close to the solution you want.  (In the \+
+sample problem the parameter values that work are " }{XPPEDIT 18 0 "Pi
+;" "6#%#PiG" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "2*Pi;" "6#*&\"\"#\"\"\"%
+#PiGF%" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "3*Pi;" "6#*&\"\"$\"\"\"%#PiGF
+%" }{TEXT -1 7 ", etc.." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 12 "lambda:=2.5;" }{TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 14 "Note that the " }{TEXT 273 14 "startinit=true" }{TEXT -1 
+14 " option tells " }{TEXT 273 6 "dsolve" }{TEXT -1 99 " to always sta
+rt with the specified initial conditions.  This is important to have s
+et when we use " }{TEXT 273 6 "fsolve" }{TEXT -1 69 " to find the valu
+e of param that gives the solution with y(b)=yright." }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 54 "S:=dsolve(\{deqn,bc\},y(x),type=numeric,startini
+t=true);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "odeplot(S,[x,y(x)],a..b
+);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "Go back up and try another \+
+value of " }{XPPEDIT 18 0 "lambda;" "6#%'lambdaG" }{TEXT -1 42 " until
+ you get close to zero on the right." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 96 "I am now going to show you a short sect
+ion of code that makes it possible to pass the result of " }{TEXT 273 
+6 "dsolve" }{TEXT -1 6 " into " }{TEXT 273 6 "fsolve" }{TEXT -1 40 " t
+o let Maple find the correct value of " }{XPPEDIT 18 0 "lambda;" "6#%'
+lambdaG" }{TEXT -1 104 ".  The way to make this work was shown to me b
+y Dr. Robert Israel of the University of British Columbia." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 281 " Note that this code won't wor
+k unless the dummy argument of the procedure F given below (z in this \+
+case) is different from all of the variables in the differential equat
+ion, i.e.,  in our problem you can't use y or x in place of  z below o
+r you will get in trouble.   And because " }{XPPEDIT 18 0 "lambda;" "6
+#%'lambdaG" }{TEXT -1 102 " has already been defined, you can't use it
+ either; that's why I use the dummy variable z in place of " }
+{XPPEDIT 18 0 "lambda;" "6#%'lambdaG" }{TEXT -1 178 ".  (But why would
+ you want to use x or y, you ask?  In this problem you wouldn't, but i
+n a different problem you might be tempted, and I want you to know tha
+t it's a mortal sin.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "F:=proc(z)" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "local a,b,deqn,bc,S;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 33 "deqn:=diff(y(x),x$2)+z^2*y(x)=0; " }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 10 "a:=0;b:=1;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "bc:=y(a)=0,D(
+y)(a)=1;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "   if type(z,numeric) t
+hen" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 72 "      S:=dsolve(\{deqn,bc\},
+y(x),type=numeric,startinit=true,abserr=1e-6);" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "      subs(S(b),y(x))" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 7 "   else" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "      'F(z)';" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "   end if;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 4 "end;" }}}{PARA 0 "" 0 "" {TEXT -1 2 "F(" }{XPPEDIT 18 
+0 "lambda;" "6#%'lambdaG" }{TEXT -1 25 ") now can be passed into " }
+{TEXT 273 6 "fsolve" }{TEXT -1 20 " to find a value of " }{XPPEDIT 18 
+0 "lambda;" "6#%'lambdaG" }{TEXT -1 81 " that satisfies F(b)=yright.  \+
+In the paragraph below you will see how to do this." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 31 "Set Digits to a \+
+lower value so " }{TEXT 273 6 "fsolve" }{TEXT -1 86 " doesn't kill its
+elf trying to get an answer correct to many significant figures when \+
+" }{TEXT 273 6 "dsolve" }{TEXT -1 98 " isn't accurate enough to delive
+r this much accuracy.  If you don't get the right balance between " }
+{TEXT 273 6 "abserr" }{TEXT -1 8 " in the " }{TEXT 273 7 "dsolve " }
+{TEXT -1 25 "in the procedure and the " }{TEXT 273 6 "Digits" }{TEXT 
+-1 15 " setting here, " }{TEXT 273 7 "fsolve " }{TEXT -1 17 "will run \+
+forever." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "Digits:=5;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "F(3.);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 39 "lambda:=fsolve(F(z)=yright,z=3.0..3.2);" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 20 "Using this value of " }{XPPEDIT 18 0 "lambda;" "6
+#%'lambdaG" }{TEXT -1 30 ", make a plot of the solution." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "S:=dsolve(\{
+deqn,bc\},y(x),type=numeric):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "od
+eplot(S,[x,y(x)],a..b);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 82 "-----------------------------------------
+-----------------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 283 12 "Problem 7.11" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "The equat
+ion of motion of a relativistic harmonic oscillator is " }{XPPEDIT 18 
+0 "diff(p,t) = -m*omega[0]^2*x;" "6#/-%%diffG6$%\"pG%\"tG,$*(%\"mG\"\"
+\"*$&%&omegaG6#\"\"!\"\"#F,%\"xGF,!\"\"" }{TEXT -1 9 " , where " }
+{XPPEDIT 18 0 "p;" "6#%\"pG" }{TEXT -1 30 " is the relativistic moment
+um " }{XPPEDIT 18 0 "p = m*u/sqrt(1-u^2/(c^2));" "6#/%\"pG*(%\"mG\"\"
+\"%\"uGF'-%%sqrtG6#,&F'F'*&F(\"\"#*$%\"cGF.!\"\"F1F1" }{TEXT -1 9 " , \+
+where " }{XPPEDIT 18 0 "u;" "6#%\"uG" }{TEXT -1 26 " is the particle v
+elocity " }{XPPEDIT 18 0 "u = diff(x,t);" "6#/%\"uG-%%diffG6$%\"xG%\"t
+G" }{TEXT -1 216 " .  (a) Write this equation of motion in the form of
+ two coupled first order differential equations.  The first one is eas
+y because it has been given in the first line of this problem.  The se
+cond one is of the form " }{XPPEDIT 18 0 "diff(x,t) = %?;" "6#/-%%diff
+G6$%\"xG%\"tG%#%?G" }{TEXT -1 15 "  .  Solve for " }{XPPEDIT 18 0 "u;
+" "6#%\"uG" }{TEXT -1 13 " in terms of " }{XPPEDIT 18 0 "p;" "6#%\"pG
+" }{TEXT -1 39 " to get this second equation.  (b) Use " }{TEXT 273 
+23 "dsolve(...type=numeric)" }{TEXT -1 67 " to make a procedure that y
+ou can use in odeplot to make graphs of " }{XPPEDIT 18 0 "x(t);" "6#-%
+\"xG6#%\"tG" }{TEXT -1 16 "  for the cases " }{XPPEDIT 18 0 "x(0) = .2
+;" "6#/-%\"xG6#\"\"!$\"\"#!\"\"" }{TEXT -1 20 " , .4,  1.,  5. and " }
+{XPPEDIT 18 0 "p(0) = 0;" "6#/-%\"pG6#\"\"!F'" }{TEXT -1 193 " .  Veri
+fy graphically in the last case that the reason that x(t) looks so str
+ange is that it is obeying the relativistic speed limit.  In this last
+ case make a plot of the particle speed u(t)." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 
+"" "Numerically solving differential equations (top)" }{TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "How does a dif
+ferential equation mean? (top)" {TEXT -1 38 "How does a differential e
+quation mean?" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www
+.mapleapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Meaning of odes" 
+{TEXT -1 323 "It is important in physics to have an intuitive feel for
+ what differential equations mean rather than just memorizing a bunch \+
+of techniques and formulas.  Without this feel you won't be able to pr
+opose and refine mathematical models for physical processes.  So let's
+ look at a simple one and try to translate it into words:" }}{PARA 0 "
+" 0 "" {TEXT -1 65 "                                                  \+
+               " }{XPPEDIT 18 0 "diff(y,x) = y;" "6#/-%%diffG6$%\"yG%
+\"xGF'" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 6 "Since " }
+{XPPEDIT 18 0 "diff(y,x);" "6#-%%diffG6$%\"yG%\"xG" }{TEXT -1 426 " is
+ the slope of the function y(x) this equation says that the bigger y g
+ets the bigger its slope gets.  Let's try the two possible cases.  (i)
+ y(0) is positive.  The differential equation then says that the slope
+ is positive, so y is increasing.  But if y increases its slope increa
+ses, making y increase more, making its slope increase more, etc..  So
+ it is no surprise that the solution of this equation is a function li
+ke " }{XPPEDIT 18 0 "exp(x);" "6#-%$expG6#%\"xG" }{TEXT -1 372 " that \+
+gets huge as x increases.  (ii) y(0) is negative.  Now the differentia
+l equation says that the slope is negative, so y will have to decrease
+, i.e., become more negative than it was at x=0.  But if y is more neg
+ative then the slope is more negative, making y even more negative, et
+c..  Again, it's no surprise that the solution is a strongly decreasin
+g function like " }{XPPEDIT 18 0 "-exp(x);" "6#,$-%$expG6#%\"xG!\"\"" 
+}{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 173 "With this kind of qualitative analysis in mind, let's go
+ back to an explosive-growth differential equation like the ones you d
+id in the section on first order equations, say" }}{PARA 0 "" 0 "" 
+{TEXT -1 58 "                                                         \+
+ " }{XPPEDIT 18 0 "diff(y,x) = y^2;" "6#/-%%diffG6$%\"yG%\"xG*$F'\"\"#
+" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 339 "Keeping in mind th
+at with a first power on the right we got the exponential function, th
+is equation says that if y starts out positive, y should increase even
+ more than it did before, i.e., get bigger faster than the exponential
+ function.  That would have to be pretty impressive, and it is: it goe
+s to infinity before x gets to infinity: " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 45 "s:=dsolve(\{diff(y(x),x)=y(x)^2,y(0)=1\},y(x));" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "plot(rhs(s),x=0..1);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+266 12 "Problem 7.12" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 163 "Now think about what should happen if y(0) is negative
+.  Make some rough sketches, then check your answer by changing the in
+itial conditions in the example above. " }}{PARA 0 "" 0 "" {TEXT -1 
+76 "------------------------------------------------------------------
+----------" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 124 "You can play this
+ game with second-order differential equations too.  Let translate the
+ simple harmonic oscillator equation " }}{PARA 0 "" 0 "" {TEXT -1 46 "
+                                              " }{XPPEDIT 18 0 "diff(y
+,`$`(x,2)) = -y;" "6#/-%%diffG6$%\"yG-%\"$G6$%\"xG\"\"#,$F'!\"\"" }
+{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 1427 "into words.  We need \+
+to remember that the second derivative means the curvature of the func
+tion: a positive second derivative means that the function curves like
+ the smiley face of someone who is always positive, while negative cur
+vature means that it curves like a frowny face (easy to remember, no?)
+  And if the second derivative is large in magnitude then the smile or
+ frown is very narrow (like a piece of string suspended between its tw
+o ends from fingers held close together) and if the second derivative \+
+is small in magnitude it is like taking the same piece of string and s
+tretching your arms apart to make a wide smile or frown.  Ok, what doe
+s this equation say if y=1 to start?  Well, the second derivative is n
+egative, so the function y curves downward, making y smaller, which ma
+kes the frowniness smaller, but still negative, so y keeps curving dow
+nward until it crosses y=0.  Then with y negative the differential equ
+ation says that the curvature is positive, making y start to smile and
+ curve upward.  It doesn't curve much at first because y is pretty sma
+ll in magnitude, but eventually y will have a large enough negative va
+lue that y(x) turns into a full-fledged smile, stops going negative, a
+nd heads back up toward y=0 again.  When it gets there y becomes posit
+ive, the function gets frowny and turns back around toward y=0, etc.. \+
+ So it is no surprise that the solution of this equation is an oscilla
+tion, " }{XPPEDIT 18 0 "cos(x);" "6#-%$cosG6#%\"xG" }{TEXT -1 2 " ." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+267 12 "Problem 7.13" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 130 "(a)  Use this qualitative analysis to guess what the s
+olution of this equation would look like, then check your answer with \+
+Maple." }}{PARA 0 "" 0 "" {TEXT -1 29 "                             " 
+}{XPPEDIT 18 0 "diff(y,`$`(x,2)) = y;" "6#/-%%diffG6$%\"yG-%\"$G6$%\"x
+G\"\"#F'" }{TEXT -1 11 "     with  " }{XPPEDIT 18 0 "y(0) = 1;" "6#/-%
+\"yG6#\"\"!\"\"\"" }{TEXT -1 10 "     and  " }{XPPEDIT 18 0 "diff(y,x)
+(0) = 0;" "6#/--%%diffG6$%\"yG%\"xG6#\"\"!F+" }{TEXT -1 3 "  ." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 151 "(b) Use \+
+this qualitative analysis to guess what the solution of this equation \+
+would look like, then check your answer with Maple (you will need to u
+se " }{TEXT 273 24 "dsolve(....type=numeric)" }{TEXT -1 5 " and " }
+{TEXT 273 7 "odeplot" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "" {TEXT -1 29 "
+                             " }{XPPEDIT 18 0 "diff(y,`$`(x,2)) = -y^2
+;" "6#/-%%diffG6$%\"yG-%\"$G6$%\"xG\"\"#,$*$F'F,!\"\"" }{TEXT -1 9 "  \+
+ with  " }{XPPEDIT 18 0 "y(0) = 1;" "6#/-%\"yG6#\"\"!\"\"\"" }{TEXT 
+-1 10 "     and  " }{XPPEDIT 18 0 "diff(y,x)(0) = 0;" "6#/--%%diffG6$%
+\"yG%\"xG6#\"\"!F+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 28 "(c)  Same thing for this one" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 27 "                           " }
+{XPPEDIT 18 0 "diff(y,`$`(x,2)) = -y^3;" "6#/-%%diffG6$%\"yG-%\"$G6$%
+\"xG\"\"#,$*$F'\"\"$!\"\"" }{TEXT -1 9 "   with  " }{XPPEDIT 18 0 "y(0
+) = 1;" "6#/-%\"yG6#\"\"!\"\"\"" }{TEXT -1 10 "     and  " }{XPPEDIT 
+18 0 "diff(y,x)(0) = 0;" "6#/--%%diffG6$%\"yG%\"xG6#\"\"!F+" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "---------------
+-------------------------------------------------------------" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 268 12 "Problem \+
+7.14" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 409 "
+Think again about the baseball problem, Problem 7.9.  If you look at y
+our trajectory, and expecially if you increase the initial speed of th
+e bat up to something like 80 m/s, you will see that instead of a para
+bola you get a curve that starts like a parabola, but then drops almos
+t vertically at the end.  Use qualititative analysis on the x and y co
+mponents of Newton's second law to explain why this occurs." }}{PARA 
+0 "" 0 "" {TEXT -1 76 "-----------------------------------------------
+-----------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 269 12 "Problem 7.15" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "Consider again the harmonic-osc
+illator bound-state problem, Problem 7.10:" }}{PARA 0 "" 0 "" {TEXT 
+-1 45 "                                             " }{XPPEDIT 18 0 "
+diff(psi,`$`(xi,2))+(lambda-xi^2)*psi = 0;" "6#/,&-%%diffG6$%$psiG-%\"
+$G6$%#xiG\"\"#\"\"\"*&,&%'lambdaGF.*$F,F-!\"\"F.F(F.F.\"\"!" }{TEXT 
+-1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 70 "Think about what its solution
+s qualitatively look like both for small " }{XPPEDIT 18 0 "xi;" "6#%#x
+iG" }{TEXT -1 15 " and for large " }{XPPEDIT 18 0 "xi;" "6#%#xiG" }
+{TEXT -1 122 " and show that this qualitative analysis gives roughly t
+he right answer for what the bound state eigenfunctions look like." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to to
+p of section" 1 "" "How does a differential equation mean? (top)" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 
+"Nonlinear dynamics" {TEXT -1 45 "Nonlinear dynamics and chaos (advanc
+ed topic)" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.map
+leapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 260 "The use
+ of computers over the past 40 years has completely revived the stodgy
+ old subject of classical mechanics, and the system of equations that \+
+started the whole thing are these three coupled ode's discovered by Ed
+ Lorentz while trying to model the weather." }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 20 "restart;with(plots):" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 38 "Eq1:=diff(x(t),t) = sigma*(y(t)-x(t));" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 42 "Eq2:=diff(y(t),t) = r*x(t)-y(t)-x(t)*z(t);" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 37 "Eq3:=diff(z(t),t) = x(t)*y(t)-b*z(t);" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{PARA 0 "" 0 "Lorentz attractor" {TEXT -1 20 "where the constants " }
+{XPPEDIT 18 0 "sigma;" "6#%&sigmaG" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "r
+;" "6#%\"rG" }{TEXT -1 6 ", and " }{XPPEDIT 18 0 "b;" "6#%\"bG" }
+{TEXT -1 239 " can chosen however you like.  For most choices of these
+ parameters the solutions are not particularly interesting, but Lorent
+z discovered that there is a range of choices for which the solution b
+ehaves in a very strange way.  If we choose" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 17 "sigma:=10;b:=8/3;" }}}{PARA 0 "" 0 "" {TEXT -1 14 "
+and then vary " }{XPPEDIT 18 0 "r;" "6#%\"rG" }{TEXT -1 233 "  from 0 \+
+up to about 30, a transition occurs from ordinary boring behavior to s
+omething so strange that it has revolutionized many fields of science,
+ including physics.  To numerically solve this set for a specific choi
+ce of r we use" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 82 "r:=35;s:=d
+solve(\{Eq1,Eq2,Eq3,x(0)=1,y(0)=1,z(0)=1\},\{x(t),y(t),z(t)\},type=num
+eric);" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 47 "and to see what the solutions look li
+ke we use " }{TEXT 273 7 "odeplot" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 60 "odeplot(s,[[t,x(t)],[t,y(t)],[t,z(t
+)]],0..20,numpoints=200);" }}}{PARA 0 "" 0 "Dynamical chaos" {TEXT -1 
+80 "Take a few minutes now and run this execution group for the follow
+ing values of " }{XPPEDIT 18 0 "r;" "6#%\"rG" }{TEXT -1 159 " : 10,  2
+0,  28,  35, 45.  For r above about 25 the oscillations form a never-r
+epeating pattern (which you can sort of see if you run for a longer ti
+me in the " }{TEXT 273 7 "odeplot" }{TEXT -1 457 ").  And what's worse
+, if you use slightly different initial conditions you get a completel
+y different pattern (this is the famous butterfly effect.  To observe \+
+it change x(0)=1 in the initial conditions to x(0)=1.0000001.)  This i
+s completely unexpected.  The equations that govern this behavior are \+
+completely deterministic and quite simple--how can random garbage come
+ out of something this simple?  It's truly amazing, and this kind of b
+ehavior is called" }{TEXT 271 16 " dynamical chaos" }{TEXT -1 3 ".  " 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 166 "Here is another way to look at
+ it.  Instead of plotting x(t), let's plot the trajectory of the solut
+ion curve [x(t),y(t),z(t)] as a 3-dimensional curve using Maple's " }
+{TEXT 273 10 "spacecurve" }{TEXT -1 70 " plot command. To use it we ne
+ed to make a loop that repeatedly calls " }{TEXT 273 6 "dsolve" }
+{TEXT -1 122 " to generate a sequence of 3-dimensional points along th
+e system trajectory.  This sequence of points is then passed into " }
+{TEXT 273 10 "spacecurve" }{TEXT -1 12 ", like this:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 137 "Put the initial
+ values of (x,y,z) in r0, the starting time in t1, the ending time in \+
+t2 and the number of points along the trajectory in " }{TEXT 273 9 "nu
+mpoints" }{TEXT -1 57 "; then calculate the time step between successi
+ve points." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "r0:=[1,1,1];t1:=0;t2:
+=10;numpoints:=400;dt:=(t2-t1)/numpoints;" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "Set the system parameter
+ r" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "r:=50;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "Step t
+he system along with repeated calls to " }{TEXT 273 6 "dsolve" }{TEXT 
+-1 207 ", each one having for its initial conditions the ending condit
+ions from the previous step.  This is done with a for-do-end do loop, \+
+which we will study in Chapter 8.  Note: this takes a while, so be pat
+ient." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "for i from 1 to numpoints \+
+do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 92 "    s:=dsolve(\{Eq1,Eq2,Eq3,x
+(0)=r0[1],y(0)=r0[2],z(0)=r0[3]\},\{x(t),y(t),z(t)\},type=numeric):" }
+}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "    t0:=t1+(i-1)*dt:" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 14 "    tf:=t0+dt:" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 18 "    sol:=s(tf-t0):" }}{PARA 0 "" 0 "" {TEXT -1 39 "Store (x,y,
+z)  in rf[i] after each step" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "   \+
+ rf[i]:=[rhs(op(2,sol)),rhs(op(3,sol)),rhs(op(4,sol))]:" }}{PARA 0 "" 
+0 "" {TEXT -1 31 "Get the next initial condition " }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "    r0:=rf[i]:" }}{PARA 0 "" 0 "" {TEXT -1 46 "Bott
+om of the loop; go back up and do it again" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 3 "od:" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 47 "Turn rf into a sequence for use with spacecurve
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "L:=[seq(rf[i],i=1..numpoints)]:
+" }}}{EXCHG {PARA 0 "" 0 "Spacecurve command" {TEXT -1 15 "Plot the tr
+ajec" }{HYPERLNK 17 "" 1 "" "" }{TEXT -1 4 "tory" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 34 "spacecurve(L,orientation=[45,60]);" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 211 "
+Now make 100 spacecurve plots, each one with a slightly different view
+ing angle.  Then we will animate the sequence so that the trajectory r
+otates on the screen, making it easy to see its 3-dimensional characte
+r" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "for i from 1 to 100 do" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "   theta :=45:phi:=i*3.6:" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "p[i
+]:=spacecurve(L,orientation=[theta,phi]):" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "od:" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 152 "Plot the animation.  Note: when the pict
+ure comes up and the clock goes away, click on the picture to make the
+ animation controls appear on the toolbar." }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 53 "plots[display]([seq(p[i],i=1..100)],insequence=true);
+" }}}{PARA 0 "" 0 "" {TEXT -1 169 "Of course you can just click on a s
+ingle space curve plot and use the cursor to rotate the picture any wa
+y you want, but I wanted you to see how to animate a spacecurve." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 272 12 "Problem 7.16" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 527 "Look at
+ how the system trajectory changes character as it changes from going \+
+to a fixed point to wandering around on the so-called strange attracto
+r displayed by spacecurve.  The transition occurs as r increases past \+
+a number around 25, or so, although if you let the system run for a lo
+ng time the attractor starts to show up at lower values of r.  If you \+
+try to keep numpoints too high this will take forever, and if you don'
+t run long enough you won't be able to see where the transition occurs
+; use numpoints=200 and t2=20." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Nonlinear dy
+namics" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of chapte
+r" 1 "" "Odes (chapter top)" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "5 0 0" 34 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

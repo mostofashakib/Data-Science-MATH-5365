@@ -1,0 +1,24 @@
+Exploratory Data Analysis:
+
+Which input variable are co-related with each other?
+
+Column 1: Positively linear correlation with column 8, Negatively linear correlation with column 9
+Column 2: No correlation
+Column 3: Negatively linear correlation with column 2 & 9
+Column 4: No correlation
+Column 5: No correlation
+Column 6: Positively linear correlation with column 7
+Column 7: No correlation
+Column 8: Positively linear correlation with column 4 & 5
+Column 9: Negatively linear correlation with column 1
+Column 10: No correlation
+Column 11: No correlation
+Column 12: No correlation
+
+
+Regression Learner:
+
+
+How much variance is explained by PCA?
+
+95%

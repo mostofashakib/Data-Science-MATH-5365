@@ -1,0 +1,1233 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 1 14 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 0 14 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "command
+s" -1 297 "Times" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "command
+" -1 298 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 299 "" 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 }{PSTYLE "Headi
+ng 3" 4 5 1 {CSTYLE "" -1 -1 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 
+0 -1 0 0 0 0 0 0 0 0 -1 0 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}}
+{SECT 0 {EXCHG {PARA 3 "" 0 "Calculus (chapter top)" {TEXT -1 19 "Chap
+ter 3: Calculus" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Chapt
+er 3" {TEXT -1 224 "One of the things Maple can help you with the most
+ is calculus.  It can take derivatives, do integrals, make series expa
+nsions, do infinite sums, and a whole lot more.  In this chapter we wi
+ll concentrate just on the basics." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+}{SECT 0 {PARA 4 "" 0 "Limits (top)" {TEXT -1 6 "Limits" }}{PARA 0 "" 
+0 "" {URLLINK 17 "Debugging " 4 "http://www.mapleapps.com/powertools/p
+hysics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "Limits" {TEXT -1 129 "The most basic idea in c
+alculus is that of a limit, and Maple knows how to do them.  For examp
+le, to find the value of the limit " }{XPPEDIT 18 0 "limit(sin(3*x)/x,
+x = 0);" "6#-%&limitG6$*&-%$sinG6#*&\"\"$\"\"\"%\"xGF,F,F-!\"\"/F-\"\"
+!" }{TEXT -1 30 " , just use the Maple command " }{TEXT 297 6 "limit \+
+" }{TEXT -1 27 "on the expression like this" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 22 "limit(sin(3*x)/x,x=0);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 40 "You can also do it with a Maple function" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 33 "y:=x->sin(3*x)/x;limit(y(x),x=0);" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 12 "You can use " }
+{TEXT 297 6 "?limit" }{TEXT -1 89 " to see some details about how this
+ command works, but this is about all there is to it. " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 288 11 "Problem 3.1" }}{PARA 0 "
+" 0 "" {TEXT -1 33 " Try this one just for practice  " }{XPPEDIT 18 0 
+"limit((cos(x)-1)/(x^2),x = 0);" "6#-%&limitG6$*&,&-%$cosG6#%\"xG\"\"
+\"F,!\"\"F,*$F+\"\"#F-/F+\"\"!" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 
+"" "Limits (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{SECT 0 {PARA 4 "" 0 "Differentiation (top)" {TEXT -1 15 "Differentiat
+ion" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapleapps
+.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Derivatives2" {TEXT -1 
+298 "Derivatives are relatively simple, so this section is simple.  Ma
+ple can take derivatives of elementary functions and special functions
+ with equal ease, so there is almost nothing to do in this section exc
+ept show you Maple's two differentiation commands, one for expressions
+ and one for functions." }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}{PARA 0 "
+" 0 "diff command" {TEXT -1 184 "First let's do expressions.  I sugges
+t you use the following forms for taking the 1st, 2nd, and third deriv
+atives, as illustrated below using the tangent function.  You can eith
+er use " }{TEXT 297 4 "diff" }{TEXT -1 46 ", which gives you the deriv
+ative directly, or " }{TEXT 297 4 "Diff" }{TEXT -1 5 " and " }{TEXT 
+297 6 "value," }{TEXT -1 62 " which display the derivative to be taken
+, then evaluate it.  " }{TEXT 298 4 "Diff" }{TEXT -1 157 " is actually
+ more useful than you might think because it gives you a chance to see
+ if the derivative you have asked Maple to take is the one you really \+
+want." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "diff(tan(x),x);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "diff(tan(x),x$2);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "d:=Diff(tan(x),x$3);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 12 "d:=value(d);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "d:=si
+mplify(d);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 34 "Now let's see how to do functions." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "f:=x->tan(x)/x;" }}}{PARA 0 "" 0 "D command" {TEXT 
+298 4 "Diff" }{TEXT -1 59 " doesn't work on functions; instead we have
+ to use Maple's " }{TEXT 297 1 "D" }{TEXT -1 171 " command.  This is a
+ very powerful command in spite of its small size.  It can take multip
+le derivatives of multiple functions (to see how to use all of its fea
+tures type " }{TEXT 297 2 "?D" }{TEXT -1 98 ") but we will only be tak
+ing first derivatives of a single function.  The first derivative is e
+asy" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "fp:=D(f);" }}}{PARA 0 
+"" 0 "" {TEXT -1 35 " Note that assigning the result of " }{TEXT 297 
+5 "D(f) " }{TEXT -1 124 "to fp produces the function fp(x).  There is \+
+more than one way to take higher derivatives, but here is the most gen
+eral one." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "fpp:=D[1$2](f);
+" }}}{PARA 0 "" 0 "" {TEXT -1 165 "In the square brackets the 1 means \+
+differentiate with respect to the first (in this case the only) variab
+le in the argument list and $2 means do it twice just as in " }{TEXT 
+298 4 "diff" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 63 "W
+ell, that's about it.  Here are some exercises to practice on." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+294 11 "Problem 3.2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 291 0 "" }{TEXT -1 168 "Take the indicated deri
+vatives of the functions listed below.  Use expression form on most of
+ them but use function form on (a) and (d).  When you get a mess try u
+sing " }{TEXT 297 8 "simplify" }{TEXT -1 41 " to clean it up.  You wil
+l discover that " }{TEXT 297 8 "simplify" }{TEXT -1 350 " doesn't work
+ on functions; to make the result look nice use the mouse to copy the \+
+mess you want to simplify to the clipboard, assign it to a new variabl
+e, cut off the extraneous junk, execute the command, then rebuild the \+
+derivative function using cut and paste again.  This combination of Ma
+ple and editing is a good way to do mistake-free algebra." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "(a) " }{XPPEDIT 18 
+0 "Diff(sqrt(1+x^3),`$`(x,3));" "6#-%%DiffG6$-%%sqrtG6#,&\"\"\"F**$%\"
+xG\"\"$F*-%\"$G6$F,F-" }{TEXT -1 14 "        (b)   " }{XPPEDIT 18 0 "D
+iff(J[0](x),x);" "6#-%%DiffG6$-&%\"JG6#\"\"!6#%\"xGF," }{TEXT -1 16 " \+
+         (c)   " }{XPPEDIT 18 0 "Diff(I[1](x),x);" "6#-%%DiffG6$-&%\"I
+G6#\"\"\"6#%\"xGF," }{TEXT -1 16 "        (d)     " }{XPPEDIT 18 0 "Di
+ff(exp(tan(x)),`$`(x,2));" "6#-%%DiffG6$-%$expG6#-%$tanG6#%\"xG-%\"$G6
+$F,\"\"#" }{TEXT -1 13 "    (e)      " }{XPPEDIT 18 0 "diff(GAMMA(x),x
+);" "6#-%%diffG6$-%&GAMMAG6#%\"xGF)" }{TEXT -1 1 "\000" }}{PARA 0 "" 
+0 "" {TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 8 "(f)     " }
+{XPPEDIT 18 0 "diff(erf(x),x);" "6#-%%diffG6$-%$erfG6#%\"xGF)" }{TEXT 
+-1 13 "     (g)     " }{XPPEDIT 18 0 "diff(K(k),k);" "6#-%%diffG6$-%\"
+KG6#%\"kGF)" }{TEXT -1 69 "  (this is the complete elliptic integral o
+f the first kind, Maple's " }{TEXT 298 9 "EllipticK" }{TEXT -1 5 ".)  \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 67 "------------------------------------
+-------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 292 11 "Problem 3.3" }{TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 108 "Her
+e's a find-the-maxima-and minima problem like ones you used to do in h
+igh school.  Consider the function " }{XPPEDIT 18 0 "ln(x)*J[0](x);" "
+6#*&-%#lnG6#%\"xG\"\"\"-&%\"JG6#\"\"!6#F'F(" }{TEXT -1 298 " .  (Note:
+ I am using the word function in the mathematical sense, not in the Ma
+ple sense.  This problem is easier if you just use a Maple expression \+
+to define the function above.)   (a) First plot this function on the i
+nterval [0,10].  (b) Look at the graph and find, approximately, the va
+lues of " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 97 " where the funct
+ion has maxima and minima.  Then take the derivative of the function a
+nd use the " }{TEXT 297 7 "fsolve " }{TEXT -1 32 "command to find thes
+e values of " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 61 " precisely. \+
+ If your expression for the derivative is called " }{XPPEDIT 18 0 "f;
+" "6#%\"fG" }{TEXT -1 71 ", and if you wanted to find a zero of it nea
+r 1.1, you would do this:  " }{TEXT 298 15 "fsolve(f,x=1.1)" }{TEXT 
+-1 1 ";" }}{PARA 0 "" 0 "" {TEXT -1 67 "------------------------------
+-------------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }{TEXT 293 11 "Problem 3.4" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "Associated Legendre functions" {TEXT -1 83 "In
+ quantum mechanics you will encounter a close relative of the Legendre
+ functions " }{XPPEDIT 18 0 "P[n](x);" "6#-&%\"PG6#%\"nG6#%\"xG" }
+{TEXT -1 94 " that we have seen already.  These new functions are call
+ed the Associated Legendre functions " }{XPPEDIT 18 0 "P[n]^m;" "6#)&%
+\"PG6#%\"nG%\"mG" }{TEXT -1 21 " .  For each integer " }{XPPEDIT 18 0 
+"n;" "6#%\"nG" }{TEXT -1 43 " these functions are defined for values o
+f " }{XPPEDIT 18 0 "m;" "6#%\"mG" }{TEXT -1 17 " in the interval " }
+{XPPEDIT 18 0 "[0 .. n];" "6#7#;\"\"!%\"nG" }{TEXT -1 12 " , with the \+
+" }{XPPEDIT 18 0 "m = 0;" "6#/%\"mG\"\"!" }{TEXT -1 26 " function bein
+g plain old " }{XPPEDIT 18 0 "P[n](x);" "6#-&%\"PG6#%\"nG6#%\"xG" }
+{TEXT -1 83 "  .  These functions are defined in terms of derivatives \+
+of the Legendre functions:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 11 "           " }{XPPEDIT 18 0 "P[n]^m = (-1)^m*(1-x
+^2)^(m/2)*diff(P[n](x),`$`(x,m));" "6#/)&%\"PG6#%\"nG%\"mG*(),$\"\"\"!
+\"\"F)F-),&F-F-*$%\"xG\"\"#F.*&F)F-F3F.F--%%diffG6$-&F&6#F(6#F2-%\"$G6
+$F2F)F-" }{TEXT -1 192 "  .  This definition is too cumbersome for mos
+t computer languages, but Maple handles it with ease because it thinks
+ symbolically instead of numerically.   Here is a function that evalua
+tes it" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "with(orthopoly);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "Pnm:=(n,m,x)-> (-1)^m*(1-
+x^2)^(m/2)*diff(P(n,x),x$m);" }}}{PARA 0 "" 0 "" {TEXT -1 85 "Before w
+e do anything fancy with it we ought to test it, so let's put in numbe
+rs for " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 2 ", " }{XPPEDIT 18 
+0 "m;" "6#%\"mG" }{TEXT -1 6 ", and " }{XPPEDIT 18 0 "x;" "6#%\"xG" }
+{TEXT -1 2 " ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "Pnm(3,1,.5
+);" }}}{PARA 0 "" 0 "" {TEXT -1 56 "Well, we're in trouble again.  The
+ problem is with what " }{TEXT 297 7 "P(n,x) " }{TEXT -1 215 "returns.
+  As we saw in the section in Chapter 2 on this function, it doesn't r
+eturn a number; it returns a polynomial.  When we put in 0.5 for x it \+
+goes into our Pnm function, defined above, in place of x, and then " }
+{TEXT 297 5 "diff " }{TEXT -1 149 "tries to take a derivative with res
+pect to 0.5, which makes no sense.  Watch what happens when we put in \+
+a variable in place of x instead of a number" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 11 "Pnm(3,1,t);" }}}{PARA 0 "" 0 "" {TEXT -1 68 "So if
+ you want a numerical result you have to do something like this" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "a:=Pnm(3,1,t);t:=0.5;a;" }}}
+{PARA 0 "" 0 "" {TEXT -1 423 "This is annoying, but on the other hand,
+ just think about it; why do you need a number in Maple anyway?  You w
+ant to plot the function, differentiate it, integrate it, use it in di
+fferential equations, etc..  What could be better than having an expli
+cit expression for the thing?  So Maple doesn't think this is a proble
+m; it's a feature!  And this feature is shared by all of the orthogona
+l functions you get when you use " }{TEXT 297 16 "with(orthopoly)." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 113 "There is
+ one other annoying thing about the function Pnm.  Watch what happens \+
+when we try to evaluate it with m=0" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "Pnm(5,0,x);" }}}{PARA 0 "" 0 "" {TEXT -1 167 "With m=
+0 it is supposed to give us Pn(x) back, but it doesn't.  The reason it
+ doesn't is that we just asked it to take the 0th derivative of a func
+tion, which Maple's " }{TEXT 297 4 "diff" }{TEXT -1 121 " command can'
+t handle.  Later when we study procedures we will come back to this pr
+oblem and fix it so it works with m=0." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 556 "Ok, I have shown you how this can be done.  Now I want y
+ou to make a plot of the 5 associated Legendre functions that go with \+
+P(5,x), i.e., n=5 and m=1,2,3,4,5.  Plot them from x=-1..1.  Put all f
+ive plots on one set of axes with different colors so you can see what
+ happens as m ranges from 1 up to n=5.  After you look at the picture \+
+you will probably want to rescale the functions so they all look about
+ the same size.  In the upcoming section on integration we will redo t
+his plot and learn a natural way to make the functions nearer to the s
+ame size. " }}{PARA 0 "" 0 "" {TEXT -1 66 "---------------------------
+---------------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }{TEXT 290 11 "Problem 3.5" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 183 " Here is an electricity problem borrowed from the integration \+
+section that follows this one.  The potential  function for a charged \+
+hemisphere of radius R with surface charge density " }{XPPEDIT 18 0 "s
+igma;" "6#%&sigmaG" }{TEXT -1 101 " as a function of z , where z goes \+
+up the symmetry axis of the hemisphere, is given by the expression" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+54 "V:=-1/2*sigma*R*(-sqrt(R^2+z^2)+sqrt((z-R)^2))/(z*e0);" }}}{PARA 
+0 "" 0 "" {TEXT -1 50 "where e0 is shorthand for the electrical consta
+nt " }{XPPEDIT 18 0 "epsilon[0];" "6#&%(epsilonG6#\"\"!" }{TEXT -1 2 "
+ ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 29 "The electric field compon
+ent " }{XPPEDIT 18 0 "E[z];" "6#&%\"EG6#%\"zG" }{TEXT -1 59 " can be o
+btained from the potential V by differentiating:  " }{XPPEDIT 18 0 "E[
+z] = -diff(V,z);" "6#/&%\"EG6#%\"zG,$-%%diffG6$%\"VGF'!\"\"" }{TEXT 
+-1 74 " .  Use Maple to take this derivative and obtain an (ugly) expr
+ession for " }{XPPEDIT 18 0 "E[z];" "6#&%\"EG6#%\"zG" }{TEXT -1 61 " .
+  Simplify it.  You will see an unfamiliar function called " }{TEXT 
+297 4 "csgn" }{TEXT -1 29 "; look this function up with " }{TEXT 297 
+5 "?csgn" }{TEXT -1 54 " and make sure you understand what it does.  T
+hen set " }{XPPEDIT 18 0 "sigma = 1;" "6#/%&sigmaG\"\"\"" }{TEXT -1 2 
+", " }{XPPEDIT 18 0 "R = 1;" "6#/%\"RG\"\"\"" }{TEXT -1 6 ", and " }
+{XPPEDIT 18 0 "e0 = 1;" "6#/%#e0G\"\"\"" }{TEXT -1 21 " and plot both \+
+V and " }{XPPEDIT 18 0 "E[z];" "6#&%\"EG6#%\"zG" }{TEXT -1 6 " from " 
+}{XPPEDIT 18 0 "z = -4;" "6#/%\"zG,$\"\"%!\"\"" }{TEXT -1 4 " to " }
+{XPPEDIT 18 0 "z = 4;" "6#/%\"zG\"\"%" }{TEXT -1 115 " .  It is a theo
+rem in electromagnetism that when you cross surface charge density, th
+e electric field jumps up by " }{XPPEDIT 18 0 "sigma/epsilon[0];" "6#*
+&%&sigmaG\"\"\"&%(epsilonG6#\"\"!!\"\"" }{TEXT -1 78 "  .  (You will n
+otice that in the definition of V above I used e0 in place of " }
+{XPPEDIT 18 0 "epsilon[0];" "6#&%(epsilonG6#\"\"!" }{TEXT -1 431 ".  T
+his was intentional.  Avoid subscripted variables whenever possible be
+cause subscripts in Maple reference array elements.)  Verify on your p
+lot that the correct jump is obtained.  On your graph negative z is be
+low the circular rim of the hemisphere; positive z from 0 to R is insi
+de the hemisphere; and positive z from R to infinity is above the dome
+.  Interpret your graph physically and convince yourself that it makes
+ sense." }}{PARA 0 "" 0 "" {TEXT -1 66 "------------------------------
+------------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT 295 11 "Problem 3.6" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "Implicit differentiation" {TEXT -1 47 "Here is
+ a fancy kind of differentiation called " }{TEXT 299 25 "implicit diff
+erentiation " }{TEXT -1 78 "that Maple knows how to do.  Suppose that \+
+you have an equation involving both " }{XPPEDIT 18 0 "x;" "6#%\"xG" }
+{TEXT -1 5 " and " }{XPPEDIT 18 0 "y;" "6#%\"yG" }{TEXT -1 17 ", like \+
+this one  " }{XPPEDIT 18 0 "x^2+y^3 = 3;" "6#/,&*$%\"xG\"\"#\"\"\"*$%
+\"yG\"\"$F(F+" }{TEXT -1 31 "    .   You would like to find " }
+{XPPEDIT 18 0 "dy/dx;" "6#*&%#dyG\"\"\"%#dxG!\"\"" }{TEXT -1 22 "  wit
+hout solving for " }{XPPEDIT 18 0 "y(x);" "6#-%\"yG6#%\"xG" }{TEXT -1 
+75 ".  The way to do this is to differentiate this equation implicitly
+ to get  " }{XPPEDIT 18 0 "2*x+3*y^2*diff(y,x) = 0;" "6#/,&*&\"\"#\"\"
+\"%\"xGF'F'*(\"\"$F'*$%\"yGF&F'-%%diffG6$F,F(F'F'\"\"!" }{TEXT -1 18 "
+ , then solve for " }{XPPEDIT 18 0 "dy/dx;" "6#*&%#dyG\"\"\"%#dxG!\"\"
+" }{TEXT -1 61 " .  Maple knows how to do it, provided that you tell i
+t that " }{XPPEDIT 18 0 "y;" "6#%\"yG" }{TEXT -1 12 " depends on " }
+{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 13 ", like this. " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 21 "eq:=x^2 + y(x)^3 = 3;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "deq:=diff(eq,x);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "dydx:=solve(deq,diff(y(x),x));" }}}{PARA 0 "" 0 "" 
+{TEXT -1 68 "If you don't want to type y(x) all of the time, you can u
+se Maple's " }{TEXT 297 6 "alias " }{TEXT -1 104 "command to tell it t
+o turn y into y(x) (only in Maple's internal processing) whenever it i
+s encountered." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "res
+tart;" }}}{EXCHG {PARA 0 "" 0 "Alias" {TEXT -1 34 "Allow us to use y i
+n place of y(x)" }{TEXT 297 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "
+alias(y=y(x));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "eq:=x^2 +
+ y^3 = 3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "deq:=diff(eq,x
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "dydx:=solve(deq,diff(
+y,x));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 116 "Here's an example whe
+re this shows up in physics.  The dispersion relation for electromagne
+tic waves in a plasma is " }{XPPEDIT 18 0 "omega^2 = wp^2+k^2*c^2;" "6
+#/*$%&omegaG\"\"#,&*$%#wpGF&\"\"\"*&%\"kGF&%\"cGF&F*" }{TEXT -1 8 ", w
+here " }{XPPEDIT 18 0 "wp;" "6#%#wpG" }{TEXT -1 92 " is a frequency ca
+lled the plasma frequency.  The phase velocity of these waves is given
+ by " }{XPPEDIT 18 0 "omega/k;" "6#*&%&omegaG\"\"\"%\"kG!\"\"" }{TEXT 
+-1 38 " while the group velocity is given by " }{XPPEDIT 18 0 "d*omega
+/(d*k);" "6#*(%\"dG\"\"\"%&omegaGF%*&F$F%%\"kGF%!\"\"" }{TEXT -1 90 " \+
+.   First use Maple to find formulas for both the phase and group velo
+cities in terms of " }{XPPEDIT 18 0 "wp;" "6#%#wpG" }{TEXT -1 2 ", " }
+{XPPEDIT 18 0 "k;" "6#%\"kG" }{TEXT -1 6 ", and " }{XPPEDIT 18 0 "c;" 
+"6#%\"cG" }{TEXT -1 16 " by solving for " }{XPPEDIT 18 0 "omega(k);" "
+6#-%&omegaG6#%\"kG" }{TEXT -1 95 " and differentiating.  Then use impl
+icit differentiation to get the group velocity in terms of " }
+{XPPEDIT 18 0 "k;" "6#%\"kG" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "c;" "6#%
+\"cG" }{TEXT -1 6 ", and " }{XPPEDIT 18 0 "omega;" "6#%&omegaG" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 69 "------------------------
+---------------------------------------------" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "Partial derivatives" {TEXT -1 93 "Finall
+y, Maple also knows how to take partial derivatives.  Consider the fun
+ction of x and y " }{XPPEDIT 18 0 "f(x,y) = cos(x*y)/y;" "6#/-%\"fG6$%
+\"xG%\"yG*&-%$cosG6#*&F'\"\"\"F(F.F.F(!\"\"" }{TEXT -1 95 "  .  Here a
+re its derivatives with respect to x, y, and both x and y, using the e
+xpression form" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "restart;f:
+=cos(x*y)/y;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 32 "diff(f,x);diff(f,y);diff(f,x,y);" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 56 "And here is the same
+ thing using Maple function notation" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "restart;f:=(x,y)->cos(x*y)/y;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 26 "D[1](f);D[2](f);D[1,2](f);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 66 "-----------------------------------------------
+-------------------" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }{TEXT 296 11 "P
+roblem 3.7" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 124 "Find the two first derivatives and all three second derivative
+s (double x, double y, and mixed xy) of the following function" }}
+{PARA 256 "" 0 "" {TEXT -1 11 "           " }{XPPEDIT 18 0 "K(sqrt(4*x
+*y/((x+y)^2)));" "6#-%\"KG6#-%%sqrtG6#**\"\"%\"\"\"%\"xGF+%\"yGF+*$,&F
+,F+F-F+\"\"#!\"\"" }{TEXT -1 47 "   , where K is the complete elliptic
+ integral " }{TEXT 297 9 "EllipticK" }{TEXT -1 32 ".  Use expression n
+otation with " }{TEXT 297 6 "diff. " }{TEXT -1 11 " Try using " }
+{TEXT 298 6 "expand" }{TEXT -1 4 " and" }{TEXT 297 9 " simplify" }
+{TEXT -1 36 " to clean up the messes that result." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 
+"" "Differentiation (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{SECT 0 {PARA 4 "" 0 "Integration (top)" {TEXT -1 11 "Integrat
+ion" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Integral tables" 
+{TEXT -1 463 "The single thing you will use Maple for the most is inte
+gration.  In fact, many of you don't have any more idea of what an int
+egral table is than you have about slide rules.  Mostly this is OK bec
+ause Maple is easily available to you and is pretty good.  But it does
+n't know how to do everything (as you will see in the some of the exam
+ples in this section), so you need to know where to go when Maple fail
+s.  The best place to go is a math reference book called " }{TEXT 258 
+31 "A Table of Series and Integrals" }{TEXT -1 171 " by Gradshteyn and
+ Ryzhik.  You can find it in the math reference section of the library
+, or maybe even in our department library, if some faculty member hasn
+'t stolen it." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{SECT 0 {PARA 5 "" 0 "Elementary integrals (top)" 
+{TEXT -1 20 "Elementary integrals" }}{PARA 0 "" 0 "" {URLLINK 17 "Debu
+gging" 4 "http://www.mapleapps.com/powertools/physics/html/Debugging.h
+tml" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"Indefinite integrals" {TEXT -1 128 "Maple knows how to do all of the \+
+integration problems you encountered in your first calculus course.  T
+he command to do this is " }{TEXT 297 3 "int" }{TEXT -1 43 ", and with
+ expressions you use it like this" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "int(sin(x),x);" }}}{PARA 0 "" 0 "" {TEXT -1 2 "or" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "f:=sin(x)*x;int(f,x);" }}}
+{PARA 0 "" 0 "" {TEXT -1 62 "Note: do not use f(x) as the argument if \+
+f is an expression.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 54 "With functions the integration command works like this
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "g:=(x,y)->sin(x*y)*x;" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "int(g(x,y),x);" }}}{PARA 
+0 "" 0 "" {TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 31 "There is also
+ an inert form of " }{TEXT 297 4 "int," }{TEXT -1 8 " namely " }{TEXT 
+297 3 "Int" }{TEXT -1 102 ", which is used to display integrals.  You \+
+would use this form for documenting a worksheet.  Try this:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "s1:=Int(exp(x),x);" }}}{PARA 0 "" 
+0 "" {TEXT -1 16 "But be warned:  " }{TEXT 297 4 "Int " }{TEXT -1 192 
+"only displays, it doesn't do math.  \"But if it doesn't do anything, \+
+why would I want to use it?\", you ask?  Because it will help you see \+
+if you have entered the integral properly, which makes " }{TEXT 297 4 
+"Int " }{TEXT -1 96 "a very valuable debugging tool.  After you have s
+een that it looks right in displayed form, use " }{TEXT 297 10 "value(
+s1) " }{TEXT -1 94 "to get the answer.  So the right way to do the sim
+ple integral above and get an answer is this" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 18 "s1:=Int(exp(x),x);" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "s1:=value(s1);" }}}{PARA 0 "" 0 "" {TEXT -1 59 "I suggest that
+ you always do integrals this way, combining " }{TEXT 297 4 "Int " }
+{TEXT -1 4 "and " }{TEXT 297 5 "value" }{TEXT -1 111 ".  It is one of \+
+those habits that will decrease the number of hours you will spend loo
+king for stupid mistakes." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "Definite integrals" {TEXT -1 48 "And you can do definite integral
+s too, like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "s2:=Int(
+tan(x),x=0..1);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "s2:=value(s2);" 
+}}}{PARA 0 "" 0 "" {TEXT -1 40 "And if you need a number there is alwa
+ys" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf(s2);" }}}{PARA 
+0 "" 0 "" {TEXT -1 73 "Oh, and if you just want to get a numerical ans
+wer without going through " }{TEXT 297 5 "evalf" }{TEXT -1 12 ", just \+
+give " }{TEXT 297 3 "int" }{TEXT -1 54 " floating point limits and you
+ will get it right away." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "
+s2:=Int(tan(x),x=0..1.);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "value(s
+2);" }}}{PARA 0 "" 0 "" {TEXT -1 135 "You should also know that Maple \+
+can do integrals where the limits are infinite, but you may need to gi
+ve it some guidance by using the " }{TEXT 297 6 "assume" }{TEXT -1 86 
+" command.  Well, that's about all you have to know if Maple can do th
+e integral.  Try " }{TEXT 297 4 "?int" }{TEXT -1 96 " to see some of t
+he extra integration options Maple has available.  Now let's do some e
+xercises." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 259 11 "Prob
+lem 3.8" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 271 "Do the following integrals with Maple using express
+ion notation for (a)-(d) and function notation for (e)-(g).  Obtain nu
+merical values for (e) and (f).  You will have trouble with (g), and e
+ven when you get it to work the answer will look ugly.  Try simplifyin
+g it with " }{TEXT 297 8 "simplify" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "(a) " }{XPPEDIT 18 0 "Int(
+ln(x),x);" "6#-%$IntG6$-%#lnG6#%\"xGF)" }{TEXT -1 14 "          (b) " 
+}{XPPEDIT 18 0 "Int(sqrt(1-x^2),x);" "6#-%$IntG6$-%%sqrtG6#,&\"\"\"F**
+$%\"xG\"\"#!\"\"F," }{TEXT -1 14 "          (c) " }{XPPEDIT 18 0 "Int(
+x/(1+x^3),x);" "6#-%$IntG6$*&%\"xG\"\"\",&F(F(*$F'\"\"$F(!\"\"F'" }
+{TEXT -1 14 "          (d) " }{XPPEDIT 18 0 "Int(cosh(x),x);" "6#-%$In
+tG6$-%%coshG6#%\"xGF)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 4 "(e) " }{XPPEDIT 18 0 "Int(sqrt((1+x)/(1-
+x)),x = 0 .. 1);" "6#-%$IntG6$-%%sqrtG6#*&,&\"\"\"F+%\"xGF+F+,&F+F+F,!
+\"\"F./F,;\"\"!F+" }{TEXT -1 12 "       (f)  " }{XPPEDIT 18 0 "Int(x/(
+x^3-1),x = 0 .. 1/2);" "6#-%$IntG6$*&%\"xG\"\"\",&*$F'\"\"$F(F(!\"\"F,
+/F';\"\"!*&F(F(\"\"#F," }{TEXT -1 59 " (try using both 1/2 and 1./2. a
+s the upper limit)     (g) " }{XPPEDIT 18 0 "Int(exp(-a*x)*cos(x),x = \+
+0 .. infinity);" "6#-%$IntG6$*&-%$expG6#,$*&%\"aG\"\"\"%\"xGF-!\"\"F--
+%$cosG6#F.F-/F.;\"\"!%)infinityG" }{TEXT -1 28 "  (Don't know how to h
+andle " }{XPPEDIT 18 0 "infinity;" "6#%)infinityG" }{TEXT -1 20 "?  Us
+e online help.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 66 "---------------------------------------------------------
+---------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }{TEXT 260 11 "Problem 3.9" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "Voltage integral" {TEXT -1 293 "A common way that integr
+als show up in physics problems is in calculating voltages and electri
+c fields (remember sophomore electricity and magnetism?)  Here is one \+
+that you might encounter in Physics 441 that Maple knows how to do.  C
+onsider a hemisphere described in spherical coordinates by " }
+{XPPEDIT 18 0 "r = R;" "6#/%\"rG%\"RG" }{TEXT -1 5 " and " }{XPPEDIT 
+18 0 "theta = 0 .. pi/2;" "6#/%&thetaG;\"\"!*&%#piG\"\"\"\"\"#!\"\"" }
+{TEXT -1 39 " .  Let it have surface charge density " }{XPPEDIT 18 0 "
+sigma;" "6#%&sigmaG" }{TEXT -1 56 ". You are to find the electrostatic
+ potential (voltage) " }{XPPEDIT 18 0 "V(z);" "6#-%\"VG6#%\"zG" }
+{TEXT -1 11 " along the " }{XPPEDIT 18 0 "z;" "6#%\"zG" }{TEXT -1 6 "-
+axis." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "
+I will get you started.  The vector distance to the observation point \+
+on the " }{XPPEDIT 18 0 "z;" "6#%\"zG" }{TEXT -1 9 "-axis is " }{TEXT 
+262 1 "r" }{TEXT -1 3 "=z " }{TEXT 264 1 "k" }{TEXT -1 8 ", where " }
+{TEXT 265 1 "k" }{TEXT -1 27 " is the unit vector in the " }{XPPEDIT 
+18 0 "z;" "6#%\"zG" }{TEXT -1 59 "-direction.  The vector distance to \+
+a little bit of charge " }{XPPEDIT 18 0 "dq = sigma*R^2*sin(theta)*d*t
+heta*d*phi;" "6#/%#dqG*0%&sigmaG\"\"\"*$%\"RG\"\"#F'-%$sinG6#%&thetaGF
+'%\"dGF'F.F'F/F'%$phiGF'" }{TEXT -1 4 " is " }{TEXT 266 1 "r" }{TEXT 
+-1 3 "'=R" }{TEXT 267 2 "r'" }{TEXT -1 7 " where " }{TEXT 268 1 "r" }
+{TEXT -1 116 "' is a unit vector pointing from the origin to the littl
+e bit of charge.  Using the law of cosines we can then write" }}{PARA 
+0 "" 0 "" {TEXT 263 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }
+{XPPEDIT 18 0 "V(z) = Int(Int(sigma*R^2*sin(theta)/sqrt(R^2+z^2-2*R*z*
+cos(theta)),theta),phi)/(4*pi*epsilon[0]);" "6#/-%\"VG6#%\"zG*&-%$IntG
+6$-F*6$**%&sigmaG\"\"\"*$%\"RG\"\"#F0-%$sinG6#%&thetaGF0-%%sqrtG6#,(*$
+F2F3F0*$F'F3F0**F3F0F2F0F'F0-%$cosG6#F7F0!\"\"FBF7%$phiGF0*(\"\"%F0%#p
+iGF0&%(epsilonG6#\"\"!F0FB" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT 
+-1 55 "where the integral sign here means integrate over both " }
+{XPPEDIT 18 0 "theta;" "6#%&thetaG" }{TEXT -1 5 " and " }{XPPEDIT 18 
+0 "phi;" "6#%$phiG" }{TEXT -1 8 " .  The " }{XPPEDIT 18 0 "phi;" "6#%$
+phiG" }{TEXT -1 21 " integral just gives " }{XPPEDIT 18 0 "2*pi;" "6#*
+&\"\"#\"\"\"%#piGF%" }{TEXT -1 21 " and we are left with" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "          " }
+{XPPEDIT 18 0 "V(z) = int(sigma*R^2*sin(theta)/sqrt(R^2+z^2-2*R*z*cos(
+theta)),theta = 0 .. pi/2)/(2*epsilon[0]);" "6#/-%\"VG6#%\"zG*&-%$intG
+6$**%&sigmaG\"\"\"*$%\"RG\"\"#F.-%$sinG6#%&thetaGF.-%%sqrtG6#,(*$F0F1F
+.*$F'F1F.**F1F.F0F.F'F.-%$cosG6#F5F.!\"\"F@/F5;\"\"!*&%#piGF.F1F@F.*&F
+1F.&%(epsilonG6#FCF.F@" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 261 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 12 "Use Maple's " }{TEXT 298 4 "Int " }{TEXT -1 147 "command \+
+to build a function V(z) that we can use later.  The syntax for functi
+on building is this (setting V(z) to the dying exponential function).
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "V:=z->exp(-z);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 293 "Note: re
+call that you had better not use the symbol V(z); Maple interprets thi
+s literally, i.e., V(z) is the name of the function you are defining, \+
+requiring you to use the awkward syntax V(z)(z) when using it.   As de
+fined above you type V(z) when you use it.  You can do the same thing \+
+with " }{TEXT 297 3 "int" }{TEXT -1 13 ", like this  " }{TEXT 297 16 "
+V:=z-> int(....)" }{TEXT -1 26 ".  In place of the symbol " }{XPPEDIT 
+18 0 "epsilon*o;" "6#*&%(epsilonG\"\"\"%\"oGF%" }{TEXT -1 120 " use e0
+, and define the constants so Maple can plot numbers.  Here, I'll get \+
+you started; you fill in what goes in (...)" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 130 "restart:e0:=8.854e-12;sigma:=1e-10;R:=0.5;V:=z->in
+t(sigma*R^2*sin(theta)/sqrt(R^2+z^2-2*R*z*cos(theta)),theta = 0 .. Pi/
+2)/(2*e0);" }}}{PARA 0 "" 0 "" {TEXT -1 225 " You will notice that Map
+le doesn't give you a formula for the answer this time; it just displa
+ys the integral.  I don't know why.  But now that it is a function you
+ can plot it as a function of z.  Do so, from z=-5 to z=5.  " }}{PARA 
+0 "" 0 "" {TEXT -1 419 "     Now calculate the total charge on the hem
+isphere and overlay plots of the true potential and the corresponding \+
+point charge potential.  The two plots should agree for |z|>>R.  You c
+an get a better fit by putting the point charge somewhere other than a
+t the origin; can you graphically find about the best value of z at wh
+ich to put the point charge?  Recall that the formula for the potentia
+l of a point charge is " }{XPPEDIT 18 0 "V(r) = q/(4*pi*epsilon[0]*r);
+" "6#/-%\"VG6#%\"rG*&%\"qG\"\"\"**\"\"%F*%#piGF*&%(epsilonG6#\"\"!F*F'
+F*!\"\"" }{TEXT -1 2 " ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 66 "------------------------------------
+------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 269 12 "Problem 3.10" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Pendulum, period" {TEXT -1 106 "A
+nother place integrals show up is in classical mechanics.  Consider th
+e equation of motion of a pendulum:" }}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 6 "      " }{XPPEDIT 18 0 "diff(theta,`$`(t,2)) = -Omega^2*sin(thet
+a);" "6#/-%%diffG6$%&thetaG-%\"$G6$%\"tG\"\"#,$*&%&OmegaGF,-%$sinG6#F'
+\"\"\"!\"\"" }{TEXT -1 0 "" }{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 6 "where " }{XPPEDIT 18 0 "Omega;" "6#%&OmegaG" }{TEXT -1 86 
+" is the small-oscillation frequency of the pendulum.  If we multiply \+
+this equation by " }{XPPEDIT 18 0 "d*theta/dt;" "6#*(%\"dG\"\"\"%&thet
+aGF%%#dtG!\"\"" }{TEXT -1 101 " and integrate once with respect to tim
+e, we get the conservation of energy theorem for this problem:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 20 "                    " }{XPPEDIT 18 0 "(d*theta/
+dt)^2/2 = Omega^2*cos(theta)-Omega^2*cos(theta[0]);" "6#/*&*(%\"dG\"\"
+\"%&thetaGF'%#dtG!\"\"\"\"#F+F*,&*&%&OmegaGF+-%$cosG6#F(F'F'*&F.F+-F06
+#&F(6#\"\"!F'F*" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 6 "where " }{XPPEDIT 18 0 "theta[0];" "6#&%&t
+hetaG6#\"\"!" }{TEXT -1 173 " is the initial angular position of the p
+endulum before we release it from rest.  We would like to know how lon
+g it takes the pendulum to get from its initial angle down to " }
+{XPPEDIT 18 0 "theta = 0;" "6#/%&thetaG\"\"!" }{TEXT -1 22 " because t
+his time is " }{XPPEDIT 18 0 "T/4;" "6#*&%\"TG\"\"\"\"\"%!\"\"" }
+{TEXT -1 66 " , one-quarter of the period of a pendulum with initial a
+mplitude " }{XPPEDIT 18 0 "theta[0];" "6#&%&thetaG6#\"\"!" }{TEXT -1 
+72 " .  (a) Show that the energy equation above can be rewritten in th
+e form" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 21 
+"                     " }{XPPEDIT 18 0 "d*theta/(Omega*sqrt(2*(cos(the
+ta)-cos(theta[0])))) = dt;" "6#/*(%\"dG\"\"\"%&thetaGF&*&%&OmegaGF&-%%
+sqrtG6#*&\"\"#F&,&-%$cosG6#F'F&-F16#&F'6#\"\"!!\"\"F&F&F8%#dtG" }
+{TEXT -1 6 "  .   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 73 "This means that the quarter period of the motion is given
+ by the integral" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 22 "                      " }{XPPEDIT 18 0 "Int(1/(Omega*sqrt
+(2*(cos(theta)-cos(theta[0])))),theta = 0 .. theta[0]) = T/4;" "6#/-%$
+IntG6$*&\"\"\"F(*&%&OmegaGF(-%%sqrtG6#*&\"\"#F(,&-%$cosG6#%&thetaGF(-F
+26#&F46#\"\"!!\"\"F(F(F:/F4;F9&F46#F9*&%\"TGF(\"\"%F:" }{TEXT -1 3 "  \+
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 121 "(b)
+ Have Maple do this integral in an attempt to get a formula for the pe
+riod T of a pendulum, using s and s0 instead of " }{XPPEDIT 18 0 "thet
+a;" "6#%&thetaG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "theta[0];" "6#&%&
+thetaG6#\"\"!" }{TEXT -1 162 " .  Once you try it you will probably be
+ unimpressed with the beauty of the result.  Part of the problem is th
+at Maple doesn't know what you are going to use for " }{XPPEDIT 18 0 "
+theta[0];" "6#&%&thetaG6#\"\"!" }{TEXT -1 88 ", so it gives you someth
+ing incredibly general (as far as it knows, you might even want " }
+{XPPEDIT 18 0 "theta[0];" "6#&%&thetaG6#\"\"!" }{TEXT -1 54 " to be co
+mplex).  To tie Maple down a little, use the " }{TEXT 297 6 "assume" }
+{TEXT -1 19 " command, like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 39 "assume(theta0,real,0<theta0,theta0<Pi);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 170 "(Note: when you see these variables again they will have
+ little ~ signs attached to them.  This is Maple's way of showing that
+ they have been restricted in meaning by an " }{TEXT 297 6 "assume" }
+{TEXT -1 99 " command.)  Now you can try integrating again; it will lo
+ok a little better, but it is still ugly. " }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 127 "You can often hel
+p Maple out by using integration tricks, like u-substitutions.  Try th
+is integral again, but use the identity " }{XPPEDIT 18 0 "cos(theta) =
+ 1-2*sin(theta/2)^2;" "6#/-%$cosG6#%&thetaG,&\"\"\"F)*&\"\"#F)*$-%$sin
+G6#*&F'F)F+!\"\"F+F)F1" }{TEXT -1 142 " to change the functions inside
+ the square root.  You and Maple are a team; don't be afraid to use wh
+at you have learned in your math classes." }}{PARA 0 "" 0 "" {TEXT -1 
+1 " " }}{PARA 0 "" 0 "" {TEXT -1 51 "(c) Plot the period T as function
+ of initial angle " }{XPPEDIT 18 0 "theta[0];" "6#&%&thetaG6#\"\"!" }
+{TEXT -1 11 " from 0 to " }{XPPEDIT 18 0 "pi;" "6#%#piG" }{TEXT -1 60 
+" .  Does your plot make physical sense?  Check the plot for " }
+{XPPEDIT 18 0 "theta[0];" "6#&%&thetaG6#\"\"!" }{TEXT -1 21 " both sma
+ll and near " }{XPPEDIT 18 0 "pi;" "6#%#piG" }{TEXT -1 3 " . " }}
+{PARA 0 "" 0 "" {TEXT -1 66 "-----------------------------------------
+-------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }{TEXT 270 12 "Problem 3.11" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Moment of inertia" 
+{TEXT -1 145 "Integrals also show up in physics when calculating the m
+oments of inertia of spinning objects.  The moment of inertia is defin
+ed by the integral " }{XPPEDIT 18 0 "int(s^2*rho,V);" "6#-%$intG6$*&%
+\"sG\"\"#%$rhoG\"\"\"%\"VG" }{TEXT -1 8 "  where " }{XPPEDIT 18 0 "s;
+" "6#%\"sG" }{TEXT -1 82 " is the perpendicular distance from the spin
+ axis to a point in the object, where " }{XPPEDIT 18 0 "rho;" "6#%$rho
+G" }{TEXT -1 32 " is the mass density, and where " }{XPPEDIT 18 0 "dV;
+" "6#%#dVG" }{TEXT -1 43 " is the differential volume element, e.g., \+
+" }{XPPEDIT 18 0 "dx*dy*dz;" "6#*(%#dxG\"\"\"%#dyGF%%#dzGF%" }{TEXT 
+-1 94 " in Cartesian coordinates.  (a) Use Maple to find the moment of
+ inertia of a sphere of radius " }{XPPEDIT 18 0 "R;" "6#%\"RG" }{TEXT 
+-1 95 " about an axis through its center.  This is most easily done in
+ spherical coordinates in which " }{XPPEDIT 18 0 "dV = r^2*sin(theta)*
+dr*d*theta*d*phi;" "6#/%#dVG*0%\"rG\"\"#-%$sinG6#%&thetaG\"\"\"%#drGF,
+%\"dGF,F+F,F.F,%$phiGF," }{TEXT -1 18 " .  If we use the " }{XPPEDIT 
+18 0 "z;" "6#%\"zG" }{TEXT -1 29 " axis as the spin axis, then " }
+{XPPEDIT 18 0 "s = r*sin(theta);" "6#/%\"sG*&%\"rG\"\"\"-%$sinG6#%&the
+taGF'" }{TEXT -1 109 " (draw a picture and convince yourself that this
+ is true).  Assume that the mass density is constant so that " }
+{XPPEDIT 18 0 "rho = M/(4*pi*R^3/3);" "6#/%$rhoG*&%\"MG\"\"\"**\"\"%F'
+%#piGF'%\"RG\"\"$F,!\"\"F-" }{TEXT -1 18 " .  The answer is " }
+{XPPEDIT 18 0 "2*M*R^2/5;" "6#**\"\"#\"\"\"%\"MGF%%\"RGF$\"\"&!\"\"" }
+{TEXT -1 68 " .  (b) Use Maple to find the moment of inertia of a cone
+ of height " }{XPPEDIT 18 0 "L;" "6#%\"LG" }{TEXT -1 17 " and base rad
+ius " }{XPPEDIT 18 0 "R;" "6#%\"RG" }{TEXT -1 158 " about the symmetry
+ axis of the cone (the axis from the sharp tip to the center of the bo
+ttom).  This is most easily done in cylindrical coordinates in which \+
+" }{XPPEDIT 18 0 "dV = r*dr*d*phi*dz;" "6#/%#dVG*,%\"rG\"\"\"%#drGF'%
+\"dGF'%$phiGF'%#dzGF'" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "s = r;" "6#
+/%\"sG%\"rG" }{TEXT -1 59 " .  Assume again that the mass density is c
+onstant so that " }{XPPEDIT 18 0 "rho = M/(pi*R^2*L/3);" "6#/%$rhoG*&%
+\"MG\"\"\"**%#piGF'*$%\"RG\"\"#F'%\"LGF'\"\"$!\"\"F/" }{TEXT -1 3 " . \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go t
+o top of section" 1 "" "Elementary integrals (top)" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{SECT 0 {PARA 5 "" 0 "Integrating special functions (top)" {TEXT -1 
+29 "Integrating special functions" }}{PARA 0 "" 0 "" {URLLINK 17 "Debu
+gging" 4 "http://www.mapleapps.com/powertools/physics/html/Debugging.h
+tml" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"Bessel function integrals" {TEXT -1 509 "Maple can also do integrals \+
+of special functions like Bessel functions, Legendre functions, etc.. \+
+ Sometimes it will give you a nice answer and sometimes it will either
+ just give you the integral back (meaning it doesn't know how to do it
+) or give you an answer so ugly it makes your eyeballs bleed.  When ei
+ther of these bad things happens, don't give up.  Sometimes if you pla
+y with the integral a little you can get a better answer.  And if all \+
+you need is a number, then Maple can always give you one via " }{TEXT 
+297 5 "evalf" }{TEXT -1 71 ".  For instance, suppose you needed to do \+
+this Bessel function integral" }}{PARA 0 "" 0 "" {TEXT -1 27 "        \+
+                   " }{XPPEDIT 18 0 "Int(J[0](x),x = 0 .. 1);" "6#-%$I
+ntG6$-&%\"JG6#\"\"!6#%\"xG/F,;F*\"\"\"" }{TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 24 "You might first try this" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 
+"s1:=Int(BesselJ(0,x),x=0..1);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "v
+alue(s1);" }}}{PARA 0 "" 0 "" {TEXT -1 129 "and be annoyed because you
+ haven't ever heard of Struve functions.  What you really want is just
+ a number, which you can get via " }{TEXT 298 6 "evalf " }{TEXT -1 
+136 " (Maple knows all about Struve functions even if you don't) or by
+ the following subtle change in the command (watch the decimal points)
+." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "s1:=Int(BesselJ(0,x),x=
+0..1.);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "value(s1);" }}}{PARA 0 "
+" 0 "" {TEXT -1 114 "That little decimal point on the 1. makes all the
+ difference.  Ok, here are some exercises for you to practice on." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 271 12 "Problem 3.12" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 132 "Try doing the following Bessel function integrals both at inde
+finite integrals and as definite integrals on the interval [1.0..2.0].
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "(a)  \+
+" }{XPPEDIT 18 0 "int(J[0](x),x);" "6#-%$intG6$-&%\"JG6#\"\"!6#%\"xGF,
+" }{TEXT -1 12 "      (b)   " }{XPPEDIT 18 0 "int(J[0](x)*x,x);" "6#-%
+$intG6$*&-&%\"JG6#\"\"!6#%\"xG\"\"\"F-F.F-" }{TEXT -1 12 "      (c)   \+
+" }{XPPEDIT 18 0 "int(K[0](x),x);" "6#-%$intG6$-&%\"KG6#\"\"!6#%\"xGF,
+" }{TEXT -1 12 "      (d)   " }{XPPEDIT 18 0 "int(I[1](x),x);" "6#-%$i
+ntG6$-&%\"IG6#\"\"\"6#%\"xGF," }{TEXT -1 4 "    " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 40 "(Note that you get these \+
+functions with " }{TEXT 297 12 "BesselJ(0,x)" }{TEXT -1 2 ", " }{TEXT 
+297 12 "BesselK(0,x)" }{TEXT -1 6 ", and " }{TEXT 297 12 "BesselI(1,x)
+" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 66 "---------------------
+---------------------------------------------" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 272 12 "Problem 3.13" }{TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Legendre polynomial integrals" 
+{TEXT -1 137 "Try doing the following Legendre polynomial integrals bo
+th as indefinite integrals and as definite integrals on the interval [
+-1.0..1.0]." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 7 "(a)    " }{XPPEDIT 18 0 "int(P[2](x)*x^2,x);" "6#-%$intG6$*&-&%
+\"PG6#\"\"#6#%\"xG\"\"\"*$F-F+F.F-" }{TEXT -1 12 "      (b)   " }
+{XPPEDIT 18 0 "int(P[3](x)*P[5](x),x);" "6#-%$intG6$*&-&%\"PG6#\"\"$6#
+%\"xG\"\"\"-&F)6#\"\"&6#F-F.F-" }{TEXT -1 64 "      (Note: to get thes
+e functions you have to use the command " }{TEXT 297 15 "with(orthopol
+y)" }{TEXT -1 13 " first, then " }{TEXT 298 6 "P(3,x)" }{TEXT -1 8 ", \+
+etc..)" }}{PARA 0 "" 0 "" {TEXT -1 66 "-------------------------------
+-----------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 273 12 "Problem 3.14" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Orthogonality" {TEXT -1 330 "You
+ might have been surprised at the answer to part (b) of the previous p
+roblem when you did it as a definite integral.  This is not just a sur
+prise, it is a miracle, and it goes by the name of orthogonality.  You
+ will study this idea in detail in Physics 318, but this seems like a \+
+nice place to give you an introduction to it.  " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 344 "If I were to ask you to \+
+check whether two vectors were orthogonal, you would know just what to
+ do.  You would take their dot product, and if it turned out to be zer
+o, then you would know that they are orthogonal.  And how would you ta
+ke the dot product?  You would multiply the like components of the two
+ vectors together and add them up, e.g.," }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 42 "    [1,2,3] dot [4,5,6] = 4 + 10 +
+ 18 = 32" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+29 "Well, an integral like this  " }{XPPEDIT 18 0 "int(P[3](x)*P[5](x)
+,x = -1 .. 1);" "6#-%$intG6$*&-&%\"PG6#\"\"$6#%\"xG\"\"\"-&F)6#\"\"&6#
+F-F./F-;,$F.!\"\"F." }{TEXT -1 51 "  is really just the same thing.  A
+t each value of " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 281 " the tw
+o function values are multiplied together and the integral adds them a
+ll up.  So it makes sense to say that two functions are orthogonal.  I
+t turns out that many functions have nice orthogonality properties, an
+d in this exercise you will use Maple to see what they are like." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 42 "(a) Show,
+ using Maple, that the functions " }{XPPEDIT 18 0 "sin(m*x);" "6#-%$si
+nG6#*&%\"mG\"\"\"%\"xGF(" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "cos(m*x)
+;" "6#-%$cosG6#*&%\"mG\"\"\"%\"xGF(" }{TEXT -1 65 "  are orthogonal to
+ each other when integrated over the interval " }{XPPEDIT 18 0 "[0, 2*
+Pi];" "6#7$\"\"!*&\"\"#\"\"\"%#PiGF'" }{TEXT -1 61 "  by finding the v
+alues of the following integrals both with " }{XPPEDIT 18 0 "m;" "6#%
+\"mG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 18 "
+ unequal and with " }{XPPEDIT 18 0 "m = n;" "6#/%\"mG%\"nG" }{TEXT -1 
+2 " ." }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }{XPPEDIT 18 0 "int(cos(m*
+x)*cos(n*x),x = 0 .. 2*Pi);" "6#-%$intG6$*&-%$cosG6#*&%\"mG\"\"\"%\"xG
+F,F,-F(6#*&%\"nGF,F-F,F,/F-;\"\"!*&\"\"#F,%#PiGF," }{TEXT -1 6 "      \+
+" }{XPPEDIT 18 0 "int(sin(m*x)*sin(n*x),x = 0 .. 2*Pi);" "6#-%$intG6$*
+&-%$sinG6#*&%\"mG\"\"\"%\"xGF,F,-F(6#*&%\"nGF,F-F,F,/F-;\"\"!*&\"\"#F,
+%#PiGF," }{TEXT -1 4 "    " }{XPPEDIT 18 0 "int(cos(m*x)*sin(n*x),x = \+
+0 .. 2*Pi);" "6#-%$intG6$*&-%$cosG6#*&%\"mG\"\"\"%\"xGF,F,-%$sinG6#*&%
+\"nGF,F-F,F,/F-;\"\"!*&\"\"#F,%#PiGF," }{TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 274 0 "" }}{PARA 0 "" 0 "" {TEXT -1 42 "(Hint: \+
+you will get a mess unless you use " }{TEXT 297 6 "assume" }{TEXT -1 
+20 " to tell Maple that " }{XPPEDIT 18 0 "m;" "6#%\"mG" }{TEXT -1 5 " \+
+and " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 152 " are integers.  App
+arently Maple assumes more than that they are integers; it also assume
+s that they are different integers, so you will have to do the " }
+{XPPEDIT 18 0 "m = n;" "6#/%\"mG%\"nG" }{TEXT -1 27 " case by using th
+e command " }{TEXT 298 4 "m:=n" }{TEXT -1 2 ".)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 104 "(b) Show, using Maple (this problem is an extension of Problem
+ 3.13 above), that the Legendre functions " }{XPPEDIT 18 0 "P[n](x);" 
+"6#-&%\"PG6#%\"nG6#%\"xG" }{TEXT -1 64 " are orthogonal to each other \+
+when two functions with different " }{XPPEDIT 18 0 "n;" "6#%\"nG" }
+{TEXT -1 78 "-values are integrated over the interval [-1.0..1.0].  Al
+so find the value of " }{XPPEDIT 18 0 "int(P[n](x)^2,x = -1 .. 1);" "6
+#-%$intG6$*$-&%\"PG6#%\"nG6#%\"xG\"\"#/F-;,$\"\"\"!\"\"F2" }{TEXT -1 
+31 "  .   You will need to use the " }{TEXT 297 15 "with(orthopoly)" }
+{TEXT -1 116 " command to tell Maple you are going to use these functi
+ons.  And when you try to find the value of the integral of " }
+{XPPEDIT 18 0 "P[n](x)^2;" "6#*$-&%\"PG6#%\"nG6#%\"xG\"\"#" }{TEXT -1 
+61 " , you will probably need to try several different values of " }
+{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 201 " and see if you can find t
+he general formula empirically.  This will be easier if you don't forc
+e floating point answers by using decimal points on the limits, i.e., \+
+use 1 and -1 instead of -1. and 1.." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 49 "(c) Show, using Maple, that the Bessel f
+unctions " }{XPPEDIT 18 0 "J[0](alpha[n]*x);" "6#-&%\"JG6#\"\"!6#*&&%&
+alphaG6#%\"nG\"\"\"%\"xGF." }{TEXT -1 59 " are orthogonal to each othe
+r with respect to the integral " }{XPPEDIT 18 0 "int(J[0](alpha[p]*x)*
+J[0](alpha[q]*x)*x,x = 0 .. 1);" "6#-%$intG6$*(-&%\"JG6#\"\"!6#*&&%&al
+phaG6#%\"pG\"\"\"%\"xGF2F2-&F)6#F+6#*&&F/6#%\"qGF2F3F2F2F3F2/F3;F+F2" 
+}{TEXT -1 21 " , where the numbers " }{XPPEDIT 18 0 "alpha[p];" "6#&%&
+alphaG6#%\"pG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "alpha[q];" "6#&%&al
+phaG6#%\"qG" }{TEXT -1 18 " are the zeros of " }{XPPEDIT 18 0 "J[0](x)
+;" "6#-&%\"JG6#\"\"!6#%\"xG" }{TEXT -1 54 " .  These zeros are availab
+le from the Maple function " }{TEXT 298 17 "BesselJZeros(n,m)" }{TEXT 
+-1 8 ", where " }{XPPEDIT 18 0 "n;" "6#%\"nG" }{TEXT -1 44 " is the or
+der of the Bessel function, i.e., " }{XPPEDIT 18 0 "n = 0;" "6#/%\"nG
+\"\"!" }{TEXT -1 5 " for " }{XPPEDIT 18 0 "J[0];" "6#&%\"JG6#\"\"!" }
+{TEXT -1 3 " , " }{XPPEDIT 18 0 "n = 1;" "6#/%\"nG\"\"\"" }{TEXT -1 5 
+" for " }{XPPEDIT 18 0 "J[1];" "6#&%\"JG6#\"\"\"" }{TEXT -1 19 " , etc
+., and where " }{XPPEDIT 18 0 "m;" "6#%\"mG" }{TEXT -1 19 " counts the
+ zeros (" }{XPPEDIT 18 0 "p;" "6#%\"pG" }{TEXT -1 5 " and " }{XPPEDIT 
+18 0 "q;" "6#%\"qG" }{TEXT -1 5 " are " }{XPPEDIT 18 0 "m;" "6#%\"mG" 
+}{TEXT -1 53 "-values), starting with the first one.  (For example " }
+{TEXT 298 19 "BesselJZeros(0.,1) " }{TEXT -1 122 "gives 2.404825558; n
+otice the decimal point--it is important.)  Then see if you can find a
+ formula for this integral when " }{XPPEDIT 18 0 "p = q;" "6#/%\"pG%\"
+qG" }{TEXT -1 24 " .  (Hint: when you set " }{XPPEDIT 18 0 "p = q;" "6
+#/%\"pG%\"qG" }{TEXT -1 47 " you will just get meaningless numbers bec
+ause " }{TEXT 298 12 "BesselJZeros" }{TEXT -1 79 " gives you floating \+
+point numbers back.  You can do better than this.  Replace " }{TEXT 
+298 18 "BesselJZeros(0.,n)" }{TEXT -1 6 " with " }{TEXT 298 17 "Bessel
+JZeros(0,n)" }{TEXT -1 101 " (no decimal point) and let Maple try to d
+o the integral symbolically.  You will get a simple answer." }}{PARA 
+0 "" 0 "" {TEXT -1 66 "-----------------------------------------------
+-------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 300 12 "Problem 3.15" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 667 "Let's go back to the associate
+d Legendre functions and plot them so that they all have about the sam
+e size.  We could scale them by their maximum values, but then we woul
+d have to find the zeros of large polynomials, which is hard.  It is a
+ctually easier to \"calculate their magnitudes\" in the same function-
+dot-product sense used in Problem 3.14.  To find the magnitude of a ve
+ctor we square the components, add the squares up, then take the squar
+e root.  The corresponding operation for functions is: square the func
+tion, integrate it over the relevant interval, then take the square ro
+ot.  Here is the associated Legendre function definition again from Pr
+oblem 3.4" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "Pnm:=(n,m,x)-> \+
+(-1)^m*sqrt(1-x^2)^m*diff(P(n,x),x$m);" }}}{PARA 0 "" 0 "" {TEXT -1 
+48 "The magnitude of this function is obtained from " }{XPPEDIT 18 0 "
+abs(P[nm]) = sqrt(int(P[nm](x)^2,x = -1 .. 1));" "6#/-%$absG6#&%\"PG6#
+%#nmG-%%sqrtG6#-%$intG6$*$-&F(6#F*6#%\"xG\"\"#/F6;,$\"\"\"!\"\"F;" }
+{TEXT -1 167 "  .  Redo the plots in Problem 3.4, but divide each of t
+he plotted functions by this magnitude and check to see that they all \+
+have about the same size on the new plot." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 81 "--------------------
+-------------------------------------------------------------" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{TEXT 275 12 "Problem 3.16" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 227 "Finally, let's see wha
+t Maple does with the integrals of a few miscellaneous functions.  Try
+ to get Maple to do (a-c) both as indefinite integrals and as definite
+ integrals between .5 and 1.  Do (d) only as a definite integral." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "(a)    " }
+{TEXT 297 1 " " }{XPPEDIT 18 0 "int(GAMMA(x),x);" "6#-%$intG6$-%&GAMMA
+G6#%\"xGF)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 8 "(b)     " }{XPPEDIT 18 0 "int(erf(x),x);" "6#-%$intG6$-%$erfG6#%
+\"xGF)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "
+(c)     " }{XPPEDIT 18 0 "int(K(x),x);" "6#-%$intG6$-%\"KG6#%\"xGF)" }
+{TEXT -1 11 "  (Maple's " }{TEXT 298 9 "EllipticK" }{TEXT -1 1 ")" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "(d)     " 
+}{XPPEDIT 18 0 "int(exp(-x^2.3),x = 0 .. 1);" "6#-%$intG6$-%$expG6#,$)
+%\"xG-%&FloatG6$\"#B!\"\"F0/F+;\"\"!\"\"\"" }{TEXT -1 89 "  (Note: try
+ this integral with both integer 1 and floating point 1. as the upper \+
+limit.)" }}{PARA 0 "" 0 "" {TEXT -1 1 "\004" }}{PARA 0 "" 0 "" {TEXT 
+-1 187 "This should teach you that sometimes Maple can't do indefinite
+ integrals, that it can give you a floating point number for a definit
+e integral but you might have to insist on it by using " }{TEXT 297 5 
+"evalf" }{TEXT -1 29 ", and that sometimes it will " }{TEXT 276 28 "gi
+ve you the wrong answer!  " }{TEXT -1 0 "" }{TEXT 277 0 "" }{TEXT -1 
+6 "(Plot " }{XPPEDIT 18 0 "exp(-x^2.3);" "6#-%$expG6#,$)%\"xG-%&FloatG
+6$\"#B!\"\"F-" }{TEXT -1 415 " between 0 and 1 to figure out which of \+
+the two answers Maple gave you for (d) is wrong.)  Maple doesn't make \+
+many mistakes, but occasionally it louses up.  This means that you hav
+e to be very careful and not trust Maple, or any other computer progra
+m, too much.  Indeed, a good rule to follow upon receiving an answer f
+rom any computer program is to quietly mutter under your breath, \"Wel
+l, that's probably wrong.\"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Integrating specia
+l functions (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 5 "" 0 "Multiple integra
+ls (top)" {TEXT -1 18 "Multiple Integrals" }}{PARA 0 "" 0 "" {URLLINK 
+17 "Debugging" 4 "http://www.mapleapps.com/powertools/physics/html/Deb
+ugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "Double integrals" 
+{TEXT -1 73 "Multiple integrals show up all the time in physics proble
+ms, things like " }{XPPEDIT 18 0 "Int(Int(erf(x*sin(y)),x = 0 .. 1),y \+
+= 0 .. 1);" "6#-%$IntG6$-F$6$-%$erfG6#*&%\"xG\"\"\"-%$sinG6#%\"yGF-/F,
+;\"\"!F-/F1;F4F-" }{TEXT -1 66 "  .  A double integral like this can b
+e done in Maple with nested " }{TEXT 297 3 "int" }{TEXT -1 20 " comman
+ds, like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "s1:=Int(Int(erf(x*sin(y)),x
+=0..1),y=0..1);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "s1:=value(s1);" 
+}}}{PARA 0 "" 0 "" {TEXT -1 131 "As usual, if Maple just gives it back
+ to you as a displayed integral it means it can't do it, but if you wa
+nt a number you can use " }{TEXT 297 6 "evalf " }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 10 "evalf(s1);" }}}{PARA 0 "" 0 "" {TEXT -1 120 "Or,
+ if you just wanted a number in the first place, you can tell Maple to
+ do the integral numerically using this command" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 47 "evalf(Int(Int(erf(x*sin(y)),x=0..1.),y=0..1.))
+;" }}}{PARA 0 "" 0 "" {TEXT -1 208 "A variation on this command tells \+
+Maple to only compute the integral numerically accurate to 6 (or any o
+ther number) of significant figures (the ,6 after the integration rang
+e specifies the number of digits.)" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 51 "evalf(Int(Int(erf(x*sin(y)),x=0..1.,6),y=0..1.,6));" 
+}}}{PARA 0 "" 0 "" {TEXT -1 139 "You might want to use this if Maple i
+s taking forever to give you the answer--it will go faster if you ask \+
+for fewer significant figures.  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+66 "------------------------------------------------------------------
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 286 12 "Problem 3.17" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 50 "Get the numerical answer to this double integral \+
+ " }{XPPEDIT 18 0 "Int(Int(J[0](sqrt(x*y)),x = 1 .. 2),y = 1 .. 2);" "
+6#-%$IntG6$-F$6$-&%\"JG6#\"\"!6#-%%sqrtG6#*&%\"xG\"\"\"%\"yGF3/F2;F3\"
+\"#/F4;F3F7" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 66 "-----------------------------------------
+-------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 301 17 "Triple integrals:" }}{PARA 0 "" 0 "Triple integra
+ls" {TEXT -1 73 "It also often happens that you want to do triple inte
+grals, perhaps like " }{XPPEDIT 18 0 "Int(Int(Int(erf(x*sin(y*z)),x = \+
+0 .. 1),y = 0 .. 1),z = 0 .. 1);" "6#-%$IntG6$-F$6$-F$6$-%$erfG6#*&%\"
+xG\"\"\"-%$sinG6#*&%\"yGF/%\"zGF/F//F.;\"\"!F//F4;F8F//F5;F8F/" }
+{TEXT -1 52 "  .  The straightforward Maple command to do this is" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 63 "s1:=int(int(int(cos(x)*erf(x*sin(y*z)),x=0..
+1),y=0..1),z=0..1);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 56 "And when Maple gives it back unevaluated, you could use
+ " }{TEXT 297 6 "evalf " }{TEXT -1 379 "again.  But when you do you wi
+ll notice something rather annoying--Maple takes forever to do it.  Th
+e problem is that for triple integrals there are so many calculations \+
+to do that Maple is just too slow.  You need a real number cruncher pr
+ogram to get the job done.  And for integrals of dimension 4 or higher
+, even good number crunchers can take a long time.  Go ahead and try \+
+" }{TEXT 297 6 "evalf," }{TEXT -1 106 " but be prepared to stop the co
+mputation with the stop sign on the toolbar when you can't take it any
+more." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "evalf(s1);" }}}{PARA 0 "" 0 "" {TEXT -1 148 "But if y
+ou use Maple's numerical integration command with a limited number of \+
+significant figures you get an answer in a reasonable length of time..
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 75 "evalf(Int(Int(Int(cos(x)
+*erf(x*sin(y*z)),x=0..1.,4),y=0..1.,4),z=0..1.,4));" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 287 12 "Problem 3.18" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 129 "Use the triple in
+tegral method defined above to get the numerical value of the followin
+g triple integral in spherical coordinates" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "                               \+
+" }{XPPEDIT 18 0 "Int(Int(Int(r^6*sin(theta)^3*cos(r*theta*phi)^2*(1+s
+in(theta)^2),r = 0 .. 2),theta = 0 .. Pi),phi = 0 .. 2*Pi);" "6#-%$Int
+G6$-F$6$-F$6$**%\"rG\"\"'-%$sinG6#%&thetaG\"\"$-%$cosG6#*(F+\"\"\"F0F6
+%$phiGF6\"\"#,&F6F6*$-F.6#F0F8F6F6/F+;\"\"!F8/F0;F?%#PiG/F7;F?*&F8F6FB
+F6" }{TEXT -1 4 "   ." }}{PARA 0 "" 0 "" {TEXT -1 286 "Make sure your \+
+answer is accurate to 4 significant figures.  Even this level of accur
+acy will take some time to achieve.  It would be worth your while to t
+ry to find a way to do one of these integrals analytically so that you
+ only have to do a double integral instead of a triple one.  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "student package" {TEXT 
+-1 81 "Another way to do double, and even triple, integrals is with th
+e routines in the " }{TEXT 297 8 "student " }{TEXT -1 130 "package.  T
+hese are a collection of routines written to support a calculus course
+ and you can gain access to them with the command" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 14 "with(student);" }}}{PARA 0 "" 0 "" {TEXT -1 
+53 "To see what these routines do and how to use them use" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "?student" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 
+17 "Go to top of section" 1 "" "Multiple integrals (top)" }{TEXT -1 
+21 "                     " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 5 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of sec
+tion" 1 "" "Integration (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Series expansions (top)" {TEXT -1 17 
+"Series expansions" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http:
+//www.mapleapps.com/powertools/physics/html/Debugging.html" "" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+318 "One of the most important mathematical ideas in all of physics is
+ the idea of a series solution to a problem.  This is so important in \+
+physics because we usually are not interested in the most exact soluti
+on to a problem, but rather in the most illuminating solution to a pro
+blem.  Consider, for example, the function " }{XPPEDIT 18 0 "sech(x);
+" "6#-%%sechG6#%\"xG" }{TEXT -1 344 ".  This is a function you should \+
+know, and even learned once, but have since forgotten.  And even if yo
+u happen to remember that it is the reciprocal of the hyperbolic cosin
+e function, this probably doesn't help you to visualize it very well. \+
+ But what if I were to tell you that near zero this function is approx
+imated by the simple function  " }{XPPEDIT 18 0 "1-x^2/2;" "6#,&\"\"\"
+F$*&%\"xG\"\"#F'!\"\"F(" }{TEXT -1 36 " ?  Now you can see that it is \+
+1 at " }{XPPEDIT 18 0 "x = 0;" "6#/%\"xG\"\"!" }{TEXT -1 63 " and that
+ it falls off like a parabola in both directions from " }{XPPEDIT 18 
+0 "x = 0;" "6#/%\"xG\"\"!" }{TEXT -1 42 " .  And then what if  I told \+
+you that for " }{XPPEDIT 18 0 "abs(x);" "6#-%$absG6#%\"xG" }{TEXT -1 
+57 " very large the function is approximated by the function " }
+{XPPEDIT 18 0 "2*e^(-abs(x));" "6#*&\"\"#\"\"\")%\"eG,$-%$absG6#%\"xG!
+\"\"F%" }{TEXT -1 66 " ?  Now you can see that it falls to zero expone
+ntially away from " }{XPPEDIT 18 0 "x = 0;" "6#/%\"xG\"\"!" }{TEXT -1 
+47 ", so the function just looks like a haystack.  " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "Taylor's theorem" {TEXT -1 128 "Maple \+
+knows how to find approximations to most of the functions it deals wit
+h.  The commands that find these approximations are " }{TEXT 297 6 "ta
+ylor" }{TEXT -1 2 ", " }{TEXT 297 6 "series" }{TEXT -1 6 ", and " }
+{TEXT 297 6 "asympt" }{TEXT -1 46 "; we will see how they work in this
+ section.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 40 "Taylor's theorem is: that if a function " }{XPPEDIT 18 0 "f(x);
+" "6#-%\"fG6#%\"xG" }{TEXT -1 58 " is defined and has well-defined der
+ivatives at the point " }{XPPEDIT 18 0 "x = a;" "6#/%\"xG%\"aG" }
+{TEXT -1 12 " , then for " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 6 "
+ near " }{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 48 "  the function can
+ be approximated by the series" }}{PARA 0 "" 0 "" {TEXT -1 12 "       \+
+     " }{XPPEDIT 18 0 "f(x) = f(a)+diff(f(a),x)*(x-a)+diff(f(a),`$`(x,
+2))*(x-a)^2/2!+diff(f(a),`$`(x,3))*(x-a)^3/3!;" "6#/-%\"fG6#%\"xG,*-F%
+6#%\"aG\"\"\"*&-%%diffG6$-F%6#F+F'F,,&F'F,F+!\"\"F,F,*(-F/6$-F%6#F+-%
+\"$G6$F'\"\"#F,*$,&F'F,F+F4F=F,-%*factorialG6#F=F4F,*(-F/6$-F%6#F+-F;6
+$F'\"\"$F,*$,&F'F,F+F4FJF,-FA6#FJF4F," }{TEXT -1 9 "  + . . ." }}
+{PARA 0 "" 0 "" {TEXT -1 15 "               " }}{PARA 0 "" 0 "" {TEXT 
+-1 89 "Maple knows this theorem and can use it to generate all kinds o
+f series with the command " }{TEXT 297 6 "taylor" }{TEXT -1 41 ".  For
+ instance, here is the one for the " }{XPPEDIT 18 0 "sech;" "6#%%sechG
+" }{TEXT -1 25 " function discussed above" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "taylor(sech(x),x=0,20);" }}}{PARA 0 "" 0 "" {TEXT -1 
+127 "The x=0 option tells Maple to take the expansion about 0 and the \+
+20 tells it to include terms until the error term is of order " }
+{XPPEDIT 18 0 "x^20;" "6#*$%\"xG\"#?" }{TEXT -1 1 "." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 289 12 "Problem 3.19" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "Find the Taylor ex
+pansions of the following functions about " }{XPPEDIT 18 0 "x = 0;" "6
+#/%\"xG\"\"!" }{TEXT -1 26 " and keeping terms out to " }{XPPEDIT 18 
+0 "x^10;" "6#*$%\"xG\"#5" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "(a) " }{XPPEDIT 18 0 "sin(x);" "6#-
+%$sinG6#%\"xG" }{TEXT -1 10 "      (b) " }{XPPEDIT 18 0 "cos(x);" "6#-
+%$cosG6#%\"xG" }{TEXT -1 10 "      (c) " }{XPPEDIT 18 0 "arctan(x);" "
+6#-%'arctanG6#%\"xG" }{TEXT -1 10 "      (d) " }{XPPEDIT 18 0 "exp(x);
+" "6#-%$expG6#%\"xG" }{TEXT -1 10 "      (e) " }{XPPEDIT 18 0 "ln(1+x)
+;" "6#-%#lnG6#,&\"\"\"F'%\"xGF'" }{TEXT -1 11 "      (f)  " }{XPPEDIT 
+18 0 "(1+x)^p;" "6#),&\"\"\"F%%\"xGF%%\"pG" }{TEXT -1 3 "   " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 227 "Your answers w
+ill look pretty impressive, but you will find that in most physics pro
+blems where expansions are important, we only keep the first two terms
+, so you can often get what you want without all of the clutter by usi
+ng " }{TEXT 297 18 "taylor(f(x),x=0,3)" }{TEXT -1 26 ", which just goe
+s through " }{XPPEDIT 18 0 "x^2;" "6#*$%\"xG\"\"#" }{TEXT -1 4 " .  " 
+}}{PARA 0 "" 0 "" {TEXT -1 66 "---------------------------------------
+---------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+256 12 "Problem 3.20" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 86 "Maple can also do Taylor expansions of s
+pecial functions.  Find the expansions of (a) " }{XPPEDIT 18 0 "J[0](x
+);" "6#-&%\"JG6#\"\"!6#%\"xG" }{TEXT -1 7 ",  (b) " }{XPPEDIT 18 0 "I[
+2](x);" "6#-&%\"IG6#\"\"#6#%\"xG" }{TEXT -1 8 " ,  (c) " }{XPPEDIT 18 
+0 "K(x);" "6#-%\"KG6#%\"xG" }{TEXT -1 29 " (complete elliptic integral
+ " }{TEXT 298 9 "EllipticK" }{TEXT -1 11 "), and (d) " }{XPPEDIT 18 0 
+"GAMMA(x);" "6#-%&GAMMAG6#%\"xG" }{TEXT -1 21 " .  Do (a)-(c) about " 
+}{XPPEDIT 18 0 "x = 0;" "6#/%\"xG\"\"!" }{TEXT -1 16 "  and (d) about \+
+" }{XPPEDIT 18 0 "x = 1;" "6#/%\"xG\"\"\"" }{TEXT -1 22 " .Do each one
+ through " }{XPPEDIT 18 0 "x^10;" "6#*$%\"xG\"#5" }{TEXT -1 93 " .  Th
+e answer to (d) is pretty awful--see if you can get something more rea
+sonable by using " }{TEXT 297 5 "evalf" }{TEXT -1 66 ", or by telling \+
+Maple to expand about x=1.0 (decimal point again)." }}{PARA 0 "" 0 "" 
+{TEXT -1 66 "---------------------------------------------------------
+---------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 282 12 "Problem 3.21
+" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Serie
+s approximation, general" {TEXT -1 38 "Now try expanding the Bessel fu
+nction " }{XPPEDIT 18 0 "K[0](x);" "6#-&%\"KG6#\"\"!6#%\"xG" }{TEXT 
+-1 7 " about " }{XPPEDIT 18 0 "x = 0;" "6#/%\"xG\"\"!" }{TEXT -1 356 "
+ .   Maple will fail, but it will make a suggestion, and it is a good \+
+one.  If the function in question has a singularity of some kind at th
+e expansion point, then either the function or some of its derivatives
+ do not exist at that point and a Taylor series is not possible.  But \+
+there are other kinds of series that can approximate functions, and Ma
+ple's " }{TEXT 297 7 "series " }{TEXT -1 33 "command, which works almo
+st like " }{TEXT 297 6 "taylor" }{TEXT -1 50 " (but is more general) c
+an give them to you.  Try " }{TEXT 297 27 "series(BesselK(0,x),x=0,3);
+" }{TEXT -1 127 " and see what happens.  Notice that by ignoring most \+
+of this mess and concentrating just on the leading term you can tell t
+hat " }{XPPEDIT 18 0 "K[0](x);" "6#-&%\"KG6#\"\"!6#%\"xG" }{TEXT -1 
+66 " is logarithmically singular.  (Notice also that Euler's constant \+
+" }{XPPEDIT 18 0 "gamma;" "6#%&gammaG" }{TEXT -1 60 " appears in this \+
+expansion.  To learn a little about it use " }{TEXT 298 7 "?gamma " }
+{TEXT -1 78 ".)  When  you get this to work, try the same thing on the
+ following functions:" }}{PARA 0 "" 0 "" {TEXT -1 5 "(a)  " }{XPPEDIT 
+18 0 "cot(x);" "6#-%$cotG6#%\"xG" }{TEXT -1 8 "   (b)  " }{XPPEDIT 18 
+0 "1/tanh(x);" "6#*&\"\"\"F$-%%tanhG6#%\"xG!\"\"" }{TEXT -1 8 "   (c) \+
+ " }{XPPEDIT 18 0 "sqrt(x)/sin(x^2);" "6#*&-%%sqrtG6#%\"xG\"\"\"-%$sin
+G6#*$F'\"\"#!\"\"" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 116 "Try different numbers in place of the 3
+ in the series command above and see if you can tell precisely what it
+ means." }}{PARA 0 "" 0 "" {TEXT -1 66 "------------------------------
+------------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}{TEXT 281 12 "Problem 3.22" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "Asymptotic series" {TEXT -1 132 "There is another kind of expa
+nsion that is very useful in mathematical physics: the asymptotic expa
+nsion.  It is an expansion about " }{XPPEDIT 18 0 "infinity;" "6#%)inf
+inityG" }{TEXT -1 154 " , which seems odd, but all it means is that we
+ want to know how a function behaves when its argument is really big. \+
+ The Maple command that does this is " }{TEXT 297 13 "asympt(f,x,2)" }
+{TEXT -1 5 " (or " }{TEXT 297 22 "series(f,x=infinity,2)" }{TEXT -1 
+76 ") where f is a Maple expression.  Try this on the following functi
+ons using " }{TEXT 297 6 "series" }{TEXT -1 16 " on (a)-(b) and " }
+{TEXT 297 6 "asympt" }{TEXT -1 82 " on (c)-(d).  Only keep 2 terms, as
+ indicated in the sample commands just above.  " }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "(a) " }{XPPEDIT 18 0 "J[0](x);" "6#-&%\"JG6#\"\"!6#%\"xG" 
+}{TEXT -1 7 "   (b) " }{XPPEDIT 18 0 "I[1](x);" "6#-&%\"IG6#\"\"\"6#%
+\"xG" }{TEXT -1 7 "   (c) " }{XPPEDIT 18 0 "K[0](x);" "6#-&%\"KG6#\"\"
+!6#%\"xG" }{TEXT -1 6 "  (d) " }{XPPEDIT 18 0 "GAMMA(x);" "6#-%&GAMMAG
+6#%\"xG" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 259 "I have suggested that you only put a 2 in the las
+t slot because usually all we care about in an asymptotic expansion is
+ the leading term because it answers the most important questions:  (1
+) does the function blow up or die? and (2) in what way does it do it?
+" }}{PARA 0 "" 0 "" {TEXT -1 66 "-------------------------------------
+-----------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+257 12 "Problem 3.23" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 109 "Here's an example of how we use this id
+ea to solve physics problems.  The equation of motion of a pendulum is
+" }}{PARA 0 "" 0 "" {TEXT -1 26 "                          " }
+{XPPEDIT 18 0 "diff(theta,`$`(t,2)) = -g*sin(theta)/L;" "6#/-%%diffG6$
+%&thetaG-%\"$G6$%\"tG\"\"#,$*(%\"gG\"\"\"-%$sinG6#F'F0%\"LG!\"\"F5" }
+{TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 16 "where the angle " }
+{XPPEDIT 18 0 "theta;" "6#%&thetaG" }{TEXT -1 52 " is zero if the pend
+ulum hangs straight down and is " }{XPPEDIT 18 0 "pi;" "6#%#piG" }
+{TEXT -1 83 " if the pendulum is balancing straight up (think a rod pe
+ndulum, not a string one)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 160 "Maple can solve this equation, but the answer lo
+oks both ugly and unfamiliar.  So what we would like to do is look at \+
+this equation near some special values of " }{XPPEDIT 18 0 "theta;" "6
+#%&thetaG" }{TEXT -1 22 " (like straight down: " }{XPPEDIT 18 0 "theta
+ = 0;" "6#/%&thetaG\"\"!" }{TEXT -1 18 " and straight up: " }{XPPEDIT 
+18 0 "theta = pi;" "6#/%&thetaG%#piG" }{TEXT -1 221 ") and see if we c
+an change this hard differential equation into an approximate easier o
+ne.  (Note the rest of this problem will only make sense if you know w
+hat the solutions of these two differential equations look like:" }}
+{PARA 0 "" 0 "" {TEXT -1 16 "      (i)       " }{XPPEDIT 18 0 "diff(x,
+`$`(t,2)) = -omega^2*x;" "6#/-%%diffG6$%\"xG-%\"$G6$%\"tG\"\"#,$*&%&om
+egaGF,F'\"\"\"!\"\"" }{TEXT -1 24 "          and    (ii)   " }
+{XPPEDIT 18 0 "diff(x,`$`(t,2)) = omega^2*x;" "6#/-%%diffG6$%\"xG-%\"$
+G6$%\"tG\"\"#*&%&omegaGF,F'\"\"\"" }{TEXT -1 10 "         ." }}{PARA 
+0 "" 0 "" {TEXT -1 114 "The first one is the simple harmonic oscillato
+r whose solutions just wiggle up and down sinusoidally at frequency " 
+}{XPPEDIT 18 0 "omega;" "6#%&omegaG" }{TEXT -1 12 " like this: " }
+{XPPEDIT 18 0 "cos(omega*t);" "6#-%$cosG6#*&%&omegaG\"\"\"%\"tGF(" }
+{TEXT -1 4 " or " }{XPPEDIT 18 0 "sin(omega*t);" "6#-%$sinG6#*&%&omega
+G\"\"\"%\"tGF(" }{TEXT -1 45 " ;  the second one has a growing exponen
+tial " }{XPPEDIT 18 0 "exp(omega*t);" "6#-%$expG6#*&%&omegaG\"\"\"%\"t
+GF(" }{TEXT -1 200 "  for one of its solutions, so it represents unsta
+ble motion.   Remember these two forms, one with a positive coefficien
+t on the right and one with a negative one as you continue with this p
+roblem.)  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 27 "The pendulum equation with " }{XPPEDIT 18 0 "sin(theta);" "6#-%
+$sinG6#%&thetaG" }{TEXT -1 186 " in it can be made to look like these \+
+simpler equations by using a series expansion.  (a)  Expand the right-
+hand side of the pendulum equation about the downward equilibrium posi
+tion at " }{XPPEDIT 18 0 "theta = 0;" "6#/%&thetaG\"\"!" }{TEXT -1 
+184 " and by comparing it to (i) and (ii) show that simple harmonic os
+cillation results.  (b) Expand the right-hand side of the pendulum equ
+ation about the vertical equilibrium position at " }{XPPEDIT 18 0 "the
+ta = Pi;" "6#/%&thetaG%#PiG" }{TEXT -1 46 "  .  After you expand make \+
+the u-substitution " }{XPPEDIT 18 0 "theta = phi+pi;" "6#/%&thetaG,&%$
+phiG\"\"\"%#piGF'" }{TEXT -1 26 "  in the pendulum equation" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 27 "               \+
+            " }{XPPEDIT 18 0 "diff(theta,`$`(t,2)) = -g*sin(theta)/L;
+" "6#/-%%diffG6$%&thetaG-%\"$G6$%\"tG\"\"#,$*(%\"gG\"\"\"-%$sinG6#F'F0
+%\"LG!\"\"F5" }{TEXT -1 4 "    " }}{PARA 0 "" 0 "" {TEXT -1 34 "to get
+ a differential equation in " }{XPPEDIT 18 0 "phi;" "6#%$phiG" }{TEXT 
+-1 364 " .  Compare the resulting equation with (i) and (ii) to show t
+hat this new equation has unstable solutions.  (This is really just a \+
+fancy mathematical way of saying something you already know:  if you h
+ang a yardstick straight down and wiggle it a little, it just swings b
+ack and forth; if you balance a yardstick straight up and wiggle it a \+
+little it falls over.)" }}{PARA 0 "" 0 "" {TEXT -1 66 "---------------
+---------------------------------------------------" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 280 12 "Problem 3.24" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "In Einstein's theory of relativ
+ity the energy of an object of mass " }{XPPEDIT 18 0 "m;" "6#%\"mG" }
+{TEXT -1 17 " moving at speed " }{XPPEDIT 18 0 "v;" "6#%\"vG" }{TEXT 
+-1 32 " is given by the famous formula " }{XPPEDIT 18 0 "E = m*c^2/sqr
+t(1-v^2/(c^2));" "6#/%\"EG*(%\"mG\"\"\"*$%\"cG\"\"#F'-%%sqrtG6#,&F'F'*
+&%\"vGF**$F)F*!\"\"F2F2" }{TEXT -1 74 "  .  An interesting question is
+: what happened to good old kinetic energy " }{XPPEDIT 18 0 "K = m*v^2
+/2;" "6#/%\"KG*(%\"mG\"\"\"*$%\"vG\"\"#F'F*!\"\"" }{TEXT -1 204 " from
+ freshman physics?  The answer is obtained by means of a Taylor expans
+ion.  Assume that the object is moving at much less than the speed of \+
+light and make a series expansion of Einstein's formula in " }
+{XPPEDIT 18 0 "v;" "6#%\"vG" }{TEXT -1 139 " , keeping two terms.  One
+ of them will be your old friend and the other is Einstein's idea of r
+est energy:  objects with mass have energy." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 278 0 "" }{TEXT 279 0 "" }{TEXT -1 66 "----------------
+--------------------------------------------------" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 284 12 "Problem 3.25" }{TEXT 283 0 "" }{TEXT -1 
+0 "" }}{PARA 0 "" 0 "Electric dipole" {TEXT -1 100 "The formula from f
+reshman electricity and magnetism for the potential (voltage) of a poi
+nt charge is" }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }{XPPEDIT 18 0 "V(r
+) = q/(4*pi*epsilon[0]*r);" "6#/-%\"VG6#%\"rG*&%\"qG\"\"\"**\"\"%F*%#p
+iGF*&%(epsilonG6#\"\"!F*F'F*!\"\"" }{TEXT -1 172 "  .  The formula for
+ the potential of a dipole is usually not introduced until later, but \+
+Maple can help you find it.  A dipole is a pair of point charges, one \+
+with charge " }{XPPEDIT 18 0 "q;" "6#%\"qG" }{TEXT -1 27 " and the oth
+er with charge " }{XPPEDIT 18 0 "-q;" "6#,$%\"qG!\"\"" }{TEXT -1 24 ",
+ separated by distance " }{XPPEDIT 18 0 "d;" "6#%\"dG" }{TEXT -1 48 ".
+  Their dipole moment is denoted by the symbol " }{XPPEDIT 18 0 "p;" "
+6#%\"pG" }{TEXT -1 16 " with magnitude " }{XPPEDIT 18 0 "p = qd;" "6#/
+%\"pG%#qdG" }{TEXT -1 53 " .  Let's place the positive charge on the z
+-axis at " }{XPPEDIT 18 0 "d/2;" "6#*&%\"dG\"\"\"\"\"#!\"\"" }{TEXT 
+-1 42 " and the negative charge on the z-axis at " }{XPPEDIT 18 0 "-d/
+2;" "6#,$*&%\"dG\"\"\"\"\"#!\"\"F(" }{TEXT -1 93 " .  If we do this an
+d use spherical coordinates then the potential as a function of distan
+ce " }{XPPEDIT 18 0 "r;" "6#%\"rG" }{TEXT -1 33 " from the origin and \+
+polar angle " }{XPPEDIT 18 0 "theta;" "6#%&thetaG" }{TEXT -1 3 " is" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "        \+
+  " }{XPPEDIT 18 0 "V(r,theta) = q*(1/sqrt(r^2+d^2/4-r*d*cos(theta))-1
+/sqrt(r^2+d^2/4+r*d*cos(theta)))/(4*pi*epsilon[0]);" "6#/-%\"VG6$%\"rG
+%&thetaG*(%\"qG\"\"\",&*&F+F+-%%sqrtG6#,(*$F'\"\"#F+*&%\"dGF3\"\"%!\"
+\"F+*(F'F+F5F+-%$cosG6#F(F+F7F7F+*&F+F+-F/6#,(*$F'F3F+*&F5F3F6F7F+*(F'
+F+F5F+-F:6#F(F+F+F7F7F+*(F6F+%#piGF+&%(epsilonG6#\"\"!F+F7" }}{PARA 0 
+"" 0 "" {TEXT -1 69 "Make a series expansion of this formula in small \+
+separation distance " }{XPPEDIT 18 0 "d;" "6#%\"dG" }{TEXT -1 133 " an
+d just keep the leading term to find the formula for the potential of \+
+a dipole in spherical coordinates.  Help Maple out by using " }{TEXT 
+297 11 "assume(r>0)" }{TEXT -1 202 ".  You may have to experiment with
+ the order of the expansion--1 won't get the job done.  You may also f
+ind it helpful to use the 'leadterm' form of the series command.  Look
+ it up in online help using " }{TEXT 298 17 "?series[leadterm]" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 
+1 "" "Series expansions (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Sums (top)" {TEXT -1 4 "Sums" }}
+{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/po
+wertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Sums, finite and infinite" {TEXT 
+-1 182 "Your calculus class was also where you got introduced to the i
+dea of infinite sums.  Maple knows all about them and can do some pret
+ty amazing things.  Consider my personal favorite " }{XPPEDIT 18 0 "su
+m(1/(n^2),n = 1 .. infinity);" "6#-%$sumG6$*&\"\"\"F'*$%\"nG\"\"#!\"\"
+/F);F'%)infinityG" }{TEXT -1 41 "  .  The Maple command that does this
+ is " }{TEXT 297 4 "sum " }}{PARA 0 "" 0 "" {TEXT -1 36 "and its synta
+x is about the same as " }{TEXT 298 5 "int's" }{TEXT -1 17 " syntax:  \+
+(Note: " }{TEXT 298 3 "Sum" }{TEXT -1 25 " is the inert form.)  Try" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 29 "sum(1/'n'^2,'n'=1..infinity);" }}}{PARA 0 "
+" 0 "" {TEXT -1 68 "a lovely and unexpected result.  In this form the \+
+first argument of " }{TEXT 297 4 "sum " }{TEXT -1 528 "is an expressio
+n.  Note a peculiarity of Maple in this command: the index n is in sin
+gle quotes.  You don't always have to do this, but if you don't then M
+aple will fail you at some point in your computational life, so you ou
+ght to at least know about this use of single quotes.  (The single quo
+tes tell Maple to use this as a dummy variable in this command ignorin
+g any possible previous assignment of something to the variable n.)  H
+aving made you aware of this feature, I'm going to ignore it because t
+yping quotes is a pain." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 4 "The " }{TEXT 298 3 "sum" }{TEXT -1 29 " command, and \+
+its inert form " }{TEXT 298 3 "Sum" }{TEXT -1 27 ", also work with fun
+ctions." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "fn:=n->1/n^2;" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "s1:=Sum(fn(n),n=1..infinity
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "value(s1);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 92 "To see what the possibilites ar
+e for doing sums are in Maple are, take a minute and look at " }{TEXT 
+297 5 "?sum." }{TEXT -1 39 "  Here are some exercises for practice." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+285 12 "Problem 3.26" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 88 "Find each of these sums using expression form for (a)-(
+c) and function form for (d)-(f)." }}{PARA 0 "" 0 "" {TEXT -1 5 "(a)  \+
+" }{XPPEDIT 18 0 "sum(n^3,n = 1 .. N);" "6#-%$sumG6$*$%\"nG\"\"$/F';\"
+\"\"%\"NG" }{TEXT -1 7 "   (b) " }{XPPEDIT 18 0 "sum((-1)^n/(n^2),n = \+
+1 .. infinity);" "6#-%$sumG6$*&),$\"\"\"!\"\"%\"nGF)*$F+\"\"#F*/F+;F)%
+)infinityG" }{TEXT -1 9 "    (c)  " }{XPPEDIT 18 0 "sum((2*n+3)/((n+1)
+*(n+2)*(n+3)),n = 1 .. infinity);" "6#-%$sumG6$*&,&*&\"\"#\"\"\"%\"nGF
+*F*\"\"$F*F**(,&F+F*F*F*F*,&F+F*F)F*F*,&F+F*F,F*F*!\"\"/F+;F*%)infinit
+yG" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "(d)  " }{XPPEDIT 18 0 "limit(sum(1/n,n = 1 .. N)-ln(N),N =
+ infinity);" "6#-%&limitG6$,&-%$sumG6$*&\"\"\"F+%\"nG!\"\"/F,;F+%\"NGF
++-%#lnG6#F0F-/F0%)infinityG" }{TEXT -1 10 " .  Note: " }{XPPEDIT 18 0 
+"N;" "6#%\"NG" }{TEXT -1 158 " goes to infinity in both terms, not jus
+t in the sum.  The funny little symbol you will get is not a mistake, \+
+but a very famous number denoted by  the symbol " }{XPPEDIT 18 0 "gamm
+a;" "6#%&gammaG" }{TEXT -1 68 " (gamma).  It is called Euler's constan
+t.  Check how big it is with " }{TEXT 297 5 "evalf" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "(e)  " }
+{XPPEDIT 18 0 "sum(x^n/n,n = 1 .. infinity);" "6#-%$sumG6$*&)%\"xG%\"n
+G\"\"\"F)!\"\"/F);F*%)infinityG" }{TEXT -1 11 "      (f)  " }{XPPEDIT 
+18 0 "sum(x^n/(n*(n+1)),n = 1 .. infinity);" "6#-%$sumG6$*&)%\"xG%\"nG
+\"\"\"*&F)F*,&F)F*F*F*F*!\"\"/F);F*%)infinityG" }{TEXT -1 2 "  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to to
+p of section" 1 "" "Sums (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{HYPERLNK 17 "Go to top of chapter" 1 "" "Calculus (chapter top)" }
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "
+1 1 0" 9 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 
+}

@@ -1,0 +1,634 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "commands" -1 266 "Times" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+268 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "command" -1 269 "" 0 
+0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+273 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+278 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "Times
+" 1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 8 4 1 0 1 0 2 2 0 1 }
+{PSTYLE "Heading 2" -1 4 1 {CSTYLE "" -1 -1 "Times" 1 14 0 0 0 1 2 1 
+2 2 2 2 1 1 1 1 }1 1 0 0 8 2 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 3" -1 
+5 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 1 1 1 1 }1 1 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 3 "" 0 "Linear algebra (chapter top)" {TEXT -1 
+25 "Chapter 5: Linear algebra" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "Chapter 5" {TEXT -1 179 "Linear algebra in physics is th
+e art of using matrices and vectors to solve physical problems.  Maple
+ knows a lot about linear algebra and you can explore what it knows by
+ typing " }{TEXT 266 15 "?LinearAlgebra." }{TEXT -1 166 "  The section
+s below just give a brief introduction, but before you start doing any
+ of this stuff you have to tell Maple you want it to use linear algebr
+a, like this:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "with(Linea
+rAlgebra):" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 4 "" 0 "
+" {TEXT -1 39 "Matrices, vectors, and basic operations" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{SECT 0 {PARA 5 "" 0 "Defining matrices and vecto
+rs (top)" {TEXT -1 29 "Defining matrices and vectors" }}{PARA 0 "" 0 "
+" {URLLINK 17 "Debubgging" 4 "http://www.mapleapps.com/powertools/phys
+ics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "Making matrices" {TEXT -1 382 "The first thing yo
+u need to know how to do is to make matrices and vectors.  There are m
+ultiple ways to do this in Maple, but I suggest you do it in the follo
+wing way because it is close to the way it is done in Matlab, which is
+ another computer language you are likely to encounter.  (It is actual
+ly like the HP-48 syntax.)  To build a 2x2 matrix A containing 1,2,3,4
+ you would use" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "A:=Matrix(
+[[1,2],[3,4]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'RTABLEG6%
+\"+UiAuW-%'MATRIXG6#7$7$\"\"\"\"\"#7$\"\"$\"\"%%'MatrixG" }}}{PARA 0 "
+" 0 "" {TEXT -1 57 "To refer to the elements of this matrix use the no
+tation " }{TEXT 266 13 "A[row,column]" }{TEXT -1 6 ", i.e." }{TEXT 
+266 8 " A[1,2] " }{TEXT -1 10 "like this:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "A[1,2];A[2,1];" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{PARA 0 "" 0 "" 
+{TEXT -1 83 "And if you want to just define a 2x2 matrix B but not loa
+d values yet you would use" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+15 "B:=Matrix(2,2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"BG-%'RTABLE
+G6%\"+MkAuW-%'MATRIXG6#7$7$\"\"!F.F-%'MatrixG" }}}{PARA 0 "" 0 "" 
+{TEXT -1 90 "Once B is defined you can load its elements any way you w
+ant, including by hand, like this" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "B[1,1]:=2;B[1,2]:=3;B[2,1]:=7;B[2,2]:=4;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>&%\"BG6$\"\"\"F'\"\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"BG6$\"\"\"\"\"#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>&%\"BG6$\"\"#\"\"\"\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%
+\"BG6$\"\"#F'\"\"%" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 102 "Another one of Maple's ways of entering matrices is so
+ handy that it should be mentioned here.  Click " }{TEXT 266 4 "View" 
+}{TEXT -1 29 " on the toolbar, then select " }{TEXT 266 8 "Palettes" }
+{TEXT -1 11 ", and then " }{TEXT 266 15 "Matrix Palettes" }{TEXT -1 
+266 ".  You will now be looking at a template for selecting various si
+zes of matrices.  Click on the size you want and the following Maple c
+ommand will appear, just waiting for you to enter matrix elements in p
+lace of the question marks and then to assign it a name with " }{TEXT 
+266 2 ":=" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "Matrix([[%?, %?, %?], [%?, s, %?], \+
+[%?, %?, %?]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"+ilAu
+W-%'MATRIXG6#7%7%%#%?GF,F,7%F,%\"sGF,F+%'MatrixG" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 67 "You might want to look at B to check that it is right, and try \+
+this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "B;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%'RTABLEG6%\"+MkAuW-%'MATRIXG6#7$7$\"\"#\"\"$7$\"\"(
+\"\"%%'MatrixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "Log(B); evalf(%);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%$LogG6#-%'RTABLEG6%\"+MkAuW-%'MATRIXG6#7$7
+$\"\"#\"\"$7$\"\"(\"\"%%'MatrixG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%
+$LogG6#-%'RTABLEG6%\"+MkAuW-%'MATRIXG6#7$7$\"\"#\"\"$7$\"\"(\"\"%%'Mat
+rixG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 27 "For more d
+etails about the " }{TEXT 269 7 "Matrix " }{TEXT -1 12 "command use " 
+}{TEXT 269 8 "?Matrix." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "Making vectors" {TEXT -1 51 "You can also make column and row vecto
+rs using the " }{TEXT 269 6 "Vector" }{TEXT -1 20 " command, like this
+:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+38 "The default is to make a column vector" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "b:=Vector([5,6]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%\"bG-%'RTABLEG6%\"+uqAuW-%'MATRIXG6#7$7#\"\"&7#\"\"'&%'VectorG6#%'co
+lumnG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 67 "To make a row vector you
+ have to specifically tell Maple, like this" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "b:=Vector[row]([5,6]);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"bG-%'RTABLEG6%\"+-sAuW-%'VECTORG6#7$\"\"&\"\"'&%'VectorG6#%$
+rowG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "evalm([1,2,3]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#K%'vectorG6#7%\"\"\"\"\"#\"\"$Q(pprint
+06\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "<1,2,3>;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#-%'RTABLEG6%\"+%RFUZ%-%'MATRIXG6#7%7#\"\"\"7
+#\"\"#7#\"\"$&%'VectorG6#%'columnG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "Transpose(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'R
+TABLEG6%\"+AvAuW-%'VECTORG6#7%\"\"\"\"\"#\"\"$&%'VectorG6#%$rowG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "Row and Column commands" {TEXT -1 102 "And if \+
+you want to fill vectors with numbers from the rows or columns of a ma
+trix you can use Maple's " }{TEXT 269 6 "Column" }{HYPERLNK 17 "" 1 "R
+ow and Column commands" "Row and Column commands" }{TEXT 269 1 " " }
+{TEXT -1 4 "and " }{TEXT 269 3 "Row" }{TEXT -1 83 " commands.  For exa
+mple, to load c with the second column of the matrix A above use" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "c:=Column(A,2);" }}}{PARA 0 
+"" 0 "" {TEXT -1 37 "To load c with the first row of A use" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "c:=Row(A,1);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 157 "There is also a handy sh
+ort syntax for defining matrices and column vectors.  Column vectors c
+an be defined without a special command using the <...> syntax:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "s:=<1,2,3>;" }}}{PARA 0 "" 
+0 "" {TEXT -1 105 "And since a matrix can be thought of as a collectio
+n of column vectors, matrices can be defined similarly" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "R:=<<1,2,3>|<4,5,6>|<7,8,10>>;" }}}
+{PARA 0 "" 0 "" {TEXT -1 103 "This short form is sometimes used in the
+ examples in online help so I thought you should know about it." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 121 "Since th
+is is Maple, you don't have to just work with numbers.  Your matrices \+
+and vectors can also be formulas, like this" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 33 "d:=Matrix([[x11,x12],[x21,x22]]);" }}}{PARA 0 "" 0 
+"" {TEXT -1 2 "or" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "e:=Matr
+ix([[x^2*y,y*x],[sin(x),1/x]]);\n" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 87 "Now suppose you want to give x and y valu
+es and then evaluate to see what the matrix is" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 18 "eval(e,\{x=1,y=2\});" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 135 "Hmmm--apparently not. The prob
+lem is that e is not an expression but a matrix of expressions, so Map
+le needs to use two eval commands:\n" }{TEXT 269 4 "eval" }{TEXT -1 
+78 " on the inside to assign values for x and y directly to the elemen
+ts of e and " }{TEXT 269 5 "evalf" }{TEXT -1 51 " on the outside to fo
+rce floating point evaluation." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 25 "evalf(eval(e,\{x=1,y=2\}));" }}}{PARA 0 "" 0 "" {TEXT -1 1 " " }
+}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Defining ma
+trices and vectors (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}}{SECT 0 {PARA 5 "" 0 "Add, subtract, and multiply (top)" {TEXT 
+-1 27 "Add, subtract, and multiply" }}{PARA 0 "" 0 "" {URLLINK 17 "Deb
+ugging" 4 "http://www.mapleapps.com/powertools/physics/html/Debugging.
+html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "restart:with(LinearAlgebra):" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Adding matrices" {TEXT 
+-1 137 "As usual, there are multiple ways of doing these basic operati
+ons in Maple, but I am going to show you only one.  To find the others
+ use " }{TEXT 269 15 "?LinearAlgebra " }{TEXT -1 41 " To add two 3x3 m
+atrices B and C use the " }{TEXT 269 4 "Add " }{TEXT -1 8 "command." }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "B:=Matrix([[1,2,3],[4,5,6],
+[7,8,9]]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "C:=Matrix([[3
+,2,1],[5,6,4],[9,7,8]]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 
+"E:=Add(B,C);" }}}{PARA 0 "" 0 "" {TEXT -1 46 "Subtraction is just add
+ing with a minus sign  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "E
+:=Add(B,-C);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 100 "You do have to be careful that addition and subtraction \+
+make sense.  For instance, you can't do this" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 25 "F:=Matrix([[5,7],[1,3]]);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "Add(E,F);" }}}{PARA 0 "" 0 "" {TEXT -1 43 "becaus
+e the matrices are not the same size." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "Multiplying matrices, vectors" {TEXT -1 77 "Multipli
+cation of matrices and vectors can be done with the Multiply command:
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "G:=Multiply(B,C);" }}}
+{PARA 0 "" 0 "" {TEXT -1 102 "There is a wordier way to do matrix mult
+iplication which you can find in the command list by going to " }
+{TEXT 269 15 "?LinearAlgebra." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 256 11 "Problem 5.1" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "Verify that Maple \+
+did this right by computing " }{XPPEDIT 18 0 "G[22];" "6#&%\"GG6#\"#A
+" }{TEXT -1 10 "  by hand." }}{PARA 0 "" 0 "" {TEXT -1 98 "-----------
+----------------------------------------------------------------------
+-----------------" }}{PARA 0 "" 0 "" {TEXT -1 62 "You can also multipl
+y matrices and vectors together, like this" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 11 "b:=<5,6,7>;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "Multiply(B,b);" }}}{PARA 0 "" 0 "" {TEXT -1 169 "As expected, \+
+a square matrix times a column vector is a column vector.  A row vecto
+r times a square matrix would be a new row vector, and Maple knows how
+ to do this too:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "c:=Vecto
+r[row]([1,2,3]);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "(Or you could
+ use the shorthand form)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "c:=<1|2
+|3>;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "Multiply(c,C);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 97 "You can also multiply matrices and vectors by s
+calars using the ordinary multiplication operator " }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 4 "3*b;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 4 "5*B;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 236 "Finally, you will
+ notice that division is not mentioned here.  That's because division \+
+with matrices and vectors is rather tricky and actually falls under th
+e heading of \"Solving systems of linear equations\", which comes a li
+ttle later." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 258 11 "Problem 5.2" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Rotation
+ matrices" {TEXT -1 189 "An important application of matrix multiplica
+tion is the rotation of vectors in three-dimensional space.  With a ca
+refully drawn picture and some trigonometry you can show that if a vec
+tor " }{TEXT 259 1 "v" }{TEXT -1 21 " is rotated by angle " }{XPPEDIT 
+18 0 "theta;" "6#%&thetaG" }{TEXT -1 151 "  about the x-axis in the co
+unterclockwise direction when looking from positive x toward the origi
+n, then the new vector is simply given by the matrix " }{TEXT 270 2 "R
+x" }{TEXT -1 15 " multiplied by " }{TEXT 260 1 "v" }{TEXT -1 8 ", wher
+e " }{TEXT 271 2 "Rx" }{TEXT -1 12 " is given by" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 75 "Rx:=Matrix([[1,0,0],[0,cos(theta),-sin(theta)]
+,[0,sin(theta),cos(theta)]]);" }}}{PARA 0 "" 0 "" {TEXT -1 72 "Similar
+ly, the rotation matrices about the y- and z-axes through angles " }
+{XPPEDIT 18 0 "phi;" "6#%$phiG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "ps
+i;" "6#%$psiG" }{TEXT -1 13 " are given by" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 67 "Ry:=Matrix([[cos(phi),0,sin(phi)],[0,1,0],[-sin(phi
+),0,cos(phi)]]);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "Rz:=Matrix([[co
+s(psi),-sin(psi),0],[sin(psi),cos(psi),0],[0,0,1]]);" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 358 "(Note: \+
+there is not a sign mistake on the sines in the Ry matrix.  The sine s
+igns are different in this matrix than they are in Rx and Rz because r
+otation is always defined with respect to the right-hand rule on angle
+: put your thumb in the direction of the rotation axis and your finger
+s curl in the direction of positive angle.  Try it with your hand with
+ " }{XPPEDIT 18 0 "phi = pi/2;" "6#/%$phiG*&%#piG\"\"\"\"\"#!\"\"" }
+{TEXT -1 155 " and check that Ry is correct.)   Use these rotation mat
+rices to check where the vector [1,0,0] ends up after the following se
+quence of rotations:  (a) by " }{XPPEDIT 18 0 "pi/2;" "6#*&%#piG\"\"\"
+\"\"#!\"\"" }{TEXT -1 31 " about the y-axis, then (b) by " }{XPPEDIT 
+18 0 "pi/4;" "6#*&%#piG\"\"\"\"\"%!\"\"" }{TEXT -1 38 " about the x-ax
+is, and finally (c) by " }{XPPEDIT 18 0 "pi/2;" "6#*&%#piG\"\"\"\"\"#!
+\"\"" }{TEXT -1 591 " about the z-axis.  After Maple gives you the ans
+wer verify that it is correct by making a coordinate system with your \+
+fingers and doing the rotations.  (Make sure the coordinate system is \+
+right-handed).  Then start with the same vector [1,0,0] but do the rot
+ations in the reverse order.  Do you end up in the same place?  (You d
+on't--we describe this situation by saying that rotation operations do
+n't commute.) Rotation should not change the magnitude of the vector; \+
+does this sequence of matrix multiplications preserve the magnitude of
+ the vector?  You can get the magnitude of a vector " }{TEXT 273 1 "v
+" }{TEXT -1 18 " with the command " }{TEXT 266 9 "Norm(v,2)" }{TEXT 
+-1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 
+17 "Go to top of section" 1 "" "Add, subtract, and multiply (top)" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 5 "" 0 
+"Inverse, determinant, etc. (top)" {TEXT -1 32 "Inverse, determinant, \+
+norm, etc." }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.ma
+pleapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 132 "There \+
+are many other operations you can perform on matrices, and Maple knows
+ how to do a lot of them.  To see what's available type " }{TEXT 266 
+15 "?LinearAlgebra " }{TEXT -1 89 "and browse through the topics.  Her
+e are a few of the common ones encountered in physics." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 33 "Define some matrices to play with" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 28 "restart:with(LinearAlgebra):" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 37 "B:=Matrix([[1,2,3],[4,5,6],[7,8,9]]);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "C:=Matrix([[3,2,1],[5,6,4],[
+9,7,8]]);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "Invert a matrix" {TEXT 269 6 "Matrix" }{TEXT 
+266 8 "Inverse:" }{TEXT 267 3 "   " }{TEXT -1 51 "To get the inverse o
+f a matrix, say C, just do this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 17 "MatrixInverse(C);" }}}{PARA 0 "" 0 "" {TEXT -1 19 "To check it
+ do this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "Multiply(C , Mat
+rixInverse(C));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "Determinant" {TEXT 266 12 "Determinant:
+" }{TEXT -1 42 "  Get the determinant of a matrix this way" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "Determinant(B);Determinant(C);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Transpose" {TEXT -1 0 "
+" }{TEXT 266 10 "Transpose:" }{TEXT -1 197 "  the transpose of a matri
+x is obtained by switching rows for columns; think about reflecting th
+e matrix across the main diagonal.  It also makes sense to take the tr
+anspose of a non-square matrix." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 13 "Transpose(C);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "E:
+=Matrix([[1,2,3]]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Tran
+spose(E);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 107 "And in quantum mechanics you will want to take the transpose o
+f the complex conjugate, which is called the " }{TEXT 269 18 "Hermitia
+nTranspose" }{TEXT -1 1 ":" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+19 "F:=<<1,I>|<2*I,2>>;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "
+HermitianTranspose(F);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "Trace, matrix" {TEXT 266 6 "Trace:" }{TEXT -1 67 "  The trace of a \+
+square matrix is the sum of the diagonal elements." }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 9 "Trace(C);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "Norm or magnitude" {TEXT -1 0 "" }{TEXT 266 5 "Norm:" }
+{TEXT 268 2 "  " }{TEXT -1 345 "The norm of a vector has many definiti
+ons.  You are used to squaring the elements, adding them together, the
+n taking the square root.  We use this definition almost exclusively i
+n physics, but Maple is smarter than this, taking the kth root of the \+
+sum of the kth powers of the elements.  To use our standard k=2 in thi
+s definition you would use " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+10 "Norm(E,2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 54 "For matrices the norm is more complicated
+; look under " }{TEXT 266 20 "?LinearAlgebra[Norm]" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+257 11 "Problem 5.3" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 117 "Find the inverse of the matrix B defined
+ in this section.  Explain why you get an error message instead of an \+
+answer." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 
+17 "Go to top of section" 1 "" "Inverse, determinant, etc. (top)" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Solving systems of linear equat
+ions (top)" {TEXT -1 36 " Solving systems of linear equations" }}
+{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/po
+wertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "Maple knows how to d
+o problems like this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"System of equations, linear" {TEXT -1 467 "There are three friends, A
+lice, Bob, and Chuck.  The sum of Alice's and Bob's ages are 1.5 times
+ Chuck's age.  Chuck's age minus Bob's age is 6.  Alice's age added to
+ Chuck's age is 2.25 as large as Bob's age.  If Bob used to date Alice
+, but is now far away in a foreign country, and if Chuck thinks Alice \+
+is really cute, is Bob in big trouble? The mathematical part of this p
+roblem is just a problem in linear algebra of the form A*x = b, with t
+he ages in the order " }}{PARA 0 "" 0 "" {TEXT -1 39 "[Alice, Bob, Chu
+ck].  Here are A and b:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "restart;with(LinearAlgebra):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "A:=Matrix([[1,1,-3/2],[0,-1,
+1],[1,-2-1/4,1]]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "b:=Ve
+ctor([0,6,0]);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 "We would like to solve fo
+r the vector x of the friends' ages.  Maple has a command " }{TEXT 
+266 12 "LinearSolve " }{TEXT -1 44 "that makes this kind of problem re
+ally easy:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "LinearSolve(A,
+b);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 134 "
+And that's all there is to it.  Any linear system can be solved this w
+ay.  We will learn later that Maple's  equation solving command " }
+{TEXT 266 5 "solve" }{TEXT -1 32 " can also do problems like this." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 261 11 "Problem 5.4" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "Consider \+
+5 springs with spring constants " }{XPPEDIT 18 0 "k[1],k[2],k[3],k[4],
+k[5];" "6'&%\"kG6#\"\"\"&F$6#\"\"#&F$6#\"\"$&F$6#\"\"%&F$6#\"\"&" }
+{TEXT -1 91 "  hooked together along the x-axis in this order.  If eac
+h spring has known relaxed length " }{XPPEDIT 18 0 "l[1],l[2],l[3],l[4
+],l[5];" "6'&%\"lG6#\"\"\"&F$6#\"\"#&F$6#\"\"$&F$6#\"\"%&F$6#\"\"&" }
+{TEXT -1 42 ", find the unknown lengths of each spring " }{XPPEDIT 18 
+0 "x[1],x[2],x[3],x[4],x[5];" "6'&%\"xG6#\"\"\"&F$6#\"\"#&F$6#\"\"$&F$
+6#\"\"%&F$6#\"\"&" }{TEXT -1 235 " when the springs are stretched unti
+l the sum of their lengths is twice their total unstretched length.  H
+ave Maple give you the general algebraic solution to this problem (it \+
+is moderately horrible), then get a numerical answer using " }
+{XPPEDIT 18 0 "k[1] = .5,k[2] = 1,k[3] = 2,k[4] = 3,k[5] = 3.5;" "6'/&
+%\"kG6#\"\"\"-%&FloatG6$\"\"&!\"\"/&F%6#\"\"#F'/&F%6#\"\"$F0/&F%6#\"\"
+%F4/&F%6#F+-F)6$\"#NF," }{TEXT -1 130 ".  Let all the relaxed lengths \+
+be the same and equal to 10 cm.  Recall that the force exerted by a sp
+ring is given by the formula " }{XPPEDIT 18 0 "F = -k*(x-l);" "6#/%\"F
+G,$*&%\"kG\"\"\",&%\"xGF(%\"lG!\"\"F(F," }{TEXT -1 90 " .  You will al
+so need to remember how to do equilibrium problems from freshman mecha
+nics." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 
+"Go to top of section" 1 "" "Solving systems of linear equations (top)
+" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "
+" 0 "Dot and cross (top)" {TEXT -1 31 "Vectors: dot and cross products
+" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapleapps.co
+m/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Products: dot and cross" {TEXT 
+-1 116 "Maple knows how to do dot products, cross products, and how to
+ find the angle between two vectors with the commands " }{TEXT 266 26 
+"DotProduct, CrossProduct, " }{TEXT -1 4 "and " }{TEXT 266 12 "VectorA
+ngle." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "restart:with(LinearAlgebra):" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "v1:=<1|2|3>;
+v2:=<4|5|6>;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 38 "DotProduct(v1,v2);CrossProduct(v1,v2);" }}}
+{PARA 0 "" 0 "Angle between vectors" {TEXT -1 70 "That's all there is \+
+to it.   Oh, and to get the angle between them use" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "VectorAngle(
+v1,v2);" }}}{PARA 0 "" 0 "" {TEXT -1 11 "or, rather," }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 26 "evalf(VectorAngle(v1,v2));" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 34 "Note that it comes
+ out in radians." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to to
+p of section" 1 "" "Dot and cross (top)" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Eigenvalues (top)" {TEXT 
+-1 28 "Eigenvalues and eigenvectors" }}{PARA 0 "" 0 "" {URLLINK 17 "De
+bugging" 4 "http://www.mapleapps.com/powertools/physics/html/Debugging
+.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "Eigenvalues and eigenvectors" {TEXT -1 254 "One of the most importa
+nt ideas from linear algebra as applied to physics are eigenvalues and
+ eigenvectors.  They show up in classical mechanics, math physics, qua
+ntum mechanics, numerical analysis, and other places.  So heads up her
+e, this is important." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 77 "The eigenvalue problem as applied to matrices is this:
+ given a square matrix " }{TEXT 274 1 "A" }{TEXT -1 23 ", what are the
+ vectors " }{XPPEDIT 18 0 "x[i];" "6#&%\"xG6#%\"iG" }{TEXT -1 13 " and
+ numbers " }{XPPEDIT 18 0 "lambda[i];" "6#&%'lambdaG6#%\"iG" }{TEXT 
+-1 16 " such that when " }{TEXT 275 1 "A" }{TEXT -1 20 " is multiplied
+ into " }{XPPEDIT 18 0 "x[i];" "6#&%\"xG6#%\"iG" }{TEXT -1 31 " the re
+sult is the same vector " }{XPPEDIT 18 0 "x[i];" "6#&%\"xG6#%\"iG" }
+{TEXT -1 20 ", but multiplied by " }{XPPEDIT 18 0 "lambda[i];" "6#&%'l
+ambdaG6#%\"iG" }{TEXT -1 32 " , or in other words, such that " }{TEXT 
+276 1 "A" }{XPPEDIT 18 0 "x[i] = lambda[i]*x[i];" "6#/&%\"xG6#%\"iG*&&
+%'lambdaG6#F'\"\"\"&F%6#F'F," }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 439 " Since matrix multiplica
+tion by a vector simultaneously rotates the vector and multiplies it b
+y a factor, it is not clear that there is any solution at all to this \+
+problem.  But it can be proven mathematically that in most cases, if t
+he matrix is NxN, then there are N such vectors and values (called eig
+envectors and eigenvalues).  But they may be complex, which sometimes \+
+(but not always) means they are unphysical.   Here's an example. " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+28 "restart:with(LinearAlgebra):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 38 "A:=Matrix([[1,2,3],[4,3,2],[-1,0,2]]);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "Eigenvectors(A);" }}}{PARA 0 "" 0 "
+" {TEXT -1 281 "Ok, it's clear we've got to do something about this.  \+
+We usually just want numbers, not gigantic algebraic expressions.  An \+
+easy way to get them (for the 142nd time) is to enter the elements of \+
+the matrix as floating-point numbers, i.e., they have to have decimal \+
+points, like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "A:=Matr
+ix([[1.,2.,3.],[4.,3.,2.],[-1.,0.,2.]]);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "v:=Eigenvectors(A);" }}}{PARA 0 "" 0 "" {TEXT -1 74 "
+Good--much better.  Now look at the output.  According to online help \+
+for " }{TEXT 269 12 "Eigenvectors" }{TEXT -1 259 " the first set of nu
+mbers is a column vector containing the eigenvalues, and the second se
+t of numbers is a matrix whose columns are the eigenvectors.  So if we
+ wanted to study the third eigenvector we would start by picking off t
+he third eigenvalue like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 17 "lambda3:=v[1][3];" }}}{PARA 0 "" 0 "" {TEXT -1 189 "(I know this
+ looks weird, but since v[1] is a column vector it makes sense to ask \+
+for its third element).  Now we want the third column of v[2], a job t
+ailor made for Maple's Column command" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "v3:=Column(v[2],3);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 72 "Now we are ready to see if this reall
+y is an eigenvector by multiplying " }{XPPEDIT 18 0 "v[3];" "6#&%\"vG6
+#\"\"$" }{TEXT -1 4 " by " }{TEXT 277 1 "A" }{TEXT -1 21 ".  If it wor
+ks, then " }{TEXT 278 1 "A" }{XPPEDIT 18 0 "v[3];" "6#&%\"vG6#\"\"$" }
+{TEXT -1 19 "will just give us  " }{XPPEDIT 18 0 "lambda[3]*v[3];" "6#
+*&&%'lambdaG6#\"\"$\"\"\"&%\"vG6#F'F(" }{TEXT -1 6 " back." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "y:=Multiply(A ,v3);" }}}{PARA 0 "" 
+0 "" {TEXT -1 44 "To see if it got it right let's divide y by " }
+{XPPEDIT 18 0 "lambda[3];" "6#&%'lambdaG6#\"\"$" }{TEXT -1 14 " and su
+btract " }{XPPEDIT 18 0 "v[3];" "6#&%\"vG6#\"\"$" }{TEXT -1 30 " from \+
+it to see if we get zero" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "
+y/lambda3-v3;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 116 "which is exactly right, to the precision of Maple floati
+ng point numbers with Digits set to its default value of 10." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 262 11 "Problem 5.5" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 853 "Here's a simple eigen-idea that shows up in numerical analysis
+ all the time.  Think about what happens if you pick a vector and just
+ keep multiplying it by A in the example above all the time.  Your ori
+ginal vector could be written as a linear combination of the eigenvect
+ors (usually), so you can think about what multiplication by A does to
+ each of the three eigenvector components.  Now look, this is not too \+
+hard--all that happens is that eventually, the vector with the largest
+ eigenvalue will completely take over because every time you multiply \+
+by A you get more of it back than you get of the other two.  In the ex
+ample above the biggest eigenvalue is about twice its nearest competit
+or, and you already know what repeatedly multiplying by 2 can do.  So \+
+now do this: choose a random vector; then multiply it by A and divide \+
+it by its norm using " }{TEXT 266 10 "Norm(v,2) " }{TEXT -1 278 "so th
+at the result is a unit vector; then do this multiplication and renorm
+alization about 20 times.   Now find the angle between your final resu
+lt and the eigenvector with the largest eigenvalue; did your calculati
+on get this eigenvector?  Can you explain the angle you get?   " }}
+{PARA 0 "" 0 "" {TEXT -1 99 "-----------------------------------------
+----------------------------------------------------------" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }{TEXT 263 11 "Problem 5.6" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 261 "Go get the rotation matr
+ix Rx from Problem 5.2 and have Maple find its eigenvalues and eigenve
+ctors.  Then think about what rotation means and see if you can make p
+hysical sense out of Maple's answers.  Maple will require you to choos
+e a value for theta, so try" }}{PARA 0 "" 0 "" {TEXT -1 6 "  (a) " }
+{XPPEDIT 18 0 "theta = 1.3;" "6#/%&thetaG-%&FloatG6$\"#8!\"\"" }{TEXT 
+-1 4 " ,  " }}{PARA 0 "" 0 "" {TEXT -1 6 "  (b) " }{XPPEDIT 18 0 "thet
+a = Pi;" "6#/%&thetaG%#PiG" }{TEXT -1 7 " , and " }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "  (c) " }{XPPEDIT 18 0 "theta = Pi/2;" "6#/%&thetaG*&%#PiG
+\"\"\"\"\"#!\"\"" }{TEXT -1 4 " .  " }}{PARA 0 "" 0 "" {TEXT -1 136 "(
+Note: you will encounter (c) when you study spin in quantum mechanics.
+)    A good way to do this problem is to define a Maple function " }
+{XPPEDIT 18 0 "M(theta);" "6#-%\"MG6#%&thetaG" }{TEXT -1 28 " that def
+ines the matrix Rx." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 81 "M:=theta->Matrix([[1,0,0],[0,cos(theta),-si
+n(theta)],[0,sin(theta),cos(theta)]]);" }}}{PARA 0 "" 0 "" {TEXT -1 
+73 "and then use this function to define the three matrices in parts (
+a)-(c)." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "?grad" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of sec
+tion" 1 "" "Eigenvalues (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Vector calculus (top)" {TEXT -1 37 " \+
+Vector calculus: grad, div, and curl" }}{PARA 0 "" 0 "" {URLLINK 17 "D
+ebugging" 4 "http://www.mapleapps.com/powertools/physics/html/Debuggin
+g.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 88 "Maple's ability to do algebra means it can do vect
+or derivatives too using the commands " }{TEXT 266 20 "grad, diverge, \+
+curl," }{TEXT -1 5 " and " }{TEXT 269 9 "laplacian" }{TEXT -1 136 ".  \+
+And it can do it using Cartesian, cylindrical, and spherical coordinat
+es,  but you have to invoke a different linear algebra package " }
+{TEXT 269 6 "linalg" }{TEXT -1 116 " to use these commands.  Note also
+ that the vectors are defined with a different syntax in this package \+
+than in the " }{TEXT 269 13 "LinearAlgebra" }{TEXT -1 118 " package in
+voked in the earlier parts of this chapter.  This package uses row vec
+tors in array form, e.g., [vx,vy,vz]." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "restart:with(linalg):" }}}{PARA 0 "" 0 "" {TEXT -1 2 
+"  " }}{PARA 0 "" 0 "Gradient" {TEXT -1 58 "Here are some gradient exa
+mples in each coordinate system." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "Cartesian:" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "f1:=3*x^2+y*sqrt(z);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 17 "grad(f1,[x,y,z]);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "Cylind
+rical" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "f2:=cos(theta)/sqrt(r^2+z^
+2);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "grad(f2,[r,theta,z],coords=c
+ylindrical);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "Spherical" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "f3:=sin(phi)*r^2*(3*cos(theta)^2-1)
+;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "grad(f3,[r,theta,phi],coords=s
+pherical);" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "D
+ivergence" {TEXT -1 235 "Maple can do the divergence in all three coor
+dinate systems too.  The divergence acts on a vector field, so all thr
+ee components have to be defined in whatever coordinate system you are
+ in.  Here are examples in each coordinate system." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 9 "Cartesian" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "g1:=[x^2
+,y^2,z^2];" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "diverge(g1,[x,y,z]);
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "Cylindrical" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 40 "g2:=[r^2*cos(theta),r^2*sin(theta),z^2];" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "diverge(g2,[r,theta,z],coords=cylin
+drical);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "Spherical" }}{PARA 0 "
+> " 0 "" {MPLTEXT 1 0 45 "g3:=[r^2*cos(theta),r^2*sin(theta),cos(phi)]
+;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "diverge(g3,[r,theta,phi],coord
+s=spherical);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Curl" {TEXT -1 91 "And Maple c
+an do the curl, like this, using the same vector fields used for the d
+ivergence." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "Cartesian" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 17 "curl(g1,[x,y,z]);" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 11 "Cylindrical" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "curl(g2
+,[r,theta,z],coords=cylindrical);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+9 "Spherical" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "curl(g3,[r,theta,ph
+i],coords=spherical);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Laplacian" {TEXT -1 
+54 "And finally, it also knows how to do del-squared, the " }{TEXT 
+266 10 "laplacian," }{TEXT -1 96 " in each coordinate system.  Here it
+ is for each of the scalar functions used with the gradient." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 9 "Cartesian" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 22 "laplacian(f1,[x,y,z]);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "C
+ylindrical" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "laplacian(f2,[r,theta
+,z],coords=cylindrical);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "Spheri
+cal" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "laplacian(f3,[r,theta,phi],c
+oords=spherical);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 211 "This cap
+ability might be nice, but usually in physics the problem is not calcu
+lating these vector derivatives, but in undoing them to find a field. \+
+ This is much harder and Maple is not much help in this regard." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{TEXT 264 11 "Problem 5.7" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 72 "Two of Maxwell's equations for static ele
+ctric and magnetic fields are  " }{XPPEDIT 18 0 "div(E) = rho/epsilon[
+0];" "6#/-%$divG6#%\"EG*&%$rhoG\"\"\"&%(epsilonG6#\"\"!!\"\"" }{TEXT 
+-1 6 "  and " }{XPPEDIT 18 0 "curl(B) = mu[0]*J;" "6#/-%%curlG6#%\"BG*
+&&%#muG6#\"\"!\"\"\"%\"JGF-" }{TEXT -1 122 "  .  For each of the follo
+wing E or B fields use Maple's vector calculus routines to find formul
+as for the charge density " }{XPPEDIT 18 0 "rho;" "6#%$rhoG" }{TEXT 
+-1 25 " and the current density " }{XPPEDIT 18 0 "J;" "6#%\"JG" }
+{TEXT -1 10 " .  Note: " }{XPPEDIT 18 0 "E;" "6#%\"EG" }{TEXT -1 5 " a
+nd " }{XPPEDIT 18 0 "B;" "6#%\"BG" }{TEXT -1 88 " are vectors, so you \+
+need to define them properly to do this problem.  For instance, if " }
+{XPPEDIT 18 0 "B[theta] = k*r;" "6#/&%\"BG6#%&thetaG*&%\"kG\"\"\"%\"rG
+F*" }{TEXT -1 25 " then you need to define " }{XPPEDIT 18 0 "B;" "6#%
+\"BG" }{TEXT -1 11 " this way: " }{TEXT 269 20 "B:=array([0,k*r,0]);" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 29 "(a)  Sp
+herical coordinates:  " }{XPPEDIT 18 0 "E[r] = k/(r^2);" "6#/&%\"EG6#%
+\"rG*&%\"kG\"\"\"*$F'\"\"#!\"\"" }{TEXT -1 52 "  (point charge)       \+
+(b)  Spherical coordinates:  " }{XPPEDIT 18 0 "E[r] = k*r;" "6#/&%\"EG
+6#%\"rG*&%\"kG\"\"\"F'F*" }{TEXT -1 27 "   (solid sphere of charge)" }
+}{PARA 0 "" 0 "" {TEXT -1 31 "(c)  Cylindrical coordinates:  " }
+{XPPEDIT 18 0 "E[r] = lambda/(2*Pi*epsilon[0]*r);" "6#/&%\"EG6#%\"rG*&
+%'lambdaG\"\"\"**\"\"#F*%#PiGF*&%(epsilonG6#\"\"!F*F'F*!\"\"" }{TEXT 
+-1 50 "   (line charge)   (d)  Cylindrical coordinates:  " }{XPPEDIT 
+18 0 "E[r] = k*r;" "6#/&%\"EG6#%\"rG*&%\"kG\"\"\"F'F*" }{TEXT -1 28 " \+
+ (solid cylinder of charge)" }}{PARA 0 "" 0 "" {TEXT -1 31 "(e)  Cylin
+drical coordinates:  " }{XPPEDIT 18 0 "B[theta] = k/r;" "6#/&%\"BG6#%&
+thetaG*&%\"kG\"\"\"%\"rG!\"\"" }{TEXT -1 50 "  (long wire)    (f)    C
+ylindrical coordinates:  " }{XPPEDIT 18 0 "B[theta] = k*r;" "6#/&%\"BG
+6#%&thetaG*&%\"kG\"\"\"%\"rGF*" }{TEXT -1 29 "  (uniform current in a \+
+wire)" }}{PARA 0 "" 0 "" {TEXT -1 31 "(g)  Cylindrical coordinates:  \+
+" }{XPPEDIT 18 0 "B[z] = k(a^2-r^2);" "6#/&%\"BG6#%\"zG-%\"kG6#,&*$%\"
+aG\"\"#\"\"\"*$%\"rGF.!\"\"" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT 
+-1 101 "--------------------------------------------------------------
+---------------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 265 11 "Problem 5.8" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 
+"The electrostatic potential of a point dipole is given in spherical c
+oordinates by" }}{PARA 0 "" 0 "" {TEXT -1 16 "                " }
+{XPPEDIT 18 0 "V(r,theta,phi) = p*cos(theta)/(4*Pi*epsilon[0]*r^2);" "
+6#/-%\"VG6%%\"rG%&thetaG%$phiG*(%\"pG\"\"\"-%$cosG6#F(F,**\"\"%F,%#PiG
+F,&%(epsilonG6#\"\"!F,*$F'\"\"#F,!\"\"" }{TEXT -1 119 "  .  Find the e
+lectric field of this dipole in spherical coordinates by using the def
+ining relation for the potential  " }{XPPEDIT 18 0 "E = -grad(V);" "6#
+/%\"EG,$-%%gradG6#%\"VG!\"\"" }{TEXT -1 39 "  .  What is the power law
+ for the way " }{TEXT 272 2 "E " }{TEXT -1 40 "falls off with distance
+ from the origin?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{HYPERLNK 17 "Go to top of section" 1 "" "Vector calculus (top)" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of chapter" 1 
+"" "Linear algebra (chapter top)" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{MARK "3 2 31 0 0" 0 }{VIEWOPTS 1 1 0 2 1 1805 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }{RTABLE_HANDLES 4474226242 4474226434 
+4474226562 4474227074 4474227202 4474227394 4474227522 }{RTABLE 
+M7R0
+I7RTABLE_SAVE/4474226242X,%)anythingG6"F%[gl!"%!!!#%"#"#"""""$""#""%F%
+}
+{RTABLE 
+M7R0
+I7RTABLE_SAVE/4474226434X,%)anythingG6"F%[gl!"%!!!#%"#"#""#""(""$""%F%
+}
+{RTABLE 
+M7R0
+I7RTABLE_SAVE/4474226562X,%)anythingG6"F%[gl!"%!!!#*"$"$I#%?G6$%*protectedG%(_s
+yslibGF&F&F&%"sGF&F&F&F&F%
+}
+{RTABLE 
+M7R0
+I7RTABLE_SAVE/4474227074X*%)anythingG6"F%[gl!#%!!!"#"#""&""'F%
+}
+{RTABLE 
+M7R0
+I7RTABLE_SAVE/4474227202X*%)anythingG6"F%[gl!$%!!!"#"#""&""'F%
+}
+{RTABLE 
+M7R0
+I7RTABLE_SAVE/4474227394X*%)anythingG6"F%[gl!#%!!!"$"$"""""#""$F%
+}
+{RTABLE 
+M7R0
+I7RTABLE_SAVE/4474227522X*%)anythingG6"F%[gl!$%!!!"$"$"""""#""$F%
+}
+

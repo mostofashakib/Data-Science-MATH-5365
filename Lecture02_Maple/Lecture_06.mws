@@ -1,0 +1,289 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "commands" -1 261 "Times" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "command" -1 262 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 
+{CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 
+0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 3 "" 0 "Solving equations (chapter top)" {TEXT 
+-1 28 "Chapter 6: Solving equations" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "Chapter 6" {TEXT -1 364 "In the linear algebra chapter \+
+you saw how to solve systems of linear equations.  These are relativel
+y easy, but Maple can handle much harder non-linear equations as well.
+   In this  chapter we will learn how to find the roots of polynomials
+,  solve impossible equations involving both elementary and special fu
+nctions, and even handle sets of impossible equations." }}}{SECT 0 
+{PARA 4 "" 0 "Equations in a single variable (top)" {TEXT -1 30 "Equat
+ions in a single variable" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 
+4 "http://www.mapleapps.com/powertools/physics/html/Debugging.html" "
+" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Zeroe
+s of polynomials" {TEXT -1 97 "Maple makes short work of hard equation
+s in a single variable.  The commands that do the job are " }{TEXT 
+261 16 "solve and fsolve" }{TEXT -1 110 ", corresponding as usual to s
+ymbolic and real number answers.  For instance, Maple knows the quadra
+tic formula" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "s1:=solve(a*x^2+b*x+c=0,x);
+" }}}{PARA 0 "" 0 "Solve, symbolic equation solver" {TEXT -1 35 "Notic
+e that the syntax of solve is " }{TEXT 261 24 "solve(equation,variable
+)" }{TEXT -1 133 ".  Both answers are given, separated by commas.  And
+ if you give it numerical coefficients, it will try to give you numeri
+cal answers" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "s2:=solve(x^2
+-8*x+14=0,x);" }}}{PARA 0 "" 0 "" {TEXT -1 51 "Maple even knows the fo
+rmula for the cubic equation" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+33 "s3:=solve(a*x^3+b*x^2+c*x+d=0,x);" }}}{PARA 0 "" 0 "" {TEXT -1 
+117 "but it is so ugly that it is almost never used.  Instead we give \+
+numerical coefficients and expect a numerical answer" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 31 "s4:=solve(x^3+3*x^2-2*x+7=0,x);" }}}
+{PARA 0 "" 0 "" {TEXT -1 164 "Well, these are numbers correct, but bec
+ause Maple was thinking symbolically, they don't look very useful.  To
+ get actual numbers you can either use our old friend " }{TEXT 261 5 "
+evalf" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf(s4);" }}}
+{PARA 0 "" 0 "" {TEXT -1 62 "or enter the coefficients in the equation
+ with decimal points." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "s4:
+=solve(x^3+3.*x^2-2.*x+7.=0,x);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 261 5 "solve" }{TEXT -1 99 " \+
+command with polynomials is smart:  it knows the fundamental theorem o
+f algebra, which is that an " }{XPPEDIT 18 0 "n^th;" "6#)%\"nG%#thG" }
+{TEXT -1 22 " order polynomial has " }{XPPEDIT 18 0 "n;" "6#%\"nG" }
+{TEXT -1 67 " roots.  For instance if you ask it for the roots of x^6+
+1 this way" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "s5:=evalf(solv
+e(x^6+1=0,x));" }}}{PARA 0 "" 0 "" {TEXT -1 46 "It will give you all 6
+.  Let's try another one" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "
+s6:=solve(x^6+3*x^5+2=0,x);" }}}{PARA 0 "" 0 "" {TEXT -1 19 "You will \+
+be seeing " }{TEXT 261 7 "RootOf " }{TEXT -1 313 "a lot as you solve e
+quations in Maple.  The problem is that you gave Maple a polynomial wi
+th integer coefficients, which tells Maple to try to solve the equatio
+n with radicals (square roots, cube roots, etc.).  And in this case it
+ couldn't do it, except for the root -1.  But if you just want numbers
+, either use " }{TEXT 262 5 "evalf" }{TEXT -1 105 ", or change the coe
+fficients to floating point numbers by adding decimal points and you w
+ill get all 6.  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf(s6
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "solve(x^6+3.*x^5+2.=0
+,x);" }}}{PARA 0 "" 0 "Zeroes of transcendental equations" {TEXT -1 
+76 "Maple can also handle equations involving harder functions, like t
+his one:  " }{XPPEDIT 18 0 "cos(x)-x/10 = 0;" "6#/,&-%$cosG6#%\"xG\"\"
+\"*&F(F)\"#5!\"\"F,\"\"!" }{TEXT -1 2 " ." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "s7:=solve(cos(x)-x/10=0,x);" }}}{PARA 0 "" 0 "" 
+{TEXT 261 7 "RootOf " }{TEXT -1 66 "again, and the solution is the sam
+e: change the 10 to 10., or use " }{TEXT 261 9 "evalf(s7)" }{TEXT -1 
+40 ", to find at least one of the solutions." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf(s7);" }}}
+{PARA 0 "" 0 "" {TEXT -1 184 "But when you solve hard equations like t
+his you need to be careful, because there may be more than one answer \+
+and Maple will not give you all of them.  Let's try plotting the funct
+ion " }{XPPEDIT 18 0 "cos(x)-x/10;" "6#,&-%$cosG6#%\"xG\"\"\"*&F'F(\"#
+5!\"\"F+" }{TEXT -1 85 " and see how many zero-crossings it has to see
+ how many answers we should have found." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "plot(cos(x)-x/10,x=-15.
+.15);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 127 "So Maple didn't actually lie; it just didn't volunteer
+ information.  1.427551779 is a solution, but there are others as well
+.  " }{TEXT 263 107 "This is important: whenever possible, make a plot
+ first so you know how many solutions you are looking for." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Fsolve, numerical zero finder" 
+{TEXT -1 160 "Well, how do we get Maple to give us all of the roots?  \+
+Since we are only going to get numerical roots anyway we might as well
+ use a numerical solver, which is " }{TEXT 261 6 "fsolve" }{TEXT -1 
+23 " in Maple.  When using " }{TEXT 261 6 "fsolve" }{TEXT -1 317 " you
+ don't just give it an equation and a variable, but rather an equation
+ and a variable which is set equal either to a search range or to a si
+ngle initial guess for the solution.  For instance, in the problem at \+
+hand the plot tells us that there are roots near -9.6, -9.2, -4, -2, 1
+.5, 5, and 7.  You must instruct " }{TEXT 261 6 "fsolve" }{TEXT -1 43 
+" to look near each of these to get them all" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "fsolve(cos(x)-x/10
+=0.,x,-10..-9.5);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 36 "fsolve(cos(x)-x/10=0.,x,-9.5..-8.8);" }}}
+{PARA 0 "" 0 "" {TEXT -1 7 "etc..  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 86 "Notice what happens if you accidentally \+
+specify a range in which there is no solution:" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 34 "fsolve(cos(x)-x/10=0.,x,-8.5..-8);" }}}{PARA 0 "
+" 0 "" {TEXT -1 161 "In general, when Maple just gives back what you g
+ave it, it means either it couldn't find the answer, or you loused up.
+  It's your job to figure out which it is." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 96 "Notice also that you can just g
+ive it a single guess at where the solution is instead of a range" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "fsolve(cos(x)-x/10=0.,x=1.5)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 34 "But be careful here.  If you give \+
+" }{TEXT 261 7 "fsolve " }{TEXT -1 92 "an initial guess that is close \+
+to a maximum of the function whose zeros you are looking for " }{TEXT 
+261 6 "fsolve" }{TEXT -1 161 " might get lost, or at least go find a s
+olution that is nowhere your initial guess.  When you study the secant
+ method in Chapter 8 you will see why this happens." }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 27 "fsolve(cos(x)-x/10=0.,x=0);" }}}{PARA 0 "" 
+0 "" {TEXT -1 69 "Yet another way of controlling which solution Maple \+
+gives you is the " }{TEXT 261 5 "avoid" }{TEXT -1 11 " option in " }
+{TEXT 261 6 "fsolve" }{TEXT -1 57 ".  Suppose you are looking for solu
+tions of the equation " }{XPPEDIT 18 0 "cos(x)+x/3 = 0;" "6#/,&-%$cosG
+6#%\"xG\"\"\"*&F(F)\"\"$!\"\"F)\"\"!" }{TEXT -1 151 "  .  If you plot \+
+this function to see where the zeros are, you will see two closely spa
+ced solutions just below 3.  This command will find one of them:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "s1:=fsolve(cos(x)+x/3=0,x=3)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 212 "but maybe you wanted the next one \+
+down and it is hard to tell from the graph what initial guess or range
+ to use to get it.  Well, you can tell Maple to find another one near \+
+3, but not to find s1 again, like this" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 44 "s2:=fsolve(cos(x)+x/3=0,x=.09,avoid=\{x=s1\});" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 256 11 "Problem 6.1" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "Find all of the roots, \+
+real and complex, of the following polynomials.  Use both " }{TEXT 
+261 5 "solve" }{TEXT -1 5 " and " }{TEXT 261 7 "fsolve " }{TEXT -1 31 
+"on them.  You will notice that " }{TEXT 261 6 "solve " }{TEXT -1 34 "
+will give you complex values, but " }{TEXT 261 7 "fsolve " }{TEXT -1 
+36 "won't.  You can fix this by telling " }{TEXT 261 6 "fsolve" }
+{TEXT -1 44 " that you want complex solutions, like this:" }{TEXT 261 
+25 "fsolve(x^2+1=0,x,complex)" }{TEXT -1 24 ".  Also use the command \+
+" }{TEXT 261 17 "factor(f,complex)" }{TEXT -1 55 " as well, where f is
+ the polynomial you want to factor." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "(a)  " }{XPPEDIT 18 0 "x^4-1;" "6#,&*$%\"xG\"\"%\"\"\"F'!
+\"\"" }{TEXT -1 10 "     (b)  " }{XPPEDIT 18 0 "x^3+x^2+x+1;" "6#,**$%
+\"xG\"\"$\"\"\"*$F%\"\"#F'F%F'F'F'" }{TEXT -1 5 "     " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "--------------------
+--------------------------------------------------------" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }{TEXT 257 11 "Problem 6.2" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "Find all of the solutions
+ between -5 and 20 of the equation " }{XPPEDIT 18 0 "exp(x) = 10*sin(x
+);" "6#/-%$expG6#%\"xG*&\"#5\"\"\"-%$sinG6#F'F*" }{TEXT -1 3 "  ." }}
+{PARA 0 "" 0 "" {TEXT -1 76 "-----------------------------------------
+-----------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 258 11 "Problem 6.3" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 42 "Find all of the solutions of the equation " }
+{XPPEDIT 18 0 "exp(-x) = x;" "6#/-%$expG6#,$%\"xG!\"\"F(" }{TEXT -1 
+14 "  .  Use both " }{TEXT 261 5 "solve" }{TEXT -1 5 " and " }{TEXT 
+261 6 "fsolve" }{TEXT -1 27 " and compare their answers." }}{PARA 0 "
+" 0 "" {TEXT -1 75 "--------------------------------------------------
+-------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Equations in a single
+ variable (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{SECT 0 {PARA 4 "" 0 "Systems of equations (top)" {TEXT -1 20 "Systems
+ of equations" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www
+.mapleapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Systems of nonlinea
+r equations" {TEXT -1 311 "Maple can also handle systems of both linea
+r and nonlinear equations, but this is a much trickier business becaus
+e it is harder to plot the equations to understand what is going on, a
+nd because there is so much more space in which to get lost in multipl
+e dimensions.  The commands that handle these systems are " }{TEXT 
+261 5 "solve" }{TEXT -1 5 " and " }{TEXT 261 6 "fsolve" }{TEXT -1 96 "
+ again, but this time you give them sets (stuff in curly brackets) of \+
+equations and variables.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 31 "As a first example, let's have " }{TEXT 261 5 "so
+lve" }{TEXT -1 231 " do a simple linear algebra problem like the ones \+
+in Chapter 5.  John is twice as old as Kimberly.  Kimberly's age added
+ to John's age is 27.  Find their ages.  Using the LinearAlgebra packa
+ge we would set this up as a matrix, but " }{TEXT 261 7 "solve (" }
+{TEXT -1 4 "and " }{TEXT 261 6 "fsolve" }{TEXT -1 50 ") can work with \+
+the equations directly, like this:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 
+"E1:=J=2*K;E2:=K+J=27;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "s
+olve(\{E1,E2\},\{J,K\});" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 
+"fsolve(\{E1,E2\},\{J,K\});" }}}{PARA 0 "" 0 "" {TEXT -1 147 "Because \+
+you don't have to worry about the conversion to matrix form, this is p
+robably the method of choice for solving systems of linear equations.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "But " 
+}{TEXT 261 5 "solve" }{TEXT -1 5 " and " }{TEXT 261 6 "fsolve" }{TEXT 
+-1 16 " can also solve " }{TEXT 265 9 "nonlinear" }{TEXT -1 189 " syst
+ems, i.e., system of equations in which the variables are squared, cub
+ed, sit inside sines, cosines, exponentials, etc..  For example, here \+
+is a set of two nonlinear equations to solve" }}{PARA 0 "" 0 "" {TEXT 
+-1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "E1:=x^2-y=5;E2:=x-y^2=-13;" 
+}}}{PARA 0 "" 0 "" {TEXT -1 35 "  Let's try the solve command first" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "s:=solve(\{E1,E2\},\{x,y\})
+;" }}}{PARA 0 "" 0 "" {TEXT -1 235 "Maple was smart; it used equation \+
+E1 to eliminate y from equation E2 to get a single equation for x.  Th
+en it factored this quartic equation to pull out the answer (x,y)=(3,4
+) and reduced the rest of the problem to a cubic.  If we let " }{TEXT 
+261 5 "evalf" }{TEXT -1 36 " finish the problem it gives us this" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(s);" }}}{PARA 0 "" 0 "
+" {TEXT -1 214 "But if you plot the cubic in RootOf above whose roots \+
+are supposed to give the values of x that satisfy the equation, you wi
+ll see that there are supposed to be two more solutions;  where are th
+ey?   You could try " }{TEXT 262 6 "fsolve" }{TEXT -1 24 ", and you wo
+uld get this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "s:=fsolve(\{
+E1,E2\},\{x,y\});" }}}{PARA 0 "" 0 "" {TEXT -1 107 "which is even wors
+e since it only gives us one root.  You could look for the roots one a
+t a time by giving " }{TEXT 262 7 "fsolve " }{TEXT -1 26 "initial gues
+ses like this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 33 "s:=fsolve(\{E1,E2\},\{x=2.9,y=4.1\});" }}}{PARA 
+0 "" 0 "" {TEXT -1 162 "But there is a way to get Maple to give you al
+l 4 roots.  Just repeat the first thing we tried, but with all of the \+
+integers replaced with floating point numbers:" }}{PARA 0 "" 0 "" 
+{TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "E1:=x^2.-y=5.;E2:=x-y^2.=-1
+3.;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "s:=solve(\{E1,E2\},
+\{x,y\});" }}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 
+-1 119 "There is a lesson here:  be creative and try a few different w
+ays to solve the problem and maybe one of them will work." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+259 11 "Problem 6.4" }}{PARA 0 "" 0 "" {TEXT -1 68 "Find all of the so
+lutions (real and complex) of the set of equations" }}{PARA 0 "" 0 "" 
+{TEXT -1 24 "                        " }{XPPEDIT 18 0 "y^2-x^2 = -2;" 
+"6#/,&*$%\"yG\"\"#\"\"\"*$%\"xGF'!\"\",$F'F+" }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 24 "                        " }{XPPEDIT 18 0 "x-y^3
+ = 3;" "6#/,&%\"xG\"\"\"*$%\"yG\"\"$!\"\"F)" }{TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 74 "-------------------------------------------------------
+-------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 54 "Here's another nonlinear set to put Maple to the test.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "E1:=cos(
+x)+y-sqrt(z)=-.191748502;E2:=x*y*z=3;E3:=x+y+2*z=8;" }}}{PARA 0 "" 0 "
+" {TEXT -1 10 "Let's try " }{TEXT 261 5 "solve" }{TEXT -1 6 " first" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 26 "solve(\{E1,E2,E3\},\{x,y,z\});" }}}{PARA 0 "" 0 "" {TEXT -1 63 "
+(Nothing happens.)  Well, that was informative.  Now let's try " }
+{TEXT 261 6 "fsolve" }{TEXT -1 40 " with specified ranges for each var
+iable" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "fsolve(\{E1,E2,E3\}
+,\{x,y,z\},\{x=-3..3,y=-3..3,z=-3..3\});" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 249 "so it looks like (x
+,y,z)=(1,1,3) is pretty close to a solution.  I warn you, however, tha
+t in 3 dimensions and higher Maple can just get lost and run forever u
+nless (a) you know there is a solution and (b) you tell Maple approxim
+ately where to look." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 260 11 "Problem 6.5" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 104 "A particle finds itself in a r
+egion of space where its potential energy function is given by the for
+mula" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 14 " \+
+             " }{XPPEDIT 18 0 "U(x,y,z) = x^2+y^4+z^2+cos(12*x)*sin(12
+*y)-cos(12*z);" "6#/-%\"UG6%%\"xG%\"yG%\"zG,,*$F'\"\"#\"\"\"*$F(\"\"%F
+-*$F)F,F-*&-%$cosG6#*&\"#7F-F'F-F--%$sinG6#*&F6F-F(F-F-F--F36#*&F6F-F)
+F-!\"\"" }{TEXT -1 66 "  .  By using the fact that the force on the pa
+rticle is given by " }{XPPEDIT 18 0 "F = -grad(U);" "6#/%\"FG,$-%%grad
+G6#%\"UG!\"\"" }{TEXT -1 125 " , find 4 points of equilibrium.  (Findi
+ng just one will be pretty easy--after that you will have to use the r
+ange option in " }{TEXT 261 6 "fsolve" }{TEXT -1 115 " with some creat
+ivity to avoid finding the same ones over and over.)  To see how to ta
+ke the gradient in Maple, use" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 5 "?grad" }}}{PARA 0 "" 0 "" {TEXT -1 142 "and rummage through the h
+elp page until you can see how to apply it to this problem.  Remember:
+ the examples at the bottom are your friends.  " }{TEXT 264 56 "Warnin
+g: do not use the syntax -grad(U) in this problem." }{TEXT -1 86 "  If
+ you do, you will get a weird answer back that is hard to deal with.  \+
+Instead use " }{TEXT 261 8 "grad(-U)" }{TEXT -1 69 ".  The problem is \+
+subtle and involves how vectors are handled in the " }{TEXT 261 7 "lin
+alg " }{TEXT -1 28 "package.  You could get the " }{TEXT 261 8 "-grad(
+U)" }{TEXT -1 26 " form to work if you used " }{TEXT 261 15 "evalm(-gr
+ad(U))" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of s
+ection" 1 "" "Systems of equations (top)" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{HYPERLNK 17 "Go to top of chapter" 1 "" "Solving equations (chapter t
+op)" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 28 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

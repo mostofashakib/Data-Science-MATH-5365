@@ -1,0 +1,1138 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "Plot Title" -1 27 "" 1 10 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "maple command" -1 279 "" 0 0 128 0 
+0 1 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 282 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+283 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 284 "" 0 1 0 
+128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 285 "" 0 1 0 128 0 1 0 0 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 286 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 287 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 288 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 289 "" 0 1 
+0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 290 "" 0 1 0 128 0 1 0 0 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 291 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 292 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 293 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 
+0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 295 "" 0 1 0 128 0 1 0 0 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 296 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 297 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 298 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 299 "" 0 1 
+0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 300 "" 0 1 0 128 0 1 0 0 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+}{CSTYLE "commands" -1 302 "Times" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 303 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+304 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 305 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 307 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 308 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+309 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 310 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "command" -1 313 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 314 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+315 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 316 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 317 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 319 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+320 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 321 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 322 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 }{PSTYLE "Headi
+ng 3" 4 5 1 {CSTYLE "" -1 -1 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 
+0 -1 0 0 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 4" 5 20 1 {CSTYLE "" -1 
+-1 "" 1 10 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 0 0 0 0 0 0 0 0 -1 0 
+}}
+{SECT 0 {EXCHG {PARA 3 "" 0 "Getting started (top)" {TEXT -1 26 "Chapt
+er 1: Getting started" }}{PARA 0 "" 0 "Chapter 1" {TEXT -1 296 "Click \+
+on each subsection below, read and execute the Maple commands, and do \+
+the problems at the end of each one.  There is a hyperlink at the top \+
+of each subsection called Debugging that will take you to the section \+
+at the end of the worksheet that discusses what errors mean and how to
+ fix them." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "E
+xecution groups and paragraphs" {TEXT -1 31 "Execution groups and para
+graphs" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.maplea
+pps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Execution groups" {TEXT 
+-1 363 "The first thing you will notice when you turn Maple on is the \+
+square bracket on the far left and the > sign just inside it.  These t
+wo symbols are the most basic parts of Maple's graphical user interfac
+e and they will drive you crazy if you don't learn to handle them well
+ right from the start.  The window space marked off by the the square \+
+bracket is called an " }{TEXT 256 16 "execution group " }{TEXT -1 268 
+"and everything happens inside these groups.  Here's what you have to \+
+know: everything before the > sign is text, or typeset mathematics, an
+d the red stuff that comes after is Maple code that will execute to so
+lve your problems.  Maple results print in blue, like this:" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 15 "Sine function, " }{XPPEDIT 18 0 "sin(Pi/4
+);" "6#-%$sinG6#*&%#PiG\"\"\"\"\"%!\"\"" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 10 "sin(Pi/4);" }}}{PARA 0 "" 0 "" {TEXT -1 70 "  The purpose of t
+he text portion is to document what you are doing.  " }{TEXT 260 28 "P
+lease document your code.  " }{TEXT -1 217 "I will be glad you did, th
+e grader will be glad you did, and six months from now when you rememb
+er that you once solved a problem like the one you just got assigned a
+nd you go looking for it, you will be glad you did." }{TEXT 259 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{PARA 0 "" 0 "Paragraphs" {TEXT -1 44 "Within execution grou
+ps are subunits called " }{TEXT 280 10 "paragraphs" }{TEXT -1 471 ".  \+
+A paragraph might be a section of text, a Maple command, a Maple resul
+t, or maybe stuff neither one of us knows about yet.  It's a little co
+mplicated.  The easiest way to see what paragraphs are is to click on \+
+the little paragraph icon (backwards \"p\"-looking thing on the tool b
+ar).  This will print the special characters in the worksheet and will
+ show you where the paragraphs are.  Do it now and leave it on for a w
+hile until you get a feel for what paragraphs are." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "Inserting text" {TEXT -1 143 "Now hang i
+n there, you're about to actually do something.  There are two executi
+on groups just below this section of text.  Put text that says " }
+{TEXT 257 18 "Kindergarten stuff" }{TEXT -1 173 " before the > sign in
+ the first one (move the cursor just to the left of the > sign by usin
+g the arrow keys), hit Enter; then put  1+1  after the > sign and hit \+
+Enter again " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 103 "You should now be looking at a mess inside the exec
+ution group; 1+1 didn't work and you got an error.  " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "semicolon-colon" {TEXT -1 112 "First t
+hings first, and this is important: the error occurred because Maple r
+equires every executable statement " }{TEXT 258 34 "to end with a semi
+colon or a colon" }{TEXT -1 19 ".  If you end with " }{TEXT 302 2 "; \+
+" }{TEXT -1 81 "then the line will execute and Maple will tell you wha
+t it did.  If you end with " }{TEXT 302 2 ": " }{TEXT -1 174 "then the
+ line will execute, but Maple will not display the result.  This is ve
+ry useful if you know the result is OK but it's such a big mess that y
+ou don't want to see it.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "Editing text and Maple commands" {TEXT -1 45 "Anyway, to get 1+1
+ to work you need to type  " }{TEXT 302 4 "1+1;" }{TEXT -1 436 "  to g
+et the usual answer.  But first you had better clean up the mess.  The
+ error line is a paragraph.  If you try to delete it with BkSp or Del,
+ nothing will happen because these are lines that Maple generated.  To
+ kill it you need the Delete Paragraph command in the Edit menu on the
+ toolbar, or just type Ctrl-Del.  You will be using Ctrl-Del a lot to \+
+get rid of unwanted junk in execution groups.  Be careful, though; it \+
+will kill " }{TEXT 261 19 "the whole paragraph" }{TEXT -1 1291 ".  So \+
+unless you are sure of what is in the paragraph in question, click on \+
+the paragraph symbol and see how the paragraphs are arranged.  Note th
+at you can also use the mouse to highlight text to be deleted by click
+ing and holding at the beginning of the offensive material and draggin
+g the cursor to highlight everything that has to go.  Then just press \+
+Del.  Ok, so use Ctrl-Del, or mouse highlighting and Del to get rid of
+ the error message.  Then use the mouse to move the cursor to the end \+
+of  1+1  , tack on the semicolon, hit Enter, and you will have used Ma
+ple to find out that 1+1=2.  (Note that the answer comes out in blue i
+n the center of the page).  And all of the cut, paste, copy, etc., stu
+ff you are used to is available in Maple under the Edit icon on the to
+olbar.  One final note.  You probably noticed the extra execution grou
+p after 1+1;.  This extra one is there as a trap.  Whenever Maple perf
+orms the commands in one execution group, it skips down to the next on
+e.  If the next one is way far down in some text (like here in this se
+ction) your desired result will be clear off the screen and you will n
+eed to move back up there to see it.  You will see lots of traps like \+
+this in this document, but in Maple code that is not heavily documente
+d, they aren't necessary." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 416 "Maple will allow you to do more than one calculat
+ion inside an execution group.  You can do this in two ways: (i) with \+
+several commands on a single line separated by semicolons, or (ii) sev
+eral commands stacked vertically, each with its own >.  To get extra >
+'s, just move the cursor to the left of the first > and hit Enter.  Ex
+amples that you can execute are displayed below; try them out.  Oh, an
+d notice how the " }{TEXT 302 1 "#" }{TEXT -1 114 " symbol can be used
+ to add brief comment lines in red right on the command line.  The rul
+e is that anything after " }{TEXT 302 1 "#" }{TEXT -1 13 " is a commen
+t" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "1+1;2+2;3+3; # three ad
+ditions in a row" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "1+1;" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "2+2;" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 4 "3+3;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 641 "OK, hopefully this is enough to get you around on the window. \+
+ There are a lot of things that won't be mentioned here, but they are \+
+all described in online help and you can find most of them on the tool
+bar.  This might be a good time to take a tour of the toolbar to see w
+hat's up there.  To begin, click on Help and enable Balloon Help; then
+ move the cursor across each icon to see what each one is about.  And \+
+for a more thorough introduction to the way the window is managed, cli
+ck on Help and try the New Users Tour.  After you click on the New Use
+rs Tour go to the bottom of the introduction page and click on the blu
+e hyperlink called " }{TEXT 302 40 "Click here to begin the New Users'
+s Tour" }{TEXT -1 179 ", then select item (2),  The Worksheet Environm
+ent .  Oh, and when you want to close a Help screen, use Ctrl-F4 or th
+e X at the upper right-hand corner of the window (in Windows)." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 263 11 "Problem 1.1" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 79 "     Make an execution gr
+oup and document it before the > sign with the phrase:" }}{PARA 0 "" 
+0 "" {TEXT -1 39 "         Add the integers from 1 to 10." }}{PARA 0 "
+" 0 "" {TEXT -1 72 "     Then build a Maple command line to get the an
+swer to 1+2+3+...+10. " }}{PARA 0 "" 0 "" {TEXT -1 87 " --------------
+----------------------------------------------------------------------
+  " }}{PARA 0 "" 0 "" {TEXT -1 1 " " }{HYPERLNK 17 "Go to top of secti
+on" 1 "" "Execution groups and paragraphs" }{TEXT -1 1 " " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Worksheet guide" {TEXT 
+-1 37 "Quick guide to managing the worksheet" }}{PARA 0 "" 0 "Debuggin
+g" {URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/powertools/phys
+ics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 198 "This is just a collection of reci
+pes for making the worksheet look like you want it to.  I have given y
+ou several control sequences here; you can also do these things from t
+he Edit and Insert menus." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }{TEXT 303 24 "Make an execution group:" }}{PARA 
+0 "" 0 "" {TEXT 302 7 "Ctrl-j " }{TEXT -1 66 "makes one after the exec
+ution group or paragraph the cursor is in." }}{PARA 0 "" 0 "" {TEXT 
+302 7 "Ctrl-k " }{TEXT -1 64 "makes one before the execution group par
+agraph the cursor is in." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 320 38 "Adding another > to an execution group" }}{PARA 
+0 "" 0 "" {TEXT -1 149 "Use the arrow keys, or the mouse, to move the \+
+cursor just to the left of a > already in the group.  Hit Enter and an
+other one will appear just above." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 304 51 "Make a paragraph for text
+ inside an execution group" }}{PARA 0 "" 0 "" {TEXT 302 12 "Shift-Ctrl
+-j" }{TEXT -1 28 " makes one after the cursor." }}{PARA 0 "" 0 "" 
+{TEXT 302 13 "Shift-Ctrl-k " }{TEXT -1 94 "makes one before the cursor
+ (you also get one if you left arrow past the < sign and hit Enter)" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+306 54 "Slip a paragraph for text between two execution groups" }}
+{PARA 0 "" 0 "" {TEXT -1 85 "Click on the big [ at the left of the gro
+up; it will become a double line; then type " }{TEXT 302 12 "Shift-Ctr
+l-k" }{TEXT -1 19 "to get one before, " }{TEXT 302 12 "Shift-Ctrl-j" }
+{TEXT -1 18 " to get one after." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+305 0 "" }{TEXT -1 0 "" }{TEXT 307 37 "Delete a paragraph or execution
+ group" }}{PARA 0 "" 0 "" {TEXT -1 74 "Put the cursor in the paragraph
+ or execution group to be deleted and type " }{TEXT 302 11 "Ctrl-Del. \+
+ " }{TEXT -1 80 "To kill everything in the execution group you may hav
+e to do this several times." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "Inserting math within text" {TEXT -1 0 "" }{TEXT 308 42 "Enter
+ equations or expressions within text" }}{PARA 0 "" 0 "" {TEXT -1 9 "C
+lick on " }{XPPEDIT 18 0 "Sigma;" "6#%&SigmaG" }{TEXT -1 25 " on the t
+oolbar (or type " }{TEXT 302 6 "Ctrl-r" }{TEXT -1 257 ") then watch th
+e equation being typed in the window on the toolbar.  The syntax for e
+ntering typeset mathematics is Maple's own syntax.  For instance, to d
+isplay the integral of the sine function from 0 to 1 you would type th
+is: int(sin(x),x=0..1) but with " }{TEXT 302 7 "Ctrl-r " }{TEXT -1 21 
+"turned on, like this " }{XPPEDIT 18 0 "int(sin(x),x = 0 .. 1);" "6#-%
+$intG6$-%$sinG6#%\"xG/F);\"\"!\"\"\"" }{TEXT -1 179 "  .  (Highlight t
+his integral expression with the mouse and watch it appear as Maple co
+de on the toolbar.)  Hit Enter when it is complete, then click on T on
+ the toolbar (or type " }{TEXT 302 7 "Ctrl-t " }{TEXT -1 167 ") to go \+
+back to text mode.  On some systems you will need to click on the chec
+k mark two buttons to the left of the math insertion window on the too
+l bar, followed by " }{TEXT 313 6 "Ctrl-t" }{TEXT -1 20 " (or clicking
+ on T)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }{TEXT 309 30 "Split or join execution groups" }}{PARA 0 "" 0 "" 
+{TEXT -1 33 "See the Edit menu on the toolbar." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 310 54 "Remove al
+l of the blue Maple output from the worksheet" }}{PARA 0 "" 0 "" 
+{TEXT -1 18 "See the Edit menu." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 311 56 "Close all of the sections
+ and subsections in a worksheet" }}{PARA 0 "" 0 "" {TEXT -1 47 "See th
+e bottom of the View menu on the toolbar." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 103 "Removing the output and closing a
+ll of the sections fully restores this book to its original condition.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 312 24 "Other interesting tricks
+" }}{PARA 0 "" 0 "" {TEXT -1 70 "Explore the toolbar and see what's up
+ there.  Of special interest are:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 144 "(a) Tile in the Window menu allows you t
+o see the worksheet and do your assignment in side-by-side windows.  C
+ascade under Window overlays them." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 55 "(b) You can get bold, italic, and underli
+ned text with " }{TEXT 316 1 "B" }{TEXT -1 2 ", " }{TEXT 317 2 "I," }
+{TEXT -1 5 " and " }{TEXT 318 2 "u " }{TEXT -1 15 "on the toolbar." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "(c) Use t
+he magnifying glass icons on the toolbar to change the size of the typ
+e." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 101 "(d
+) Notice the curvy arrow icons on the toolbar--they undo the last oper
+ation and redo the last undo." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 94 "(e) The stop sign will kill a calculation
+ that has gone on so long you can't stand it anymore." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 322 11 "Problem 1.2" }}{PARA 
+0 "" 0 "" {TEXT -1 361 "Open a new worksheet.  At the top of the works
+heet, above the first execution group, open up some white space and pu
+t in a bold title that says Problem 1.2.  Below this title, in italics
+, put your name.  Then expand the execution group so that it contains \+
+four >'s instead of just one and put comment lines that say \"Comment \+
+1\", \"Comment 2\", etc., above each >." }}{PARA 0 "" 0 "" {HYPERLNK 
+17 "Go to top of section" 1 "" "Worksheet guide" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 " Online help (t
+op)" {TEXT -1 11 "Online help" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "Online help" {TEXT -1 400 "You probably already know how
+ to use online help in programs, so when you click on the Help icon at
+ the top of the page you will be in familiar territory.  But there is \+
+a quicker way to get help directly at the Maple prompt: just use the q
+uestion mark.  For example, suppose you are pretty sure that Maple kno
+ws how to find the prime factors of big numbers, but you don't know th
+e command.  Try this." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "?factor;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 228 "When you do you will find that this \+
+is the wrong command because it does algebra on polynomials.  But if y
+ou read a bit, and look at the helpful See Also links at the bottom of
+ the page you will see that the command you want is " }{TEXT 302 7 "if
+actor" }{TEXT -1 31 ", so you either go there or use" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "?ifactor;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 71 "Now help will tell you that this is just \+
+what you want, and you can try" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "ifactor(5040);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 139 "You can find lots of interesting stuff in Maple this w
+ay; happy hunting.  And remember that the quick way to kill the help w
+indows is with " }{TEXT 302 8 "Ctrl-F4." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 264 11 "Problem 1.3" }}{PARA 0 "" 0 "" {TEXT -1 
+117 "     Use online help to find the Maple commands for integrating a
+ function and for taking a derivative of a function." }}{PARA 0 "" 0 "
+" {TEXT -1 71 "-------------------------------------------------------
+----------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 265 11 "Probl
+em 1.4" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 94 "     Use online \+
+help to find the Maple command for taking the second derivative of a f
+unction." }}{PARA 0 "" 0 "" {TEXT -1 72 "-----------------------------
+-------------------------------------------" }}{PARA 0 "" 0 "" 
+{HYPERLNK 17 "Go to top of section" 1 "" " Online help (top)" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Speci
+al constants (top)" {TEXT -1 17 "Special constants" }}{PARA 0 "" 0 "" 
+{URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/powertools/physics
+/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "Special constants" {TEXT -1 87 "There are several co
+nstants pre-loaded in Maple that are useful for physics.  They are:" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 14 "Pi;I;infinity;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 112 "Pi is the number Pi to about as many significant figu
+res as you want.  To see its digits, use the Maple command " }{TEXT 
+302 5 "evalf" }{TEXT -1 43 " to convert a number to floating point for
+m" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "evalf(Pi,100);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 61 "and you should be impressed.  I is the im
+aginary unit, i.e., " }{XPPEDIT 18 0 "I = sqrt(-1);" "6#/%\"IG-%%sqrtG
+6#,$\"\"\"!\"\"" }{TEXT -1 16 " ; try executing" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "sqrt(-5);" }}
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 153 "Infinit
+y is, of course, not a number, but an idea, and only makes sense in li
+mits.  And Maple does the right thing in calculations involving limits
+, like" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "limit(exp(-x),x=infinity);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "or" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "sum('1/2^n','n'=1..in
+finity);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 51 "We will do more of this kind of thing in Chapter 4.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 266 11 "Problem 1.5" }}{PARA 0 "" 0 "" {TEXT -1 217 "     Compar
+e the Maple commands  cos(pi)  and cos(Pi) by trying them in an execut
+ion group.  Explain why they don't behave the same way.  (This issue w
+ill be discussed in more detail in the section on variable names)." }}
+{PARA 0 "" 0 "" {TEXT -1 52 "-----------------------------------------
+-----------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 267 11 "Problem 1.
+6" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "     Calculate the co
+mplex division problem  (3+4i)/(7-6i)  in a Maple execution group." }}
+{PARA 0 "" 0 "" {TEXT -1 52 "-----------------------------------------
+-----------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 268 11 "Problem 1.
+7" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 116 "     Calculate the l
+imit, as x approaches infinity, of the expression (3-5x)/(7+3x) using \+
+a Maple execution group.  " }}{PARA 0 "" 0 "" {TEXT -1 52 "-----------
+-----------------------------------------" }}{PARA 0 "" 0 "" 
+{HYPERLNK 17 "Go to top of section" 1 "" "Special constants (top)" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 
+"Variable names (top)" {TEXT -1 14 "Variable names" }}{PARA 0 "" 0 "" 
+{URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/powertools/physics
+/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "Naming variables" {TEXT -1 714 "Like all other moder
+n computer languages, Maple allows you to name a variable just about a
+nything you want, with some exceptions.  In C and Fortran, for instanc
+e, you can't use \"sin\" as a variable name because this name is reser
+ved for the sine function.  You can probably think of other obvious re
+served names like this (\"cos\", \"tan\", \"log\", etc.), but there ar
+e only about a hundred of these and you have the whole alphabet at you
+r disposal, so it's not a big problem.  In Maple you have to be more c
+areful because there are about 3000 commands whose names are reserved \+
+for system use.  But Maple will tell you if you have made a bad choice
+, and the possibilities for naming variables are still nearly endless.
+  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 237 "No
+w let me warn you about a bad habit into which this naming freedom see
+ms to have led your generation of computer users.  Here is how some st
+udents I have worked with would write Newton's law of universal gravit
+ation in a computer code:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 81 "     Newtons_Gravitational_Constant*Mass_1*Mass_2/
+Distance_Between_The_Masses^2  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 61 "Here is what this would look like in a Ma
+ple execution group:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 78 "  Newtons_
+Gravitational_Constant*Mass_1*Mass_2/Distance_Between_The_Masses^2; " 
+}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Ugly variable names" 
+{TEXT -1 177 "Now look; this form is certainly well documented, but yo
+u are going to spend a great deal of your life in programming typing c
+ode and reading code that has already been typed.  " }{TEXT 262 27 "Av
+oid clutter like the flu!" }{TEXT -1 51 "  Here's how I would suggest \+
+you write it in Maple:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "G*m1*m2/r12^2;" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Greek letters
+" {TEXT -1 403 "The prosecution rests.  I don't know who is responsibl
+e for the current popularity of the underscore character and capitaliz
+ation in variable names, but if I were you I would use this style very
+ sparingly, if at all.  When I program I choose variable names to be a
+s much like the symbols used in physics textbooks and research papers \+
+as possible.  These would be things like a, m, F, c, q, L, h, etc..  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 186 "But \+
+Maple has the ability to go even further toward the standard physics s
+tyle because it has Greek letters!  To get them  just write out their \+
+names in English, as in the example below." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "alpha*beta/delta;
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 169 "The
+ capital Greek letters are also available, and even though some of the
+m look like English capital letters, they are not the same, as you can
+ see in the example below:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "Alpha*A;Beta+B;Chi/Gamma;" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 101 "Well, OK
+; not all of the Greek capital letters are produced this way.  Some of
+ them you do this way\004\004" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 4 "CHI;" }}}{PARA 0 "" 0 "" {TEXT -1 388 "You can get all of them by
+ creatively switching between a capital letter first and all capitals.
+  If you persevere you can work in Maple with beautifully typeset equa
+tions just like you see in your textbooks.  (And if you don't want to \+
+memorize their spellings and capitalizations, click on View, Palettes,
+ Symbol Palettes and you will have a table of symbols you can get with
+ the mouse.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 47 "Note that a few are not available for your use:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "gamma:=4;Chi:=3;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 79 "These tw
+o, and possibly others, are used by the system.  It may be possible to
+ " }{TEXT 281 8 "unassign" }{TEXT -1 246 " them so that they are avail
+able for your own use, but I recommend against it.  The more you work \+
+strictly within the Maple system the better off you will be; or in the
+ language of Sunday afternoon in America, \"take what the defense give
+s you.\"  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 160 "Also avoid putting subscripts on variables, even though Maple'
+s typesetting ability will let you do it.  For instance you might want
+ to work with the variables " }{XPPEDIT 18 0 "x[1];" "6#&%\"xG6#\"\"\"
+" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "x[2];" "6#&%\"xG6#\"\"#" }{TEXT 
+-1 37 " which you get by doing this in Maple" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 16 "x[1]:=1;x[2]:=2;" }}}{PARA 0 "" 0 "" {TEXT -1 56 "
+They look great, but now watch what happens if you give " }{XPPEDIT 
+18 0 "x;" "6#%\"xG" }{TEXT -1 23 " a value, then display " }{XPPEDIT 
+18 0 "x[1];" "6#&%\"xG6#\"\"\"" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 5 "x:=3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+5 "x[1];" }}}{PARA 0 "" 0 "" {TEXT -1 99 "I think we can all agree tha
+t this is not going to help us do mathematics.  So if you want to code
+ " }{XPPEDIT 18 0 "x[1];" "6#&%\"xG6#\"\"\"" }{TEXT -1 124 " in Maple,
+ call it x1.  And as you choose variables, experiment a little with th
+e names and try for elegance and simplicity." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 269 11 "Problem 1.8" }{TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 23 "      Set the variable " }{XPPEDIT 18 0 "theta;" "
+6#%&thetaG" }{TEXT -1 55 " to have the value 5/3 and then coax the Map
+le command " }{XPPEDIT 18 0 "cos(theta);" "6#-%$cosG6#%&thetaG" }
+{TEXT -1 53 " into giving you cos(5/3) as a floating point number." }}
+{PARA 0 "" 0 "" {TEXT -1 59 "-----------------------------------------
+------------------" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of secti
+on" 1 "" "Variable names (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "What can a variable represent" 
+{TEXT -1 30 "What can a variable represent?" }}{PARA 0 "" 0 "" 
+{URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/powertools/physics
+/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "= versus :=" {TEXT -1 399 "In standard computing lan
+guages like Fortran, C, and Matlab variables can only represent a limi
+ted number of different things, like integers, floating point numbers,
+ complex numbers, and character strings, to name nearly all of them.  \+
+But in Maple there are over 100 different things a variable can repres
+ent.  This makes life much more complicated.  For instance, in Fortran
+ or Matlab the statement" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 8 "     a=5" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 71 "would assign to the variable a the value 5.  Bu
+t in Maple the statement" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "a=5;" }}}{PARA 0 "" 0 "" {TEXT -1 1 
+" " }}{PARA 0 "" 0 "" {TEXT -1 77 "doesn't do assignment at all.  Inst
+ead it is just the really stupid equation " }{XPPEDIT 18 0 "a = 5;" "6
+#/%\"aG\"\"&" }{TEXT -1 303 ".  Maple is capable of solving this equat
+ion and discovering that a is 5, but it is not a statement that assign
+s a value.  In order that Maple be able to work directly with equation
+s (expressions containing the symbol =), the assignment statement has \+
+been given a different form.  To assign to variable " }{XPPEDIT 18 0 "
+a;" "6#%\"aG" }{TEXT -1 41 " the value 5 the Maple statement would be
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 5 "a:=5;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 115 "One of the clearest ways of indicating the difference is
+ to note that the following statement in Maple makes sense:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "Eq:=b=5;" }}}{PARA 0 "" 0 "" {TEXT 
+-1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 39 "This statement means that the \+
+variable " }{XPPEDIT 18 0 "Eq;" "6#%#EqG" }{TEXT -1 23 " contains the \+
+equation " }{XPPEDIT 18 0 "b = 5;" "6#/%\"bG\"\"&" }{TEXT -1 30 ".  He
+re's a less dumb example:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "Eq2:= x^2 + y^2 = R^2;" }}}{PARA 0 
+"" 0 "" {TEXT -1 411 "Well, this probably looks a little strange; how \+
+come that 9 is there instead of an x?  Well, maybe it isn't, depending
+ on how you got here, but if you get a 9, here's why.  In the last sec
+tion on variable names x was set to 3, and Maple remembers forever.  T
+his will bite you over and over.  The quickest way to cure it if you d
+on't care about the stuff you have done before is to just restart Mapl
+e, like this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "restart;" }}}{PARA 0 "" 0 "" {TEXT -1 159 "Now us
+e the mouse to move the cursor back up to the Eq2 assignment, click on
+ the red text, and it will execute properly.  Note that this works eve
+n though the " }{TEXT 302 8 "restart " }{TEXT -1 157 "is below the Eq2
+:=... .  Maple is not like C or Matlab.  Order in the worksheet is not
+ what's important--order in time spent at the keyboard is what matters
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 311 "So,
+ what are the possible things that a variable can represent?  The subs
+ections given below are a partial list of the ones you are most likely
+ to encounter.  They are just Maple examples without comment.  We will
+ discuss each one in detail sometime during the course. To get a full \+
+look at what's possible, use" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "?type" }}}{PARA 0 "" 0 "" 
+{TEXT -1 98 "And if you are confused about the type of, say, a variabl
+e named a, you can use the Maple command " }{TEXT 302 12 "whattype(a).
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 270 11 "Problem 1.9" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+49 "     On a clean worksheet use the Maple command  " }{TEXT 313 6 "b
+:=a=5" }{TEXT -1 77 " and then use the type command to check the type \+
+of b by using the commands  " }{TEXT 313 54 "type(b,integer),  type(b,
+float),  and type(b,equation)" }{TEXT -1 71 ".  Explain why the result
+s of these three commands make sense to Maple." }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 80 "---------------
+-----------------------------------------------------------------" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 99 "The secti
+ons below contain examples of the most important data types we will be
+ using in this book." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 15 "Complex numbers
+" }}{PARA 0 "" 0 "" {TEXT -1 10 "Note that " }{XPPEDIT 18 0 "I = sqrt(
+-1);" "6#/%\"IG-%%sqrtG6#,$\"\"\"!\"\"" }{TEXT -1 2 " ." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "cn1:=(1+3*I)*(5-2*I);" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 9 "Equations
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "Eq1:=sin(x)=x;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 5 "" 0 "Floating point numbers" 
+{TEXT -1 22 "Floating point numbers" }}{PARA 0 "" 0 "Digits" {TEXT -1 
+158 "Maple usually keeps 10 significant figures in floating point (rea
+l number) calculations.  But you can increase it by changing the value
+ of the Maple constant " }{TEXT 302 6 "Digits" }{TEXT -1 12 ", like th
+is:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "f1:=4./3.;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "Digits:=50;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "f1:=4./3.;" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 11 "Digits:=10;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+}{SECT 0 {PARA 5 "" 0 "Expressions and functions" {TEXT -1 25 "Express
+ions and functions" }}{PARA 0 "" 0 "" {TEXT -1 174 "An expression look
+s like what you would probably call a function, but there is a subtle \+
+difference.  An expression is a combination of variables and Maple fun
+ctions like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "Fn1:=cos
+h(x^3)/(1+x^2);" }}}{PARA 0 "" 0 "" {TEXT -1 107 "The reason it isn't \+
+a function is because of what you have to do to evaluate it for a spec
+ific value of x: " }{TEXT 315 22 "Fn1(x) doesn't work!  " }{TEXT -1 
+46 "Instead you have to assign x a value like this" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 6 "x:=2.;" }}}{PARA 0 "" 0 "" {TEXT -1 17 "then \+
+evaluate Fn1" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "Fn1;" }}}
+{PARA 0 "" 0 "" {TEXT -1 44 "A Maple function is defined with this syn
+tax" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Fn2:=x->cosh(x^3)/(1+
+x^2);" }}}{PARA 0 "" 0 "" {TEXT -1 96 "This does behave like a functio
+n because you give it an argument and it gives you an answer back" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "Fn2(2.);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 62 "Or you can define a function with multiple arguments like
+ this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "Fn3:=(x,y,z)->x*y^2
+*z^3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "Fn3(1,2,3);" }}}
+{PARA 0 "" 0 "" {TEXT -1 11 "Hence, the " }{TEXT 302 2 "->" }{TEXT -1 
+490 " function notation makes functions like you are used to from math
+ classes.  So why would you even want to mess with expressions?  Becau
+se Maple often has an easier time doing algebra with them, integrating
+ them, differentiating them, plotting them, and using them to build di
+fferential equations.  So you have to get used to both.  I try to reme
+mber it this way:  a Maple expression looks like a function in a math \+
+book; a Maple function is a machine that takes input and gives back ou
+tput." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 5 
+"" 0 "" {TEXT -1 8 "Integers" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "I1:=12345678987654321;" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 8 "M
+atrices" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "M1:=matrix([[1,2],[3,4]]);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 11 "Polynomials" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "P1
+:=y^3+y^2+y-1;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 5 "
+" 0 "Strings" {TEXT -1 7 "Strings" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "S1:=\"Mary had a little lamb
+.\";" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 5 "" 0 "" 
+{TEXT -1 7 "Vectors" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 20 "V1:=Vector([1,2,3]);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 
+{PARA 5 "" 0 "" {TEXT -1 14 "Lists and sets" }}{PARA 0 "" 0 "Sets and \+
+lists" {TEXT -1 158 "A list is a sequence of numbers, expressions, or \+
+any other legal data type enclosed in square brackets.  They can be lo
+aded either by hand or by means of the " }{TEXT 302 3 "seq" }{TEXT -1 
+9 " command." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "s1:=[1,2,4,6
+,8,12];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "s2:=[seq(2*n^2-3
+*n+2,n=1..6)];" }}}{PARA 0 "" 0 "" {TEXT -1 80 "Their elements can be \+
+referred to with Maple's square bracket subscript notation" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "s1[3];s2[2..5];" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 439 "A set is similar to a \+
+list, but not quite.  It is enclosed in curly brackets and Maple, inst
+ead of you, decides what order the elements should be listed in.  The \+
+most important difference is that a list may contain repeated elements
+, but a set may not.  Sets are often used in the arguments of Maple co
+mmands.  In the example below note that the list stays the way it was \+
+defined while the set is re-ordered and reduced to unique elements." }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "s1:=[1,3,2,6,4,3,2];" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "s2:=\{1,3,2,6,4,3,2\};" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 
+17 "Go to top of section" 1 "" "What can a variable represent" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Getti
+ng the answer" {TEXT -1 18 "Getting the answer" }}{PARA 0 "" 0 "" 
+{URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/powertools/physics
+/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "Getting a numerical answer" {TEXT -1 158 "Now we hav
+e come to the second most annoying thing about Maple: sometimes it doe
+sn't feel like giving you the answer to your problem.  Here are some e
+xamples." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+155 "Suppose you want to know the sine of the number 1 (in radians; al
+l calculus is done in radians, so forget about degrees).  You might th
+ink this would work:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "sin(1);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 57 "This is not what we had in mind; we already know w
+e want " }{XPPEDIT 18 0 "sin(1);" "6#-%$sinG6#\"\"\"" }{TEXT -1 33 ", \+
+but what is the answer?  Maple " }{TEXT 27 0 "" }{TEXT -1 199 "is havi
+ng trouble here because it doesn't think it makes sense to take the si
+ne of an integer constant; it expects floating point numbers.  See wha
+t happens with the small addition of a decimal point" }{TEXT 283 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "sin(1.);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 102 "Difficulties like this are not always so easy to fix, so
+ Maple provides a command to take care of it: " }{TEXT 284 5 "evalf" }
+{TEXT 279 0 "" }{TEXT -1 45 ".  It would be used in this example this \+
+way:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "sin(1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "e
+valf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 302 1 "%
+" }{TEXT -1 86 " sign means \"the last result Maple calculated\" (like
+ Ans on some calculators).  It is " }{XPPEDIT 18 0 "sin(1);" "6#-%$sin
+G6#\"\"\"" }{TEXT -1 19 " in this case, and " }{TEXT 282 6 "evalf " }
+{TEXT -1 70 " stands for \"evaluate as a floating point number\".  You
+ will be using " }{TEXT 302 5 "evalf" }{TEXT -1 204 " a lot because Ma
+ple will be doing its symbolic thing when you want a numeric result.  \+
+It's just the price you have to pay to have a calculator that is at ho
+me in both the symbolic and numerical worlds.  " }{TEXT 323 234 "Warni
+ng:  if you get in the habit of using % routinely, you will routinely \+
+make mistakes.  Only use it sparingly.  Most of the time you should as
+sign results to variable names, then work with these names to avoid co
+nfusion, like this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "s:=sin(1);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "evalf(s);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 365 "Oh; and what's the number one most annoying thin
+g about Maple?  It doesn't give you very good error messages when you \+
+louse up.  It tends either to just parrot back to you the thing you as
+ked it to do, or it gives you gobbledygook like \"Can't evaluate Boole
+an\".  But be patient; it is a great tool and it is improving all the \+
+time.  It is definitely worth learning." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{HYPERLNK 17 "Go to top of section" 1 "" "Getting the answer" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Debug
+ging (bad things)" {TEXT -1 54 "Debugging (when bad things happen to g
+ood programmers)" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://
+www.mapleapps.com/powertools/physics/html/Debugging.html" "" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+328 "Everybody who writes or uses software has something in common--th
+eir programs don't work.  And when this happens the most important ski
+ll you can have is the ability to find out exactly what went wrong.  H
+ere are some beginning tips for debugging Maple.  More information is \+
+in the Debugging section at the end of the worksheet." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{SECT 0 {PARA 5 "" 0 "evalf (top)" {TEXT -1 27 "eva
+lf (look at the numbers)" }}{PARA 0 "" 0 "Debugging with evalf" {TEXT 
+-1 45 "Suppose you wanted to know what the function " }{XPPEDIT 18 0 "
+sin(a^2*x^2)/(sin(a*x)^2);" "6#*&-%$sinG6#*&%\"aG\"\"#%\"xGF)\"\"\"*$-
+F%6#*&F(F+F*F+F)!\"\"" }{TEXT -1 134 " looks like.  Maple's plot comma
+nd is a wonderful way to see what functions look like, so you could de
+fine the function this way (the " }{TEXT 302 8 "restart " }{TEXT -1 
+77 "command is to make sure that this example is starting out with a c
+lean slate)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "restart: f:=x
+-> sin(a^2*x^2)/sin(a*2)^2;" }}}{PARA 0 "" 0 "" {TEXT -1 8 "then use" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "plot(f(x),x=-1..1);" }}}
+{PARA 0 "" 0 "" {TEXT -1 362 "You will come to hate this error message
+.  What it really means is that there is something wrong with the func
+tion f(x), but because Maple is so powerful and allows you to do all k
+inds of things, it can't tell you what the problem is.  Hopefully at s
+ome point in time Maple will have better error messages.  But you have
+ a problem right now.  When this happens, " }{TEXT 285 5 "evalf" }
+{TEXT -1 106 " can help.  Let's check a particular value of this funct
+ion to see if we can get a hint about what's wrong" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 13 "evalf(f(1.));" }}}{PARA 0 "" 0 "" {TEXT -1 
+145 "This is an error message in disguise.  What it means is that Mapl
+e tried to give you a number back, but couldn't because you hadn't tol
+d it what " }{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 27 " was.  As soon
+ as you give " }{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 112 " a value, \+
+the plot will work.  (Set a to be 5 in the execution group below and g
+o back up and execute the plot.)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+57 "Here's another example.  Suppose you forgot the value of " }
+{XPPEDIT 18 0 "sin(pi/2);" "6#-%$sinG6#*&%#piG\"\"\"\"\"#!\"\"" }
+{TEXT -1 41 " and needed Maple to tell you, so you try" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "s:=sin(pi/2);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 78 "\"No!\", you scream, \"GIVE ME THE NUMBER!\"  The Maple c
+ommand for this would be " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "
+evalf(s);" }}}{PARA 0 "" 0 "" {TEXT -1 125 "This, again, is an error m
+essage.  It says that Maple tried to give you the number, but couldn't
+ because it didn't know what " }{XPPEDIT 18 0 "pi;" "6#%#piG" }{TEXT 
+-1 125 " is.  I have led you into error by using Maple's ability to de
+al with Greek letters.  The symbol pi is just the Greek letter " }
+{XPPEDIT 18 0 "pi;" "6#%#piG" }{TEXT -1 131 "; what you want is the ra
+tio of circle area to the square of circle radius, which is Pi in Mapl
+e.  When you do it this way it works" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "sin(Pi/2.);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 
+105 "When Maple gives you back something unexpected, try to turn it in
+to a number that you can check by using " }{TEXT 302 5 "evalf" }{TEXT 
+-1 83 ".  As you try to get a number out you will probably discover wh
+at the problem is.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {HYPERLNK 17 "Go to top of section" 1 "" "evalf (top)" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{SECT 0 {PARA 5 "" 0 "" {TEXT -1 13 "check := vs =" }}{PARA 0 "" 0 "" 
+{TEXT -1 56 "You will make this mistake 100 times at least: only use \+
+" }{TEXT 302 1 "=" }{TEXT -1 88 " when you are defining an equation; a
+ssignment, i.e., you want a to be 5, is done with  " }{TEXT 302 4 "a:=
+5" }{TEXT -1 1 "." }}}{SECT 0 {PARA 5 "" 0 "plot (make a picture)" 
+{TEXT -1 21 "plot (make a picture)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "Debugging with plot" {TEXT -1 212 "Sometimes you will ne
+ed to look at a lot more than just one number to see what went wrong, \+
+and the best way to look at a thousand numbers is to make a picture.  \+
+For instance, suppose you tried to do the integral " }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "int(sin(x)/(1-cos(x)),x=0..Pi);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 144 "You thought you were going to get a number, but Maple ga
+ve you infinity.  You could use floating point arguments to check the \+
+function like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "sin(1.
+)/(1-cos(1.));" }}}{PARA 0 "" 0 "" {TEXT -1 117 "but that looks fine. \+
+ To check a whole bunch of values over the integration range, make a p
+lot using Maple's command " }{TEXT 286 5 "plot:" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 32 "plot(sin(x)/(1-cos(x)),x=0..Pi);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 137 "N
+ow you can see that the integrand is singular at x=0, so Maple was rig
+ht: the answer is infinity.  Making plots is a great way to debug." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{SECT 0 {PARA 5 "" 0 "" {TEXT -1 23 "assume (tie Maple down)" }}{PARA 
+0 "" 0 "Debugging with assume" {TEXT -1 183 "Sometimes Maple can't do \+
+what you want it to do because you are thinking about a specific probl
+em and Maple is thinking generally.  For instance, suppose you wanted \+
+to do the integral" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "int(exp(-a^2*x^2),x=0.
+.infinity);" }}}{PARA 0 "" 0 "" {TEXT -1 32 "You wanted a formula cont
+aining " }{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 147 ", but instead yo
+u got this mess.  This time Maple gives you a helpful error message--s
+ince Maple can handle complex numbers, it can't tell whether " }
+{XPPEDIT 18 0 "a^2;" "6#*$%\"aG\"\"#" }{TEXT -1 89 " is positive or ne
+gative.  It will give you the answer if you give it a little help with
+ " }{TEXT 287 7 "assume " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "
+assume(a,real);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "int(exp(-a^2*x^2
+),x=0..infinity);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 9 "Look the " }{TEXT 288 6 "assume" }{TEXT 
+-1 72 " command up in online help; it will help you keep Maple under c
+ontrol.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+321 8 "Warning:" }{TEXT -1 21 "  Once you have used " }{TEXT 302 6 "as
+sume" }{TEXT -1 260 " on a variable, however, you may have trouble hav
+ing Maple give you numbers.  The trouble happens when you assume somet
+hing about a, use a in an expression and assign it to another variable
+ (say b), then give a a value, and finally try to evaluate b.  Observe
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "assume(a,real);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "b:=cos(a);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "a:=2.;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "ev
+alf(b);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+62 "Now watch what happens to the same sequence without the assume" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 10 "b:=cos(a);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "a:=2.;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "ev
+alf(b);" }}}{PARA 0 "" 0 "" {TEXT -1 31 "The lesson here is only to us
+e " }{TEXT 302 7 "assume " }{TEXT -1 26 "when absolutely necessary." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 175 "Finally
+, you may  need to assume two conditions on a variable, like both c>0 \+
+and c<1.  Maple lets you do this in two ways.  You can either put both
+ conditions inside a single " }{TEXT 302 7 "assume " }{TEXT -1 17 "com
+mand like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "assume(c>0
+,c<1);" }}}{PARA 0 "" 0 "" {TEXT -1 57 "or you can do it in two (or mo
+re) steps using the command" }{TEXT 302 13 " additionally" }{TEXT -1 
+11 ", like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "assume(c>
+0);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "additionally(c<1);" 
+}}}{PARA 0 "" 0 "" {TEXT -1 33 "The reason you can't just use two" }
+{TEXT 302 7 " assume" }{TEXT -1 35 " commands is that whenever you use
+ " }{TEXT 302 6 "assume" }{TEXT -1 71 " on a variable it erases all pr
+evious assumptions set on that variable." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 14 "restart (pu
+nt)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Debugging with re
+start" {TEXT -1 465 "Sometimes Maple has a hard time giving you what y
+ou want because it has become so cluttered with everything you have be
+en doing in a session that things you have forgotten, but that it reme
+mbers, interfere with what you are trying to do.  I can only give you \+
+a simple example here, but this kind of thing happens all the time and
+ it is quite often easier to just start over than to try to figure out
+ what went wrong.  Suppose you were exploring the Bessel function " }
+{XPPEDIT 18 0 "J[0](x);" "6#-&%\"JG6#\"\"!6#%\"xG" }{TEXT -1 35 " by c
+hecking a few values like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "x:=1.5;Bes
+selJ(0,x);" }}}{PARA 0 "" 0 "" {TEXT -1 49 "And then after trying a fe
+w different values of  " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 44 ",
+ you decided to plot the function like this" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 26 "plot(BesselJ(0,x),x=0..5);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 140 "This is a pretty mysterious error message, and you have \+
+to know quite a bit about Maple to be able to tell what's wrong.  But \+
+if you do this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "restart:  \+
+plot(BesselJ(0,x),x=0..5);" }}}{PARA 0 "" 0 "" {TEXT -1 18 "all is wel
+l.  The " }{TEXT 313 7 "restart" }{TEXT -1 264 " command is the Maple \+
+equivalent of  rebooting, and you will be using it regularly.  (Note: \+
+the plot failed because we tried to plot with the variable x, which ha
+d been given a value of 1.5 just before the plot.  Using an unassigned
+ variable name works just fine:)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 26 "plot(BesselJ(0,t),t=0..5);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{HYPERLNK 17 "Go to top of section" 1 "" "Debugging (bad things)" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 
+"Cool stuff (top)" {TEXT -1 31 "Cool stuff you can do right now" }}
+{PARA 0 "" 0 "" {TEXT -1 140 "Even knowing the little bit you have lea
+rned right now you can do some rather amazing things.  Open each subse
+ction and see what you can do." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{SECT 0 {PARA 5 "" 0 "Integration (top1)" {TEXT -1 11 "Integration" }}
+{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/po
+wertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Integrals" {TEXT -1 29 "Integration
+ is done with the " }{TEXT 289 4 "int " }{TEXT -1 8 "command." }}
+{PARA 0 "" 0 "" {TEXT -1 30 "Here's an indefinite integral " }
+{XPPEDIT 18 0 "int(exp(-x)*sin(x),x);" "6#-%$intG6$*&-%$expG6#,$%\"xG!
+\"\"\"\"\"-%$sinG6#F+F-F+" }{TEXT -1 1 ":" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 
+"int(exp(-x)*sin(x),x);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 26 "Here's a definite integral" }{XPPEDIT 18 0 "int(ex
+p(-x)*sin(x),x = 0 .. 1);" "6#-%$intG6$*&-%$expG6#,$%\"xG!\"\"\"\"\"-%
+$sinG6#F+F-/F+;\"\"!F-" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "s1:=int(exp(-x)*sin(x),x=0..1);" }}
+}{PARA 0 "" 0 "" {TEXT -1 68 "This is a perfectly valid expression, bu
+t perhaps you want a number?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf(s1);" }}}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "Here's an integral Map
+le can't do" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 33 "s2:=int(exp(-x^4)*cos(x),x=0..1);" }}}{PARA 0 "" 0 
+"" {TEXT -1 107 "so it just prints it nicely and lets you worry about \+
+how to get an actual number out.  You do this by using" }{TEXT 313 6 "
+ evalf" }{TEXT -1 34 " to ask Maple to do it numerically" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "evalf(s2);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 271 12 "Problem 1.10" }{TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 34 "     Find the numerical answer to " }{XPPEDIT 18 
+0 "int(exp(sqrt(x)),x = 0 .. 2);" "6#-%$intG6$-%$expG6#-%%sqrtG6#%\"xG
+/F,;\"\"!\"\"#" }{TEXT -1 62 ".  Put a comment on the same line as the
+ command with Maple's " }{TEXT 302 1 "#" }{TEXT -1 10 " notation." }}
+{PARA 0 "" 0 "" {TEXT -1 59 "-----------------------------------------
+------------------" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of secti
+on" 1 "" "Integration (top1)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{SECT 0 {PARA 5 "" 0 "Differentiation (top1)" {TEXT -1 15 "
+Differentiation" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://w
+ww.mapleapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Derivatives" 
+{TEXT -1 42 "Take the derivative of any function using " }{TEXT 290 4 
+"diff" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "f:=sin(x)/sqrt(1+x^2);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "d1:=diff(f,x);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 179 "Perhaps you don't like the look of this and would rather
+ have a common denominator.  This is called normal form and can be obt
+ained this way (we will do more of this in Chapter 9)" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 11 "normal(d1);" }}}{PARA 0 "" 0 "" {TEXT -1 
+33 "You can do second derivatives too" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "d2:=diff(exp(-x)*tan(x),x$2);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 46 "Maybe you think this could look prettier?  Try" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "simplify(d2);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 55 "then try to pull out the common exponential factor with" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(%);" }}}{PARA 0 "" 
+0 "" {TEXT -1 31 "and then get the polynomial in " }{XPPEDIT 18 0 "tan
+(x);" "6#-%$tanG6#%\"xG" }{TEXT -1 25 " to be in the right order" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "sort(%);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 130 "And now that I like the final answer I will assign it to
+ d2.  This is one of the few times that I use the previous answer vari
+able" }{TEXT 279 1 " " }{TEXT 302 1 "%" }{TEXT 279 1 "." }{TEXT -1 
+193 "  It is useful here because if one of the algebra commands I use \+
+to get an improved form doesn't work, I haven't messed up what's in d2
+, so I can just keep trying things until I get what I get." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "d2:=%;" }}}{PARA 0 "" 0 "" {TEXT -1 
+212 "These algebra commands, and more, are discussed in Chapter 9.  Du
+ring the semester you should get used to going to Chapter 9 and lookin
+g around whenever you want Maple put an expression in a form you like \+
+better." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 272 12 "Proble
+m 1.11" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "   Take the firs
+t derivative of the function " }{XPPEDIT 18 0 "cos(cos(cos(cos(x))));
+" "6#-%$cosG6#-F$6#-F$6#-F$6#%\"xG" }{TEXT -1 91 ".  Put a comment abo
+ut what you are doing in text within the execution group and above the
+ " }{TEXT 302 4 "diff" }{TEXT -1 9 " command." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 59 "-----------------------------------------------------------" }}
+{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Differentiat
+ion (top1)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 
+{PARA 5 "" 0 "" {TEXT -1 16 "Build a sequence" }}{PARA 0 "" 0 "" 
+{URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/powertools/physics
+/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "seq2" {TEXT -1 142 "In calculus you studied sequence
+s of numbers that tend to a limit and infinite sums of such sequences.
+  In Maple sequences are built with the " }{TEXT 302 4 "seq " }{TEXT 
+-1 27 "command.  It works this way" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 
+"s:=seq((5+n)/(3+n),n=1..50);" }}}{PARA 0 "" 0 "" {TEXT -1 2 "or" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(s);" }}}{PARA 0 "" 0 "
+" {TEXT -1 68 "which gives us a hint that the sequence is approaching \+
+a limit of 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 140 "Or you can build a sequence of expressions, like the ter
+ms of a power series.  Here are the terms in the series for the expone
+ntial function" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "seq(x^n/n!
+,n=1..20);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 314 12 "Pr
+oblem 1.12" }}{PARA 0 "" 0 "" {TEXT -1 55 "Generate the first 15 terms
+ of the sequence defined by " }{XPPEDIT 18 0 "s[n] = diff(cos(x)/(1+x)
+,`$`(x,n));" "6#/&%\"sG6#%\"nG-%%diffG6$*&-%$cosG6#%\"xG\"\"\",&F0F0F/
+F0!\"\"-%\"$G6$F/F'" }{TEXT -1 110 " .  Put a comment about what you a
+re doing in text below the seq command, but within the same execution \+
+group." }}{PARA 0 "" 0 "" {TEXT -1 59 "-------------------------------
+----------------------------" }}}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 12 "
+Sum a series" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.
+mapleapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Sums" {TEXT -1 73 "F
+ind a formula for the sum of the integers raised to the 6th power usin
+g " }{TEXT 291 3 "sum" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "rest
+art;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "s1:=sum(k^6,k=1..n)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 93 "Fin
+d the result of summing the reciprocals of the integers raised to the \+
+6th power from 1 to " }{XPPEDIT 18 0 "infinity;" "6#%)infinityG" }
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "s2:=sum(1/n^
+6,n=1..infinity);" }}}{PARA 0 "" 0 "" {TEXT -1 38 "then convert this t
+o a numerical value" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf
+(s2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 273 12 "Problem
+ 1.13" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "    Find the sum \+
+of the reciprocals of the squares of the odd integers from 1 to " }
+{XPPEDIT 18 0 "infinity;" "6#%)infinityG" }{TEXT -1 119 ".  Put a comm
+ent about what you are doing in a separate paragraph above and outside
+ the execution group containing the " }{TEXT 302 3 "sum" }{TEXT -1 9 "
+ command." }}{PARA 0 "" 0 "" {TEXT -1 59 "----------------------------
+-------------------------------" }}}{SECT 0 {PARA 5 "" 0 "Taylor serie
+s (top)" {TEXT -1 14 "Taylor series " }}{PARA 0 "" 0 "" {URLLINK 17 "D
+ebugging" 4 "http://www.mapleapps.com/powertools/physics/html/Debuggin
+g.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "Taylor series" {TEXT -1 190 "One of the most useful tools used by
+ physicists to get approximate answers to difficult problems is the Ta
+ylor series.  You have probably forgotten this result, so here it is: \+
+ any function " }{XPPEDIT 18 0 "f(x);" "6#-%\"fG6#%\"xG" }{TEXT -1 79 
+" which is infinitely differentiable can be approximated in the neighb
+orhood of " }{XPPEDIT 18 0 "x = a;" "6#/%\"xG%\"aG" }{TEXT -1 21 " by \+
+a polynomial in (" }{XPPEDIT 18 0 "x-a;" "6#,&%\"xG\"\"\"%\"aG!\"\"" }
+{TEXT -1 43 ") which is given by Taylor's famous formula" }}{PARA 0 "
+" 0 "" {TEXT -1 4 "    " }}{PARA 0 "" 0 "" {TEXT -1 72 "  f(x) = f(a) \+
++ f'(a)(x-a) + f''(a) (x-a)^2/2! + f'''(a)(x-a)^3/3! + ..." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 75 "This is very usef
+ul in getting approximations.  For instance, the quantity " }{XPPEDIT 
+18 0 "1/sqrt(1-v^2/(c^2));" "6#*&\"\"\"F$-%%sqrtG6#,&F$F$*&%\"vG\"\"#*
+$%\"cGF+!\"\"F.F." }{TEXT -1 115 " appears all the time in relativity \+
+theory.  It is sometimes nice to have an approximate form for this for
+mula if  " }{XPPEDIT 18 0 "v/c;" "6#*&%\"vG\"\"\"%\"cG!\"\"" }{TEXT 
+-1 20 " is small.  Use the " }{TEXT 292 6 "taylor" }{TEXT -1 21 " comm
+and to find it. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "taylor(1/sqrt(1-x^2),x,
+5);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 39 "where the 5 means get terms up through " }{XPPEDIT 18 0 "
+x^5;" "6#*$%\"xG\"\"&" }{TEXT -1 30 " in the expansion.   The term " }
+{XPPEDIT 18 0 "O(x^6);" "6#-%\"OG6#*$%\"xG\"\"'" }{TEXT -1 66 " in the
+ answer means that the error in this expansion is of order " }
+{XPPEDIT 18 0 "x^6;" "6#*$%\"xG\"\"'" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}{TEXT 274 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 319 12 "Problem 1.14" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+50 "     Find an approximate formula for the function " }{XPPEDIT 18 
+0 "exp(cos(x));" "6#-%$expG6#-%$cosG6#%\"xG" }{TEXT -1 28 " including \+
+terms up through " }{XPPEDIT 18 0 "x^10;" "6#*$%\"xG\"#5" }{TEXT -1 
+197 ".  Display the coefficients of the series in both rational and fl
+oating point form.  Put a comment about what you are doing in a text p
+aragraph outside and below the execution group containing the " }
+{TEXT 302 7 "taylor " }{TEXT -1 8 "command." }}{PARA 0 "" 0 "" {TEXT 
+-1 59 "-----------------------------------------------------------" }}
+{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Taylor serie
+s (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}}{SECT 0 
+{PARA 5 "" 0 "" {TEXT -1 14 "Plot functions" }}{PARA 0 "" 0 "" 
+{URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/powertools/physics
+/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "Plots" {TEXT -1 92 "If you want to quickly find out \+
+what some function that you have run across looks like, use " }{TEXT 
+293 4 "plot" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 26 "plot(exp(sin(x)),x=0..50);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }{TEXT 275 12 "Problem 1.15" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 33 "     Make a plot of the function " }
+{XPPEDIT 18 0 "exp(-x/25)*cos(x);" "6#*&-%$expG6#,$*&%\"xG\"\"\"\"#D!
+\"\"F,F*-%$cosG6#F)F*" }{TEXT -1 6 " from " }{XPPEDIT 18 0 "x = 0;" "6
+#/%\"xG\"\"!" }{TEXT -1 4 " to " }{XPPEDIT 18 0 "x = 100;" "6#/%\"xG\"
+$+\"" }{TEXT -1 96 ".   Then put a comment about what you are doing in
+ a paragraph between the two execution groups." }}{PARA 0 "" 0 "" 
+{TEXT -1 59 "---------------------------------------------------------
+--" }}}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 20 "Solve hard equations" }}
+{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapleapps.com/po
+wertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Solving equations" {TEXT -1 31 "Sup
+pose you need a solution of " }{XPPEDIT 18 0 "exp(-x) = x;" "6#/-%$exp
+G6#,$%\"xG!\"\"F(" }{TEXT -1 7 ".  Use " }{TEXT 294 5 "solve" }{TEXT 
+-1 16 " on the equation" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 24 "sol:=solve(exp(-x)=x,x);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 142 "Well, this is an answer in terms of some function you have nev
+er heard of when what you really wanted was just a number.  No problem
+; just use" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "evalf(sol);" }
+}}{PARA 0 "" 0 "" {TEXT -1 200 "Or if you already know that there isn'
+t going to be a symbolic solution and you just want a number, you coul
+d tell Maple to just numerically solve this equation with Maple's nume
+rical equation solver " }{TEXT 295 6 "fsolve" }{TEXT -1 57 ", telling \+
+Maple to start looking for a solution near x=1:" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 22 "fsolve(exp(-x)=x,x=1);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 139 "If you don't give it a good guess it may take longer to \+
+get the answer or it may get lost and go to infinity instead of findin
+g the answer." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 276 12 "Problem 1
+.16" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "     Find the solut
+ion of the equation " }{XPPEDIT 18 0 "cos(x) = x;" "6#/-%$cosG6#%\"xGF
+'" }{TEXT -1 162 ".  Put a comment about what you are doing in a parag
+raph within the execution group just above the command.  Within this p
+aragraph of text use Maple's math mode (" }{XPPEDIT 18 0 "Sigma;" "6#%
+&SigmaG" }{TEXT -1 41 " on the toolbar) to include the equation " }
+{XPPEDIT 18 0 "cos(x) = x;" "6#/-%$cosG6#%\"xGF'" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 157 "Maple wi
+ll also solve equations (even systems of equations) for you symbolical
+ly.  For example, here is how Maple solves the quadratic equation symb
+olically:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "Q:=a*x^2+b*x+c=0;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "solve(Q,x);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 95 "And here's the symbolic solution of the g
+eneral problem of two equations in two unknowns, with " }{XPPEDIT 18 
+0 "x;" "6#%\"xG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "y;" "6#%\"yG" }
+{TEXT -1 13 " unknown and " }{XPPEDIT 18 0 "a-f;" "6#,&%\"aG\"\"\"%\"f
+G!\"\"" }{TEXT -1 22 "  as the coefficients:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "E1:=a*x+b*y=e;E2:=
+c*x+d*y=f;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "solve(\{E1,E2
+\},\{x,y\});" }}}{PARA 0 "" 0 "" {TEXT -1 109 "You may find this an ea
+sier way of handling simultaneous equations than using Maple's linear \+
+algebra package." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 59 "-------------
+----------------------------------------------" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 28 "Solve differenti
+al equations" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.
+mapleapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Solving differential
+ equations" {TEXT -1 88 "Suppose you need the two fundamental solution
+s of the second order differential equation" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 110 "     f'' + xf' +f = 0 where ' \+
+denotes differentiation by x; use Maple's differential equation solvin
+g command " }{TEXT 296 6 "dsolve" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 45 "dsolve(diff(f(x),x$2)+x*diff(f(x),x)+f(x)=0)
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 13 "The variable " }{XPPEDIT 18 0 "_C1;" "6#%$_C1G" }{TEXT 
+-1 67 " is the arbitrary multiplier of the first fundamental solution \+
+and " }{XPPEDIT 18 0 "_C2;" "6#%$_C2G" }{TEXT -1 58 " is the multiplie
+r of the second.  It involves a function " }{XPPEDIT 18 0 "erf(x);" "6
+#-%$erfG6#%\"xG" }{TEXT -1 140 " that you haven't encountered yet, but
+ you will.  Solving differential equations is a big subject and we wil
+l devote all of Chapter 7 to it." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 277 12 "Problem 1.17" }{TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 272 "    Find the solution of the diff
+erential equation  y' = x+y.  After Maple finds the general solution, \+
+find the value of the arbitrary constant from the condition y(0)=1.  P
+ut a comment about what you are doing in a paragraph of text below and
+ outside the execution group." }}{PARA 0 "" 0 "" {TEXT -1 59 "--------
+---------------------------------------------------" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 71 "Maple can also handle t
+he initial conditions for you, like this (using " }{XPPEDIT 18 0 "f(0)
+ = 1;" "6#/-%\"fG6#\"\"!\"\"\"" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "di
+ff(f,x)(0) = 2;" "6#/--%%diffG6$%\"fG%\"xG6#\"\"!\"\"#" }{TEXT -1 3 " \+
+):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "Eq:=diff(f(x),x$2)+x*diff(f(x),x)+f(x)=0;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "dsolve(\{Eq,f(0)=1,D(f)(0)=2\},f(x)
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 0 {PARA 5 "" 0 "" {TEXT -1 46 "Handle matrices \+
+and solve systems of equations" }}{PARA 0 "" 0 "" {URLLINK 17 "Debuggi
+ng" 4 "http://www.mapleapps.com/powertools/physics/html/Debugging.html
+" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Ma
+trices and vectors" {TEXT -1 215 "There is an entire package in Maple \+
+devoted to matrices, vectors, and linear algebra.  We will spend Chapt
+er 5 on this subject, but here is an example of what can be done.  Let
+'s solve the linear system of equations" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 23 "     x +   2y + 3z  = 6" }}{PARA 0 "
+" 0 "" {TEXT -1 23 "     4x + 5y + 6z  = 15" }}{PARA 0 "" 0 "" {TEXT 
+-1 23 "     7x + 8y + 10z = 25" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 178 "which has been carefully built so that i
+ts solution is [x,y,z] = [1,1,1].  Maple would solve this system this \+
+way.  First bring in the linear algebra package by using the command" 
+}{TEXT 297 19 "with(LinearAlgebra)" }{TEXT -1 34 ".  Then  load the ma
+trix with the " }{TEXT 298 7 "Matrix " }{TEXT -1 50 "command, load the
+ right-hand side vector with the " }{TEXT 299 7 "Vector " }{TEXT -1 
+47 "command, and finally solve the system with the " }{TEXT 300 12 "Li
+nearSolve " }{TEXT -1 9 "command. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 20 "with(LinearAlgebra);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 157 "(If you don't want to see all of this stuff that printed
+ because we pulled in Maple's linear algebra package, put a colon at t
+he end instead of a semicolon.)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 38 "A:=Matrix([[1,2,3],[4,5,6],[7,8,10]]);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 21 "b:=Vector([6,15,25]);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 20 "c:=LinearSolve(A,b);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 301 12 "Problem 1.18" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 266 "Jack is twice as old as Jill. \+
+ Jill's age added to Jack's age is the same as Joan's age.  The sum of
+ their three ages is 48.  How old is each person?  Solve this problem \+
+by copying and modifying the above example.  Put a comment about what \+
+you are doing between the " }{TEXT 302 7 "Vector " }{TEXT -1 4 "and " 
+}{TEXT 302 11 "LinearSolve" }{TEXT -1 139 " execution groups.  If your
+ copy of the code above doesn't have these in separate execution group
+s, split them by looking in the edit menu." }}{PARA 0 "" 0 "" {TEXT 
+-1 59 "-----------------------------------------------------------" }}
+}{SECT 0 {PARA 5 "" 0 "Do algebra (top)" {TEXT -1 10 "Do algebra" }}
+{PARA 20 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {URLLINK 17 "Debuggin
+g" 4 "http://www.mapleapps.com/powertools/physics/html/Debugging.html
+" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Al
+gebra" {TEXT -1 661 "This is a very big topic and one of the main thin
+gs Maple was designed to do.   Chapter 9 has a description of common a
+lgebra commands that you will be using throughout this course.  You ca
+n use Chapter 9 as a reference whenever Maple gives you an answer whos
+e form doesn't impress you.  Take a few minutes now and read through C
+hapter 9, down to the section on algebra with  matrices.  Don't try to
+ understand in detail everything that you read;  just become familiar \+
+with what's available in Chapter 9 so you know where to look when prob
+lems come up  later.  Then come back here and do the problem below.  (
+Don't do the problems at the end of Chapter 9.)     " }{HYPERLNK 17 "C
+hapter 9" 1 "" "Chapter 9" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 278 12 "Problem 1.19" }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "     Use Maple commands t
+o put the expression " }{XPPEDIT 18 0 "1/x-x/(x-1)+x/(x+1);" "6#,(*&\"
+\"\"F%%\"xG!\"\"F%*&F&F%,&F&F%F%F'F'F'*&F&F%,&F&F%F%F%F'F%" }{TEXT -1 
+114 " into a simpler form.  Put a comment about what you are doing in \+
+text above and outside the first execution group." }}{PARA 0 "" 0 "" 
+{TEXT -1 59 "---------------------------------------------------------
+--" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Do alg
+ebra (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of sec
+tion" 1 "" "Cool stuff (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 
+17 "Go to top of chapter" 1 "" "Getting started (top)" }{TEXT -1 0 "" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}}{MARK "1 3 0" 106 }{VIEWOPTS 1 1 0 1 1 1803 
+1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

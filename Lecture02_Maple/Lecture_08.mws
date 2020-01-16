@@ -1,0 +1,719 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "commands" -1 268 "Ti
+mes" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "command" -1 269 "" 
+0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 
+1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 273 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+278 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {SECT 0 {PARA 3 "" 0 "Programming (chapter top)" {TEXT -1 54 "
+Chapter 8: Programming -- logic, loops, and procedures" }}{PARA 0 "" 
+0 "Chapter 8" {TEXT -1 25 "Sometimes Maple won't hav" }{TEXT 267 0 "" 
+}{TEXT -1 168 "e a command that does what you need to do.  When this h
+appens you have to do your own programming in Maple using logic, loops
+, and procedures.  We will start with logic" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{SECT 0 {PARA 4 "" 0 "Logic: if-then-else-fi (top)" {TEXT 
+-1 26 "Logic: if-then-else-end if" }}{PARA 0 "" 0 "" {URLLINK 17 "Debu
+gging" 4 "http://www.mapleapps.com/powertools/physics/html/Debugging.h
+tml" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"if-then-elif-else-fi" {TEXT -1 40 "The basic logic command in Maple i
+s the " }{TEXT 268 2 "if" }{TEXT -1 181 " statement.  To illustrate it
+, suppose that you wanted a Maple function f(x) that would accept a va
+lue x and return -1 if x<0, 0 if x=0, and +1 if x>0.  You would write \+
+it this way:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "f:=x-> if x<0 then -1 elif x
+=0 then 0 else 1 end if;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 32 "Here'
+s a test to see if it works" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "f(-.
+5);f(0);f(.5);" }}}{PARA 0 "" 0 "" {TEXT -1 35 "(Note: this is the sam
+e as Maple's " }{TEXT 268 6 "signum" }{TEXT -1 11 " function.)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 36 "(As you w
+ill see in a minute, this i" }{TEXT 268 23 "f-then-elif-else-end if" }
+{TEXT -1 79 " way of building functions with special cases doesn't wor
+k well in Maple.  The " }{TEXT 268 9 "piecewise" }{TEXT -1 130 " synta
+x introduced below is the best syntax to use.  I am only using this mo
+re awkward form to introduce you to logic statements.)" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 86 "The statement defining the function f al
+most reads like English if you just translate " }{TEXT 268 5 "elif " }
+{TEXT -1 17 "as \"else if\" and " }{TEXT 268 7 "end if " }{TEXT -1 88 
+"as \"we're done\".  As you can see there are three elements that go i
+nto this statement.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 42 "The first are the logical syntax commands " }{TEXT 
+268 34 "if ... then, elif ... then, else, " }{TEXT -1 4 "and " }{TEXT 
+268 7 " end if" }{TEXT -1 34 ". They have to be in this order.  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "logical tests (<,>,etc.)
+" {TEXT -1 149 "The second element is the conditional statement (logic
+al test statement).  These are things like x<0, etc..  Maple allows th
+e following logical tests" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 48 "                                                " 
+}{TEXT 268 2 "< " }{TEXT -1 13 "    less than" }}{PARA 0 "" 0 "" 
+{TEXT -1 48 "                                                " }{TEXT 
+268 2 "<=" }{TEXT -1 21 "   less than or equal" }}{PARA 0 "" 0 "" 
+{TEXT -1 48 "                                                " }{TEXT 
+268 3 ">  " }{TEXT -1 15 "   greater than" }}{PARA 0 "" 0 "" {TEXT -1 
+48 "                                                " }{TEXT 268 3 ">=
+ " }{TEXT -1 23 "  greater than or equal" }}{PARA 0 "" 0 "" {TEXT -1 
+48 "                                                " }{TEXT 268 4 "= \+
+  " }{TEXT -1 7 "  equal" }}{PARA 0 "" 0 "" {TEXT -1 48 "             \+
+                                   " }{TEXT 268 4 "<>  " }{TEXT -1 10 
+" not equal" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "evalb(eva
+luate Boolean)" {TEXT -1 203 "When Maple encounters a test like this i
+t evaluates it as a Boolean expression, i.e., as an expression whose v
+alue can be true or false.  To help you debug things Maple has a a Boo
+lean evaluator command " }{TEXT 268 5 "evalb" }{TEXT -1 21 ".  It work
+s like this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "evalb(7>5);ev
+alb(3=4);evalb(3<>4);" }}}{PARA 0 "" 0 "" {TEXT -1 73 "Stare at the re
+sults of executing these commands until they make sense.  " }}{PARA 0 
+"" 0 "" {TEXT -1 6 "Note: " }{TEXT 268 3 "and" }{TEXT -1 2 ", " }
+{TEXT 268 2 "or" }{TEXT -1 6 ", and " }{TEXT 268 4 "not " }{TEXT -1 
+56 "can also be used to combine logic statements,  like this" }}{PARA 
+0 "" 0 "" {TEXT -1 5 "     " }{TEXT 268 17 "-2<=x and x<=-1 ." }}
+{PARA 0 "" 0 "" {TEXT -1 41 "There are other conjuctions as well; see \+
+" }{TEXT 268 5 "?if  " }{TEXT -1 4 "and " }{TEXT 268 8 "?boolean" }
+{TEXT -1 18 " for more details." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 25 "The third element of the " }{TEXT 268 3 "
+if " }{TEXT -1 319 "statement is the set of statements that it execute
+s.  In the example above these are just the numbers -1, 0, and 1, but \+
+any valid expression could go in these positions.  For instance, we co
+uld use this construct to define a function which is one thing for neg
+ative numbers and another  for positive numbers, like this:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "g:=x-> if x<0 then 1/(1+x^2) else c
+os(x) end if;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 40 "Test it to make \+
+sure there are no errors" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "g(-1.5)
+;g(2.5);" }}}{PARA 0 "" 0 "" {TEXT -1 77 "Ok, we seem to be getting nu
+mbers out.  But watch what happens if you do this" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 6 "g(Pi);" }}}{PARA 0 "" 0 "" {TEXT -1 499 "You n
+eed to able to interpret this error message because you will be gettin
+g it occasionally.  It tells you that it tried to evaluate g, but that
+ when it did, at least one of the Boolean expressions couldn't be eval
+uated.  This happened because Pi is not really a number in Maple, so w
+e just asked for a comparison between the number 0 and the non-number \+
+Pi.  (Pi is more of an idea than a number in Maple.)  You get the same
+ error if you try to evaluate g(a), where a hasn't been given a number
+ yet" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "g(a);" }}}{PARA 0 "" 
+0 "" {TEXT -1 83 "The problem with Pi can be fixed by remembering that
+ Pi is tricky and always using " }{TEXT 268 9 "evalf(Pi)" }}{PARA 0 "
+" 0 "" {TEXT -1 23 "when you want a number:" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 13 "g(evalf(Pi));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 54 "Now let's plot our function and see what \+
+it looks like" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "plot(g(x),x
+=-10..10);" }}}{PARA 0 "" 0 "" {TEXT -1 506 "Whoa, bad booleans again.
+  Now what went wrong?  Well, with the if statement in g(x) Maple can'
+t plot with this syntax.  When x goes from the plot command into g, x \+
+is apparently not yet a number.  A clue to solving this problem is fou
+nd by looking at what Maple did to our statement g:=x->... above; it t
+urned it into a procedure (more about these later).  And Maple plots p
+rocedures using \"operator notation\", meaning that you don't say g(x)
+,x=-10..10 in the plot command, you just leave x out, like this" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "plot(g,-10..10);" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 84 "But if you try \+
+to integrate the function or differentiate it, you are at a dead end:
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "int(g(x),x=-2..2);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "diff(g(x),x);" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "This difficulty is
+ the reason that the" }{TEXT 269 20 " if-then-else-end if" }{TEXT -1 
+223 " syntax is not very convenient for defining functions in Maple.  \+
+But piecewise functions like this are pretty important, so it would be
+ good if there were some clean way to handle them.  Fortunately, there
+ is.  Maple has a " }{TEXT 268 10 "piecewise " }{TEXT -1 84 "command t
+hat is used for exactly this purpose.  To redefine the function g(x) u
+sing " }{TEXT 268 9 "piecewise" }{TEXT -1 17 " we would do this" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "g:=x->piecewise(x<0, 1/(1+x^
+2),x>=0, cos(x));" }}}{PARA 0 "" 0 "" {TEXT -1 63 "Now it really is a \+
+function and you can plot it like a function" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 19 "plot(g(x),x=-5..5);" }}}{PARA 0 "" 0 "" {TEXT -1 
+28 "integrate it like a function" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 18 "int(g(x),x=-5..5);" }}}{PARA 0 "" 0 "" {TEXT -1 36 "and differ
+entiate it like a function" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "diff(g(x),x);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 51 "So this is the best way to do piecewise functions; " }
+{TEXT 268 20 "if-then-elif-end if " }{TEXT -1 73 "is mostly used insid
+e loops and procedures, which we will get to shortly." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 256 11 "Problem 8.1" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "cubic b-spline" {TEXT -1 171 "Use
+ the piecewise construct to define a Maple function which evaluates th
+e so-called cubic B-spline function and plot it from t=-4..4.  The fun
+ction is defined this way:  " }}{PARA 0 "" 0 "" {TEXT -1 117 "        \+
+                    __________________________________________________
+___________                            " }}{PARA 0 "" 0 "" {TEXT -1 
+31 "                               " }{XPPEDIT 18 0 "(2+t)^3/6;" "6#*&
+,&\"\"#\"\"\"%\"tGF&\"\"$\"\"'!\"\"" }{TEXT -1 57 "                   \+
+                                   if " }{XPPEDIT 18 0 "t;" "6#%\"tG" 
+}{TEXT -1 23 " is in the range -2..-1" }}{PARA 0 "" 0 "" {TEXT -1 89 "
+                           ___________________________________________
+___________________" }}{PARA 0 "" 0 "" {TEXT -1 32 "                  \+
+              " }{XPPEDIT 18 0 "(1+(1+t)*(3+(1+t)*(3-3*(1+t))))/6;" "6
+#*&,&\"\"\"F%*&,&F%F%%\"tGF%F%,&\"\"$F%*&,&F%F%F(F%F%,&F*F%*&F*F%,&F%F
+%F(F%F%!\"\"F%F%F%F%F%\"\"'F0" }{TEXT -1 7 "    if " }{XPPEDIT 18 0 "t
+;" "6#%\"tG" }{TEXT -1 22 " is in the range -1..0" }}{PARA 0 "" 0 "" 
+{TEXT -1 86 "    B(t) =              _________________________________
+_____________________________" }}{PARA 0 "" 0 "" {TEXT -1 33 "        \+
+                         " }{XPPEDIT 18 0 "(1+(1-t)*(3+(1-t)*(3-3*(1-t
+))))/6;" "6#*&,&\"\"\"F%*&,&F%F%%\"tG!\"\"F%,&\"\"$F%*&,&F%F%F(F)F%,&F
++F%*&F+F%,&F%F%F(F)F%F)F%F%F%F%F%\"\"'F)" }{TEXT -1 6 "   if " }
+{XPPEDIT 18 0 "t;" "6#%\"tG" }{TEXT -1 21 " is in the range 0..1" }}
+{PARA 0 "" 0 "" {TEXT -1 90 "                            _____________
+_________________________________________________" }}{PARA 0 "" 0 "" 
+{TEXT -1 35 "                                  -" }{XPPEDIT 18 0 "(t-2
+)^3/6;" "6#*&,&%\"tG\"\"\"\"\"#!\"\"\"\"$\"\"'F(" }{TEXT -1 55 "      \+
+                                              if " }{XPPEDIT 18 0 "t;
+" "6#%\"tG" }{TEXT -1 21 " is in the range 1..2" }}{PARA 0 "" 0 "" 
+{TEXT -1 90 "                            _____________________________
+_________________________________" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }
+}{PARA 0 "" 0 "" {TEXT -1 4 "For " }{XPPEDIT 18 0 "t;" "6#%\"tG" }
+{TEXT -1 30 " outside of the range -2..2 , " }{XPPEDIT 18 0 "B(t) = 0;
+" "6#/-%\"BG6#%\"tG\"\"!" }{TEXT -1 3 " . " }}{PARA 0 "" 0 "" {TEXT 
+-1 52 "                                                    " }}{PARA 
+0 "" 0 "" {TEXT -1 240 "You will discover that when you need to specif
+y a range with a beginning and an end, like -1 to 0, you will need to \+
+combine two inequalities, i.e. b<a<c.  Maple does this by using two di
+fferent inequality conditions and combining them with " }{TEXT 268 4 "
+and," }{TEXT -1 11 " like this:" }}{PARA 0 "" 0 "" {TEXT 268 12 "b<a  \+
+and a<c" }{TEXT -1 63 ".  When you get the function defined, plot it b
+etween -4 and 4." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 76 "---------------------------------------------------------
+-------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT 257 11 "Problem 8.2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 88 "Integrate B(t) from -3..3.  Also plot its first
+ three derivatives on the interval -3..3." }}{PARA 0 "" 0 "" {TEXT -1 
+76 "------------------------------------------------------------------
+----------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 258 11 "Problem 8.3" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 37 "Here's an example of a problem where " }
+{TEXT 268 9 "piecewise" }{TEXT -1 48 " won't work cleanly and it is be
+tter to use the " }{TEXT 268 11 "if...end if" }{TEXT -1 8 " syntax." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 18 "Use this
+ syntax to" }{TEXT 269 1 " " }{TEXT -1 38 "make a plot of the sine fun
+ction from " }{XPPEDIT 18 0 "-2*Pi .. 2*Pi;" "6#;,$*&\"\"#\"\"\"%#PiGF
+'!\"\"*&F&F'F(F'" }{TEXT -1 102 ", but with the peaks and valleys all \+
+chopped off flat at height 0.9 or depth -0.9.  The Maple command " }
+{TEXT 268 6 "signum" }{TEXT -1 55 " will be useful in doing this, as w
+ill your old friend " }{TEXT 268 5 "evalf" }{TEXT -1 77 ".  Note that \+
+instead of doing logic horizontally (in x), as we do when using " }
+{TEXT 268 9 "piecewise" }{TEXT -1 52 ", you will be doing logic vertic
+ally (in y) instead." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {HYPERLNK 17 "Go to top of section" 1 "" "Logic: if-then-else-fi (to
+p)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 
+"" 0 "Loops: for, do, od, while, and break (top)" {TEXT -1 40 "Loops: \+
+for, do, end do, while, and break" }}{PARA 0 "" 0 "" {URLLINK 17 "Debu
+gging" 4 "http://www.mapleapps.com/powertools/physics/html/Debugging.h
+tml" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 44 "Much of computing is done in loops: Maple's " }{TEXT 
+269 3 "sum" }{TEXT -1 66 " command has a loop at the bottom, as does n
+umerical integration, " }{TEXT 268 6 "fsolve" }{TEXT -1 43 ", numerica
+l differential equation solving, " }{TEXT 268 23 "dsolve(...type=numer
+ic)" }{TEXT -1 133 ", and many more.  You have seen an example of a ho
+memade loop in the three-dimensional integration procedure in the calc
+ulus section[" }{HYPERLNK 17 "Triple integrals" 1 "" "Triple integrals
+" }{TEXT -1 46 "] and in the differential equation section on " }
+{HYPERLNK 17 "Shooting" 1 "" "Shooting" }{TEXT -1 234 ".  When Maple w
+on't do what you want it to do, you will often find yourself writing y
+our own loop.  So that we have something concrete to talk about, let's
+ write our own loop to sum the squares of the integers from 1 to 100. \+
+ Maple's " }{TEXT 268 4 "sum " }{TEXT -1 24 "command does it this way
+" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "sum(i^2,i=1..100);" }}}{PARA 0 "" 0 "" {TEXT -1 126 "
+Somewhere down in Maple's depths, what is actually being done by this \+
+command is a loop.  A handmade one would go like this.  " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 278 9 "Sum Loop:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Adding loop" {TEXT -1 
+86 "First you decide where you want the answer to be stored and set th
+at variable to zero:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "answ
+er:=0;" }}}{PARA 0 "" 0 "loop" {TEXT -1 148 "Then you make a loop that
+ counts from 1 to 100, and inside that loop you square the counter and
+ add its square into answer, like this using Maple's " }{TEXT 268 26 "
+for..from..to..do..end do " }{TEXT -1 19 "syntax.  Note that " }{TEXT 
+268 2 "do" }{TEXT -1 35 " means \"beginning of the loop\" and " }
+{TEXT 268 6 "end do" }{TEXT -1 25 " means \"end of the loop\"." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "for i from 1 to 100 do" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "   answer:=answer + i^2;" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 7 "end do;" }}}{PARA 0 "" 0 "" {TEXT -1 70 "W
+ell, that was more information than you wanted.  To fix this, end the
+" }{TEXT 268 8 " end do " }{TEXT -1 92 "that terminates the loop with \+
+a colon instead of a semicolon then look at answer at the end." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "answer:=0;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 22 "for i from 1 to 100 do" }}{PARA 0 "> " 0 
+"" {MPLTEXT 1 0 24 "   answer:=answer + i^2;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "end do:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "a
+nswer;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+160 "And what if you want to sum the odd numbers from 1 to 99?  Well, \+
+you just want to start at 1, end at 99, and step up by 2.  A loop that
+ does this using Maple's " }{TEXT 268 3 "by " }{TEXT -1 9 "syntax is" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "answer:=0;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "for i from 1 by 2 to 99 do" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "   answer:=answer + i^2;" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 7 "end do:" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "answer;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 279 29 "Successive Substitution Loop:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 450 "If you know how far you \+
+want to count this is all you have to do, but sometimes you don't know
+ how many times you want to loop.  Instead, you want to loop until som
+e condition is met.  For instance, here is an interesting little trick
+ that some of you may have noticed on your hand calculators.  What hap
+pens if you just take the cosine of a number over and over and over?  \+
+Let's let Maple do it 20 times and show us what it's doing as it goes \+
+along." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "x:=5.;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "for i from 1 to 20 do" }}{PARA 0 "
+" 0 "" {TEXT -1 78 "Take the cosine of x and store the result in x so \+
+we can do it again and again" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "   \+
+ x:=cos(x);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "end do;" }}}{PARA 0 "
+" 0 "loop while" {TEXT -1 196 "It looks like the answer is converging \+
+to something.  And in fact, if you think for just a minute, you will b
+e able to see that the number it is converging to has to be a solution
+ of the equation " }{XPPEDIT 18 0 "cos(x) = x;" "6#/-%$cosG6#%\"xGF'" 
+}{TEXT -1 377 ".  (Explain to your partner or to the TA why this is tr
+ue.)  But you can also see that 20 times was not enough to get 10 digi
+ts right; what we would really like to do is loop until successive ans
+wers are within some tolerance of each other, say 1e-8, just to make t
+he problem definite.  Maple will let you end the loop that way too, wi
+th just a little bit of extra programming." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "" 0 "Successive substitution loop" {TEXT -1 
+89 "Choose a starting value of x and an initial fake value of xold, th
+e \"previous value of x\"" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "x:=5.;
+xold:=0;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 90 "Keep looping as long \+
+as |x-xold|>1e-8 (this is why we need the initial fake value of xold)
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "for i from 1 while abs(x-xold)>
+1e-8 do" }}{PARA 0 "" 0 "" {TEXT -1 68 "Put the new x from taking the \+
+cosine into a temporary variable tempx" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 18 "    tempx:=cos(x):" }}{PARA 0 "" 0 "" {TEXT -1 67 "Put the cur
+rent x into xold so we will be able to tell when to quit" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 12 "    xold:=x:" }}{PARA 0 "" 0 "" {TEXT -1 41 "
+Put the new x (called t right now) into x" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "x:=tempx;" }}{PARA 0 "" 0 "" {TEXT -1 26 "Go back up a
+nd do it again" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "end do;" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 421 "This is called
+ successive iteration, and it is used in computing a lot.  It would be
+ a good idea for you to look at the structure of this loop carefully t
+o see how it is built.  In particular, pay attention to when each vari
+able is computed and where it is stored.  You may also notice that I t
+ried in the loop to have only x print by using colons on the t and xol
+d lines; this didn't work and I don't know how to fix it." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 78 "Well, those are the two basic kinds of l
+oops.  For additional information see " }{TEXT 268 5 "?for." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 259 11 
+"Problem 8.4" }}{PARA 0 "" 0 "" {TEXT -1 70 "Write a loop that evaluat
+es the power series for the cosine function, " }{XPPEDIT 18 0 "cos(x) \+
+= sum((-1)^(n/2)*x^n/n!,n = 0 .. infinity);" "6#/-%$cosG6#%\"xG-%$sumG
+6$*(),$\"\"\"!\"\"*&%\"nGF.\"\"#F/F.)F'F1F.-%*factorialG6#F1F//F1;\"\"
+!%)infinityG" }{TEXT -1 5 " for " }{XPPEDIT 18 0 "n;" "6#%\"nG" }
+{TEXT -1 15 " even  .  Give " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 
+35 " a value outside the loop, use the " }{TEXT 268 2 "by" }{TEXT -1 
+227 " syntax to get even numbers, and keep looping until the next term
+ added to the sum is less than 1e-8.  To do this you will need to know
+ how to make a loop that adds.  There is one at the beginning of this \+
+section, right here:  " }{HYPERLNK 17 "Adding loop" 1 "" "Adding loop
+" }}{PARA 0 "" 0 "" {TEXT -1 80 "-------------------------------------
+-------------------------------------------" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 260 11 "Problem 8.5" }}{PARA 0 "" 0 "
+" {TEXT -1 47 "Write a loop that evaluates the Fourier series " }
+{XPPEDIT 18 0 "f(theta) = sum((-1)^n*sin((2*n+1)*theta)/(2*n+1),n = 0 \+
+.. infinity);" "6#/-%\"fG6#%&thetaG-%$sumG6$*(),$\"\"\"!\"\"%\"nGF.-%$
+sinG6#*&,&*&\"\"#F.F0F.F.F.F.F.F'F.F.,&*&F7F.F0F.F.F.F.F//F0;\"\"!%)in
+finityG" }{TEXT -1 10 "  .  Give " }{XPPEDIT 18 0 "theta;" "6#%&thetaG
+" }{TEXT -1 224 " a value outside the loop and keep looping until the \+
+magnitude of the terms being added drop below 1e-4 in magnitude.  Sinc
+e the sine function is never greater than 1 in magnitude, this means t
+hat you only need to apply the " }{TEXT 268 5 "while" }{TEXT -1 10 " t
+est to  " }{XPPEDIT 18 0 "1/(2*n+1);" "6#*&\"\"\"F$,&*&\"\"#F$%\"nGF$F
+$F$F$!\"\"" }{TEXT 272 7 "   .   " }{TEXT 277 0 "" }{TEXT -1 156 "(It \+
+is bad to test on the whole term with the sine included because the si
+ne might just happen to be really small and cause the loop to terminat
+e too soon.)" }}{PARA 0 "" 0 "" {TEXT -1 80 "-------------------------
+-------------------------------------------------------" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 261 11 "Problem 8.6" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "Write a l
+oop to solve the equation " }{XPPEDIT 18 0 "x = exp(-x);" "6#/%\"xG-%$
+expG6#,$F$!\"\"" }{TEXT -1 146 " by successive substitution.  Get the \+
+answer to 8 significant figures.  To see how to build a successive sub
+stitution loop go here (just above):  " }{HYPERLNK 17 "Successive subs
+titution loop" 1 "" "Successive substitution loop" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 80 "-------------------------
+-------------------------------------------------------" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 262 27 "Prob
+lem 8.7 (Secant Method)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 235 "Here's a loop that computational physicists use all
+ the time.  It's called the secant method and it's a way of solving ha
+rd equations in one variable.  In fact, Maple almost certainly uses a \+
+fancy varition of this technique inside the " }{TEXT 268 6 "fsolve" }
+{TEXT -1 110 " command.  I also used it in the shooting procedure for \+
+differential equations in Chapter 7.  Here's the idea." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 54 "Suppose you want to \+
+solve a hard equation of the form " }{XPPEDIT 18 0 "f(x) = 0;" "6#/-%
+\"fG6#%\"xG\"\"!" }{TEXT -1 7 " , for " }{XPPEDIT 18 0 "x;" "6#%\"xG" 
+}{TEXT -1 76 ".   The secant method starts by asking you for two reaso
+nably close guesses " }{XPPEDIT 18 0 "x[1];" "6#&%\"xG6#\"\"\"" }
+{TEXT -1 5 " and " }{XPPEDIT 18 0 "x[2];" "6#&%\"xG6#\"\"#" }{TEXT -1 
+52 " .  Then you evaluate the function at each value of " }{XPPEDIT 
+18 0 "x;" "6#%\"xG" }{TEXT -1 8 " to get " }{XPPEDIT 18 0 "f[1] = f(x[
+1]);" "6#/&%\"fG6#\"\"\"-F%6#&%\"xG6#F'" }{TEXT -1 5 " and " }
+{XPPEDIT 18 0 "f[2] = f(x[2]);" "6#/&%\"fG6#\"\"#-F%6#&%\"xG6#F'" }
+{TEXT -1 74 " .  You learned in high school algebra what to do with tw
+o ordered pairs (" }{XPPEDIT 18 0 "x[1],f[1];" "6$&%\"xG6#\"\"\"&%\"fG
+6#F&" }{TEXT -1 7 ") and (" }{XPPEDIT 18 0 "x[2],f[2];" "6$&%\"xG6#\"
+\"#&%\"fG6#F&" }{TEXT -1 83 ") like this: use the two-point line formu
+la to put a straight line through them:   " }{XPPEDIT 18 0 "y-f[2] = (
+f[2]-f[1])*(x-x[1])/(x[2]-x[1]);" "6#/,&%\"yG\"\"\"&%\"fG6#\"\"#!\"\"*
+(,&&F(6#F*F&&F(6#F&F+F&,&%\"xGF&&F36#F&F+F&,&&F36#F*F&&F36#F&F+F+" }
+{TEXT -1 82 "  .  But what we have just built is a straight-line appro
+ximation to the function " }{XPPEDIT 18 0 "f(x);" "6#-%\"fG6#%\"xG" }
+{TEXT -1 45 ", so to get an approximation to the value of " }{XPPEDIT 
+18 0 "x;" "6#%\"xG" }{TEXT -1 86 " that solves our hard equation, we j
+ust solve the line formula above for the value of " }{XPPEDIT 18 0 "x;
+" "6#%\"xG" }{TEXT -1 12 " that gives " }{XPPEDIT 18 0 "y = 0;" "6#/%
+\"yG\"\"!" }{TEXT -1 13 " and call it " }{XPPEDIT 18 0 "x[3];" "6#&%\"
+xG6#\"\"$" }{TEXT -1 48 " , our next best guess at where the solution \+
+is." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "Eqline:=0-f2=(f2-f1)/(x2-x1)*(x-x2)
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "x3:=solve(Eqline,x);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 315 "This is a good algebraic expression, but not a good nume
+rical one because as we get close to the root when both x1 and x2, and
+ f1 and f2, are close to each other we get x3 by almost dividing zero \+
+by zero.  This can cause floating point troubles, so it is better to r
+earrange this formula so that it looks like this:" }}{PARA 0 "" 0 "" 
+{TEXT -1 61 "                                                         \+
+    " }{XPPEDIT 18 0 "x[3] = x[2]-f[2]*(x[2]-x[1])/(f[2]-f[1]);" "6#/&
+%\"xG6#\"\"$,&&F%6#\"\"#\"\"\"*(&%\"fG6#F+F,,&&F%6#F+F,&F%6#F,!\"\"F,,
+&&F/6#F+F,&F/6#F,F6F6F6" }{TEXT -1 4 "   ." }}{PARA 0 "" 0 "" {TEXT 
+-1 156 "With this form we get the next best guess by adding something \+
+small to the previous best guess and we get in less numerical trouble.
+  It is true that both (" }{XPPEDIT 18 0 "x[2]-x[1];" "6#,&&%\"xG6#\"
+\"#\"\"\"&F%6#F(!\"\"" }{TEXT -1 7 ") and (" }{XPPEDIT 18 0 "f[2]-f[1]
+;" "6#,&&%\"fG6#\"\"#\"\"\"&F%6#F(!\"\"" }{TEXT -1 70 ") are small, so
+ we are dividing zero by zero again, but the values of " }{XPPEDIT 18 
+0 "f[1];" "6#&%\"fG6#\"\"\"" }{TEXT -1 6 " and  " }{XPPEDIT 18 0 "f[2]
+;" "6#&%\"fG6#\"\"#" }{TEXT -1 58 " in the numerator are extra small b
+ecause we are close to " }{XPPEDIT 18 0 "f(x) = 0;" "6#/-%\"fG6#%\"xG
+\"\"!" }{TEXT -1 84 " , so the sins we commit in dividing zero by zero
+ don't affect the answer as much.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "loop, break out" {TEXT 273 32 "Ok, here is finally the \+
+problem:" }{TEXT -1 65 "  Write a loop that uses the secant method to \+
+solve the equation " }{XPPEDIT 18 0 "tan(x)-2*x = 0;" "6#/,&-%$tanG6#%
+\"xG\"\"\"*&\"\"#F)F(F)!\"\"\"\"!" }{TEXT -1 17 " for a root near " }
+{XPPEDIT 18 0 "x = 1;" "6#/%\"xG\"\"\"" }{TEXT -1 33 " .  (Make your l
+oop similar to a " }{HYPERLNK 17 "Successive substitution loop" 1 "" "
+Successive substitution loop" }{TEXT -1 78 ".)  In the loop you will f
+ind that it is desirable to jump out of the loop if " }{XPPEDIT 18 0 "
+f[2] = f[1];" "6#/&%\"fG6#\"\"#&F%6#\"\"\"" }{TEXT -1 88 " to as many \+
+significant digits as Maple is keeping (typically 10; see online help \+
+about " }{TEXT 268 6 "Digits" }{TEXT -1 76 ") because this will keep y
+ou from dividing by zero. This is hard to do with " }{TEXT 268 5 "whil
+e" }{TEXT -1 55 ", but fortunately there is a way to jump out using th
+e " }{TEXT 268 5 "break" }{TEXT -1 11 " command.  " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 121 "Here is a stupid example
+: suppose you were looping from 1 to 100 but you wanted to jump out wh
+en i was 20.  You would use" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+22 "for i from 1 to 100 do" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "    i
+f i=20 then break end if;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "end do;
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 74 "Notice that after the jump, i
+ has the value it had when the jump occurred." }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 2 "i;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 1 " " }}}
+{PARA 0 "" 0 "" {TEXT -1 201 "You will want to use this in the secant \+
+method procedure you are developing here.  To test your use of it in y
+our loop, keep repeating the calculation until the value of f2 is less
+ than 1e-10 by using " }{TEXT 268 5 "while" }{TEXT -1 64 "; this shoul
+d make division by zero happen so you will need the " }{TEXT 268 5 "br
+eak" }{TEXT -1 30 " command to protect your loop." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 145 "You may discover, howeve
+r, that getting Maple to divide by zero in this problem is difficult. \+
+ If it won't cooperate, don't worry about it.  The " }{TEXT 268 5 "bre
+ak" }{TEXT -1 92 " statement is still a good idea in general, though, \+
+so I want you to practice putting it in." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Loops
+: for, do, od, while, and break (top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "Procedures: putting loops and
+ logic to work (top)" {TEXT -1 43 "Procedures: putting loops and logic
+ to work" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapl
+eapps.com/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "procedures" {TEXT -1 
+538 "Well, you have probably noticed that loops and logic are messy.  \+
+They take up a lot of space in your worksheet and to do them over and \+
+over you have to keep moving the cursor around.  Maple has provided a \+
+way to put complicated stuff like this into something that works like \+
+a function so you can just pass values into it and get answers back ou
+t.  The structure that does this is the procedure, and you have alread
+y encountered some of these in earlier sections.  Now you get to learn
+ how to write your own.  Here is the basic structure." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 65 "Assign the procedure to a name \+
+and define an argument list for it" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "f:=proc(x,y)" }}{PARA 0 "" 0 "" {TEXT -1 74 "Declare the names of \+
+local variables, those only used within the procedure" }}{PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "   local a,b,z;" }}{PARA 0 "" 0 "" {TEXT -1 75 "
+Declare the names of global variables, those from outside to be used i
+nside" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "   global d;" }}{PARA 0 "
+" 0 "" {TEXT -1 219 "Now come the Maple statements that get the job do
+ne.  In this case we use local a and b, global d, and passed in x and \+
+y to compute function value z, which is local.  So how does Maple know
+ what value to give us back?  " }{TEXT 280 70 "The returned value is a
+lways the last thing computed in the procedure." }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "a:=3.;b:=17.;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 " \+
+  z:=a*b*x*y*d;  # last value" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "d:=31.;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "f(1,2);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 107 "To illustrate how a pr
+ocedure works, here is one that simply evaluates the cosine of an angl
+e in degrees.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "cosdeg:=proc(theta)" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "   local phi,answer;" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 22 "   phi:=theta*Pi/180.;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "   answer:=cos(phi);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 4 "end;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 11 "Now test it" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "yy:=cosdeg(45.);" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "Trace" {TEXT -1 378 "Because a procedu
+re is a program that you write, it will usually fail.  (I am not tryin
+g to insult you.  This sentence is also true:  \"When scientists and e
+ngineers write procedures, they usually fail.\")  And when it fails yo
+u will need to see what it is doing to find out how to fix it.  The Ma
+ple command to tell a procedure to reveal to you its inner workings is
+ the command " }{TEXT 268 5 "trace" }{TEXT -1 35 ".  To debug the proc
+edure above use" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "trace(cos
+deg);" }}}{PARA 0 "" 0 "" {TEXT -1 25 "then execute it like this" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "cosdeg(45);" }}}{PARA 0 "" 
+0 "" {TEXT -1 104 "And then when it is working right and you don't wan
+t to see all of this stuff every time you use it type" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 16 "untrace(cosdeg);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 263 11 "Prob
+lem 8.8" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+239 "Notice also that you didn't get what you probably expected out of
+ this cosdeg procedure.  Fix it so that it gives a floating point numb
+er back.  Make sure that your fix takes place inside the procedure and
+ not in the call you make to it.  " }}{PARA 0 "" 0 "" {TEXT -1 80 "---
+----------------------------------------------------------------------
+-------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+371 "If you look at how cosdeg is used you can see that a procedure is
+ used just like a function.  But because it is a self-contained little
+ program it can be a really complicated function.  And this is, in fac
+t, the usual reason for writing a procedure.  You have to be careful, \+
+though, because functions defined this way may not be compatible with \+
+other Maple commands like " }{TEXT 268 4 "plot" }{TEXT -1 2 ", " }
+{TEXT 268 3 "int" }{TEXT -1 2 ", " }{TEXT 268 3 "sum" }{TEXT -1 2 ", \+
+" }{TEXT 268 6 "dsolve" }{TEXT -1 85 ", etc..  In addition, procedures
+ are usually slower than the built-in Maple commands." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 264 11 "Proble
+m 8.9" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 376 
+"Write a procedure that computes the cubic B-spline function described
+ in Problem 8.1.  Plot your procedure (function) from -3..3.  Note: if
+ you are going to plot the result of a procedure the answer has to be \+
+returned as the last result, and the only arguments that can be passed
+ in are the appropriate independent variables, i.e. for a one-dimensio
+nal function you would use " }{TEXT 269 10 "B:=proc(x)" }{TEXT -1 14 "
+, for 2-d use " }{TEXT 269 12 "C:=proc(x,y)" }{TEXT -1 90 ", etc.. Whe
+n you plot output from a procedure, you can treat it like a function u
+sing the " }{TEXT 269 17 "plot(f(x),x=a..b)" }{TEXT -1 80 " command, o
+r you can use Maple's operator notation with the name of x left out: \+
+" }{TEXT 269 13 "plot(B,-3..3)" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 80 "-------------------------
+-------------------------------------------------------" }}{PARA 0 "" 
+0 "" {TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 265 12 "Pr
+oblem 8.10" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 197 "You can also use procedures to perform a task that you want to
+ do a whole bunch of times while you change some parameter.  Write a p
+rocedure that takes as inputs the parameter Nterms and the angle " }
+{XPPEDIT 18 0 "theta;" "6#%&thetaG" }{TEXT -1 45 " and returns the val
+ue of the Fourier series " }{XPPEDIT 18 0 "f(theta);" "6#-%\"fG6#%&the
+taG" }{TEXT -1 36 " given in Problem 8.5.  Use Maple's " }{TEXT 268 3 
+"sum" }{TEXT -1 87 " command inside the procedure and keep terms up to
+ n=Nterms.  Then make three plots of " }{XPPEDIT 18 0 "f(theta);" "6#-
+%\"fG6#%&thetaG" }{TEXT -1 5 " vs. " }{XPPEDIT 18 0 "theta;" "6#%&thet
+aG" }{TEXT -1 260 " with Nterms=10, Nterms=100, and Nterms=400.  This \+
+will give you an instructive way of seeing how the Fourier representat
+ion improves as you keep more terms.  Because your procedure has more \+
+than one input variable, you will need to use a plot command of form \+
+" }{TEXT 268 34 "plot(f(Nterms,theta),theta=0..Pi) " }{TEXT -1 1 "." }
+}{PARA 0 "" 0 "" {TEXT -1 80 "----------------------------------------
+----------------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 266 12 "Problem 8.11" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "Write a p
+rocedure that takes as input the parameter " }{XPPEDIT 18 0 "a;" "6#%
+\"aG" }{TEXT -1 39 ", then solves the differential equation" }}{PARA 
+0 "" 0 "" {TEXT -1 9 "         " }{XPPEDIT 18 0 "diff(f(x),`$`(x,2)) =
+ -f(x)^3;" "6#/-%%diffG6$-%\"fG6#%\"xG-%\"$G6$F*\"\"#,$*$-F(6#F*\"\"$!
+\"\"" }{TEXT -1 7 "  with " }{XPPEDIT 18 0 "f(0) = 0;" "6#/-%\"fG6#\"
+\"!F'" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "diff(f,x)(0) = a;" "6#/--%%
+diffG6$%\"fG%\"xG6#\"\"!%\"aG" }{TEXT -1 29 " .  Let the procedure ret
+urn " }{XPPEDIT 18 0 "f(1);" "6#-%\"fG6#\"\"\"" }{TEXT -1 105 " as a s
+ingle number (you will likely need to use trace to get this right).  T
+hen try different values of " }{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 
+46 " and see if you can find at least 2 values of " }{XPPEDIT 18 0 "a;
+" "6#%\"aG" }{TEXT -1 26 " (other than 0) for which " }{XPPEDIT 18 0 "
+f(1) = 0;" "6#/-%\"fG6#\"\"\"\"\"!" }{TEXT -1 27 " .  Find these 2 val
+ues of " }{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 35 " accurate to 5 si
+gnificant figures." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 77 "This is a pretty hard problem, so here are some hints.  Y
+ou will want to put " }{TEXT 268 23 "dsolve(...type=numeric)" }{TEXT 
+-1 95 " into the procedure and have it return a number.  But the outpu
+t from the numerical version of " }{TEXT 269 6 "dsolve" }{TEXT -1 33 "
+ is a set of equations, like this" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 71 
+"f:=dsolve(\{diff(y(t),t$2)=-y(t),y(0)=2,D(y)(0)=0\},\{y(t)\},type=num
+eric);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "g:=f(1);" }}}
+{PARA 0 "" 0 "" {TEXT -1 106 "When we encountered this before we used \+
+the assign statement to get the number assigned to y(t), like this" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "assign(g);" }}}{PARA 0 "" 0 
+"Op command with dsolve" {TEXT -1 255 "This failed because the derivat
+ive symbol is not a valid variable to assign to.  So now you have two \+
+choices.  (i) Change the second order ode into a coupled set of ode's \+
+and use the assign statement to extract the number or (ii) learn how t
+o use Maple's " }{TEXT 268 3 "op " }{TEXT -1 4 "and " }{TEXT 268 3 "rh
+s" }{TEXT -1 193 " commands to extract the number.  The command op pic
+ks out elements of almost anything Maple generates: expressions, funct
+ions, lists, sets, etc..  Go back up to the restart above, execute the
+ " }{TEXT 269 7 "restart" }{TEXT -1 5 ",the " }{TEXT 269 6 "dsolve" }
+{TEXT -1 23 ", and the g:=f(1); but " }{TEXT 271 19 "do not execute th
+e " }{TEXT 269 6 "assign" }{TEXT 281 12 " statement. " }{TEXT -1 86 "T
+hen in the statement below change the 1 to 2 and then to 3, and see wh
+at you get back" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "op(1,g);" 
+}}}{PARA 0 "" 0 "" {TEXT -1 107 "The number f(1) is really close now; \+
+all we have to do is get it out of the equation, and that's just what \+
+" }{TEXT 268 4 "rhs " }{TEXT -1 91 "does: it extracts the right-hand s
+ide of an equation.  So see what happens when you do this" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "rhs(op(2,g));" }}}{PARA 0 "" 0 "" 
+{TEXT -1 92 "You will need to use this construction inside your proced
+ure so that it can return a number." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 80 "--------------------
+------------------------------------------------------------" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 270 12 
+"Problem 8.12" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 286 "Write a procedure that changes the Pnm(x) Associated Leg
+endre Function discussed in Problem 3.4 into a real function that retu
+rns a number for any valid choice of n and m, including m=0.  This mea
+ns that you have to solve the \"differentiate zero times\" problem dis
+cussed in Chapter 3.  " }{HYPERLNK 17 "Associated Legendre functions" 
+1 "" "Associated Legendre functions" }{TEXT -1 201 "  Test your proced
+ure sufficiently that you know it is working correctly.  (a) First wri
+te the procedure so that it returns an expression in x, then (b) chang
+e it so it returns a floating point number." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of section" 1 "" "Pr
+ocedures: putting loops and logic to work (top)" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 0 {PARA 4 "" 0 "" {TEXT -1 37 "
+Example: plotting results from fsolve" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugging" 4 "http://www.mapleapps.co
+m/powertools/physics/html/Debugging.html" "" }{TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Plotting results from fsolve" 
+{TEXT -1 110 "Here is something that it is a little technical, but I r
+un up against it all the time, so maybe you will too. " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 72 "Suppose you have a h
+ard equation to solve that has a variable parameter " }{XPPEDIT 18 0 "
+k;" "6#%\"kG" }{TEXT -1 17 " in it, like this" }}{PARA 0 "" 0 "" 
+{TEXT -1 58 "                                                         \+
+ " }{XPPEDIT 18 0 "cos(x) = k*x;" "6#/-%$cosG6#%\"xG*&%\"kG\"\"\"F'F*
+" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 6 "where " }{XPPEDIT 18 
+0 "k;" "6#%\"kG" }{TEXT -1 53 " varies from 0 up to 20.  I want to bui
+ld a function " }{XPPEDIT 18 0 "F(k);" "6#-%\"FG6#%\"kG" }{TEXT -1 28 
+"  that returns the solution " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT 
+-1 26 " of this equation for any " }{XPPEDIT 18 0 "k;" "6#%\"kG" }
+{TEXT -1 56 " that I give it, and then I want to plot this function  \+
+" }{XPPEDIT 18 0 "F(k);" "6#-%\"FG6#%\"kG" }{TEXT -1 223 ".  The only \+
+way I know to do this is to write a procedure.  After the Maple comman
+ds inside the procedure below have executed, F is assigned the last re
+sult calculated in the procedure, in this case the value of x from the
+ " }{TEXT 268 6 "fsolve" }{TEXT -1 89 ", which is just what we want F \+
+to be.)  Study the procedure below, then execute the plot." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 28 "Declare F to be a procedure " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+10 "F:=proc(k)" }}{PARA 0 "" 0 "" {TEXT -1 61 "Declare variables that \+
+will only be used inside the procedure" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 10 "local s,x;" }}{PARA 0 "" 0 "" {TEXT -1 79 "Use fsolve to solve
+ the equation using the value of k passed in through proc(k)" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 29 "s:=fsolve(cos(x)-k*x,x,0..2);" }}{PARA 0 
+"" 0 "" {TEXT -1 6 "Return" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "end;" 
+}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 16 
+"Try a few values" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "F(1);F(2);" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 45 "Make a plot (use operator notatio
+n--the form " }{TEXT 268 18 "plot(F(k),k=0..20)" }{TEXT -1 14 " doesn'
+t work)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "plot(F,0..20);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 274 12 "Problem 8.13" }
+}{PARA 0 "" 0 "" {TEXT -1 24 "Consider the polynomial " }{XPPEDIT 18 
+0 "x^4+a*x^3+x^2+x+1;" "6#,,*$%\"xG\"\"%\"\"\"*&%\"aGF'*$F%\"\"$F'F'*$
+F%\"\"#F'F%F'F'F'" }{TEXT -1 7 "  with " }{XPPEDIT 18 0 "a;" "6#%\"aG
+" }{TEXT -1 56 " a variable parameter.  You can give this polynomial t
+o " }{TEXT 268 6 "fsolve" }{TEXT -1 44 " and it will find all four roo
+ts as long as " }{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 14 "  has a va
+lue." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "a:=2.5;" }}{PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 21 "P:=x^4+a*x^3+x^2+x+1;" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "s:=fsolve(P,x,complex);" }}}{PARA 0 "" 0 "" {TEXT -1 
+77 "If you want to select one of the roots, say the second one,  you j
+ust do this" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "s[2];" }}}
+{PARA 0 "" 0 "" {TEXT -1 108 "Copy the procedure at the start of this \+
+section and modify it to plot the second root of this polynomial as " 
+}{XPPEDIT 18 0 "a;" "6#%\"aG" }{TEXT -1 184 "   varies between 2 and 1
+0.  (Just put the Maple code in this problem into the procedure.) Note
+: procedures return the last value calculated, so in your new procedur
+e, right after the " }{TEXT 268 15 "s:=fsolve(....)" }{TEXT -1 28 " yo
+u will need the command  " }{TEXT 268 5 "s[2];" }{TEXT -1 40 " to retu
+rn the value of the second root." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 69 "-----------------------------
+----------------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }{TEXT 275 12 "Problem 8.14" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 48 "(a) Write a procedure that returns the fu
+nction " }{XPPEDIT 18 0 "t(x);" "6#-%\"tG6#%\"xG" }{TEXT -1 49 " defin
+ed as the solution of the implicit equation" }}{PARA 0 "" 0 "" {TEXT 
+-1 62 "                                                              \+
+" }{XPPEDIT 18 0 "t = x*exp(-t)/(1+t^2);" "6#/%\"tG*(%\"xG\"\"\"-%$exp
+G6#,$F$!\"\"F',&F'F'*$F$\"\"#F'F," }{TEXT -1 6 "  .   " }}{PARA 0 "" 
+0 "" {TEXT -1 29 "In the procedure use Maple's " }{TEXT 268 7 "fsolve \+
+" }{TEXT -1 83 "command to do the solve and when you have built it, pl
+ot t(x) on the range x=0..10." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 83 "(b) Do the same thing as in (a), but this
+ time use the function notation to define " }{XPPEDIT 18 0 "t(x);" "6#
+-%\"tG6#%\"xG" }{TEXT -1 9 " , i.e., " }{TEXT 268 18 "t:=x->fsolve(...
+)." }{TEXT -1 44 "  Are the two ways of doing this equivalent?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 158 "(c) Writ
+e either a function or a procedure that will give you the derivative o
+f this implicitly defined function, i.e., get a Maple function or proc
+edure for " }{XPPEDIT 18 0 "diff(t(x),x);" "6#-%%diffG6$-%\"tG6#%\"xGF
+)" }{TEXT -1 35 "  .  Warning: do not just take the " }{XPPEDIT 18 0 "
+x;" "6#%\"xG" }{TEXT -1 43 "-derivative of the equation above treating
+ " }{XPPEDIT 18 0 "t;" "6#%\"tG" }{TEXT -1 18 " like a constant--" }
+{XPPEDIT 18 0 "t;" "6#%\"tG" }{TEXT -1 11 " is really " }{XPPEDIT 18 
+0 "t(x);" "6#-%\"tG6#%\"xG" }{TEXT -1 4 " on " }{TEXT 276 26 "both sid
+es of the equation" }{TEXT -1 32 ".  So rewrite the equation with " }
+{XPPEDIT 18 0 "t;" "6#%\"tG" }{TEXT -1 13 " replaced by " }{XPPEDIT 
+18 0 "t(x);" "6#-%\"tG6#%\"xG" }{TEXT -1 11 ", then use " }{TEXT 268 
+4 "diff" }{TEXT -1 53 " to differentiate the whole equation with respe
+ct to " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 29 ".  Then have Maple
+ solve for " }{XPPEDIT 18 0 "diff(t(x),x);" "6#-%%diffG6$-%\"tG6#%\"xG
+F)" }{TEXT -1 71 " and evaluate the resulting expression by modifying \+
+your procedure for " }{XPPEDIT 18 0 "t(x);" "6#-%\"tG6#%\"xG" }{TEXT 
+-1 55 " .  When you have built this procedure, use it to plot " }
+{XPPEDIT 18 0 "diff(t(x),x);" "6#-%%diffG6$-%\"tG6#%\"xGF)" }{TEXT -1 
+114 " on the range 0..10 and verify visually that it looks like the de
+rivative of the function you plotted in part (a)." }}{PARA 0 "" 0 "" 
+{TEXT -1 80 "---------------------------------------------------------
+-----------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to top of chapt
+er" 1 "" "Programming (chapter top)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 3 "   " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 3 1 1" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

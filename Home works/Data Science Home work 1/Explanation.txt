@@ -1,0 +1,5 @@
+4) How many important independent processes transform the criminal landscape of the US over the last 20 years.
+Ans: 1
+
+5) Identify the major crime segments mainly contributed into the major process transformed using the major right singular vector of the resulting table.
+Ans: Murder, Robbery, Larceny theft

@@ -1,0 +1,782 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "" 0 1 0 128 128 1 2 0 1 0 0 0 0 0 0 
+1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "maple command" -1 266 "" 0 0 128 0 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "commands" -1 267 "Times" 1 12 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 268 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "command
+" -1 269 "" 0 0 0 128 0 1 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 270 "" 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple
+ Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 3 "" 0 "Symbolic algebra (chapter top)" {TEXT -1 
+27 "Chapter 9: Symbolic algebra" }}{PARA 0 "" 0 "" {URLLINK 17 "Debugg
+ing" 4 "http://www.mapleapps.com/powertools/physics/html/Debugging.htm
+l" "" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "C
+hapter 9" {TEXT -1 927 "This is what Maple was actually designed to do
+: symbolic mathematics.  We have already seen some of its ability to d
+o this as we have taken derivatives, integrated, and solved differenti
+al equations.  I have placed this material in the last chapter because
+ it's almost an art form and you need to be pretty comfortable with Ma
+ple before you tackle it.  You can use this chapter as a source for wh
+at to try when Maple gives you answers that are correct, but not in th
+e form you want.  It may take many months to get good at this, but it \+
+is worth the effort because Maple will not make minus sign mistakes or
+ lose factors of 2.  The trick, however, is to coax it to combine prec
+ision with a sense of style and good taste.   This is done via a partn
+ership: Maple supplies the precision; you supply the style and taste. \+
+ I will give you just enough of an introduction to get you started.  A
+fter that it's up to you and online help." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "copy and paste" {TEXT -1 1 " " }{TEXT 256 15 "cop
+y and paste:" }}{PARA 0 "" 0 "" {TEXT -1 163 "Maple almost never gives
+ you exactly what you want, so you will still need to do some algebra \+
+by hand.  But the editing capability of Maple using the mouse, copy (
+" }{TEXT 267 6 "ctrl-c" }{TEXT -1 13 ") and paste (" }{TEXT 267 6 "ctr
+l-v" }{TEXT -1 90 ") often makes it possible for you to stay in the Ma
+ple worksheet and do algebra by hand.  " }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "expand" {TEXT -1 1 " " }{TEXT 267 8 "expand: " }}
+{PARA 0 "" 0 "" {TEXT -1 43 "Here are some examples of what expand doe
+s." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "expand((x-1)^2*(x+2))
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "expand(cos(x+y));" }}}
+{EXCHG {PARA 0 "> " 0 "factor" {MPLTEXT 1 0 17 "expand(exp(x-y));" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "assume(x,real);expand(ln(x/(
+1+x^2)));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "expand(tan(x-y
+));" }}}{PARA 0 "" 0 "" {TEXT -1 72 "This command is half of Maple's a
+ll-purpose algebra simplification duo--" }{TEXT 269 20 "simplify(expan
+d(%));" }{TEXT -1 90 ".  Always try this combination first when you ge
+t an algebraic expression that needs help." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 267 8 
+"combine:" }}{PARA 0 "" 0 "" {TEXT -1 25 "This is the flip side of " }
+{TEXT 267 6 "expand" }{TEXT -1 86 ".  The two of them together know so
+me trig identities, but not as many as they should." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "expand(cos(x+y));" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "combine(%);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "expand(exp(x-y));" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 11 "combine(%);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 37 "assume(x,real);expand(ln(x/(1+x^2)));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "combine(%);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 17 "expand(tan(x-y));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "combine(%);" }}}{PARA 0 "" 0 "" {TEXT -1 48 "Hmm---and sometimes i
+t doesn't work.  Let's try " }{TEXT 269 6 "expand" }{TEXT -1 5 " and \+
+" }{TEXT 269 8 "simplify" }{TEXT -1 21 " and see what happens" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+22 "expand(%);simplify(%);" }}}{PARA 0 "" 0 "" {TEXT -1 56 "Well, some
+times you just can't get where you want to go." }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 267 11 "simp
+lify:  " }}{PARA 0 "" 0 "simplify" {TEXT -1 220 "Maple tries to read y
+our mind with this command, but doesn't always succeed.  You usually h
+ave to be creative with the other commands discussed here to get exact
+ly what you want.  A good thing to try is a combination of " }{TEXT 
+267 6 "expand" }{TEXT -1 2 ", " }{TEXT 267 8 "simplify" }{TEXT -1 6 ",
+ and " }{TEXT 267 7 "combine" }{TEXT -1 89 ".  And don't forget that y
+ou can change the forms of expressions by using copy and paste." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "simplify(cos(x)^2+sin(x)^2);
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "simplify((x^2-2*x+1)/(x
+-1));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "simplify(cos(x)^2-
+sin(x)^2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "simplify(2*si
+n(x)*cos(x),trig);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 269 8 "Simplify" }
+{TEXT -1 57 " doesn't know it, but these last two can be rewritten as \+
+" }{XPPEDIT 18 0 "cos(2*x);" "6#-%$cosG6#*&\"\"#\"\"\"%\"xGF(" }{TEXT 
+-1 5 " and " }{XPPEDIT 18 0 "sin(2*x);" "6#-%$sinG6#*&\"\"#\"\"\"%\"xG
+F(" }{TEXT -1 4 " .  " }{TEXT 269 8 "Simplify" }{TEXT -1 48 " doesn't \+
+give these to you, but for some reason " }{TEXT 267 7 "combine" }
+{TEXT -1 5 " does" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "combine(cos(x)
+^2-sin(x)^2);combine(2*sin(x)*cos(x),trig);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 84 "So you will have to be creative and play around with these comm
+ands to master them. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"Simplify with side-relations" {TEXT 267 29 "simplify with side-relati
+ons:" }}{PARA 0 "" 0 "" {TEXT -1 13 "You can give " }{TEXT 267 8 "simp
+lify" }{TEXT -1 26 " some extra help by using " }{TEXT 271 15 "side-re
+lations " }{TEXT -1 5 "(see " }{TEXT 267 18 "?simplify/siderels" }
+{TEXT -1 164 ").  The idea is to tell Maple what identities you want t
+o use to put your expression into the form you want.  For example, sup
+pose you wanted to put the expression " }{XPPEDIT 18 0 "cos(x)^4-3+cos
+(x)^2;" "6#,(*$-%$cosG6#%\"xG\"\"%\"\"\"\"\"$!\"\"*$-F&6#F(\"\"#F*" }
+{TEXT -1 27 " into a new form involving " }{XPPEDIT 18 0 "2*x;" "6#*&
+\"\"#\"\"\"%\"xGF%" }{TEXT -1 12 " instead of " }{XPPEDIT 18 0 "x;" "6
+#%\"xG" }{TEXT -1 23 " by using the identity " }{XPPEDIT 18 0 "cos(x)^
+2 = (1+cos(2*x))/2;" "6#/*$-%$cosG6#%\"xG\"\"#*&,&\"\"\"F,-F&6#*&F)F,F
+(F,F,F,F)!\"\"" }{TEXT -1 20 ".  You could do this" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 23 "f:=cos(x)^4-3+cos(x)^2;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 40 "simplify(f,\{cos(x)^2 = (1+cos(2*x))/2\});" 
+}}}{PARA 0 "" 0 "" {TEXT -1 121 "(Notice that the side-relations must \+
+be inside curly brackets.)  You may think that this is just a substitu
+tion (see the " }{TEXT 267 4 "subs" }{TEXT -1 50 " command, discussed \+
+below), but it isn't the same:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 32 "subs(cos(x)^2=(1+cos(2*x))/2,f);" }}}{PARA 0 "" 0 "" {TEXT -1 
+273 "Using side-relations is like an intelligent substitution where Ma
+ple tries to change everything it can using the identity you gave it. \+
+ The side-relations go in curly brackets, as shown in the example abov
+e, and several identities can be specified at once using the syntax " 
+}{TEXT 267 41 "simplify(expression,\{side1,side2,side3\});" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "f:=cos(x)^4+1-cos(x)^2-sin(x)^2+3*s
+in(x)^6;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "s1:=cos(x)^2=(1
++cos(2*x))/2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "s2:=sin(x)
+^2=(1-cos(2*x))/2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "simpl
+ify(f,\{s1,s2\});" }}}{PARA 0 "" 0 "" {TEXT -1 1 "\004" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 267 7 "sort:  " }{TEXT 266 0 "" }}{PARA 0 "" 0 "sort" {TEXT -1 
+84 "Sort puts expressions, especially polynomials, in order from high \+
+powers down to low" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "sort(2
+-3*x^2-x+x^4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "sort(1-co
+s(x)^2+cos(x));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "fact
+or" {TEXT -1 1 " " }{TEXT 267 9 "factor:  " }}{PARA 0 "" 0 "" {TEXT 
+-1 54 "Factor tries to write polynomials as products of terms" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(x^2-6*x+8);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "collect" {TEXT -1 1 " " 
+}{TEXT 267 10 "collect:  " }}{PARA 0 "" 0 "collect" {TEXT -1 178 "This
+ is sort of a half-way factor command.  Perhaps you see a common facto
+r within a larger expression and you would like to collect together al
+l terms that contain it, like the " }{XPPEDIT 18 0 "ln(y);" "6#-%#lnG6
+#%\"yG" }{TEXT -1 26 " term below.  Then do this" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 34 "F:=x*ln(y)-5*x + 3*ln(y)+5*exp(y);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "collect(F,ln(y));" }}}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "And if you want to col
+lect more than one factor at once, give " }{TEXT 267 7 "collect" }
+{TEXT -1 29 " a list of factors, like this" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 27 "F:=a*x*sin(y)+b*a*x/cos(y);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 17 "collect(F,[x,a]);" }}}{PARA 0 "" 0 "solve" 
+{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 267 8 "solve:  " }}{PARA 0 "" 
+0 "" {TEXT -1 272 "We have seen this before; it solves an equation for
+ the specified variable.  If the variable to solve for is obvious beca
+use there is only one, you don't have to give it; and if you just give
+ solve an expression without an = sign, it solves it by setting it equ
+al to zero." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "solve(x^2-6*x
++8);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "solve(ln(y/x)=3,y);
+solve(ln(y/x)=3,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "solv
+e(1-tan(x)^2=-2,x);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 71 "Can you sp
+ot the difference between this next one and the previous one?" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "solve(1-tan(x)^2=-2.,x);" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 103 "If you give Maple an equation tha
+t has no solution, it just hands it back to you, or gives you nothing.
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "plot(1-tan(x)^2,x=-Pi..
+Pi,-3..3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "solve(1-tan(x
+)^2=2,x);" }}}{PARA 0 "" 0 "" {TEXT -1 42 "As you can see from the plo
+t the function " }{XPPEDIT 18 0 "1-tan(x)^2;" "6#,&\"\"\"F$*$-%$tanG6#
+%\"xG\"\"#!\"\"" }{TEXT -1 51 " can never be 2, so Maple can't solve t
+he equation." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "normal" {TEXT -1 1 " " }{TEXT 
+267 7 "normal:" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 70 "The no
+rmal form for rational functions is to have a common denominator" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "normal(1/x + 1/(x+1));" }}}
+{PARA 0 "" 0 "" {TEXT -1 50 "And what happens if you try to expand thi
+s result?" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(%);" }}}
+{PARA 0 "" 0 "" {TEXT -1 129 "It's expanded, but not back to where it \+
+came from.   To get it back to where it started you have to be more sp
+ecific and use the " }{TEXT 267 7 "convert" }{TEXT -1 29 " command, wh
+ich is coming up." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "num
+er and denom" {TEXT -1 1 " " }{TEXT 267 18 "numer and denom:  " }}
+{PARA 0 "" 0 "" {TEXT -1 103 "Maple will let you refer directly to the
+ numerator or denominator of a fractional expression, like this" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "denom((1+x)/(3-x^2));" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "numer((1+x)/(3-x^2));" }}}
+{PARA 0 "" 0 "" {TEXT -1 176 "but with perhaps not exactly the form yo
+u expected.  You actually have much more control over parts of express
+ions like this by using the Maple editor's copy and paste ability:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "(1+x)/(3-x^2);" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 75 "Use the mouse to highlight the numerator \+
+of the expression above, copy it (" }{TEXT 267 6 "ctrl-c" }{TEXT -1 
+15 "), then paste (" }{TEXT 267 6 "ctrl-v" }{TEXT -1 25 ") in this exe
+cution group" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "op" {TEXT 267 3 "op:" }}{PARA 0 "" 0 "
+" {TEXT -1 61 "This command picks out pieces of expressions.  Its synt
+ax is " }{TEXT 267 10 "op(n,expr)" }{TEXT -1 123 ", which picks out th
+e nth piece of the expression expr.  Just experiment with it whenever \+
+you need to take something apart." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 48 "kk:=(1+x^2)/(sin(x)+tan(x))*cosh(x)/(1+tanh(x));" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "op(1,kk);op(2,kk);op(3,kk);o
+p(4,kk);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "subs(titute)" {TEXT -1 1 " " }
+{TEXT 267 7 "subs:  " }}{PARA 0 "" 0 "" {TEXT -1 55 "This is the subst
+itute-one-variable-for-another command" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 25 "Eq1:=cos(x)^2-5*cos(x)+1;" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 19 "subs(cos(x)=y,Eq1);" }}}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "Eq2:=exp(2*x)-t^2=x*t;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "subs(x=xi,t=tau,Eq2);" 
+}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Algsubs" {TEXT -1 11 
+"As you use " }{TEXT 267 4 "subs" }{TEXT -1 62 " you may become frustr
+ated because it seems stupid, like this:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "f:=x^4-3*x^2+5;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "subs(x^2=y,f);" }}}{PARA 0 "" 0 "" {TEXT -1 31 "Why c
+ouldn't it recognize that " }{XPPEDIT 18 0 "x^4 = y^2;" "6#/*$%\"xG\"
+\"%*$%\"yG\"\"#" }{TEXT -1 10 " ?  Well, " }{TEXT 267 5 "subs " }
+{TEXT -1 78 "is just very literal, not algebraic.  There is, however, \+
+an algebraic form of " }{TEXT 267 5 "subs " }{TEXT -1 7 "called " }
+{TEXT 267 7 "algsubs" }{TEXT -1 105 " which is much smarter.  You will
+ probably have lots better luck with it because it recognizes that you
+r " }{XPPEDIT 18 0 "x^2;" "6#*$%\"xG\"\"#" }{TEXT -1 28 " substitution
+ was really an " }{XPPEDIT 18 0 "x;" "6#%\"xG" }{TEXT -1 14 " substitu
+tion." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "algsubs(x^2=y,f);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }{TEXT 267 9 "convert:
+ " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "Convert" {TEXT -1 
+129 "Finally, there is the convert command, which is actually many com
+mands depending on what kind of conversion you want to do.  Use " }
+{TEXT 267 8 "?convert" }{TEXT -1 137 " to see all of the possibilities
+.  When you get stuck and the commands discussed above don't do the jo
+b, try looking through the list of " }{TEXT 267 7 "convert" }{TEXT -1 
+91 " options in online help.  Here are a few of what I think are usefu
+l or interesting options." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "parfrac(partial fraction)
+" {TEXT -1 57 "Put rational functions in partial fraction form with th
+e " }{TEXT 267 7 "parfrac" }{TEXT -1 7 " option" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 37 "convert((2*x+1)/(x*(x+1)),parfrac,x);" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "confrac(continued fraction)
+" {TEXT -1 59 "Convert rational functions to continued fraction form w
+ith " }{TEXT 267 7 "confrac" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "conv
+ert((2*x+1)/(x*(x+1)),confrac,x);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "" 0 "exp(exponential form)" {TEXT -1 43 "Express funct
+ions in exponential form with " }{TEXT 267 3 "exp" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 22 "convert(sin(x),exp,x);" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "convert(sinh(x),exp,x);" }}}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 66 "Convert expressions with si
+nes and cosines into tangent form with " }{TEXT 267 3 "tan" }}{PARA 0 
+"> " 0 "" {MPLTEXT 1 0 8 "restart;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+42 "a:=convert((2+cos(x)^2)/(2-sin(x)^2),tan);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "a:=simplify(a);" }}}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 61 "Convert expressions with tangents into sine-cosine form with " 
+}{TEXT 267 6 "sincos" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "convert(a,s
+incos);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "metric(unit conv
+ersion)" {TEXT -1 42 "Convert English units to metric ones with " }
+{TEXT 267 16 "convert(,metric)" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "c
+onvert(1.*acre,metric);convert(1.*MPH,metric);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 61 "To see what English quantities can be converted to metric
+ try" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "?metric" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "piecewise(convert function
+s)" {TEXT -1 31 "Convert expressions containing " }{TEXT 267 3 "abs" }
+{TEXT -1 2 ", " }{TEXT 267 9 "Heaviside" }{TEXT -1 2 ", " }{TEXT 267 
+6 "signum" }{TEXT -1 13 ", etc., into " }{TEXT 267 10 "piecewise " }
+{TEXT -1 9 "functions" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "F:=abs(x);
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "F:=convert(F,piecewise,x);" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 14 "For instance, " }{TEXT 267 7 "conv
+ert" }{TEXT -1 44 " will give you a nice definition of Maple's " }
+{TEXT 267 7 "signum " }{TEXT -1 10 "function  " }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "G:=signum(x);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "G
+:=convert(G,piecewise,x);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "" 0 "polar(convert to polar form)" {TEXT -1 31 "Convert compl
+ex expressions to " }{TEXT 267 6 "polar " }{TEXT -1 4 "form" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 21 "convert(x+I*y,polar);" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 76 "Now this is probably not exactly what you had in \+
+mind.  Fortunately Maple's " }{TEXT 267 3 "map" }{TEXT -1 56 " command
+ can put it in a more useful form.  The command " }{TEXT 267 4 "map " 
+}{TEXT -1 56 "tells Maple to apply the procedure in the first slot of \+
+" }{TEXT 267 9 "map(a,b) " }{TEXT -1 140 "to each of the operands of t
+he object in the second slot, in this case the magnitude and argument \+
+expressions,  The conversion procedure is " }{TEXT 267 7 "evalc, " }
+{TEXT -1 19 "so we would do this" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 
+"map(evalc,%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT 267 3 "Map" }{TEXT -1 24 " is quite powerful; se
+e " }{TEXT 267 5 "?map " }{TEXT -1 12 "for details." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }{TEXT 267 8 "ratpoly
+:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "ratpoly(conv
+ert series to rational function)" {TEXT -1 4 "The " }{TEXT 267 7 "ratp
+oly" }{TEXT -1 176 " option converts a series into a rational function
+.  This is often a very convenient and compact way to get an approxima
+te expression for a complicated function.  The syntax is" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 20 "                  \+
+  " }{TEXT 267 37 "convert(series,ratpoly,numdeg,dendeg)" }{TEXT -1 1 
+" " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "wher
+e " }{TEXT 267 6 "numdeg" }{TEXT -1 52 " is the order of the numerator
+ polynomial and where " }{TEXT 267 6 "dendeg" }{TEXT -1 107 " is the o
+rder of the denominator polynomial.  These two arguments are optional.
+  If you don't specify them " }{TEXT 267 7 "convert" }{TEXT -1 136 " w
+ill just choose the appropriate orders for the number of terms in your
+ series.  Here are a few examples with illustrative plots using " }
+{TEXT 267 6 "taylor" }{TEXT -1 24 " to generate the series." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 101 "Approximate th
+e sine function.  Compare the exact result (red) with the rational apr
+oximation (blue)." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "sinap:=convert
+(taylor(sin(x),x=0,10),ratpoly);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 45 
+"plot([sin(x),sinap],x=0..6,color=[red,navy]);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 160 "Approximate the tangent
+ function.  In this example notice how the ability of rational functio
+ns to be singular beautifully matches the singularity of tan(x) at " }
+{XPPEDIT 18 0 "Pi/2;" "6#*&%#PiG\"\"\"\"\"#!\"\"" }{TEXT -1 85 " .  Th
+e rational expression assigned below to tanap is an excellent approxim
+ation to " }{XPPEDIT 18 0 "tan(x);" "6#-%$tanG6#%\"xG" }{TEXT -1 43 " \+
+.   (Exact in red, approximation in blue.)" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 46 "tanap:=convert(taylor(tan(x),x=0,10),ratpoly);" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "plot([tan(x),tanap],x=0..5,-10..10,
+color=[red,navy]);" }}}{PARA 0 "" 0 "" {TEXT -1 264 "I know this may s
+eem a little strange--why would I want to build a rational function ap
+proximation to a function I already have?  Well, suppose you had to ha
+ve Bessel functions in a C or Java program.  You could use Maple to ge
+t a simple approximation to it using " }{TEXT 267 7 "ratpoly" }{TEXT 
+-1 141 ", then use this approximation in your other program.  (Be care
+ful that you don't use the approximation outside of the domain where i
+t works.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 51 "J0ap:=convert(taylor(BesselJ(0,x),x=0,10),ratpoly);" 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "plot([BesselJ(0,x),J0ap],x=0..5,c
+olor=[red,navy]);" }}}{PARA 0 "" 0 "" {TEXT -1 152 "Or even better, pl
+ot the difference between the exact function and the approximation so \+
+you know over what range the approximation is sufficiently good." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "plot(BesselJ(0,x)-J0ap,x=0..
+5,-.001..0.001);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT 270 11 "Strategy:  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 751 "Because Maple will not do exactly what \+
+you want it to do you will get very frustrated.  Perhaps the best way \+
+to avoid ulcers as you use it is not to expect too much.  In complicat
+ed problems you will need to do a lot of pencil-and-paper work to guid
+e the calculation, but you can use Maple to do the details.  Maple doe
+s lots better on small chunks of algebra than it does on big ones, so \+
+feed it bite-size pieces, then find creative ways of combining the pie
+ces on your paper.  And when you find what looks like a promising appr
+oach, use Maple to implement it.  Finally, when you have used Maple, y
+our head, and your hand to get a final beautifully simplified answer, \+
+plot it against the original ugly form to make sure that they are real
+ly the same." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 156 "Sometimes you will need to do algebra on matrices, and you wil
+l discover that it is a little tricky.  Here is a section on how to ha
+ndle problems like this." }}{SECT 0 {PARA 4 "" 0 "Matrices and arrays \+
+of expressions" {TEXT -1 43 "Algebra on matrices filled with expressio
+ns" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 214 "Ma
+ple will let you do all of the things discussed in the section above t
+o expressions contained inside matrices and arrays, but you have to wo
+rk a little harder.  Suppose we have the following matrix of expressio
+ns" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "restart;with(LinearAlg
+ebra):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 61 "F:=Matrix([[x^2+x
+*y^2,1/x+y/x],[(x-y)*(x+y),x^2+2*x*y+y^2]]);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 170 "and suppose we want to change its form using the algebra
+ commands discussed in the previous section.  We might try to substitu
+te q for x in each term of the matrix using " }{TEXT 267 4 "subs" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "subs(x=q,F);" }}}{PARA 0 "" 
+0 "" {TEXT -1 65 "which is exactly what we wanted.  (Note however: if \+
+you had used " }{TEXT 267 12 "with(linalg)" }{TEXT -1 12 " instead of \+
+" }{TEXT 267 19 "with(LinearAlgebra)" }{TEXT -1 45 " this wouldn't hav
+e worked.  In general, use " }{TEXT 267 20 "with(LinearAlgebra) " }
+{TEXT -1 18 "whenever you can.)" }}{PARA 11 "" 1 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 40 "Now let's try expanding each term using \+
+" }{TEXT 267 6 "expand" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "expand(F);" }}}{PARA 11 "" 1 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 9 "Why does " }{TEXT 267 5 "subs " }{TEXT -1 
+13 "work and not " }{TEXT 267 6 "expand" }{TEXT -1 47 "?  I don't know
+, but for algebra commands like " }{TEXT 267 7 "expand " }{TEXT -1 25 
+"that fail like this, the " }{TEXT 267 4 "map " }{TEXT -1 63 "command \+
+will do the job.  This would be a good time to look up " }{TEXT 267 3 
+"map" }{TEXT -1 51 ", but here is basically how it works.  The command
+ " }{TEXT 267 19 "map(command,symbol)" }{TEXT -1 29 " applies the firs
+t argument (" }{TEXT 267 7 "command" }{TEXT -1 97 ") to each part of t
+he expression(s) in the second argument (each term in the matrix in ou
+r case)." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "map(expand,F);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "map(factor,evalm(F));" }}
+}{PARA 0 "" 0 "" {TEXT -1 124 "etc..  With the help of map you should \+
+be able to do about anything you want to matrices and vectors containi
+ng expressions." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to to
+p of section" 1 "" "Matrices and arrays of expressions" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 265 "Well, this is a very brief introduction \+
+to a very large subject.  You will only get good at algebra in Maple b
+y doing your homework with it in spite of the pain and frustration.  H
+ere is an example of how it's done, followed by some problems for you \+
+to practice on." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 1 " " }{TEXT 257 15 "Worked example:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 195 "Here's an example from w
+ave physics.  Carefully step through it watching what happens, then pr
+oceed to the problems below.  The dispersion relation for electromagne
+tic waves in the ionosphere is " }}{PARA 0 "" 0 "" {TEXT -1 58 "      \+
+                                                    " }{XPPEDIT 18 0 "
+omega^2 = omega[p]^2+k^2*c^2;" "6#/*$%&omegaG\"\"#,&*$&F%6#%\"pGF&\"\"
+\"*&%\"kGF&%\"cGF&F," }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 39 
+"I want to find both the phase velocity " }{XPPEDIT 18 0 "v[p] = omega
+/k;" "6#/&%\"vG6#%\"pG*&%&omegaG\"\"\"%\"kG!\"\"" }{TEXT -1 24 " and t
+he group velocity " }{XPPEDIT 18 0 "v[g] = diff(omega,k);" "6#/&%\"vG6
+#%\"gG-%%diffG6$%&omegaG%\"kG" }{TEXT -1 17 " as functions of " }
+{XPPEDIT 18 0 "omega;" "6#%&omegaG" }{TEXT -1 26 " .  So first we solv
+e for " }{XPPEDIT 18 0 "omega;" "6#%&omegaG" }{TEXT -1 1 ":" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "restart:Eq:=omega^2=omega[p]^2 + k^
+2*c^2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "solve(Eq,omega);
+" }}}{PARA 0 "" 0 "subscripted variables, avoiding" {TEXT -1 88 "Hmm, \+
+that didn't work well at all.  I'm going to show you what went wrong n
+ow, and it's " }{TEXT 258 15 "very important." }{TEXT -1 90 "  I was s
+educed by Maple's beautiful typesetting capability to write the plasma
+ frequency " }{XPPEDIT 18 0 "omega[p];" "6#&%&omegaG6#%\"pG" }{TEXT 
+-1 60 " with a subscript, the way it would be done in a textbook.  " }
+{TEXT 259 65 "Do not ever use this for anything but comments in your w
+orksheet." }{TEXT -1 259 "  When Maple got to omega[p] in the solve it
+ got very confused because it has been asked to find the pth element o
+f the array omega, but omega isn't an array and p isn't an integer.  W
+hen I code I always use non-subscripted, but suggestive, variables lik
+e wp:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "restart:Eq:=omega^2
+=wp^2 + k^2*c^2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "s:=solv
+e(Eq,omega);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 55 "I just want the f
+irst one and will assign to the name w" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "w:=s[1];" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 51 "Ok, getting th
+e phase velocity is now not too hard:" }}{PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "vp:=w/k;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 31 "But I want it as
+ a function of " }{XPPEDIT 18 0 "omega;" "6#%&omegaG" }{TEXT -1 16 ", \+
+so now I need " }{XPPEDIT 18 0 "k(omega);" "6#-%\"kG6#%&omegaG" }
+{TEXT -1 13 ".  No problem" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "s:=so
+lve(Eq,k);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 42 "Choose the positive
+ one and assign it to k" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "k:=s[1];
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 54 "Now look at the expression fo
+r vp with this form for k" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "vp;" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 80 "Maple can't simplify the square r
+oot in the top unless it knows something about " }{XPPEDIT 18 0 "omega
+;" "6#%&omegaG" }{TEXT -1 34 ", in this case that it is positive" }}
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "assume(omega>0);vp:=simplify(vp);" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 58 "Now it's time to find the group
+ velocity as a function of " }{XPPEDIT 18 0 "omega;" "6#%&omegaG" }
+{TEXT -1 1 "." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "vg:=diff(w,k);" }}
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 152 "Now wha
+t went wrong?  Well, we did something bad that you will be tempted to \+
+do often, but which you should not do.  At the beginning we had a func
+tion " }{XPPEDIT 18 0 "omega(k);" "6#-%&omegaG6#%\"kG" }{TEXT -1 29 ",
+ but now we have solved for " }{XPPEDIT 18 0 "k;" "6#%\"kG" }{TEXT -1 
+34 " and assigned a formula to it, so " }{XPPEDIT 18 0 "omega(k);" "6#
+-%&omegaG6#%\"kG" }{TEXT -1 15 " is now ruined:" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 2 "w;" }}}{PARA 0 "" 0 "" {TEXT -1 54 "What we sho
+uld have done is assigned the solution for " }{XPPEDIT 18 0 "k(omega);
+" "6#-%\"kG6#%&omegaG" }{TEXT -1 68 " to another variable, say kk.  So
+ let's do everything all over again" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 35 "restart:Eq:=omega^2=wp^2 + k^2*c^2;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 19 "s:=solve(Eq,omega);" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 55 "I just want the first one and will assign to the n
+ame w" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "w:=s[1];" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 47 "Ok, getting the phase velocity is not too hard:
+" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "vp:=w/k;" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 31 "But I want it as a
+ function of " }{XPPEDIT 18 0 "omega;" "6#%&omegaG" }{TEXT -1 29 "; no
+ problem, just solve for " }{XPPEDIT 18 0 "k(omega);" "6#-%\"kG6#%&ome
+gaG" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{MPLTEXT 1 0 0 "" }}{PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "s:=solve(Eq,k);" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 43 "Choose the positive one and assign it to kk" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{MPLTEXT 1 0 9 "
+kk:=s[1];" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 79 "Now look at the expr
+ession for vp with this form for k by substituting kk for k" }}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 18 "vp:=subs(k=kk,vp);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 80 "Maple can't simplify the square root in the top unless it
+ knows something about " }{XPPEDIT 18 0 "omega;" "6#%&omegaG" }{TEXT 
+-1 34 ", in this case that it is positive" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "assume(omega>0)
+;vp:=simplify(vp);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 27 "Now find th
+e group velocity" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "vg:=diff(w,k);
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+22 "Substitute for k again" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "vg:=s
+ubs(k=kk,vg);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "vg:=simpli
+fy(vg);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 16 "and we are done." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 260 11 "Problem 9.1" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 25 "(a) Express the fu
+nction " }{XPPEDIT 18 0 "cos(10*theta);" "6#-%$cosG6#*&\"#5\"\"\"%&the
+taGF(" }{TEXT -1 20 " as a polynomial in " }{XPPEDIT 18 0 "cos(theta);
+" "6#-%$cosG6#%&thetaG" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 
+25 "(b) Express the function " }{XPPEDIT 18 0 "cos(theta)^3;" "6#*$-%$
+cosG6#%&thetaG\"\"$" }{TEXT -1 30 " as a sum of terms containing " }
+{XPPEDIT 18 0 "cos(theta);" "6#-%$cosG6#%&thetaG" }{TEXT -1 5 " and " 
+}{XPPEDIT 18 0 "cos(3*theta);" "6#-%$cosG6#*&\"\"$\"\"\"%&thetaGF(" }
+{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 61 "(c) Coax Maple into giv
+ing you the half angle identities for " }{XPPEDIT 18 0 "cos(theta/2);
+" "6#-%$cosG6#*&%&thetaG\"\"\"\"\"#!\"\"" }{TEXT -1 2 ", " }{XPPEDIT 
+18 0 "sin(theta/2);" "6#-%$sinG6#*&%&thetaG\"\"\"\"\"#!\"\"" }{TEXT 
+-1 6 ", and " }{XPPEDIT 18 0 "tan(theta/2);" "6#-%$tanG6#*&%&thetaG\"
+\"\"\"\"#!\"\"" }{TEXT -1 116 " .  Hint: a single simple command (one \+
+of the ones discussed above) will do this problem for you if you give \+
+it the " }{TEXT 272 8 "squares " }{TEXT -1 137 "of sine and cosine to \+
+work with.  But it isn't obvious (to me anyway) which one to try.  So \+
+just experiment until you find the magic one." }}{PARA 0 "" 0 "" 
+{TEXT -1 76 "---------------------------------------------------------
+-------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 261 11 "Pr
+oblem 9.2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+90 "The formula for the effective resistance of a certain combination \+
+of resistors is given by" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 27 "                           " }{XPPEDIT 18 0 "1/R =
+ 1/(R[1]+1/(1/R[2]+1/R[3]))+1/R[4]+1/R[5];" "6#/*&\"\"\"F%%\"RG!\"\",(
+*&F%F%,&&F&6#F%F%*&F%F%,&*&F%F%&F&6#\"\"#F'F%*&F%F%&F&6#\"\"$F'F%F'F%F
+'F%*&F%F%&F&6#\"\"%F'F%*&F%F%&F&6#\"\"&F'F%" }}{PARA 0 "" 0 "" {TEXT 
+-1 66 "Beat on this with Maple until you can get a semi-nice formula f
+or " }{XPPEDIT 18 0 "R;" "6#%\"RG" }{TEXT -1 6 " with " }{XPPEDIT 18 
+0 "R4*R5;" "6#*&%#R4G\"\"\"%#R5GF%" }{TEXT -1 101 " in the numerator a
+nd a sum of terms in the denominator, one of which is a fraction with \+
+denominator " }{XPPEDIT 18 0 "R1*R2+R1*R3+R2*R3;" "6#,(*&%#R1G\"\"\"%#
+R2GF&F&*&F%F&%#R3GF&F&*&F'F&F)F&F&" }{TEXT -1 23 "  and with a factor \+
+of " }{XPPEDIT 18 0 "R4*R5;" "6#*&%#R4G\"\"\"%#R5GF%" }{TEXT -1 96 " i
+n the numerator, times another factor, and the other two added terms i
+n the denominator being " }{XPPEDIT 18 0 "R4+R5;" "6#,&%#R4G\"\"\"%#R5
+GF%" }{TEXT -1 61 ".  This is an exercise in the creative use of copy \+
+and paste." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 76 "---------------------------------------------------------------
+-------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 262 11 "Problem 9.3" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 199 "In your first physics course you \+
+studied collisions between two particles.  Let's do a simple case in w
+hich the two particles are constrained to move along the x-axis.  The \+
+two particles have masses " }{XPPEDIT 18 0 "m[1];" "6#&%\"mG6#\"\"\"" 
+}{TEXT -1 5 " and " }{XPPEDIT 18 0 "m[2];" "6#&%\"mG6#\"\"#" }{TEXT 
+-1 24 " and initial velocities " }{XPPEDIT 18 0 "v[1*i];" "6#&%\"vG6#*
+&\"\"\"F'%\"iGF'" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "v[2*i];" "6#&%\"
+vG6#*&\"\"#\"\"\"%\"iGF(" }{TEXT -1 92 " with the fast particle behind
+ the slow one so they can collide.  Find the final velocities " }
+{XPPEDIT 18 0 "v[1*f];" "6#&%\"vG6#*&\"\"\"F'%\"fGF'" }{TEXT -1 5 " an
+d " }{XPPEDIT 18 0 "v[2*f];" "6#&%\"vG6#*&\"\"#\"\"\"%\"fGF(" }{TEXT 
+-1 4 " .  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 22 "(a) Elastic collisons:" }}{PARA 0 "" 0 "" {TEXT -1 95 "The cond
+itions that allow this problem to be solved are conservation of moment
+um and energy:   " }}{PARA 0 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "m[
+1]*v[1*i]+m[2]*v[2*i] = m[1]*v[1*f]+m[2]*v[2*f];" "6#/,&*&&%\"mG6#\"\"
+\"F)&%\"vG6#*&F)F)%\"iGF)F)F)*&&F'6#\"\"#F)&F+6#*&F2F)F.F)F)F),&*&&F'6
+#F)F)&F+6#*&F)F)%\"fGF)F)F)*&&F'6#F2F)&F+6#*&F2F)F=F)F)F)" }{TEXT -1 
+13 "      and    " }{XPPEDIT 18 0 "m[1]*v[1*i]^2+m[2]*v[2*i]^2 = m[1]*
+v[1*f]^2+m[2]*v[2*f]^2;" "6#/,&*&&%\"mG6#\"\"\"F)*$&%\"vG6#*&F)F)%\"iG
+F)\"\"#F)F)*&&F'6#F0F)*$&F,6#*&F0F)F/F)F0F)F),&*&&F'6#F)F)*$&F,6#*&F)F
+)%\"fGF)F0F)F)*&&F'6#F0F)*$&F,6#*&F0F)F@F)F0F)F)" }{TEXT -1 14 "  , wh
+ere the " }{XPPEDIT 18 0 "1/2;" "6#*&\"\"\"F$\"\"#!\"\"" }{TEXT -1 
+223 "  has been cancelled out of the kinetic energy equation.  Coax Ma
+ple into solving these two equations for the final velocities.   You w
+ill get two solutions; interpret each set physically.  Then specialize
+ to the cases (i) " }{XPPEDIT 18 0 "m[1] = m[2];" "6#/&%\"mG6#\"\"\"&F
+%6#\"\"#" }{TEXT -1 10 "  ,  (ii) " }{XPPEDIT 18 0 "m[2];" "6#&%\"mG6#
+\"\"#" }{TEXT -1 18 " much larger than " }{XPPEDIT 18 0 "m[1];" "6#&%
+\"mG6#\"\"\"" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "v[2*i] < v[1*i];" "6
+#2&%\"vG6#*&\"\"#\"\"\"%\"iGF)&F%6#*&F)F)F*F)" }{TEXT -1 99 " so that \+
+the light particle comes up from behind and collides with the massive \+
+particle, and (iii) " }{XPPEDIT 18 0 "m[1];" "6#&%\"mG6#\"\"\"" }
+{TEXT -1 18 " much larger than " }{XPPEDIT 18 0 "m[2];" "6#&%\"mG6#\"
+\"#" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "v[2*i] < v[1*i];" "6#2&%\"vG6
+#*&\"\"#\"\"\"%\"iGF)&F%6#*&F)F)F*F)" }{TEXT -1 190 " so that the mass
+ive particle comes up from behind and whacks the light particle.  Does
+ each case make physical sense?  Talk about it with someone until you \+
+understand each case intuitively." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 76 "-----------------------------------------
+-----------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 263 11 "Problem 9.4" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 148 "In Freshman physi
+cs you also studied projectile motion with gravity obtaining the follo
+wing equations describing the horizontal and vertical motion:" }}
+{PARA 0 "" 0 "" {TEXT -1 10 "          " }{XPPEDIT 18 0 "x(t) = x[0]+v
+[xo]*t;" "6#/-%\"xG6#%\"tG,&&F%6#\"\"!\"\"\"*&&%\"vG6#%#xoGF,F'F,F," }
+{TEXT -1 10 "    and   " }{XPPEDIT 18 0 "y(t) = y[0]+v[yo]*t-g*t^2/2;
+" "6#/-%\"yG6#%\"tG,(&F%6#\"\"!\"\"\"*&&%\"vG6#%#yoGF,F'F,F,*(%\"gGF,*
+$F'\"\"#F,F5!\"\"F6" }{TEXT -1 18 "  .  Suppose that " }{XPPEDIT 18 0 
+"x[0];" "6#&%\"xG6#\"\"!" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "y[0];" "
+6#&%\"yG6#\"\"!" }{TEXT -1 40 " are given as well as the initial speed
+ " }{XPPEDIT 18 0 "v[0];" "6#&%\"vG6#\"\"!" }{TEXT -1 15 " and the ang
+le " }{XPPEDIT 18 0 "theta;" "6#%&thetaG" }{TEXT -1 141 " that the ini
+tial velocity makes with the horizontal plane.  Also suppose that the \+
+elevation of the region in which the projectile will fall " }{XPPEDIT 
+18 0 "y[f];" "6#&%\"yG6#%\"fG" }{TEXT -1 52 " is known.  Find a formul
+a for the horizontal range " }{XPPEDIT 18 0 "x[r];" "6#&%\"xG6#%\"rG" 
+}{TEXT -1 320 " and for the \"hang-time\" of the projectile (the time \+
+it spends in the air).  Do not be satisfied with some mess involving R
+ootOf--get workable formulas.  And if you get two solutions, figure ou
+t which one is the physically relevant one.  When you get final expres
+sions for the horizontal range and the hang-time, choose " }{XPPEDIT 
+18 0 "x[0] = 0;" "6#/&%\"xG6#\"\"!F'" }{TEXT -1 3 " , " }{XPPEDIT 18 
+0 "y[0] = 0;" "6#/&%\"yG6#\"\"!F'" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "g
+ = 9.8;" "6#/%\"gG-%&FloatG6$\"#)*!\"\"" }{TEXT -1 3 " m/" }{XPPEDIT 
+18 0 "s^2;" "6#*$%\"sG\"\"#" }{TEXT -1 7 " , and " }{XPPEDIT 18 0 "v[0
+] = 50;" "6#/&%\"vG6#\"\"!\"#]" }{TEXT -1 58 "m/s and make plots of ha
+ng time and range as functions of " }{XPPEDIT 18 0 "theta;" "6#%&theta
+G" }{TEXT -1 42 " if the elevation of the target region is " }
+{XPPEDIT 18 0 "y[f] = -200*m;" "6#/&%\"yG6#%\"fG,$*&\"$+#\"\"\"%\"mGF+
+!\"\"" }{TEXT -1 37 " (shooting down into a valley).  Use " }{XPPEDIT 
+18 0 "theta;" "6#%&thetaG" }{TEXT -1 14 " in the range " }{XPPEDIT 18 
+0 "-Pi/2 .. Pi/2;" "6#;,$*&%#PiG\"\"\"\"\"#!\"\"F)*&F&F'F(F)" }{TEXT 
+-1 172 " (straight down to straight up).  Carefully examine the graphs
+ to be sure they make physical sense.  In particular, why doesn't 45 d
+egrees give the best range in this case?" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "----------------------------------
+------------------------------------------" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 265 11 "Problem 9.5" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "The formu
+la relating the focal length " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT 
+-1 23 " , the object distance " }{XPPEDIT 18 0 "o;" "6#%\"oG" }{TEXT 
+-1 26 " , and the image distance " }{XPPEDIT 18 0 "i;" "6#%\"iG" }
+{TEXT -1 36 " for a focusing lens or mirror is   " }{XPPEDIT 18 0 "1/i
++1/o = 1/f;" "6#/,&*&\"\"\"F&%\"iG!\"\"F&*&F&F&%\"oGF(F&*&F&F&%\"fGF(
+" }{TEXT -1 11 "  .  Given " }{XPPEDIT 18 0 "f;" "6#%\"fG" }{TEXT -1 
+5 " and " }{XPPEDIT 18 0 "o;" "6#%\"oG" }{TEXT -1 74 ", this equation \+
+can be solved for the distance to the image.  Assume that " }{XPPEDIT 
+18 0 "f = 1;" "6#/%\"fG\"\"\"" }{TEXT -1 75 " m (about right for the c
+urved mirror in the ESC lobby) and make a plot of " }{XPPEDIT 18 0 "i;
+" "6#%\"iG" }{TEXT -1 5 " for " }{XPPEDIT 18 0 "o;" "6#%\"oG" }{TEXT 
+-1 92 " ranging from 15 m to 0.5m, about the range that is possible in
+ the lobby of the ESC.  When " }{XPPEDIT 18 0 "i;" "6#%\"iG" }{TEXT 
+-1 370 " becomes negative it means that the image is virtual (meaning \+
+that it's as if there were an image behind the mirror), and because yo
+ur eye has a lens in it you can see virtual images, and they appear to
+ be at the place given by this formula.  Look at your graph, then go d
+own to the lobby and see if what you see is what you got.  A good mova
+ble object to use to define " }{XPPEDIT 18 0 "o;" "6#%\"oG" }{TEXT -1 
+167 " is yourself.  In particular, think about what you should see if \+
+you let your face be the object and place it so that the object and th
+e image are at the same place.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 282 "What you see in the lobby will not corre
+spond in an obvious way with your graph because your eye has a lens in
+ it too.  This means, among other things, that you can see images at i
+nfinity!  If you have a partner to argue with, this lobby exercise cou
+ld be both fun and instructive. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 76 "-----------------------------------------
+-----------------------------------" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 264 11 "Problem 9.6" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 145 "Here is a thermod
+ynamics problem that is a pain to do by hand, but Maple takes it right
+ in stride.  Suppose you have a quantity of water of mass " }{XPPEDIT 
+18 0 "M[w];" "6#&%\"MG6#%\"wG" }{TEXT -1 20 " with specific heat " }
+{XPPEDIT 18 0 "c[w] = 4185;" "6#/&%\"cG6#%\"wG\"%&=%" }{TEXT -1 38 " J
+/kg/K and a quantity of ice of mass " }{XPPEDIT 18 0 "M[i];" "6#&%\"MG
+6#%\"iG" }{TEXT -1 19 " and specific heat " }{XPPEDIT 18 0 "c[i] = 200
+0;" "6#/&%\"cG6#%\"iG\"%+?" }{TEXT -1 49 " J/kg/K.  The specific heat \+
+of transformation is " }{XPPEDIT 18 0 "L = 333000;" "6#/%\"LG\"'+IL" }
+{TEXT -1 47 " J/kg.  If the water starts out at temperature " }
+{XPPEDIT 18 0 "T[w];" "6#&%\"TG6#%\"wG" }{TEXT -1 39 " and the ice sta
+rts out at temperature " }{XPPEDIT 18 0 "T[i];" "6#&%\"TG6#%\"iG" }
+{TEXT -1 46 ", and if the freezing point is at temperature " }
+{XPPEDIT 18 0 "T[0] = 0;" "6#/&%\"TG6#\"\"!F'" }{TEXT -1 46 " (we in a
+re degrees celsius) do the following." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 84 "(a) Assuming that all of the ice melt
+s (i) find a formula for the final temperature " }{XPPEDIT 18 0 "T[f];
+" "6#&%\"TG6#%\"fG" }{TEXT -1 291 "  of the combined mass of water and
+ (ii) also find a formula for the mass of ice such that the final wate
+r temperature is To (the final mixture has just barely melted).  In ca
+se you have forgotten, or never studied, heat, here's some help.  The \+
+heat lost by the water is given by the formula" }}{PARA 0 "" 0 "" 
+{TEXT -1 7 "       " }{XPPEDIT 18 0 "Q[w] = M[w]*c[w]*(T[w]-T[f]);" "6
+#/&%\"QG6#%\"wG*(&%\"MG6#F'\"\"\"&%\"cG6#F'F,,&&%\"TG6#F'F,&F26#%\"fG!
+\"\"F," }{TEXT -1 67 "  and the heat gained by the ice that melts is g
+iven by the formula" }}{PARA 0 "" 0 "" {TEXT -1 7 "       " }{XPPEDIT 
+18 0 "Q[i] = M[i]*c[i]*(T[0]-T[i])+M[i]*L+M[i]*c[w]*(T[f]-T[0]);" "6#/
+&%\"QG6#%\"iG,(*(&%\"MG6#F'\"\"\"&%\"cG6#F'F-,&&%\"TG6#\"\"!F-&F36#F'!
+\"\"F-F-*&&F+6#F'F-%\"LGF-F-*(&F+6#F'F-&F/6#%\"wGF-,&&F36#%\"fGF-&F36#
+F5F8F-F-" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 96 "Just use conse
+rvation of energy and the rest is not too hard.  To get definite numbe
+rs out, use " }{XPPEDIT 18 0 "M[w] = 1;" "6#/&%\"MG6#%\"wG\"\"\"" }
+{TEXT -1 157 " kg.  (Notice that part (ii) is quite practical: given w
+ater at 20 C and ice at -10 C, how much ice does it take to bring 1 kg
+ of water to be freezing cold?)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 80 "(b) Assuming that all of the water freeze
+s completely and then cools down below " }{XPPEDIT 18 0 "T[0];" "6#&%
+\"TG6#\"\"!" }{TEXT -1 354 "  (i) find a formula for the final tempera
+ture of the combined mass of ice and (ii) also find a formula for the \+
+mass of ice such that the final ice temperature is To (the final mixtu
+re is just barely frozen).  Similar formulas to those used in part (a)
+ also apply here, except this time it is the ice formula that is simpl
+e (it just warms up as ice from " }{XPPEDIT 18 0 "T[i];" "6#&%\"TG6#%
+\"iG" }{TEXT -1 4 " to " }{XPPEDIT 18 0 "T[f];" "6#&%\"TG6#%\"fG" }
+{TEXT -1 28 " , while the water cools to " }{XPPEDIT 18 0 "T[0];" "6#&
+%\"TG6#\"\"!" }{TEXT -1 59 ", then freezes into ice, then cools down f
+urther as ice to " }{XPPEDIT 18 0 "T[f];" "6#&%\"TG6#%\"fG" }{TEXT -1 
+203 " .  Another practical question: How much ice would you need at -1
+0 C to just barely freeze 1 kg of water at 20 C?  The answer is impres
+sive and shows that a lot of heat has to be removed to freeze water." 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "-------
+---------------------------------------------------------------------
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 268 11 "Problem 9.7" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 189 "Light is incident from transparent region a into \+
+transparent region b, which in turn transmits light into region c, as \+
+shown below.  The indices of refraction in each region are denoted by \+
+" }{XPPEDIT 18 0 "n[a];" "6#&%\"nG6#%\"aG" }{TEXT -1 2 ", " }{XPPEDIT 
+18 0 "n[b];" "6#&%\"nG6#%\"bG" }{TEXT -1 6 ", and " }{XPPEDIT 18 0 "n[
+c];" "6#&%\"nG6#%\"cG" }{TEXT -1 4 " .  " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "with(plots):with(plot
+tools):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "l2:=listplot([[0
+,-2],[0,2]]):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "l3:=listpl
+ot([[1,-2],[1,2]]):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "t1:=
+textplot([-.5,.5,\"a\"]):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+26 "t2:=textplot([.5,.5,\"b\"]):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "t3:=textplot([1.5,.5,\"c\"]):" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 40 "l4:=plot(.5*sin(20*(x+1))-.5,x=-1..-.2):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "a1:=arrow([-.7,-1.3],[-.4,-1
+.3],.05,.2,.2):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 101 "plots[d
+isplay]([t1,l2,t2,l3,t3,l4,a1],axes=none,thickness=3,view=[-2..2,-2..3
+],font=[HELVETICA,14]); " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 217 "Max
+well's equations tell us that for normal incidence, which we assume we
+ have here, the ratios between the incident wave in region 1 and the r
+eflected wave in region and the transmitted wave in region 2 are given
+ by " }{XPPEDIT 18 0 "E[r]/E[1] = (n[1]-n[2])/(n[1]+n[2]);" "6#/*&&%\"
+EG6#%\"rG\"\"\"&F&6#F)!\"\"*&,&&%\"nG6#F)F)&F06#\"\"#F,F),&&F06#F)F)&F
+06#F4F)F," }{TEXT -1 6 "  and " }{XPPEDIT 18 0 "E[t]/E[1] = 2*n[1]/(n[
+1]+n[2]);" "6#/*&&%\"EG6#%\"tG\"\"\"&F&6#F)!\"\"*(\"\"#F)&%\"nG6#F)F),
+&&F06#F)F)&F06#F.F)F," }{TEXT -1 46 " .  For convenience we will call \+
+these ratios " }{XPPEDIT 18 0 "R[12];" "6#&%\"RG6#\"#7" }{TEXT -1 5 " \+
+and " }{XPPEDIT 18 0 "T[12];" "6#&%\"TG6#\"#7" }{TEXT -1 248 ", respec
+tively.   Your job is to follow all of the successive transmissions an
+d reflections in the figure above and arrive at the final ratio of the
+ light reflected back into region a as a function of the three indices
+ of refraction, the thickness " }{XPPEDIT 18 0 "h;" "6#%\"hG" }{TEXT 
+-1 33 " of region b, and the wavenumber " }{XPPEDIT 18 0 "k[b];" "6#&%
+\"kG6#%\"bG" }{TEXT -1 71 " of the light in region b.  To do this foll
+ow the steps outlined below." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 71 "(a)  Note that the first reflection and transmi
+ssion ratios are simply " }{XPPEDIT 18 0 "R[ab];" "6#&%\"RG6#%#abG" }
+{TEXT -1 5 " and " }{XPPEDIT 18 0 "T[ab];" "6#&%\"TG6#%#abG" }{TEXT 
+-1 123 " .  (Don't do anything except make sure you understand this st
+atement because there are a lot more just like it coming up.)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 152 "(b) Now \+
+think about what happens to the light transmitted into region b.  It f
+irst reflects from region c, is phase shifted by the complex phase fac
+tor " }{XPPEDIT 18 0 "exp(2*i*k[b]*h);" "6#-%$expG6#**\"\"#\"\"\"%\"iG
+F(&%\"kG6#%\"bGF(%\"hGF(" }{TEXT -1 171 " due to the round trip throug
+h b from a to c and back, then is transmitted back into a.  Show that \+
+the factor for this whole process, including the first transmission, i
+s " }{XPPEDIT 18 0 "T[ab]*exp(2*i*k[b]*h)*R[bc]*T[ba];" "6#**&%\"TG6#%
+#abG\"\"\"-%$expG6#**\"\"#F(%\"iGF(&%\"kG6#%\"bGF(%\"hGF(F(&%\"RG6#%#b
+cGF(&F%6#%#baGF(" }{TEXT -1 72 ".  (This is not too difficult, but be \+
+patient--hard stuff is coming up.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 72 "(c) Now show that each successive multipl
+e reflection ratio is given by " }{XPPEDIT 18 0 "T[ab]*R[bc]*T[ba]*exp
+(2*i*k[b]*h)*(exp(2*i*k[b]*h)*R[ba]*R[bc])^m;" "6#*,&%\"TG6#%#abG\"\"
+\"&%\"RG6#%#bcGF(&F%6#%#baGF(-%$expG6#**\"\"#F(%\"iGF(&%\"kG6#%\"bGF(%
+\"hGF(F()*(-F16#**F4F(F5F(&F76#F9F(F:F(F(&F*6#F/F(&F*6#F,F(%\"mGF(" }
+{TEXT -1 64 " where the first multiple reflection in part (b) correspo
+nds to " }{XPPEDIT 18 0 "m = 0;" "6#/%\"mG\"\"!" }{TEXT -1 2 " ." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "(d) Now c
+ombine all of this to get the total reflection ratio formula" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 18 0 "R = R[ab]+T[ab]*R[bc]*T[ba]*ex
+p(2*i*k[b]*h)*sum((exp(2*i*k[b]*h)*R[ba]*R[bc])^m,m = 0 .. infinity);
+" "6#/%\"RG,&&F$6#%#abG\"\"\"*,&%\"TG6#F(F)&F$6#%#bcGF)&F,6#%#baGF)-%$
+expG6#**\"\"#F)%\"iGF)&%\"kG6#%\"bGF)%\"hGF)F)-%$sumG6$)*(-F56#**F8F)F
+9F)&F;6#F=F)F>F)F)&F$6#F3F)&F$6#F0F)%\"mG/FM;\"\"!%)infinityGF)F)" }
+{TEXT -1 105 "  .  (Here's where the Maple actually starts--copy this \+
+into your exercise worksheet and and go to work.)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 124 "(e) Use the formulas for
+ the reflection and transmission coefficients and Maple's result for t
+he sum to build a formula for " }{XPPEDIT 18 0 "R(n[a],n[b],n[c],2*k[b
+]*h);" "6#-%\"RG6&&%\"nG6#%\"aG&F'6#%\"bG&F'6#%\"cG*(\"\"#\"\"\"&%\"kG
+6#F,F2%\"hGF2" }{TEXT -1 273 " .  Once you have it, manipulate it into
+ a form where you can easily obtain separate equations for its real an
+d imaginary parts.  The reflected wave will be exactly zero if both re
+al and imaginary parts vanish.  You will save yourself some trouble if
+ you define a variable " }{XPPEDIT 18 0 "x = 2*k[b]*h;" "6#/%\"xG*(\"
+\"#\"\"\"&%\"kG6#%\"bGF'%\"hGF'" }{TEXT -1 87 " and work with it.  It \+
+will also simplify the look of some of the equations if you let " }
+{XPPEDIT 18 0 "z = exp(2*i*k[b]*h);" "6#/%\"zG-%$expG6#**\"\"#\"\"\"%
+\"iGF*&%\"kG6#%\"bGF*%\"hGF*" }{TEXT -1 107 " .  The formulas will bec
+ome horrible, and then at the end they become  simpler and you will di
+scover that " }{XPPEDIT 18 0 "sin(x) = 0;" "6#/-%$sinG6#%\"xG\"\"!" }
+{TEXT -1 9 " so that " }{XPPEDIT 18 0 "h = lambda/4;" "6#/%\"hG*&%'lam
+bdaG\"\"\"\"\"%!\"\"" }{TEXT -1 57 " , and once you know this it becom
+es not too hard to get " }{XPPEDIT 18 0 "n[b] = sqrt(n[a]*n[c]);" "6#/
+&%\"nG6#%\"bG-%%sqrtG6#*&&F%6#%\"aG\"\"\"&F%6#%\"cGF/" }{TEXT -1 207 "
+ , the same result you get if you ignore the problem of multiple refle
+ctions and transmissions.  This is a hard problem--it took about all t
+he Maple skill I have, and I learned some new things along the way." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {HYPERLNK 17 "Go to t
+op of chapter" 1 "" "Symbolic algebra (chapter top)" }{TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}{MARK "62 0" 37 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
